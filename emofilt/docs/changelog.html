@@ -1,0 +1,98 @@
+<!--#include FILE="top.inc" -->
+<h2>Changelog:</h2>
+<ul>n
+<li>1.0<br/>
+- allowing zero duration for silence phoneme<br/>
+<li>0.99<br/>
+- fixed bug that caused current directory to appear before path values<br/>
+- lines in tagger gui can now be selected by double click<br/>
+- fixed bug in storytagger that prevented proper synthesis<br/>
+- added tabbed pane to story tagger to show resulting  xml code<br/>
+<li>0.98 24/02/11<br/>
+- added first version of story tagger GUI <br/>
+- added some library interfaces to call pho-file creation from outside the package<br/>
+- replaced Mary phonetization server interface version 3.6 with version 4.3<br/>
+- added us3<br/>
+<li>0.97 26/08/10<br/>
+- added menu entries to create new emotion names and remove them.
+<li>0.96 12/07/10<br/>
+- handle audio playback now with internal java audio library
+<li>0.95 04/02/08<br/>
+- changed replacements of language descriptors for de[1,2,3,4,5] from 6-a: to a-a:.<br/>
+- enhanced readability of messages in GUI<br/>
+- changeLastSylContour now changes last syllable containing a voiced phoneme.<br/>
+- fixed bug in modelContour causing zero f0-values at utterance end.<br/>
+- added Dutch: nl2<br/>
+<li>0.94 28/01/08<br/>
+- added global rate for graded emotion simulation: possibility to dampen or amplify all modifications by a single factor.
+<li>0.93 10/10/07<br/>
+- make GUI geometry configurable</br>
+- interpolate missing pitch contour description for voiced phonemes</br>
+- reads and writes now also pitch information for unvoiced phonemes</br>
+- added save PHO file functionality</br>
+- removed the automatic modeling of f0-contours when reading in a PHO file</br>
+- fixed some serious bugs concerning the modeling of f0-contours (still needed for jitter and wave-model)</br>
+- removed the automatic modeling of f0-contours when reading in a PHO file. Modeling is now only done when required by modification-plugin<br/>
+- fixed some serious bugs concerning the modeling of f0-contours (still needed for jitter and wave-model)<br/>
+<li>0.91 26/9/07</br>
+- fixed bug: couldn't read in files starting with vowel</br>
+- changed pitch interpolation to interpolate between phoneme borders
+<li>0.9 25/5/06</br>
+- migrated code to java 1.5.0</br>
+- added interface to Mary (http://mary.dfki.de/) Text-to-speech in the
+GUI. Start the Mary server and edit the PhoGenCmd section in the
+config.ini if you want to use it. You can call the Mary-server via the
+GUI (new utterance) or via the commandline (-mary option).</br>
+- fixed bug: wave-model plugin caused zero-pitch values if utterance starts or
+ends with voiceless syllables.</br>
+- fixed bug: globally descending f0-contour had no syllable-focus.<br>
+- fixed bug: plugin lastSylContour didn't work on utterances with unvoiced last syllables.
+<li>0.8 10/9/05</br>
+- fixed bug: modifications werde done repeatedly<br>
+-  new feature: can specify Colors by names (as specified at
+http://www.w3schools.com/html/html_colornames.asp)<br>
+- fixed bug: rewritten Syllabelizer, many bugs fixed
+<li>0.7 29/8/05<br>
+- added plugin architecture for modifications (see extra docs on how
+to write own modifications)<br>
+- changed almost all modification-names : old emotions.xml files won't
+work any more<br>
+- bug: change last sylcontour didn't work for English
+<li>0.6 28/2/05<br>
+- changed -v option to -version<br>
+- fixed bug: -voc option wasn't settable<br>
+- tested with Linux (Suse 9.0)<br>
+- changed pathes to external commands in the config-file<br>
+- renamed config-file extension from .dat to .ini<br>
+<li>0.5 22/2/05<br>
+- changed rate-settings for jitter (now from 0-20 in 1-steps) and pauses (now from 0-1000 in 20-steps).<br>
+- added workingDir in config-file to make it easier to change the program's path<br>
+- fixed bug: help-file wasn't readable from jar-file <br>
+- added save-utterance button<br>
+- showHelp didn't work with jar-file.<br>
+- fixed bug: overlong error messages caused Gui-widgets to collaps<br>
+- added menu icons<br>
+- fixed bug: close window in GUI didn't exit program<br>
+- added looks jgoodies look and feel<br>
+- fixed bug: no tooltip  for changeLastSylContour<br>
+<li>0.4 15/2/05<br>
+- fixed bug: if reading emotion-descriptions from non-English denotations pitch-contours, vowel-targets and voice-effort were ignored<br>
+- look and feel can now be set in config-file<br>
+- fixed bug: starting a pho-file with pauses gave nullpointer in syllablelize<br>
+- added defaultVoice to config-file<br>
+- fixed bug: duration and time f0-values couldn't be specified as Doubles<br>
+- Gui starts now also without initial utterance<br>
+<li>0.3 27/1/05 <br>
+                        - added German configuration file for distribution <br>
+                        - added gender option for NLP-processor in the GUI.  <br>
+                        - Added tooltips. <br>
+                        - Added description-element for emotions (shows as tooltip). <br>
+                        - Fixed bug: No error message appeared if NLP-program wasn't configured. <br>
+                        - Fixed bug: Foreground color in modification-label wasn't setable <br>
+<li>0.2 12/1/05 <br>
+                        - added command-line interface.
+<li>0.1 10/1/05<br>
+                        - very first alpha version, not yet tested.
+</ul>
+
+<!--#include FILE="bottom.inc" -->

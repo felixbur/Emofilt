@@ -1,0 +1,9 @@
+long_vowel li lu yu 
+short_vowel y 
+approximant ju l r ru w 
+nasal m mi n ni nu
+fricative_voiced shu su xi xu z zh zhu zu
+fricative_voiceless s sh x 
+stop_voiced ku pi qi qu ti tu 
+stop_voiceless k p q t
+

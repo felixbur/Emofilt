@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emotions>
+	<emotion name="boredom" color="9ac0cd">
+		<pitch>
+			<f0Mean rate="80" />
+			<f0Range rate="50" />
+			<variability rate="80" />
+		</pitch>
+		<duration>
+			<speechRate rate="120" />
+			<durationFocusstressedSyls rate="140" />
+		</duration>
+		<phonation>
+			<vocalEffort effort="soft" />
+		</phonation>
+	</emotion>
+	<emotion name="yawning" color="009acd">
+		<pitch>
+			<f0Mean rate="200" />
+
+			<phraseContour rate="50" type="fall" />
+		</pitch>
+		<duration>
+			<speechRate rate="120" />
+			<durationFocusstressedSyls rate="140" />
+		</duration>
+		<articulation>
+			<vowelTarget target="undershoot" />
+		</articulation>
+		<phonation>
+			<vocalEffort effort="soft" />
+		</phonation>
+	</emotion>
+	<emotion name="despair" color="f4a460">
+		<pitch>
+			<f0Mean rate="200" />
+			<changeContourFocusStressed rate="20" type="fall" />
+			<f0Range rate="50" />
+			<variability rate="90" />
+		</pitch>
+		<duration>
+			<speechRate rate="120" />
+		</duration>
+		<phonation>
+			<jitter rate="20" />
+		</phonation>
+	</emotion>
+	<emotion name="happy" color="ff7f24">
+		<pitch>
+			<waveModel rate1="120" rate2="100" />
+		</pitch>
+		<duration>
+			<speechRate rate="120" />
+			<durVLFric rate="150" />
+		</duration>
+	</emotion>
+	<emotion name="sad" color="0000cd">
+		<pitch>
+			<variability rate="80" />
+			<f0Range rate="80" />
+
+			<contourFocusstress rate="30" type="straight" />
+			<lastSylContour rate="10" type="rise" />
+		</pitch>
+		<phonation>
+			<jitter rate="10" />
+			<vocalEffort effort="soft" />
+		</phonation>
+		<duration>
+			<speechRate rate="140" />
+		</duration>
+		<articulation>
+			<vowelTarget target="undershoot" />
+		</articulation>
+	</emotion>
+	<emotion name="joy" color="ff4500">
+		<pitch>
+			<f0Mean rate="150" />
+			<f0Range rate="200" />
+
+			<contourFocusstress rate="70" type="rise" />
+		</pitch>
+		<duration>
+			<durVLFric rate="150" />
+			<speechRate rate="70" />
+			<durVowel rate="130" />
+		</duration>
+		<phonation>
+			<vocalEffort effort="loud" />
+		</phonation>
+	</emotion>
+	<emotion name="scared" color="32cd32">
+		<pitch>
+			<f0Range rate="160" />
+			<phraseContour rate="10" type="fall" />
+			<f0Mean rate="200" />
+			<contourFocusstress rate="10" type="straight" />
+			<lastSylContour rate="30" type="rise" />
+		</pitch>
+		<duration>
+			<speechRate rate="70" />
+			<durationFocusstressedSyls rate="80" />
+			<durPause rate="210" />
+		</duration>
+		<phonation>
+			<jitter rate="5" />
+		</phonation>
+		<articulation>
+			<vowelTarget target="undershoot" />
+		</articulation>
+	</emotion>
+	
+	<emotion name="neutral" color="000000" />
+	
+<emotion name="neurotic" color="cc00cc"><pitch><f0Range rate="200" /><contourUnstress rate="30" type="fall" /><contourFocusstress rate="20" type="rise" /><f0Mean rate="120" /></pitch><duration><durationFocusstressedSyls rate="70" /><durationUnstressedSyls rate="120" /></duration><phonation><vocalEffort effort="loud" /></phonation></emotion><emotion name="fairytale" color="006666"><pitch><f0Mean rate="70" /></pitch><duration><speechRate rate="120" /></duration></emotion><emotion name="coldAnger" color="ff33ff">
+		<pitch>
+			<f0Range rate="80" />
+			
+		<contourFocusstress rate="20" type="fall" /></pitch>
+		<duration>
+			
+			
+		<durationUnstressedSyls rate="70" /><durationFocusstressedSyls rate="130" /></duration>
+		
+		<phonation>
+			
+		<jitter rate="3" /><vocalEffort effort="loud" /></phonation>
+	<articulation><vowelTarget target="overshoot" /></articulation></emotion><emotion name="hotAnger" color="ff0000">
+		<pitch>
+			<f0Mean rate="150" />
+			<f0Range rate="200" />
+			<levelFocusStress rate="130" />
+
+			<variability rate="130" />
+			<contourFocusstress rate="30" type="fall" />
+		</pitch>
+		<duration>
+			<durVowel rate="70" />
+			<speechRate rate="70" />
+		</duration>
+		<phonation>
+			<vocalEffort effort="loud" />
+			<jitter rate="5" />
+		</phonation>
+		<articulation>
+			<vowelTarget target="overshoot" />
+		</articulation>
+	</emotion></emotions>

@@ -1,0 +1,18 @@
+<emotion val="neutral">Red-cap did not know what a wicked creature he was, and was not at all afraid of him.
+
+Good-day, little red-cap,
+
+said he.
+
+Thank you kindly, wolf.
+
+Whither away so early, little red-cap?
+
+To my grandmother's.
+
+What have you got in your apron?
+
+Cake and wine.  
+
+Yesterday was baking-day, so poor sick grandmother is to have something good, to make her strong.
+</emotion>

@@ -1,0 +1,1 @@
+java -cp "bin;lib/log4j-1.2.8.jar;lib/maryclient.jar;lib/xercesImpl.jar;lib/jdom.jar;lib/looks-2.0.2.jar;lib/standard.jar;lib/xml-apis.jar" emofilt.Emofilt -if emofilt/test/testUs2.pho -voc us2 -useGui

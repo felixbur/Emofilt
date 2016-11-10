@@ -1,0 +1,15 @@
+name|vowelTarget
+label|vowel target
+type|articulation
+defaultType|normal
+typeLabel|target
+tooltip|<html>Add target undershoot (centralization)<br>or target overshoot (decentralization) to vowels<br>by replacing them with the <br>contrary variant.</html>
+button.tooltip|<html>Click the label to reset the values to default.<html>
+# Foreground color
+controlFG.red|255
+controlFG.green|255
+controlFG.blue|255
+# Background color
+controlBG.red|20
+controlBG.green|20
+controlBG.blue|20

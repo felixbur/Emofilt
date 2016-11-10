@@ -1,0 +1,21 @@
+<emotion val="neutral">Es war einmal ein armer Müller, der hatte eine sehr schöne Tochter. Er ging zum König und sagte:
+
+Werter König, ich habe eine Tochter, die kann Stroh zu Gold spinnen!
+
+Der König schickte nach der Tochter, führte sie in eine Kammer voll Stroh und sagte:
+
+Spinne dieses Stroh bis morgen früh zu Gold. Schaffst du es nicht, sollst du sterben!
+
+Darauf wurde die Kammer verschlossen und sie war allein.
+
+Da saß die arme Tochter nun und wußte sich keinen Rat.
+
+Sie wußte ja gar nicht, wie man Stroh zu Gold spinnen konnte,
+
+da fing sie an zu weinen.
+
+Da ging auf einmal die Türe auf und ein kleines Männlein trat herein und sprach:
+
+Guten Abend, werte Müllerin. Warum weint Ihr so sehr?
+
+</emotion>

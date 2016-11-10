@@ -1,0 +1,18 @@
+name|durPause
+label|<html>pauses</html>
+type|duration
+defaultRate|100
+minRate|0
+maxRate|200
+step|10
+rateLabel|rate
+tooltip|<html>Change duration in percent for pauses<br> (100 being no change).<br> Phonemes might disapppear, if duration shorter than framerate.</html>
+button.tooltip|<html>Click the label to reset the values to default.</html>
+# Foreground color
+controlFG.red|255
+controlFG.green|255
+controlFG.blue|255
+# Background color
+controlBG.red|20
+controlBG.green|20
+controlBG.blue|20

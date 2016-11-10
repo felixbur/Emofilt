@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:admin="http://webns.net/mvcb/" xml:lang="en">
+  <rdf:Description rdf:about="">
+    <admin:generatorAgent rdf:resource="http://doapy.bonjourlesmouettes.org/doap-a-matic"/>
+  </rdf:Description>
+  <doap:Project>
+    <doap:name>emofilt</doap:name>
+    <doap:shortname>emofilt</doap:shortname>
+    <doap:homepage rdf:resource="http://emofilt.sourceforge.net/"/>
+    <doap:created>2005-01-01</doap:created>
+    <doap:description>Emofilt is a program to simulate emotional arousal with speech synthesis based on the free-for-non-commercial-use MBROLA synthesis engine. It is NOT a complete text-to-speech system, but acts as a transformer between the phonemisation and the speech-generation component.</doap:description>
+    <doap:shortdesc>Emofilt is a program to simulate emotional arousal with speech synthesis.</doap:shortdesc>
+    <doap:wiki rdf:resource="http://sourceforge.net/forum/?group_id=121061"/>
+    <doap:bug-database rdf:resource="http://sourceforge.net/tracker/?group_id=121061&amp;atid=689132"/>
+    <doap:mailing-list rdf:resource="https://sourceforge.net/mail/?group_id=121061"/>
+    <doap:screenshots rdf:resource="https://sourceforge.net/dbimage.php?id=14694"/>
+    <doap:programming-language>Java</doap:programming-language>
+    <doap:license rdf:resource="http://usefulinc.com/doap/licenses/lgpl"/>
+    <doap:download-page rdf:resource="https://sourceforge.net/project/showfiles.php?group_id=121061"/>
+    <doap:maintainer>
+      <foaf:Person>
+        <foaf:name>Felix Burkhardt</foaf:name>
+        <foaf:nick>felixbur</foaf:nick>
+        <foaf:mbox_sha1sum>14c9e7a1330b260d81a1e7c050d9661ae374e7f7</foaf:mbox_sha1sum>
+    <rdfs:seeAlso rdf:resource="http://felix.syntheticspeech.de/foaf.rdf"/>
+      </foaf:Person>
+    </doap:maintainer>
+    <doap:repository>
+      <doap:CVSRepository>
+        <doap:anon-root>:pserver:anonymous@cvs.sourceforge.net:/cvsroot/emofilt</doap:anon-root>
+        <doap:module>emofilt</doap:module>
+        <doap:browse rdf:resource="https://sourceforge.net/cvs/?group_id=121061"/>
+        <doap:location rdf:resource="http://cvs.sourceforge.net/viewcvs.py/emofilt/"/>
+      </doap:CVSRepository>
+    </doap:repository>
+  </doap:Project>
+</rdf:RDF>

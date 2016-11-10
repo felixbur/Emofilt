@@ -1,0 +1,1 @@
+java  -cp emofilt/emofilt.jar; emofilt.storytagger.TaggerGUI taggergui.config

@@ -1,0 +1,23 @@
+name|waveModel
+label|wave model
+type|pitch
+defaultRate|100
+minRate|0
+maxRate|200
+step|10
+rateLabel|rate1
+defaultRate2|100
+minRate2|0
+maxRate2|200
+step2|10
+rateLabel2|rate2
+tooltip|<html>The focus-stressed syllables get displaced by rate1<br> and the in-the-middle syllables get displaced by rate2.<br> All other syllables get interpolated.<br> It’s connected with a smoothing of the pitch contour.</html>
+button.tooltip|<html>Click the label to reset the values to default.<html>
+# Foreground color
+controlFG.red|255
+controlFG.green|255
+controlFG.blue|255
+# Background color
+controlBG.red|20
+controlBG.green|20
+controlBG.blue|20

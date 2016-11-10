@@ -1,0 +1,18 @@
+name|jitter
+label|jitter
+type|phonation
+defaultRate|0
+minRate|0
+maxRate|20
+step|1
+rateLabel|rate
+tooltip|<html>Simulate jitter by shifting f0-values alternating up and down</html>
+button.tooltip|<html>Click the label to reset the values to default.<html>
+# Foreground color
+controlFG.red|255
+controlFG.green|255
+controlFG.blue|255
+# Background color
+controlBG.red|20
+controlBG.green|20
+controlBG.blue|20

@@ -1,0 +1,2085 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<languages>
+	<language name="ex1" male="true" locale="ex_EX">
+		<!-- The language name MUST be the same as the corresponding Mbrola voice -->
+		<!-- The description will appear as tooltip. -->
+		<description>This is only a template for further 
+            languages</description>
+		<replacements>
+			<!-- this is to simulate vowal target overshoot or undershoot.  -->
+			<!-- If you give a number of central vowels and their decentral -->
+			<!-- counterparts, they will be replaced by each other -->
+			<!-- -->
+			<replacement central="@" decentral="i"/>
+			<replacement central="@" decentral="a"/>
+			<replacement central="@" decentral="u"/>
+			<replacement central="@" decentral="o"/>
+			<replacement central="@" decentral="y"/>
+			<replacement central="@" decentral="e"/>
+		</replacements>
+		<phonemes>
+			<!-- now all phonemes should be classified -->
+			<!-- long vowels -->
+			<phoneme name="EI" manner="long_vowel" voiced="true"/>
+			<phoneme name="a:" manner="long_vowel" voiced="true"/>
+			<phoneme name="e" manner="long_vowel" voiced="true"/>
+			<phoneme name="i" manner="long_vowel" voiced="true"/>
+			<phoneme name="o" manner="long_vowel" voiced="true"/>
+			<phoneme name="u" manner="long_vowel" voiced="true"/>
+			<!-- short vowels -->
+			<phoneme name="a" manner="short_vowel" voiced="true"/>
+			<phoneme name="E" manner="short_vowel" voiced="true"/>
+			<phoneme name="I" manner="short_vowel" voiced="true"/>
+			<phoneme name="O" manner="short_vowel" voiced="true"/>
+			<phoneme name="U" manner="short_vowel" voiced="true"/>
+			<!-- approximants -->
+			<phoneme name="l" manner="approximant" voiced="true"/>
+			<phoneme name="r" manner="approximant" voiced="true"/>
+			<phoneme name="Z" manner="approximant" voiced="true"/>
+			<!-- nasals -->
+			<phoneme name="n" manner="nasal" voiced="true"/>
+			<phoneme name="N" manner="nasal" voiced="true"/>
+			<phoneme name="n" manner="nasal" voiced="true"/>
+			<!-- voiced fricatives -->
+			<phoneme name="z" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="j" manner="fricative_voiced" voiced="true"/>
+			<!-- voiceless fricatives -->
+			<phoneme name="S" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="f" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="s" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="pf" manner="fricative_voiceless" voiced="true"/>
+			<!-- voiced stops -->
+			<phoneme name="b" manner="stop_voiced" voiced="true"/>
+			<phoneme name="d" manner="stop_voiced" voiced="true"/>
+			<phoneme name="g" manner="stop_voiced" voiced="true"/>
+			<!-- voiceless stops -->
+			<phoneme name="p" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="t" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="k" manner="stop_voiceless" voiced="false"/>
+			<!-- silence -->
+			<phoneme name="_" manner="silence" voiced="false"/>
+		</phonemes>
+	</language>
+	<language name="cn1" male="true" locale="mn_CN">
+		<!-- The language name MUST be the same as the corresponding Mbrola voice -->
+		<!-- The description will appear as tooltip. -->
+		<description>The CN01 diphone database consists of 520 diphones, recorded from two native Female singers of Mandarin. The diphones are segmented and organized according to the rule of Pinyin.</description>
+		<replacements>
+		</replacements>
+		<phonemes>
+			<!-- now all phonemes should be classified -->
+			<!-- long vowels -->
+			<phoneme name="ai" manner="long_vowel" voiced="true"/>
+			<phoneme name="ao" manner="long_vowel" voiced="true"/>
+			<phoneme name="ei" manner="long_vowel" voiced="true"/>
+			<phoneme name="ou" manner="long_vowel" voiced="true"/>
+			<phoneme name="ie" manner="long_vowel" voiced="true"/>
+			<phoneme name="ll" manner="long_vowel" voiced="true"/>
+			<phoneme name="ii" manner="long_vowel" voiced="true"/>
+			<phoneme name="ui" manner="long_vowel" voiced="true"/>
+			<phoneme name="iu" manner="long_vowel" voiced="true"/>
+			<phoneme name="ue" manner="long_vowel" voiced="true"/>
+			<phoneme name="li" manner="long_vowel" voiced="true"/>
+			<phoneme name="lu" manner="long_vowel" voiced="true"/>
+			<phoneme name="yu" manner="long_vowel" voiced="true"/>
+				    	<!-- short vowels -->
+			<phoneme name="a" manner="short_vowel" voiced="true"/>
+			<phoneme name="e" manner="short_vowel" voiced="true"/>
+			<phoneme name="o" manner="short_vowel" voiced="true"/>
+			<phoneme name="i" manner="short_vowel" voiced="true"/>
+			<phoneme name="u" manner="short_vowel" voiced="true"/>
+			<phoneme name="y" manner="short_vowel" voiced="true"/>
+			<!-- approximants -->
+			<phoneme name="er" manner="approximant" voiced="true"/>
+			<phoneme name="j" manner="approximant" voiced="true"/>
+			<phoneme name="ji" manner="approximant" voiced="true"/>
+			<phoneme name="ju" manner="approximant" voiced="true"/>
+			<phoneme name="l" manner="approximant" voiced="true"/>
+			<phoneme name="r" manner="approximant" voiced="true"/>
+			<phoneme name="ru" manner="approximant" voiced="true"/>
+			<phoneme name="w" manner="approximant" voiced="true"/>
+						<!-- nasals -->
+			<phoneme name="an" manner="nasal" voiced="true"/>
+			<phoneme name="ang" manner="nasal" voiced="true"/>
+			<phoneme name="en" manner="nasal" voiced="true"/>
+			<phoneme name="eng" manner="nasal" voiced="true"/>
+			<phoneme name="ang" manner="nasal" voiced="true"/>
+			<phoneme name="en" manner="nasal" voiced="true"/>
+			<phoneme name="ong" manner="nasal" voiced="true"/>
+			<phoneme name="in" manner="nasal" voiced="true"/>
+			<phoneme name="ing" manner="nasal" voiced="true"/>
+			<phoneme name="un" manner="nasal" voiced="true"/>
+			<phoneme name="m" manner="nasal" voiced="true"/>
+			<phoneme name="mi" manner="nasal" voiced="true"/>
+			<phoneme name="n" manner="nasal" voiced="true"/>
+			<phoneme name="ni" manner="nasal" voiced="true"/>
+			<phoneme name="nu" manner="nasal" voiced="true"/>
+						<!-- voiced fricatives -->
+			<phoneme name="chu" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="cu" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="v" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="hu" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="shu" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="su" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="xi" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="xu" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="z" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="zh" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="zhu" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="zu" manner="fricative_voiced" voiced="true"/>
+			<!-- voiceless fricatives -->
+			<phoneme name="c" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="ch" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="f" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="h" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="s" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="sh" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="x" manner="fricative_voiceless" voiced="false"/>
+						<!-- voiced stops -->
+			<phoneme name="b" manner="stop_voiced" voiced="true"/>
+			<phoneme name="bi" manner="stop_voiced" voiced="true"/>
+			<phoneme name="d" manner="stop_voiced" voiced="true"/>
+			<phoneme name="di" manner="stop_voiced" voiced="true"/>
+			<phoneme name="du" manner="stop_voiced" voiced="true"/>
+			<phoneme name="g" manner="stop_voiced" voiced="true"/>
+			<phoneme name="gu" manner="stop_voiced" voiced="true"/>
+			<phoneme name="ku" manner="stop_voiced" voiced="true"/>
+			<phoneme name="pi" manner="stop_voiced" voiced="true"/>
+			<phoneme name="qi" manner="stop_voiced" voiced="true"/>
+			<phoneme name="qu" manner="stop_voiced" voiced="true"/>
+			<phoneme name="ti" manner="stop_voiced" voiced="true"/>
+			<phoneme name="tu" manner="stop_voiced" voiced="true"/>
+			<!-- voiceless stops -->
+			<phoneme name="k" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="p" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="q" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="t" manner="stop_voiceless" voiced="false"/>
+			<!-- silence -->
+			<phoneme name="_" manner="silence" voiced="false"/>
+		</phonemes>
+	</language>
+			
+<language name="tl1" male="false" locale="tl_IN">
+		<!-- The description will appear as tooltip. -->
+		<description>Telugu female voice</description>
+<phonemes>
+			<!-- now all phonemes should be classified -->
+			<!-- long vowels -->
+			<phoneme name="a:" manner="long_vowel" voiced="true"/>
+			<phoneme name="i:" manner="long_vowel" voiced="true"/>
+			<phoneme name="u:" manner="long_vowel" voiced="true"/>
+			<phoneme name="e:" manner="long_vowel" voiced="true"/>
+			<!-- short vowels -->
+			<!-- diphtongs -->
+			<phoneme name="a" manner="short_vowel" voiced="true"/>
+			<phoneme name="i" manner="short_vowel" voiced="true"/>
+			<phoneme name="u" manner="short_vowel" voiced="true"/>
+			<phoneme name="e" manner="short_vowel" voiced="true"/>
+			<phoneme name="ai" manner="short_vowel" voiced="true"/>
+			<phoneme name="R" manner="short_vowel" voiced="true"/>
+			<phoneme name="au" manner="short_vowel" voiced="true"/>
+			<!-- sibilants -->
+			<phoneme name="s'" manner="sibilants" voiced="true"/>
+			<phoneme name="S" manner="sibilants" voiced="true"/>
+			<phoneme name="s" manner="sibilants" voiced="true"/>
+			<!-- nasals -->
+			<phoneme name="m" manner="nasal" voiced="true"/>
+			<phoneme name="n~" manner="nasal" voiced="true"/>
+			<phoneme name="N~" manner="nasal" voiced="true"/>
+			<phoneme name="N" manner="nasal" voiced="true"/>
+			<phoneme name="n" manner="nasal" voiced="true"/>
+			<!-- voiced fricatives -->
+			<phoneme name="h" manner="fricative_voiced" voiced="true"/>
+			<!-- voiceless unaspirated plosives -->
+			<phoneme name="k" manner="unaspirated_plosives_voiceless" voiced="false"/>
+			<phoneme name="c" manner="unaspirated_plosives_voiceless" voiced="false"/>
+			<phoneme name="T" manner="unaspirated_plosives_voiceless" voiced="false"/>
+			<phoneme name="t" manner="unaspirated_plosives_voiceless" voiced="false"/>
+			<phoneme name="P" manner="unaspirated_plosives_voiceless" voiced="false"/>
+			<!-- voiceless aspirated plosives -->
+			<phoneme name="kh" manner="aspirated_plosives_voiceless" voiced="false"/>
+			<phoneme name="ch" manner="aspirated_plosives_voiceless" voiced="false"/>
+			<phoneme name="Th" manner="aspirated_plosives_voiceless" voiced="false"/>
+			<phoneme name="th" manner="aspirated_plosives_voiceless" voiced="false"/>
+			<phoneme name="Ph" manner="aspirated_plosives_voiceless" voiced="false"/>
+			<phoneme name="jh" manner="aspirated_plosives_voiceless" voiced="false"/>
+			<!-- voiced unaspirated plosives -->
+			<phoneme name="g" manner="unaspirated_plosives_voiced" voiced="true"/>
+			<phoneme name="j" manner="unaspirated_plosives_voiced" voiced="true"/>
+			<phoneme name="D" manner="unaspirated_plosives_voiced" voiced="true"/>
+			<phoneme name="d" manner="unaspirated_plosives_voiced" voiced="true"/>
+			<phoneme name="b" manner="unaspirated_plosives_voiced" voiced="true"/>
+			<!-- voiced aspirated plosives -->
+			<phoneme name="gh" manner="aspirated_plosives_voiced" voiced="true"/>
+			<phoneme name="Dh" manner="aspirated_plosives_voiced" voiced="true"/>
+			<phoneme name="dh" manner="aspirated_plosives_voiced" voiced="true"/>
+			<phoneme name="bh" manner="aspirated_plosives_voiced" voiced="true"/>
+			<!-- voiced alveolars -->
+			<phoneme name="r" manner="alveolars_voiced" voiced="true"/>
+			<phoneme name="r'" manner="alveolars_voiced" voiced="true"/>
+			<phoneme name="l" manner="alveolars_voiced" voiced="true"/>
+			<phoneme name="L" manner="alveolars_voiced" voiced="true"/>
+			<!-- semi vowels -->
+			<phoneme name="y" manner="semi_vowels" voiced="false"/>
+			<phoneme name="v" manner="semi_vowels" voiced="false"/>
+			<!--  silence --> 
+  			<phoneme name="_" manner="silence" voiced="false" /> 
+			</phonemes>
+</language>
+		<language name="es4" male="true" locale="es">
+		<!-- The description will appear as tooltip. -->
+		<description>ES4 Spanish male voice from Departamento de Informática, Universidad de Valladolid</description>
+		<replacements>
+			<!-- this is to simulate vowal target overshoot or undershoot.  -->
+			<!-- If you give a number of central vowels and their decentral -->
+			<!-- counterparts, they will be replaced by each other -->
+			<!-- seems there are not many vowels in Spanish-->
+		</replacements>
+		<phonemes>
+			<!-- now all phonemes should be classified -->
+			<!-- vowels -->
+			<phoneme name="i" manner="short_vowel" voiced="true"/>
+			<phoneme name="e" manner="short_vowel" voiced="true"/>
+			<phoneme name="a" manner="short_vowel" voiced="true"/>
+			<phoneme name="o" manner="short_vowel" voiced="true"/>
+			<phoneme name="u" manner="short_vowel" voiced="true"/>
+			<!-- approximants -->
+			<phoneme name="l" manner="approximant" voiced="true"/>
+			<phoneme name="L" manner="approximant" voiced="true"/>
+			<phoneme name="r" manner="approximant" voiced="true"/>
+			<phoneme name="rr" manner="approximant" voiced="true"/>
+			<!-- nasals -->
+			<phoneme name="m" manner="nasal" voiced="true"/>
+			<phoneme name="n" manner="nasal" voiced="true"/>
+			<phoneme name="J" manner="nasal" voiced="true"/>
+			<!-- voiced fricatives -->
+			<phoneme name="jj" manner="fricative_voiced" voiced="true"/>
+			<!-- voiceless fricatives -->
+			<phoneme name="tS" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="f" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="T" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="s" manner="fricative_voiceless" voiced="true"/>
+			<phoneme name="x" manner="fricative_voiceless" voiced="true"/>
+			<!-- voiced stops -->
+			<phoneme name="b" manner="stop_voiced" voiced="true"/>
+			<phoneme name="d" manner="stop_voiced" voiced="true"/>
+			<phoneme name="g" manner="stop_voiced" voiced="true"/>
+			<!-- voiceless stops -->
+			<phoneme name="p" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="t" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="k" manner="stop_voiceless" voiced="false"/>
+			<!-- silence -->
+			<phoneme name="_" manner="silence" voiced="false"/>
+		</phonemes>
+	</language>
+	<language name="es2" male="true" locale="es">
+		<!-- ES2 2.069 equalized release is a Spanish diphone database -->
+		<!-- The description will appear as tooltip. -->
+		<description>
+		ES2 2.069 equalized release is a Spanish male diphone database</description>
+		<replacements>
+			<!-- this is to simulate vowal target overshoot or undershoot.  -->
+			<!-- If you give a number of central vowels and their decentral -->
+			<!-- counterparts, they will be replaced by each other -->
+			<!-- seems there are not many vowels in Spanish-->
+		</replacements>
+		<phonemes>
+			<!-- now all phonemes should be classified -->
+			<!-- vowels -->
+			<phoneme name="i" manner="short_vowel" voiced="true"/>
+			<phoneme name="e" manner="short_vowel" voiced="true"/>
+			<phoneme name="a" manner="short_vowel" voiced="true"/>
+			<phoneme name="o" manner="short_vowel" voiced="true"/>
+			<phoneme name="u" manner="short_vowel" voiced="true"/>
+			<!-- approximants -->
+			<phoneme name="l" manner="approximant" voiced="true"/>
+			<phoneme name="L" manner="approximant" voiced="true"/>
+			<phoneme name="r" manner="approximant" voiced="true"/>
+			<phoneme name="rr" manner="approximant" voiced="true"/>
+			<!-- nasals -->
+			<phoneme name="m" manner="nasal" voiced="true"/>
+			<phoneme name="n" manner="nasal" voiced="true"/>
+			<phoneme name="J" manner="nasal" voiced="true"/>
+			<!-- voiced fricatives -->
+			<phoneme name="jj" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="w" manner="fricative_voiced" voiced="true"/>
+			<!-- voiceless fricatives -->
+			<phoneme name="tS" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="f" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="T" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="s" manner="fricative_voiceless" voiced="true"/>
+			<phoneme name="x" manner="fricative_voiceless" voiced="true"/>
+			<!-- voiced stops -->
+			<phoneme name="b" manner="stop_voiced" voiced="true"/>
+			<phoneme name="d" manner="stop_voiced" voiced="true"/>
+			<phoneme name="g" manner="stop_voiced" voiced="true"/>
+			<!-- voiceless stops -->
+			<phoneme name="p" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="t" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="k" manner="stop_voiceless" voiced="false"/>
+			<!-- silence -->
+			<phoneme name="_" manner="silence" voiced="false"/>
+		</phonemes>
+	</language>
+	<language name="nl2" male="true" locale="nl">
+		<!-- The language name MUST be the same as the corresponding Mbrola voice -->
+		<!-- The description will appear as tooltip. -->
+		<description>nl2</description>
+		<replacements>
+			<!-- this is to simulate vowal target overshoot or undershoot.  -->
+			<!-- If you give a number of central vowels and their decentral -->
+			<!-- counterparts, they will be replaced by each other -->
+			<!-- In principle, all vowel can be reduced to @, but with the  -->
+			<!-- ones that lie closer to @, this occurs more often -->
+			<replacement central="@" decentral="I"/>
+			<replacement central="@" decentral="Y"/>
+			<replacement central="@" decentral="E"/>
+			<replacement central="@" decentral="O"/>
+			<replacement central="@" decentral="A"/>
+			<replacement central="@" decentral="E~"/>
+			<replacement central="@" decentral="Y~"/>
+			<replacement central="@" decentral="O~"/>
+			<replacement central="@" decentral="A~"/>
+			<replacement central="@" decentral="i"/>
+			<replacement central="@" decentral="y"/>
+			<replacement central="@" decentral="u"/>
+			<replacement central="@" decentral="e"/>
+			<replacement central="@" decentral="2"/>
+			<replacement central="@" decentral="a"/>
+			<replacement central="@" decentral="I:"/>
+			<replacement central="@" decentral="Y:"/>
+			<replacement central="@" decentral="O:"/>
+			<replacement central="@" decentral="Oe"/>
+			<replacement central="@" decentral="Ei"/>
+			<replacement central="@" decentral="9y"/>
+			<replacement central="@" decentral="Au"/>
+		</replacements>
+		<phonemes>
+			<!-- now all phonemes should be classified -->
+			<!-- short vowels -->
+			<phoneme name="I" manner="short_vowel" voiced="true"/>
+			<phoneme name="Y" manner="short_vowel" voiced="true"/>
+			<phoneme name="E" manner="short_vowel" voiced="true"/>
+			<phoneme name="@" manner="short_vowel" voiced="true"/>
+			<phoneme name="O" manner="short_vowel" voiced="true"/>
+			<phoneme name="A" manner="short_vowel" voiced="true"/>
+			<!-- nasalised vowels -->
+			<phoneme name="E~" manner="short_vowel" voiced="true"/>
+			<phoneme name="Y~" manner="short_vowel" voiced="true"/>
+			<phoneme name="O~" manner="short_vowel" voiced="true"/>
+			<phoneme name="A~" manner="short_vowel" voiced="true"/>
+			<!-- long vowels -->
+			<phoneme name="i" manner="long_vowel" voiced="true"/>
+			<phoneme name="y" manner="long_vowel" voiced="true"/>
+			<phoneme name="u" manner="long_vowel" voiced="true"/>
+			<phoneme name="e" manner="long_vowel" voiced="true"/>
+			<phoneme name="2" manner="long_vowel" voiced="true"/>
+			<phoneme name="a" manner="long_vowel" voiced="true"/>
+			<!-- diphtongs -->
+			<phoneme name="Ei" manner="long_vowel" voiced="true"/>
+			<phoneme name="9y" manner="long_vowel" voiced="true"/>
+			<phoneme name="Au" manner="long_vowel" voiced="true"/>
+			<!-- colored vowels -->
+			<phoneme name="I:" manner="long_vowel" voiced="true"/>
+			<phoneme name="Y:" manner="long_vowel" voiced="true"/>
+			<phoneme name="O:" manner="long_vowel" voiced="true"/>
+			<!-- french vowel -->
+			<phoneme name="Oe" manner="long_vowel" voiced="true"/>			
+			<!-- approximants -->
+			<phoneme name="l" manner="approximant" voiced="true"/>
+			<phoneme name="r" manner="approximant" voiced="true"/>
+			<phoneme name="L" manner="approximant" voiced="true"/>
+			<phoneme name="R" manner="approximant" voiced="true"/>
+			<phoneme name="w" manner="approximant" voiced="true"/>
+			<phoneme name="j" manner="approximant" voiced="true"/>
+			<phoneme name="W" manner="approximant" voiced="true"/>
+			<phoneme name="J" manner="approximant" voiced="true"/>
+			<!-- nasals -->
+			<phoneme name="n" manner="nasal" voiced="true"/>
+			<phoneme name="N" manner="nasal" voiced="true"/>
+			<phoneme name="m" manner="nasal" voiced="true"/>
+			<phoneme name="nj" manner="nasal" voiced="true"/>
+			<!-- voiced fricatives -->
+			<phoneme name="v" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="z" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="Z" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="G" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="h" manner="fricative_voiced" voiced="true"/>
+			<!-- voiceless fricatives -->
+			<phoneme name="f" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="s" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="S" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="x" manner="fricative_voiceless" voiced="false"/>
+			<!-- voiced stops -->
+			<phoneme name="b" manner="stop_voiced" voiced="true"/>
+			<phoneme name="d" manner="stop_voiced" voiced="true"/>
+			<phoneme name="g" manner="stop_voiced" voiced="true"/>
+			<phoneme name="dj" manner="stop_voiced" voiced="true"/>
+			<!-- voiceless stops -->
+			<phoneme name="p" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="t" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="k" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="tj" manner="stop_voiceless" voiced="false"/>
+			<!-- silence -->
+			<phoneme name="_" manner="silence" voiced="false"/>
+		</phonemes>
+	</language>
+    <language name="hu1" male="false"  locale="hu">
+        <description> First Hungarian female voice  </description>
+        <replacements />
+        <phonemes>
+            <!-- now all phonemes should be classified -->
+            <!-- long vowels -->
+            <phoneme name="i:" manner="long_vowel" voiced="true" />
+            <phoneme name="e:" manner="long_vowel" voiced="true" />
+            <phoneme name="a:" manner="long_vowel" voiced="true" />
+            <phoneme name="o:" manner="long_vowel" voiced="true" />
+	    <phoneme name="2:" manner="long_vowel" voiced="true" />
+            <phoneme name="u:" manner="long_vowel" voiced="true" />
+            <phoneme name="y:" manner="long_vowel" voiced="true" />
+            <!-- short vowels -->
+            <phoneme name="i" manner="short_vowel" voiced="true" />
+            <phoneme name="E" manner="short_vowel" voiced="true" />
+            <phoneme name="O" manner="short_vowel" voiced="true" />
+            <phoneme name="o" manner="short_vowel" voiced="true" />
+            <phoneme name="2" manner="short_vowel" voiced="true" />
+            <phoneme name="u" manner="short_vowel" voiced="true" />
+            <phoneme name="y" manner="short_vowel" voiced="true" />
+            <!-- approximants -->
+            <phoneme name="r" manner="approximant" voiced="true" />
+            <phoneme name="l" manner="approximant" voiced="true" />
+            <phoneme name="j" manner="approximant" voiced="true" />
+            <!-- nasals -->
+            <phoneme name="m" manner="nasal" voiced="true" />
+            <phoneme name="n" manner="nasal" voiced="true" />
+            <phoneme name="J" manner="nasal" voiced="true" />
+            <!-- voiced fricatives -->
+            <phoneme name="d'" manner="fricative_voiced" voiced="true" />
+            <phoneme name="dz" manner="fricative_voiced" voiced="true" />
+            <phoneme name="dZ" manner="fricative_voiced" voiced="true" />
+            <phoneme name="v" manner="fricative_voiced" voiced="true" />
+            <phoneme name="z" manner="fricative_voiced" voiced="true" />
+            <phoneme name="Z" manner="fricative_voiced" voiced="true" />
+            <!-- voiceless fricatives -->
+            <phoneme name="t'" manner="fricative_voiceless" voiced="false" />
+            <phoneme name="ts" manner="fricative_voiceless" voiced="false" />
+            <phoneme name="tS" manner="fricative_voiceless" voiced="false" />
+            <phoneme name="f" manner="fricative_voiceless" voiced="false" />
+            <phoneme name="s" manner="fricative_voiceless" voiced="false" />
+            <phoneme name="S" manner="fricative_voiceless" voiced="false" />
+            <phoneme name="h" manner="fricative_voiceless" voiced="false" />
+            <phoneme name="x" manner="fricative_voiceless" voiced="false" />
+            <!-- voiced stops -->
+            <phoneme name="b" manner="stop_voiced" voiced="true" />
+            <phoneme name="d" manner="stop_voiced" voiced="true" />
+            <phoneme name="g" manner="stop_voiced" voiced="true" />
+            <!-- voiceless stops -->
+            <phoneme name="p" manner="stop_voiceless" voiced="false" />
+            <phoneme name="t" manner="stop_voiceless" voiced="false" />
+            <phoneme name="k" manner="stop_voiceless" voiced="false" />
+            <!-- silence -->
+
+            <phoneme name="_" manner="silence" voiced="false" />
+        </phonemes>
+    </language>
+	<language name="it3" male="true" locale="it">
+		<description>Italian male voice by Piero Cosi</description>
+		<replacements>
+			<!-- this is to simulate vowal target overshoot or undershoot.  -->
+			<!-- If you give a number of central vowels and their decentral -->
+			<!-- counterparts, they will be replaced by each other -->
+			<!-- -->
+			<replacement central="i" decentral="i1"/>
+			<replacement central="e" decentral="e1"/>
+			<replacement central="E" decentral="E1"/>
+			<replacement central="a" decentral="a1"/>
+			<replacement central="O" decentral="o1"/>
+			<replacement central="u" decentral="u1"/>
+		</replacements>
+		<phonemes>
+			<!-- now all phonemes should be classified -->
+			<!-- long vowels -->
+			<phoneme name="i1" manner="long_vowel" voiced="true"/>
+			<phoneme name="e1" manner="long_vowel" voiced="true"/>
+			<phoneme name="E1" manner="long_vowel" voiced="true"/>
+			<phoneme name="a1" manner="long_vowel" voiced="true"/>
+			<phoneme name="o1" manner="long_vowel" voiced="true"/>
+			<phoneme name="O1" manner="long_vowel" voiced="true"/>
+			<phoneme name="u1" manner="long_vowel" voiced="true"/>
+			<!-- short vowels -->
+			<phoneme name="i" manner="short_vowel" voiced="true"/>
+			<phoneme name="e" manner="short_vowel" voiced="true"/>
+			<phoneme name="E" manner="short_vowel" voiced="true"/>
+			<phoneme name="a" manner="short_vowel" voiced="true"/>
+			<phoneme name="o" manner="short_vowel" voiced="true"/>
+			<phoneme name="O" manner="short_vowel" voiced="true"/>
+			<phoneme name="u" manner="short_vowel" voiced="true"/>
+			<!-- approximants -->
+			<phoneme name="j" manner="approximant" voiced="true"/>
+			<phoneme name="w" manner="approximant" voiced="true"/>
+			<phoneme name="l" manner="approximant" voiced="true"/>
+			<phoneme name="r" manner="approximant" voiced="true"/>
+			<phoneme name="L" manner="approximant" voiced="true"/>
+			<!-- nasals -->
+			<phoneme name="m" manner="nasal" voiced="true"/>
+			<phoneme name="n" manner="nasal" voiced="true"/>
+			<phoneme name="J" manner="nasal" voiced="true"/>
+			<phoneme name="nf" manner="nasal" voiced="true"/>
+			<phoneme name="ng" manner="nasal" voiced="true"/>
+			<!-- voiced fricatives -->
+			<phoneme name="v" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="z" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="Z" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="dz" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="dZ" manner="fricative_voiced" voiced="true"/>
+			<!-- voiceless fricatives -->
+			<phoneme name="S" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="f" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="s" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="ts" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="tS" manner="fricative_voiceless" voiced="false"/>
+			<!-- voiced stops -->
+			<phoneme name="b" manner="stop_voiced" voiced="true"/>
+			<phoneme name="d" manner="stop_voiced" voiced="true"/>
+			<phoneme name="g" manner="stop_voiced" voiced="true"/>
+			<!-- voiceless stops -->
+			<phoneme name="p" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="t" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="k" manner="stop_voiceless" voiced="false"/>
+			<!-- silence -->
+			<phoneme name="_" manner="silence" voiced="false"/>
+		</phonemes>
+	</language>
+	<language name="gr2" male="true" locale="gr">
+		<description>GR2 is an Hellenic male diphone database. It
+	consists of 1081 diphones. The voice of GR2 MBROLA database
+	belongs to Gerasimos Xydas. This classification was done by
+	Felix, who doesn't know Greek, so many errors happened!</description>
+		<replacements/>
+		<phonemes>
+			<!-- now all phonemes should be classified -->
+			<!-- long vowels -->
+			<phoneme name="a" manner="long_vowel" voiced="true"/>
+			<phoneme name="e" manner="long_vowel" voiced="true"/>
+			<phoneme name="i" manner="long_vowel" voiced="true"/>
+			<phoneme name="o" manner="long_vowel" voiced="true"/>
+			<phoneme name="u" manner="long_vowel" voiced="true"/>
+			<!-- short vowels -->
+			<!-- approximants -->
+			<phoneme name="l" manner="approximant" voiced="true"/>
+			<phoneme name="L" manner="approximant" voiced="true"/>
+			<phoneme name="r" manner="approximant" voiced="true"/>
+			<phoneme name="R" manner="approximant" voiced="true"/>
+			<phoneme name="V" manner="approximant" voiced="true"/>
+			<phoneme name="j" manner="approximant" voiced="true"/>
+			<phoneme name="G" manner="approximant" voiced="true"/>
+			<!-- nasals -->
+			<phoneme name="n" manner="nasal" voiced="true"/>
+			<phoneme name="m" manner="nasal" voiced="true"/>
+			<phoneme name="M" manner="nasal" voiced="true"/>
+			<phoneme name="N" manner="nasal" voiced="true"/>
+			<!-- voiced fricatives -->
+			<phoneme name="Z" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="Y" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="z" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="v" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="D" manner="fricative_voiced" voiced="true"/>
+			<!-- voiceless fricatives -->
+			<phoneme name="S" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="X" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="f" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="s" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="T" manner="fricative_voiceless" voiced="true"/>
+			<phoneme name="c" manner="fricative_voiceless" voiced="true"/>
+			<phoneme name="x" manner="fricative_voiceless" voiced="true"/>
+			<phoneme name="C" manner="fricative_voiceless" voiced="true"/>
+			<!-- voiced stops -->
+			<phoneme name="b" manner="stop_voiced" voiced="true"/>
+			<phoneme name="d" manner="stop_voiced" voiced="true"/>
+			<phoneme name="g" manner="stop_voiced" voiced="true"/>
+			<!-- voiceless stops -->
+			<phoneme name="q" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="p" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="t" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="k" manner="stop_voiceless" voiced="false"/>
+			<!-- silence -->
+			<phoneme name="_" manner="silence" voiced="false"/>
+		</phonemes>
+	</language>
+	<language name="tr1" male="true" locale="tr">
+		<description>tr1 is a diphone database for Turkish, consisting
+	of 960 diphones, male voice, recorded by Baris Bozkurt.  This
+	classification was done by Felix, who doesn't know Turkish, 
+	so many errors happened!</description>
+		<replacements>
+			<replacement central="@" decentral="i"/>
+			<replacement central="@" decentral="a"/>
+			<replacement central="@" decentral="u"/>
+			<replacement central="@" decentral="o"/>
+			<replacement central="@" decentral="y"/>
+			<replacement central="@" decentral="e"/>
+		</replacements>
+		<phonemes>
+			<!-- now all phonemes should be classified -->
+			<!-- long vowels -->
+			<phoneme name="e" manner="long_vowel" voiced="true"/>
+			<phoneme name="o" manner="long_vowel" voiced="true"/>
+			<phoneme name="a" manner="long_vowel" voiced="true"/>
+			<phoneme name="u" manner="long_vowel" voiced="true"/>
+			<phoneme name="y" manner="long_vowel" voiced="true"/>
+			<!-- short vowels -->
+			<phoneme name="@" manner="short_vowel" voiced="true"/>
+			<phoneme name="I" manner="short_vowel" voiced="true"/>
+			<phoneme name="@'" manner="short_vowel" voiced="true"/>
+			<!-- approximants -->
+			<phoneme name="l" manner="approximant" voiced="true"/>
+			<phoneme name="r" manner="approximant" voiced="true"/>
+			<phoneme name="L" manner="approximant" voiced="true"/>
+			<phoneme name="G" manner="approximant" voiced="true"/>
+			<!-- nasals -->
+			<phoneme name="m" manner="nasal" voiced="true"/>
+			<phoneme name="n" manner="nasal" voiced="true"/>
+			<!-- voiced fricatives -->
+			<phoneme name="dZ" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="Z" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="v" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="z" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="j" manner="fricative_voiced" voiced="true"/>
+			<!-- voiceless fricatives -->
+			<phoneme name="tS" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="f" manner="fricative_voiceless" voiced="true"/>
+			<phoneme name="s" manner="fricative_voiceless" voiced="true"/>
+			<phoneme name="S" manner="fricative_voiceless" voiced="true"/>
+			<phoneme name="h" manner="fricative_voiceless" voiced="true"/>
+			<!-- voiced stops -->
+			<phoneme name="b" manner="stop_voiced" voiced="true"/>
+			<phoneme name="d" manner="stop_voiced" voiced="true"/>
+			<phoneme name="g" manner="stop_voiced" voiced="true"/>
+			<!-- voiceless stops -->
+			<phoneme name="p" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="t" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="k" manner="stop_voiceless" voiced="false"/>
+			<!-- silence -->
+			<phoneme name="_" manner="silence" voiced="false"/>
+		</phonemes>
+	</language>
+	<language name="de1" male="false" locale="de">
+		<description>&lt;html&gt;first German&lt;br&gt; female voice, 
+            16kHz&lt;/html&gt;</description>
+		<replacements>
+			<replacement central="a" decentral="a:"/>
+			<replacement central="E" decentral="e:"/>
+			<replacement central="I" decentral="i:"/>
+			<replacement central="O" decentral="o:"/>
+			<replacement central="U" decentral="u:"/>
+			<replacement central="9" decentral="2:"/>
+			<replacement central="Y" decentral="y:"/>
+			<replacement central="@" decentral="E:"/>
+		</replacements>
+		<phonemes>
+			<phoneme name="aU" manner="long_vowel" voiced="true"/>
+			<phoneme name="aI" manner="long_vowel" voiced="true"/>
+			<phoneme name="OY" manner="long_vowel" voiced="true"/>
+			<phoneme name="a:" manner="long_vowel" voiced="true"/>
+			<phoneme name="o:" manner="long_vowel" voiced="true"/>
+			<phoneme name="2:" manner="long_vowel" voiced="true"/>
+			<phoneme name="E:" manner="long_vowel" voiced="true"/>
+			<phoneme name="u:" manner="long_vowel" voiced="true"/>
+			<phoneme name="y:" manner="long_vowel" voiced="true"/>
+			<phoneme name="i:" manner="long_vowel" voiced="true"/>
+			<phoneme name="e:" manner="long_vowel" voiced="true"/>
+			<phoneme name="a" manner="short_vowel" voiced="true"/>
+			<phoneme name="I" manner="short_vowel" voiced="true"/>
+			<phoneme name="E" manner="short_vowel" voiced="true"/>
+			<phoneme name="Y" manner="short_vowel" voiced="true"/>
+			<phoneme name="U" manner="short_vowel" voiced="true"/>
+			<phoneme name="O" manner="short_vowel" voiced="true"/>
+			<phoneme name="9" manner="short_vowel" voiced="true"/>
+			<phoneme name="6" manner="short_vowel" voiced="true"/>
+			<phoneme name="@" manner="short_vowel" voiced="true"/>
+			<phoneme name="E^" manner="short_vowel" voiced="true"/>
+			<phoneme name="a^" manner="short_vowel" voiced="true"/>
+			<phoneme name="9^" manner="short_vowel" voiced="true"/>
+			<phoneme name="o^" manner="short_vowel" voiced="true"/>
+			<phoneme name="E~" manner="short_vowel" voiced="true"/>
+			<phoneme name="a~" manner="short_vowel" voiced="true"/>
+			<phoneme name="o~" manner="short_vowel" voiced="true"/>
+			<phoneme name="l" manner="approximant" voiced="true"/>
+			<phoneme name="R" manner="approximant" voiced="true"/>
+			<phoneme name="j" manner="approximant" voiced="true"/>
+			<phoneme name="m" manner="nasal" voiced="true"/>
+			<phoneme name="n" manner="nasal" voiced="true"/>
+			<phoneme name="N" manner="nasal" voiced="true"/>
+			<phoneme name="z" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="v" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="pf" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="ts" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="tS" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="S" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="h" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="C" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="s" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="x" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="f" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="b" manner="stop_voiced" voiced="true"/>
+			<phoneme name="d" manner="stop_voiced" voiced="true"/>
+			<phoneme name="g" manner="stop_voiced" voiced="true"/>
+			<phoneme name="k" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="p" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="t" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="?" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="_" manner="silence" voiced="false"/>
+		</phonemes>
+	</language>
+	<language name="de2" male="true" locale="de">
+		<description>first German male voice, 16kHz</description>
+		<replacements>
+			<replacement central="a" decentral="a:"/>
+			<replacement central="E" decentral="e:"/>
+			<replacement central="I" decentral="i:"/>
+			<replacement central="O" decentral="o:"/>
+			<replacement central="U" decentral="u:"/>
+			<replacement central="9" decentral="2:"/>
+			<replacement central="Y" decentral="y:"/>
+			<replacement central="@" decentral="E:"/>
+		</replacements>
+		<phonemes>
+			<phoneme name="aU" manner="long_vowel" voiced="true"/>
+			<phoneme name="aI" manner="long_vowel" voiced="true"/>
+			<phoneme name="OY" manner="long_vowel" voiced="true"/>
+			<phoneme name="a:" manner="long_vowel" voiced="true"/>
+			<phoneme name="o:" manner="long_vowel" voiced="true"/>
+			<phoneme name="2:" manner="long_vowel" voiced="true"/>
+			<phoneme name="E:" manner="long_vowel" voiced="true"/>
+			<phoneme name="u:" manner="long_vowel" voiced="true"/>
+			<phoneme name="i:" manner="long_vowel" voiced="true"/>
+			<phoneme name="y:" manner="long_vowel" voiced="true"/>
+			<phoneme name="e:" manner="long_vowel" voiced="true"/>
+			<phoneme name="a" manner="short_vowel" voiced="true"/>
+			<phoneme name="I" manner="short_vowel" voiced="true"/>
+			<phoneme name="E" manner="short_vowel" voiced="true"/>
+			<phoneme name="Y" manner="short_vowel" voiced="true"/>
+			<phoneme name="U" manner="short_vowel" voiced="true"/>
+			<phoneme name="O" manner="short_vowel" voiced="true"/>
+			<phoneme name="9" manner="short_vowel" voiced="true"/>
+			<phoneme name="6" manner="short_vowel" voiced="true"/>
+			<phoneme name="@" manner="short_vowel" voiced="true"/>
+			<phoneme name="E^" manner="short_vowel" voiced="true"/>
+			<phoneme name="a^" manner="short_vowel" voiced="true"/>
+			<phoneme name="9^" manner="short_vowel" voiced="true"/>
+			<phoneme name="o^" manner="short_vowel" voiced="true"/>
+			<phoneme name="E~" manner="short_vowel" voiced="true"/>
+			<phoneme name="a~" manner="short_vowel" voiced="true"/>
+			<phoneme name="o~" manner="short_vowel" voiced="true"/>
+			<phoneme name="l" manner="approximant" voiced="true"/>
+			<phoneme name="R" manner="approximant" voiced="true"/>
+			<phoneme name="j" manner="approximant" voiced="true"/>
+			<phoneme name="m" manner="nasal" voiced="true"/>
+			<phoneme name="n" manner="nasal" voiced="true"/>
+			<phoneme name="N" manner="nasal" voiced="true"/>
+			<phoneme name="z" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="v" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="pf" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="ts" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="tS" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="S" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="h" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="C" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="s" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="x" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="f" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="b" manner="stop_voiced" voiced="true"/>
+			<phoneme name="d" manner="stop_voiced" voiced="true"/>
+			<phoneme name="g" manner="stop_voiced" voiced="true"/>
+			<phoneme name="k" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="p" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="t" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="?" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="_" manner="silence" voiced="false"/>
+		</phonemes>
+	</language>
+	<language name="de3" male="false" locale="de">
+		<description>&lt;html&gt;German&lt;br&gt; female voice, 
+            22kHz, developed at ATIP&lt;/html&gt;</description>
+		<replacements>
+			<replacement central="a" decentral="a:"/>
+			<replacement central="E" decentral="e:"/>
+			<replacement central="I" decentral="i:"/>
+			<replacement central="O" decentral="o:"/>
+			<replacement central="U" decentral="u:"/>
+			<replacement central="9" decentral="2:"/>
+			<replacement central="Y" decentral="y:"/>
+			<replacement central="@" decentral="E:"/>
+		</replacements>
+		<phonemes>
+			<phoneme name="aU" manner="long_vowel" voiced="true"/>
+			<phoneme name="aI" manner="long_vowel" voiced="true"/>
+			<phoneme name="OY" manner="long_vowel" voiced="true"/>
+			<phoneme name="a:" manner="long_vowel" voiced="true"/>
+			<phoneme name="o:" manner="long_vowel" voiced="true"/>
+			<phoneme name="2:" manner="long_vowel" voiced="true"/>
+			<phoneme name="E:" manner="long_vowel" voiced="true"/>
+			<phoneme name="u:" manner="long_vowel" voiced="true"/>
+			<phoneme name="y:" manner="long_vowel" voiced="true"/>
+			<phoneme name="i:" manner="long_vowel" voiced="true"/>
+			<phoneme name="e:" manner="long_vowel" voiced="true"/>
+			<phoneme name="a" manner="short_vowel" voiced="true"/>
+			<phoneme name="i" manner="short_vowel" voiced="true"/>
+			<phoneme name="e" manner="short_vowel" voiced="true"/>
+			<phoneme name="o" manner="short_vowel" voiced="true"/>
+			<phoneme name="u" manner="short_vowel" voiced="true"/>
+			<phoneme name="I" manner="short_vowel" voiced="true"/>
+			<phoneme name="E" manner="short_vowel" voiced="true"/>
+			<phoneme name="Y" manner="short_vowel" voiced="true"/>
+			<phoneme name="U" manner="short_vowel" voiced="true"/>
+			<phoneme name="O" manner="short_vowel" voiced="true"/>
+			<phoneme name="9" manner="short_vowel" voiced="true"/>
+			<phoneme name="6" manner="short_vowel" voiced="true"/>
+			<phoneme name="@" manner="short_vowel" voiced="true"/>
+			<phoneme name="E^" manner="short_vowel" voiced="true"/>
+			<phoneme name="a^" manner="short_vowel" voiced="true"/>
+			<phoneme name="9^" manner="short_vowel" voiced="true"/>
+			<phoneme name="o^" manner="short_vowel" voiced="true"/>
+			<phoneme name="E~" manner="short_vowel" voiced="true"/>
+			<phoneme name="a~" manner="short_vowel" voiced="true"/>
+			<phoneme name="o~" manner="short_vowel" voiced="true"/>
+			<phoneme name="l" manner="approximant" voiced="true"/>
+			<phoneme name="R" manner="approximant" voiced="true"/>
+			<phoneme name="j" manner="approximant" voiced="true"/>
+			<phoneme name="m" manner="nasal" voiced="true"/>
+			<phoneme name="n" manner="nasal" voiced="true"/>
+			<phoneme name="N" manner="nasal" voiced="true"/>
+			<phoneme name="Z" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="z" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="v" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="pf" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="ts" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="tS" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="S" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="h" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="C" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="s" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="x" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="f" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="b" manner="stop_voiced" voiced="true"/>
+			<phoneme name="d" manner="stop_voiced" voiced="true"/>
+			<phoneme name="g" manner="stop_voiced" voiced="true"/>
+			<phoneme name="k" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="p" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="t" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="?" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="_" manner="silence" voiced="false"/>
+		</phonemes>
+	</language>
+	<language name="de4" male="true" locale="de">
+		<description>&lt;html&gt;German&lt;br&gt; male voice, 16kHz, including 
+            English and French phonemes&lt;/html&gt;</description>
+		<replacements>
+			<replacement central="a" decentral="a:"/>
+			<replacement central="E" decentral="e:"/>
+			<replacement central="I" decentral="i:"/>
+			<replacement central="O" decentral="o:"/>
+			<replacement central="U" decentral="u:"/>
+			<replacement central="9" decentral="2:"/>
+			<replacement central="Y" decentral="y:"/>
+			<replacement central="@" decentral="E:"/>
+		</replacements>
+		<phonemes>
+			<phoneme name="aU" manner="long_vowel" voiced="true"/>
+			<phoneme name="aI" manner="long_vowel" voiced="true"/>
+			<phoneme name="OY" manner="long_vowel" voiced="true"/>
+			<phoneme name="EI" manner="long_vowel" voiced="true"/>
+			<phoneme name="@U" manner="long_vowel" voiced="true"/>
+			<phoneme name="a:" manner="long_vowel" voiced="true"/>
+			<phoneme name="o:" manner="long_vowel" voiced="true"/>
+			<phoneme name="2:" manner="long_vowel" voiced="true"/>
+			<phoneme name="E:" manner="long_vowel" voiced="true"/>
+			<phoneme name="u:" manner="long_vowel" voiced="true"/>
+			<phoneme name="y:" manner="long_vowel" voiced="true"/>
+			<phoneme name="i:" manner="long_vowel" voiced="true"/>
+			<phoneme name="e:" manner="long_vowel" voiced="true"/>
+			<phoneme name="?aU" manner="long_vowel" voiced="true"/>
+			<phoneme name="?aI" manner="long_vowel" voiced="true"/>
+			<phoneme name="?OY" manner="long_vowel" voiced="true"/>
+			<phoneme name="?EI" manner="long_vowel" voiced="true"/>
+			<phoneme name="?@U" manner="long_vowel" voiced="true"/>
+			<phoneme name="?a:" manner="long_vowel" voiced="true"/>
+			<phoneme name="?o:" manner="long_vowel" voiced="true"/>
+			<phoneme name="?2:" manner="long_vowel" voiced="true"/>
+			<phoneme name="?E:" manner="long_vowel" voiced="true"/>
+			<phoneme name="?u:" manner="long_vowel" voiced="true"/>
+			<phoneme name="?y:" manner="long_vowel" voiced="true"/>
+			<phoneme name="?i:" manner="long_vowel" voiced="true"/>
+			<phoneme name="?e:" manner="long_vowel" voiced="true"/>
+			<phoneme name="a" manner="short_vowel" voiced="true"/>
+			<phoneme name="i" manner="short_vowel" voiced="true"/>
+			<phoneme name="e" manner="short_vowel" voiced="true"/>
+			<phoneme name="o" manner="short_vowel" voiced="true"/>
+			<phoneme name="u" manner="short_vowel" voiced="true"/>
+			<phoneme name="I" manner="short_vowel" voiced="true"/>
+			<phoneme name="E" manner="short_vowel" voiced="true"/>
+			<phoneme name="Y" manner="short_vowel" voiced="true"/>
+			<phoneme name="U" manner="short_vowel" voiced="true"/>
+			<phoneme name="O" manner="short_vowel" voiced="true"/>
+			<phoneme name="9" manner="short_vowel" voiced="true"/>
+			<phoneme name="6" manner="short_vowel" voiced="true"/>
+			<phoneme name="@" manner="short_vowel" voiced="true"/>
+			<phoneme name="E~" manner="short_vowel" voiced="true"/>
+			<phoneme name="a~" manner="short_vowel" voiced="true"/>
+			<phoneme name="o~" manner="short_vowel" voiced="true"/>
+			<phoneme name="?a" manner="short_vowel" voiced="true"/>
+			<phoneme name="?i" manner="short_vowel" voiced="true"/>
+			<phoneme name="?e" manner="short_vowel" voiced="true"/>
+			<phoneme name="?o" manner="short_vowel" voiced="true"/>
+			<phoneme name="?u" manner="short_vowel" voiced="true"/>
+			<phoneme name="?I" manner="short_vowel" voiced="true"/>
+			<phoneme name="?E" manner="short_vowel" voiced="true"/>
+			<phoneme name="?Y" manner="short_vowel" voiced="true"/>
+			<phoneme name="?U" manner="short_vowel" voiced="true"/>
+			<phoneme name="?O" manner="short_vowel" voiced="true"/>
+			<phoneme name="?9" manner="short_vowel" voiced="true"/>
+			<phoneme name="?6" manner="short_vowel" voiced="true"/>
+			<phoneme name="?@" manner="short_vowel" voiced="true"/>
+			<phoneme name="?E~" manner="short_vowel" voiced="true"/>
+			<phoneme name="?a~" manner="short_vowel" voiced="true"/>
+			<phoneme name="?o~" manner="short_vowel" voiced="true"/>
+			<phoneme name="l" manner="approximant" voiced="true"/>
+			<phoneme name="R" manner="approximant" voiced="true"/>
+			<phoneme name="r" manner="approximant" voiced="true"/>
+			<phoneme name="w" manner="approximant" voiced="true"/>
+			<phoneme name="L" manner="approximant" voiced="true"/>
+			<phoneme name="j" manner="approximant" voiced="true"/>
+			<phoneme name="m" manner="nasal" voiced="true"/>
+			<phoneme name="n" manner="nasal" voiced="true"/>
+			<phoneme name="N" manner="nasal" voiced="true"/>
+			<phoneme name="D" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="Z" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="z" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="v" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="pf" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="ts" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="tS" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="S" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="T" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="h" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="C" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="s" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="x" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="f" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="b" manner="stop_voiced" voiced="true"/>
+			<phoneme name="d" manner="stop_voiced" voiced="true"/>
+			<phoneme name="g" manner="stop_voiced" voiced="true"/>
+			<phoneme name="k" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="p" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="t" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="_" manner="silence" voiced="false"/>
+		</phonemes>
+	</language>
+	<language name="de6" male="true" locale="de">
+		<description>German male voice with three voicequalities, 
+            22kHz</description>
+		<voiceQuality multiple="true"/>
+		<replacements>
+			<replacement central="6" decentral="a:"/>
+			<replacement central="E" decentral="e:"/>
+			<replacement central="I" decentral="i:"/>
+			<replacement central="O" decentral="o:"/>
+			<replacement central="U" decentral="u:"/>
+			<replacement central="9" decentral="2:"/>
+			<replacement central="Y" decentral="y:"/>
+			<replacement central="@" decentral="E:"/>
+		</replacements>
+		<phonemes>
+			<phoneme name="EI" manner="long_vowel" voiced="true"/>
+			<phoneme name="aU" manner="long_vowel" voiced="true"/>
+			<phoneme name="aI" manner="long_vowel" voiced="true"/>
+			<phoneme name="OY" manner="long_vowel" voiced="true"/>
+			<phoneme name="a:" manner="long_vowel" voiced="true"/>
+			<phoneme name="o:" manner="long_vowel" voiced="true"/>
+			<phoneme name="2:" manner="long_vowel" voiced="true"/>
+			<phoneme name="E:" manner="long_vowel" voiced="true"/>
+			<phoneme name="y:" manner="long_vowel" voiced="true"/>
+			<phoneme name="u:" manner="long_vowel" voiced="true"/>
+			<phoneme name="i:" manner="long_vowel" voiced="true"/>
+			<phoneme name="e:" manner="long_vowel" voiced="true"/>
+			<phoneme name="a" manner="short_vowel" voiced="true"/>
+			<phoneme name="I" manner="short_vowel" voiced="true"/>
+			<phoneme name="E" manner="short_vowel" voiced="true"/>
+			<phoneme name="Y" manner="short_vowel" voiced="true"/>
+			<phoneme name="U" manner="short_vowel" voiced="true"/>
+			<phoneme name="O" manner="short_vowel" voiced="true"/>
+			<phoneme name="9" manner="short_vowel" voiced="true"/>
+			<phoneme name="6" manner="short_vowel" voiced="true"/>
+			<phoneme name="@" manner="short_vowel" voiced="true"/>
+			<phoneme name="E^" manner="short_vowel" voiced="true"/>
+			<phoneme name="a^" manner="short_vowel" voiced="true"/>
+			<phoneme name="9^" manner="short_vowel" voiced="true"/>
+			<phoneme name="o^" manner="short_vowel" voiced="true"/>
+			<phoneme name="E~" manner="short_vowel" voiced="true"/>
+			<phoneme name="a~" manner="short_vowel" voiced="true"/>
+			<phoneme name="e~" manner="short_vowel" voiced="true"/>
+			<phoneme name="9~" manner="short_vowel" voiced="true"/>
+			<phoneme name="o~" manner="short_vowel" voiced="true"/>
+			<phoneme name="l" manner="approximant" voiced="true"/>
+			<phoneme name="R" manner="approximant" voiced="true"/>
+			<phoneme name="r" manner="approximant" voiced="true"/>
+			<phoneme name="w" manner="approximant" voiced="true"/>
+			<phoneme name="j" manner="approximant" voiced="true"/>
+			<phoneme name="m" manner="nasal" voiced="true"/>
+			<phoneme name="n" manner="nasal" voiced="true"/>
+			<phoneme name="N" manner="nasal" voiced="true"/>
+			<phoneme name="D" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="z" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="v" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="pf" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="ts" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="tS" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="T" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="S" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="h" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="C" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="s" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="x" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="f" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="b" manner="stop_voiced" voiced="true"/>
+			<phoneme name="d" manner="stop_voiced" voiced="true"/>
+			<phoneme name="g" manner="stop_voiced" voiced="true"/>
+			<phoneme name="k" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="p" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="t" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="?" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="_" manner="silence" voiced="false"/>
+			<phoneme name="EI_soft" manner="long_vowel" voiced="true"/>
+			<phoneme name="aU_soft" manner="long_vowel" voiced="true"/>
+			<phoneme name="aI_soft" manner="long_vowel" voiced="true"/>
+			<phoneme name="OY_soft" manner="long_vowel" voiced="true"/>
+			<phoneme name="a:_soft" manner="long_vowel" voiced="true"/>
+			<phoneme name="o:_soft" manner="long_vowel" voiced="true"/>
+			<phoneme name="2:_soft" manner="long_vowel" voiced="true"/>
+			<phoneme name="E:_soft" manner="long_vowel" voiced="true"/>
+			<phoneme name="y:_soft" manner="long_vowel" voiced="true"/>
+			<phoneme name="u:_soft" manner="long_vowel" voiced="true"/>
+			<phoneme name="i:_soft" manner="long_vowel" voiced="true"/>
+			<phoneme name="e:_soft" manner="long_vowel" voiced="true"/>
+			<phoneme name="a_soft" manner="short_vowel" voiced="true"/>
+			<phoneme name="I_soft" manner="short_vowel" voiced="true"/>
+			<phoneme name="E_soft" manner="short_vowel" voiced="true"/>
+			<phoneme name="Y_soft" manner="short_vowel" voiced="true"/>
+			<phoneme name="U_soft" manner="short_vowel" voiced="true"/>
+			<phoneme name="O_soft" manner="short_vowel" voiced="true"/>
+			<phoneme name="9_soft" manner="short_vowel" voiced="true"/>
+			<phoneme name="6_soft" manner="short_vowel" voiced="true"/>
+			<phoneme name="@_soft" manner="short_vowel" voiced="true"/>
+			<phoneme name="E^_soft" manner="short_vowel" voiced="true"/>
+			<phoneme name="a^_soft" manner="short_vowel" voiced="true"/>
+			<phoneme name="9^_soft" manner="short_vowel" voiced="true"/>
+			<phoneme name="o^_soft" manner="short_vowel" voiced="true"/>
+			<phoneme name="E~_soft" manner="short_vowel" voiced="true"/>
+			<phoneme name="a~_soft" manner="short_vowel" voiced="true"/>
+			<phoneme name="e~_soft" manner="short_vowel" voiced="true"/>
+			<phoneme name="9~_soft" manner="short_vowel" voiced="true"/>
+			<phoneme name="o~_soft" manner="short_vowel" voiced="true"/>
+			<phoneme name="l_soft" manner="approximant" voiced="true"/>
+			<phoneme name="R_soft" manner="approximant" voiced="true"/>
+			<phoneme name="j_soft" manner="approximant" voiced="true"/>
+			<phoneme name="r_soft" manner="approximant" voiced="true"/>
+			<phoneme name="w_soft" manner="approximant" voiced="true"/>
+			<phoneme name="m_soft" manner="nasal" voiced="true"/>
+			<phoneme name="n_soft" manner="nasal" voiced="true"/>
+			<phoneme name="N_soft" manner="nasal" voiced="true"/>
+			<phoneme name="D_soft" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="z_soft" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="v_soft" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="pf_soft" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="ts_soft" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="tS_soft" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="T_soft" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="S_soft" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="h_soft" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="C_soft" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="s_soft" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="x_soft" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="f_soft" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="b_soft" manner="stop_voiced" voiced="true"/>
+			<phoneme name="d_soft" manner="stop_voiced" voiced="true"/>
+			<phoneme name="g_soft" manner="stop_voiced" voiced="true"/>
+			<phoneme name="k_soft" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="p_soft" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="t_soft" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="EI_loud" manner="long_vowel" voiced="true"/>
+			<phoneme name="aU_loud" manner="long_vowel" voiced="true"/>
+			<phoneme name="aI_loud" manner="long_vowel" voiced="true"/>
+			<phoneme name="OY_loud" manner="long_vowel" voiced="true"/>
+			<phoneme name="a:_loud" manner="long_vowel" voiced="true"/>
+			<phoneme name="o:_loud" manner="long_vowel" voiced="true"/>
+			<phoneme name="2:_loud" manner="long_vowel" voiced="true"/>
+			<phoneme name="E:_loud" manner="long_vowel" voiced="true"/>
+			<phoneme name="y:_loud" manner="long_vowel" voiced="true"/>
+			<phoneme name="u:_loud" manner="long_vowel" voiced="true"/>
+			<phoneme name="i:_loud" manner="long_vowel" voiced="true"/>
+			<phoneme name="e:_loud" manner="long_vowel" voiced="true"/>
+			<phoneme name="a_loud" manner="short_vowel" voiced="true"/>
+			<phoneme name="I_loud" manner="short_vowel" voiced="true"/>
+			<phoneme name="E_loud" manner="short_vowel" voiced="true"/>
+			<phoneme name="Y_loud" manner="short_vowel" voiced="true"/>
+			<phoneme name="U_loud" manner="short_vowel" voiced="true"/>
+			<phoneme name="O_loud" manner="short_vowel" voiced="true"/>
+			<phoneme name="9_loud" manner="short_vowel" voiced="true"/>
+			<phoneme name="6_loud" manner="short_vowel" voiced="true"/>
+			<phoneme name="@_loud" manner="short_vowel" voiced="true"/>
+			<phoneme name="E^_loud" manner="short_vowel" voiced="true"/>
+			<phoneme name="a^_loud" manner="short_vowel" voiced="true"/>
+			<phoneme name="9^_loud" manner="short_vowel" voiced="true"/>
+			<phoneme name="o^_loud" manner="short_vowel" voiced="true"/>
+			<phoneme name="E~_loud" manner="short_vowel" voiced="true"/>
+			<phoneme name="a~_loud" manner="short_vowel" voiced="true"/>
+			<phoneme name="e~_loud" manner="short_vowel" voiced="true"/>
+			<phoneme name="9~_loud" manner="short_vowel" voiced="true"/>
+			<phoneme name="o~_loud" manner="short_vowel" voiced="true"/>
+			<phoneme name="l_loud" manner="approximant" voiced="true"/>
+			<phoneme name="R_loud" manner="approximant" voiced="true"/>
+			<phoneme name="r_loud" manner="approximant" voiced="true"/>
+			<phoneme name="w_loud" manner="approximant" voiced="true"/>
+			<phoneme name="j_loud" manner="approximant" voiced="true"/>
+			<phoneme name="m_loud" manner="nasal" voiced="true"/>
+			<phoneme name="n_loud" manner="nasal" voiced="true"/>
+			<phoneme name="N_loud" manner="nasal" voiced="true"/>
+			<phoneme name="D_loud" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="z_loud" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="v_loud" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="pf_loud" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="ts_loud" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="tS_loud" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="T_loud" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="S_loud" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="h_loud" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="C_loud" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="s_loud" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="x_loud" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="f_loud" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="b_loud" manner="stop_voiced" voiced="true"/>
+			<phoneme name="d_loud" manner="stop_voiced" voiced="true"/>
+			<phoneme name="g_loud" manner="stop_voiced" voiced="true"/>
+			<phoneme name="k_loud" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="p_loud" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="t_loud" manner="stop_voiceless" voiced="false"/>
+		</phonemes>
+	</language>
+	<language name="de7" male="false" locale="de">
+		<description>German female voice with three voicequalities, 
+            22kHz</description>
+		<voiceQuality multiple="true"/>
+		<replacements>
+			<replacement central="6" decentral="a:"/>
+			<replacement central="E" decentral="e:"/>
+			<replacement central="I" decentral="i:"/>
+			<replacement central="O" decentral="o:"/>
+			<replacement central="U" decentral="u:"/>
+			<replacement central="9" decentral="2:"/>
+			<replacement central="Y" decentral="y:"/>
+			<replacement central="@" decentral="E:"/>
+		</replacements>
+		<phonemes>
+			<phoneme name="EI" manner="long_vowel" voiced="true"/>
+			<phoneme name="aU" manner="long_vowel" voiced="true"/>
+			<phoneme name="aI" manner="long_vowel" voiced="true"/>
+			<phoneme name="OY" manner="long_vowel" voiced="true"/>
+			<phoneme name="a:" manner="long_vowel" voiced="true"/>
+			<phoneme name="o:" manner="long_vowel" voiced="true"/>
+			<phoneme name="2:" manner="long_vowel" voiced="true"/>
+			<phoneme name="E:" manner="long_vowel" voiced="true"/>
+			<phoneme name="u:" manner="long_vowel" voiced="true"/>
+			<phoneme name="i:" manner="long_vowel" voiced="true"/>
+			<phoneme name="y:" manner="long_vowel" voiced="true"/>
+			<phoneme name="e:" manner="long_vowel" voiced="true"/>
+			<phoneme name="a" manner="short_vowel" voiced="true"/>
+			<phoneme name="I" manner="short_vowel" voiced="true"/>
+			<phoneme name="E" manner="short_vowel" voiced="true"/>
+			<phoneme name="Y" manner="short_vowel" voiced="true"/>
+			<phoneme name="U" manner="short_vowel" voiced="true"/>
+			<phoneme name="O" manner="short_vowel" voiced="true"/>
+			<phoneme name="9" manner="short_vowel" voiced="true"/>
+			<phoneme name="6" manner="short_vowel" voiced="true"/>
+			<phoneme name="@" manner="short_vowel" voiced="true"/>
+			<phoneme name="E^" manner="short_vowel" voiced="true"/>
+			<phoneme name="a^" manner="short_vowel" voiced="true"/>
+			<phoneme name="9^" manner="short_vowel" voiced="true"/>
+			<phoneme name="o^" manner="short_vowel" voiced="true"/>
+			<phoneme name="E~" manner="short_vowel" voiced="true"/>
+			<phoneme name="a~" manner="short_vowel" voiced="true"/>
+			<phoneme name="e~" manner="short_vowel" voiced="true"/>
+			<phoneme name="9~" manner="short_vowel" voiced="true"/>
+			<phoneme name="o~" manner="short_vowel" voiced="true"/>
+			<phoneme name="l" manner="approximant" voiced="true"/>
+			<phoneme name="R" manner="approximant" voiced="true"/>
+			<phoneme name="r" manner="approximant" voiced="true"/>
+			<phoneme name="j" manner="approximant" voiced="true"/>
+			<phoneme name="w" manner="approximant" voiced="true"/>
+			<phoneme name="m" manner="nasal" voiced="true"/>
+			<phoneme name="n" manner="nasal" voiced="true"/>
+			<phoneme name="N" manner="nasal" voiced="true"/>
+			<phoneme name="D" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="z" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="v" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="pf" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="ts" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="tS" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="T" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="S" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="h" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="C" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="s" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="x" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="f" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="b" manner="stop_voiced" voiced="true"/>
+			<phoneme name="d" manner="stop_voiced" voiced="true"/>
+			<phoneme name="g" manner="stop_voiced" voiced="true"/>
+			<phoneme name="k" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="p" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="t" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="?" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="_" manner="silence" voiced="false"/>
+			<phoneme name="EI_soft" manner="long_vowel" voiced="true"/>
+			<phoneme name="aU_soft" manner="long_vowel" voiced="true"/>
+			<phoneme name="aI_soft" manner="long_vowel" voiced="true"/>
+			<phoneme name="OY_soft" manner="long_vowel" voiced="true"/>
+			<phoneme name="a:_soft" manner="long_vowel" voiced="true"/>
+			<phoneme name="o:_soft" manner="long_vowel" voiced="true"/>
+			<phoneme name="2:_soft" manner="long_vowel" voiced="true"/>
+			<phoneme name="E:_soft" manner="long_vowel" voiced="true"/>
+			<phoneme name="y:_soft" manner="long_vowel" voiced="true"/>
+			<phoneme name="u:_soft" manner="long_vowel" voiced="true"/>
+			<phoneme name="i:_soft" manner="long_vowel" voiced="true"/>
+			<phoneme name="e:_soft" manner="long_vowel" voiced="true"/>
+			<phoneme name="a_soft" manner="short_vowel" voiced="true"/>
+			<phoneme name="I_soft" manner="short_vowel" voiced="true"/>
+			<phoneme name="E_soft" manner="short_vowel" voiced="true"/>
+			<phoneme name="Y_soft" manner="short_vowel" voiced="true"/>
+			<phoneme name="U_soft" manner="short_vowel" voiced="true"/>
+			<phoneme name="O_soft" manner="short_vowel" voiced="true"/>
+			<phoneme name="9_soft" manner="short_vowel" voiced="true"/>
+			<phoneme name="6_soft" manner="short_vowel" voiced="true"/>
+			<phoneme name="@_soft" manner="short_vowel" voiced="true"/>
+			<phoneme name="E^_soft" manner="short_vowel" voiced="true"/>
+			<phoneme name="a^_soft" manner="short_vowel" voiced="true"/>
+			<phoneme name="9^_soft" manner="short_vowel" voiced="true"/>
+			<phoneme name="o^_soft" manner="short_vowel" voiced="true"/>
+			<phoneme name="E~_soft" manner="short_vowel" voiced="true"/>
+			<phoneme name="a~_soft" manner="short_vowel" voiced="true"/>
+			<phoneme name="e~_soft" manner="short_vowel" voiced="true"/>
+			<phoneme name="9~_soft" manner="short_vowel" voiced="true"/>
+			<phoneme name="o~_soft" manner="short_vowel" voiced="true"/>
+			<phoneme name="l_soft" manner="approximant" voiced="true"/>
+			<phoneme name="R_soft" manner="approximant" voiced="true"/>
+			<phoneme name="r_soft" manner="approximant" voiced="true"/>
+			<phoneme name="j_soft" manner="approximant" voiced="true"/>
+			<phoneme name="w_soft" manner="approximant" voiced="true"/>
+			<phoneme name="m_soft" manner="nasal" voiced="true"/>
+			<phoneme name="n_soft" manner="nasal" voiced="true"/>
+			<phoneme name="N_soft" manner="nasal" voiced="true"/>
+			<phoneme name="D_soft" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="z_soft" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="v_soft" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="pf_soft" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="ts_soft" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="tS_soft" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="T_soft" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="S_soft" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="h_soft" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="C_soft" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="s_soft" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="x_soft" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="f_soft" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="b_soft" manner="stop_voiced" voiced="true"/>
+			<phoneme name="d_soft" manner="stop_voiced" voiced="true"/>
+			<phoneme name="g_soft" manner="stop_voiced" voiced="true"/>
+			<phoneme name="k_soft" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="p_soft" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="t_soft" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="EI_loud" manner="long_vowel" voiced="true"/>
+			<phoneme name="aU_loud" manner="long_vowel" voiced="true"/>
+			<phoneme name="aI_loud" manner="long_vowel" voiced="true"/>
+			<phoneme name="OY_loud" manner="long_vowel" voiced="true"/>
+			<phoneme name="a:_loud" manner="long_vowel" voiced="true"/>
+			<phoneme name="o:_loud" manner="long_vowel" voiced="true"/>
+			<phoneme name="2:_loud" manner="long_vowel" voiced="true"/>
+			<phoneme name="E:_loud" manner="long_vowel" voiced="true"/>
+			<phoneme name="y:_loud" manner="long_vowel" voiced="true"/>
+			<phoneme name="u:_loud" manner="long_vowel" voiced="true"/>
+			<phoneme name="i:_loud" manner="long_vowel" voiced="true"/>
+			<phoneme name="e:_loud" manner="long_vowel" voiced="true"/>
+			<phoneme name="a_loud" manner="short_vowel" voiced="true"/>
+			<phoneme name="I_loud" manner="short_vowel" voiced="true"/>
+			<phoneme name="E_loud" manner="short_vowel" voiced="true"/>
+			<phoneme name="Y_loud" manner="short_vowel" voiced="true"/>
+			<phoneme name="U_loud" manner="short_vowel" voiced="true"/>
+			<phoneme name="O_loud" manner="short_vowel" voiced="true"/>
+			<phoneme name="9_loud" manner="short_vowel" voiced="true"/>
+			<phoneme name="6_loud" manner="short_vowel" voiced="true"/>
+			<phoneme name="@_loud" manner="short_vowel" voiced="true"/>
+			<phoneme name="E^_loud" manner="short_vowel" voiced="true"/>
+			<phoneme name="a^_loud" manner="short_vowel" voiced="true"/>
+			<phoneme name="9^_loud" manner="short_vowel" voiced="true"/>
+			<phoneme name="o^_loud" manner="short_vowel" voiced="true"/>
+			<phoneme name="E~_loud" manner="short_vowel" voiced="true"/>
+			<phoneme name="a~_loud" manner="short_vowel" voiced="true"/>
+			<phoneme name="e~_loud" manner="short_vowel" voiced="true"/>
+			<phoneme name="9~_loud" manner="short_vowel" voiced="true"/>
+			<phoneme name="o~_loud" manner="short_vowel" voiced="true"/>
+			<phoneme name="l_loud" manner="approximant" voiced="true"/>
+			<phoneme name="R_loud" manner="approximant" voiced="true"/>
+			<phoneme name="r_loud" manner="approximant" voiced="true"/>
+			<phoneme name="w_loud" manner="approximant" voiced="true"/>
+			<phoneme name="j_loud" manner="approximant" voiced="true"/>
+			<phoneme name="m_loud" manner="nasal" voiced="true"/>
+			<phoneme name="n_loud" manner="nasal" voiced="true"/>
+			<phoneme name="N_loud" manner="nasal" voiced="true"/>
+			<phoneme name="D_loud" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="z_loud" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="v_loud" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="pf_loud" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="ts_loud" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="tS_loud" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="T_loud" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="S_loud" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="h_loud" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="C_loud" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="s_loud" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="x_loud" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="f_loud" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="b_loud" manner="stop_voiced" voiced="true"/>
+			<phoneme name="d_loud" manner="stop_voiced" voiced="true"/>
+			<phoneme name="g_loud" manner="stop_voiced" voiced="true"/>
+			<phoneme name="k_loud" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="p_loud" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="t_loud" manner="stop_voiceless" voiced="false"/>
+		</phonemes>
+	</language>
+	<language name="en1" male="true" locale="en">
+		<description>English male voice derived from Roger-voice from festival 
+            </description>
+		<replacements>
+			<replacement central="I" decentral="i:"/>
+			<replacement central="{" decentral="A:"/>
+			<replacement central="U" decentral="u:"/>
+			<replacement central="Q" decentral="O:"/>
+			<replacement central="e" decentral="3:"/>
+		</replacements>
+		<phonemes>
+			<!-- diphtongs -->
+			<phoneme name="eI" manner="long_vowel" voiced="true"/>
+			<phoneme name="aI" manner="long_vowel" voiced="true"/>
+			<phoneme name="OI" manner="long_vowel" voiced="true"/>
+			<phoneme name="@U" manner="long_vowel" voiced="true"/>
+			<phoneme name="aU" manner="long_vowel" voiced="true"/>
+			<phoneme name="I@" manner="long_vowel" voiced="true"/>
+			<phoneme name="e@" manner="long_vowel" voiced="true"/>
+			<phoneme name="U@" manner="long_vowel" voiced="true"/>
+			<!-- long vowels -->
+			<phoneme name="i:" manner="long_vowel" voiced="true"/>
+			<phoneme name="a:" manner="long_vowel" voiced="true"/>
+			<phoneme name="e:" manner="long_vowel" voiced="true"/>
+			<phoneme name="A:" manner="long_vowel" voiced="true"/>
+			<phoneme name="O:" manner="long_vowel" voiced="true"/>
+			<phoneme name="u:" manner="long_vowel" voiced="true"/>
+			<phoneme name="3:" manner="long_vowel" voiced="true"/>
+			<!-- short vowels -->
+			<phoneme name="O" manner="short_vowel" voiced="true"/>
+			<phoneme name="E" manner="short_vowel" voiced="true"/>
+			<phoneme name="a" manner="short_vowel" voiced="true"/>
+			<phoneme name="I" manner="short_vowel" voiced="true"/>
+			<phoneme name="e" manner="short_vowel" voiced="true"/>
+			<phoneme name="{" manner="short_vowel" voiced="true"/>
+			<phoneme name="V" manner="short_vowel" voiced="true"/>
+			<phoneme name="Q" manner="short_vowel" voiced="true"/>
+			<phoneme name="U" manner="short_vowel" voiced="true"/>
+			<phoneme name="@" manner="short_vowel" voiced="true"/>
+			<phoneme name="6" manner="short_vowel" voiced="true"/>
+			<!-- approximants -->
+			<phoneme name="l" manner="approximant" voiced="true"/>
+			<phoneme name="R" manner="approximant" voiced="true"/>
+			<phoneme name="r" manner="approximant" voiced="true"/>
+			<phoneme name="w" manner="approximant" voiced="true"/>
+			<phoneme name="j" manner="approximant" voiced="true"/>
+			<!-- nasals -->
+			<phoneme name="m" manner="nasal" voiced="true"/>
+			<phoneme name="n" manner="nasal" voiced="true"/>
+			<phoneme name="N" manner="nasal" voiced="true"/>
+			<!-- voiced fricatives -->
+			<phoneme name="dZ" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="D" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="Z" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="z" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="v" manner="fricative_voiced" voiced="true"/>
+			<!-- voiceless fricatives -->
+			<phoneme name="tS" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="S" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="T" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="h" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="C" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="s" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="x" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="f" manner="fricative_voiceless" voiced="false"/>
+			<!-- voiced stops -->
+			<phoneme name="b" manner="stop_voiced" voiced="true"/>
+			<phoneme name="d" manner="stop_voiced" voiced="true"/>
+			<phoneme name="g" manner="stop_voiced" voiced="true"/>
+			<!-- voiceless stops -->
+			<phoneme name="k" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="p" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="t" manner="stop_voiceless" voiced="false"/>
+			<!-- silence -->
+			<phoneme name="_" manner="silence" voiced="false"/>
+		</phonemes>
+	</language>
+	<language name="us1" male="true" locale="en_US">
+		<description>English male voice derived from Roger-voice from festival 
+            </description>
+		<replacements>
+			<replacement central="I" decentral="i:"/>
+			<replacement central="{" decentral="A:"/>
+			<replacement central="U" decentral="u:"/>
+			<replacement central="Q" decentral="O:"/>
+			<replacement central="e" decentral="3:"/>
+		</replacements>
+		<phonemes>
+			<!-- diphtongs -->
+			<phoneme name="EI" manner="long_vowel" voiced="true"/>
+			<phoneme name="AI" manner="long_vowel" voiced="true"/>
+			<phoneme name="OI" manner="long_vowel" voiced="true"/>
+			<phoneme name="@U" manner="long_vowel" voiced="true"/>
+			<phoneme name="aU" manner="long_vowel" voiced="true"/>
+			<phoneme name="I@" manner="long_vowel" voiced="true"/>
+			<phoneme name="e@" manner="long_vowel" voiced="true"/>
+			<phoneme name="U@" manner="long_vowel" voiced="true"/>
+			<!-- long vowels -->
+			<phoneme name="i" manner="long_vowel" voiced="true"/>
+			<phoneme name="a" manner="long_vowel" voiced="true"/>
+			<phoneme name="e" manner="long_vowel" voiced="true"/>
+			<phoneme name="A" manner="long_vowel" voiced="true"/>
+			<phoneme name="O:" manner="long_vowel" voiced="true"/>
+			<phoneme name="u" manner="long_vowel" voiced="true"/>
+			<phoneme name="3" manner="long_vowel" voiced="true"/>
+			<!-- short vowels -->
+			<phoneme name="O" manner="short_vowel" voiced="true"/>
+			<phoneme name="E" manner="short_vowel" voiced="true"/>
+			<phoneme name="a" manner="short_vowel" voiced="true"/>
+			<phoneme name="I" manner="short_vowel" voiced="true"/>
+			<phoneme name="e" manner="short_vowel" voiced="true"/>
+			<phoneme name="{" manner="short_vowel" voiced="true"/>
+			<phoneme name="V" manner="short_vowel" voiced="true"/>
+			<phoneme name="Q" manner="short_vowel" voiced="true"/>
+			<phoneme name="U" manner="short_vowel" voiced="true"/>
+			<phoneme name="@" manner="short_vowel" voiced="true"/>
+			<phoneme name="6" manner="short_vowel" voiced="true"/>
+			<!-- approximants -->
+			<phoneme name="l" manner="approximant" voiced="true"/>
+			<phoneme name="R" manner="approximant" voiced="true"/>
+			<phoneme name="r" manner="approximant" voiced="true"/>
+			<phoneme name="r=" manner="approximant" voiced="true"/>
+			<phoneme name="w" manner="approximant" voiced="true"/>
+			<phoneme name="j" manner="approximant" voiced="true"/>
+			<!-- nasals -->
+			<phoneme name="m" manner="nasal" voiced="true"/>
+			<phoneme name="n" manner="nasal" voiced="true"/>
+			<phoneme name="N" manner="nasal" voiced="true"/>
+			<!-- voiced fricatives -->
+			<phoneme name="dZ" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="D" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="Z" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="z" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="v" manner="fricative_voiced" voiced="true"/>
+			<!-- voiceless fricatives -->
+			<phoneme name="tS" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="S" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="T" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="h" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="C" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="s" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="x" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="f" manner="fricative_voiceless" voiced="false"/>
+			<!-- voiced stops -->
+			<phoneme name="b" manner="stop_voiced" voiced="true"/>
+			<phoneme name="d" manner="stop_voiced" voiced="true"/>
+			<phoneme name="g" manner="stop_voiced" voiced="true"/>
+			<!-- voiceless stops -->
+			<phoneme name="k" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="p" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="t" manner="stop_voiceless" voiced="false"/>
+			<!-- silence -->
+			<phoneme name="_" manner="silence" voiced="false"/>
+		</phonemes>
+	</language>
+	<language name="us2" male="true" locale="en_US">
+		<description>English male voice derived from Roger-voice from festival 
+            </description>
+		<replacements>
+			<replacement central="I" decentral="i:"/>
+			<replacement central="{" decentral="A:"/>
+			<replacement central="U" decentral="u:"/>
+			<replacement central="Q" decentral="O:"/>
+			<replacement central="e" decentral="3:"/>
+		</replacements>
+		<phonemes>
+			<!-- diphtongs -->
+			<phoneme name="EI" manner="long_vowel" voiced="true"/>
+			<phoneme name="AI" manner="long_vowel" voiced="true"/>
+			<phoneme name="OI" manner="long_vowel" voiced="true"/>
+			<phoneme name="@U" manner="long_vowel" voiced="true"/>
+			<phoneme name="aU" manner="long_vowel" voiced="true"/>
+			<phoneme name="I@" manner="long_vowel" voiced="true"/>
+			<phoneme name="e@" manner="long_vowel" voiced="true"/>
+			<phoneme name="U@" manner="long_vowel" voiced="true"/>
+			<!-- long vowels -->
+			<phoneme name="i" manner="long_vowel" voiced="true"/>
+			<phoneme name="a" manner="long_vowel" voiced="true"/>
+			<phoneme name="e" manner="long_vowel" voiced="true"/>
+			<phoneme name="A" manner="long_vowel" voiced="true"/>
+			<phoneme name="O:" manner="long_vowel" voiced="true"/>
+			<phoneme name="u" manner="long_vowel" voiced="true"/>
+			<phoneme name="3" manner="long_vowel" voiced="true"/>
+			<!-- short vowels -->
+			<phoneme name="O" manner="short_vowel" voiced="true"/>
+			<phoneme name="E" manner="short_vowel" voiced="true"/>
+			<phoneme name="a" manner="short_vowel" voiced="true"/>
+			<phoneme name="I" manner="short_vowel" voiced="true"/>
+			<phoneme name="e" manner="short_vowel" voiced="true"/>
+			<phoneme name="{" manner="short_vowel" voiced="true"/>
+			<phoneme name="V" manner="short_vowel" voiced="true"/>
+			<phoneme name="Q" manner="short_vowel" voiced="true"/>
+			<phoneme name="U" manner="short_vowel" voiced="true"/>
+			<phoneme name="@" manner="short_vowel" voiced="true"/>
+			<phoneme name="6" manner="short_vowel" voiced="true"/>
+			<!-- approximants -->
+			<phoneme name="l" manner="approximant" voiced="true"/>
+			<phoneme name="R" manner="approximant" voiced="true"/>
+			<phoneme name="r" manner="approximant" voiced="true"/>
+			<phoneme name="r=" manner="approximant" voiced="true"/>
+			<phoneme name="w" manner="approximant" voiced="true"/>
+			<phoneme name="j" manner="approximant" voiced="true"/>
+			<!-- nasals -->
+			<phoneme name="m" manner="nasal" voiced="true"/>
+			<phoneme name="n" manner="nasal" voiced="true"/>
+			<phoneme name="N" manner="nasal" voiced="true"/>
+			<!-- voiced fricatives -->
+			<phoneme name="dZ" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="D" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="Z" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="z" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="v" manner="fricative_voiced" voiced="true"/>
+			<!-- voiceless fricatives -->
+			<phoneme name="tS" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="S" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="T" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="h" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="C" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="s" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="x" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="f" manner="fricative_voiceless" voiced="false"/>
+			<!-- voiced stops -->
+			<phoneme name="b" manner="stop_voiced" voiced="true"/>
+			<phoneme name="d" manner="stop_voiced" voiced="true"/>
+			<phoneme name="g" manner="stop_voiced" voiced="true"/>
+			<!-- voiceless stops -->
+			<phoneme name="k" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="p" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="t" manner="stop_voiceless" voiced="false"/>
+			<!-- silence -->
+			<phoneme name="_" manner="silence" voiced="false"/>
+		</phonemes>
+	</language>
+	<language name="us3" male="true" locale="en_US">
+		<description>English male voice derived from Roger-voice from festival 
+            </description>
+		<replacements>
+			<replacement central="I" decentral="i"/>
+			<replacement central="{" decentral="A"/>
+			<replacement central="U" decentral="u"/>
+		</replacements>
+		<phonemes>
+			<!-- diphtongs -->
+			<phoneme name="EI" manner="long_vowel" voiced="true"/>
+			<phoneme name="AI" manner="long_vowel" voiced="true"/>
+			<phoneme name="OI" manner="long_vowel" voiced="true"/>
+			<phoneme name="@U" manner="long_vowel" voiced="true"/>
+			<phoneme name="aU" manner="long_vowel" voiced="true"/>
+			<!-- long vowels -->
+			<phoneme name="i" manner="long_vowel" voiced="true"/>
+			<phoneme name="A" manner="long_vowel" voiced="true"/>
+			<phoneme name="u" manner="long_vowel" voiced="true"/>
+			<!-- short vowels -->
+			<phoneme name="O" manner="short_vowel" voiced="true"/>
+			<phoneme name="I" manner="short_vowel" voiced="true"/>
+			<phoneme name="E" manner="short_vowel" voiced="true"/>
+			<phoneme name="{" manner="short_vowel" voiced="true"/>
+			<phoneme name="V" manner="short_vowel" voiced="true"/>
+			<phoneme name="U" manner="short_vowel" voiced="true"/>
+			<phoneme name="@" manner="short_vowel" voiced="true"/>
+			<!-- approximants -->
+			<phoneme name="l" manner="approximant" voiced="true"/>
+			<phoneme name="l=" manner="approximant" voiced="true"/>
+			<phoneme name="r" manner="approximant" voiced="true"/>
+			<phoneme name="r=" manner="approximant" voiced="true"/>
+			<phoneme name="w" manner="approximant" voiced="true"/>
+			<phoneme name="j" manner="approximant" voiced="true"/>
+			<!-- nasals -->
+			<phoneme name="m" manner="nasal" voiced="true"/>
+			<phoneme name="n" manner="nasal" voiced="true"/>
+			<phoneme name="N" manner="nasal" voiced="true"/>
+			<!-- voiced fricatives -->
+			<phoneme name="dZ" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="D" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="Z" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="z" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="v" manner="fricative_voiced" voiced="true"/>
+			<!-- voiceless fricatives -->
+			<phoneme name="tS" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="S" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="T" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="h" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="s" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="f" manner="fricative_voiceless" voiced="false"/>
+			<!-- voiced stops -->
+			<phoneme name="b" manner="stop_voiced" voiced="true"/>
+			<phoneme name="d" manner="stop_voiced" voiced="true"/>
+			<phoneme name="g" manner="stop_voiced" voiced="true"/>
+			<!-- voiceless stops -->
+			<phoneme name="k" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="p" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="t" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="4" manner="stop_voiceless" voiced="false"/>
+
+			<!-- silence -->
+			<phoneme name="_" manner="silence" voiced="false"/>
+		</phonemes>
+	</language>
+	<language name="fr1" male="true" locale="fr">
+		<description>&lt;html&gt;French male voice derived from Thierry 
+            Dutoit,&lt;br&gt; author of MBROLA&lt;/html&gt;</description>
+		<replacements>
+			<replacement central="A" decentral="a"/>
+			<replacement central="O" decentral="o"/>
+			<replacement central="9" decentral="2"/>
+			<replacement central="@" decentral="E"/>
+			<replacement central="@" decentral="e"/>
+		</replacements>
+		<phonemes>
+			<!-- diphtongs -->
+			<!-- long vowels -->
+			<phoneme name="a" manner="long_vowel" voiced="true"/>
+			<phoneme name="i" manner="long_vowel" voiced="true"/>
+			<phoneme name="e" manner="long_vowel" voiced="true"/>
+			<phoneme name="o" manner="long_vowel" voiced="true"/>
+			<phoneme name="E" manner="long_vowel" voiced="true"/>
+			<phoneme name="u" manner="long_vowel" voiced="true"/>
+			<phoneme name="y" manner="long_vowel" voiced="true"/>
+			<phoneme name="2" manner="long_vowel" voiced="true"/>
+			<!-- short vowels -->
+			<phoneme name="A" manner="short_vowel" voiced="true"/>
+			<phoneme name="O" manner="short_vowel" voiced="true"/>
+			<phoneme name="9" manner="short_vowel" voiced="true"/>
+			<phoneme name="@" manner="short_vowel" voiced="true"/>
+			<phoneme name="e~" manner="short_vowel" voiced="true"/>
+			<phoneme name="a~" manner="short_vowel" voiced="true"/>
+			<phoneme name="o~" manner="short_vowel" voiced="true"/>
+			<phoneme name="9~" manner="short_vowel" voiced="true"/>
+			<!-- approximants -->
+			<phoneme name="l" manner="approximant" voiced="true"/>
+			<phoneme name="R" manner="approximant" voiced="true"/>
+			<phoneme name="w" manner="approximant" voiced="true"/>
+			<phoneme name="j" manner="approximant" voiced="true"/>
+			<!-- nasals -->
+			<phoneme name="m" manner="nasal" voiced="true"/>
+			<phoneme name="n" manner="nasal" voiced="true"/>
+			<phoneme name="N" manner="nasal" voiced="true"/>
+			<!-- voiced fricatives -->
+			<phoneme name="v" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="z" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="Z" manner="fricative_voiced" voiced="true"/>
+			<!-- voiceless fricatives -->
+			<phoneme name="S" manner="fricative_voiceless" voiced="true"/>
+			<phoneme name="H" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="s" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="f" manner="fricative_voiceless" voiced="false"/>
+			<!-- voiced stops -->
+			<phoneme name="b" manner="stop_voiced" voiced="true"/>
+			<phoneme name="d" manner="stop_voiced" voiced="true"/>
+			<phoneme name="g" manner="stop_voiced" voiced="true"/>
+			<!-- voiceless stops -->
+			<phoneme name="k" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="p" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="t" manner="stop_voiceless" voiced="false"/>
+			<!-- silence -->
+			<phoneme name="_" manner="silence" voiced="false"/>
+		</phonemes>
+	</language>
+	<language name="fr2" male="false" locale="fr">
+		<description>&lt;html&gt;This database  was recorded by  Celine Egea, &lt;br&gt;59r du Bas-marais, F59880
+Saint Saulve, France. &lt;br&gt;  For questions concerning the   database itself
+contact &lt;br&gt;egea@univ-valenciennes.fr 
+&lt;/html&gt;</description>
+		<replacements>
+			<replacement central="A" decentral="a"/>
+			<replacement central="O" decentral="o"/>
+			<replacement central="9" decentral="2"/>
+			<replacement central="@" decentral="E"/>
+			<replacement central="@" decentral="e"/>
+		</replacements>
+		<phonemes>
+			<!-- diphtongs -->
+			<!-- long vowels -->
+			<phoneme name="a" manner="long_vowel" voiced="true"/>
+			<phoneme name="i" manner="long_vowel" voiced="true"/>
+			<phoneme name="e" manner="long_vowel" voiced="true"/>
+			<phoneme name="o" manner="long_vowel" voiced="true"/>
+			<phoneme name="E" manner="long_vowel" voiced="true"/>
+			<phoneme name="u" manner="long_vowel" voiced="true"/>
+			<phoneme name="y" manner="long_vowel" voiced="true"/>
+			<phoneme name="2" manner="long_vowel" voiced="true"/>
+			<phoneme name="9" manner="long_vowel" voiced="true"/>
+			<!-- short vowels -->
+			<phoneme name="A" manner="short_vowel" voiced="true"/>
+			<phoneme name="O" manner="short_vowel" voiced="true"/>
+			<phoneme name="9" manner="short_vowel" voiced="true"/>
+			<phoneme name="@" manner="short_vowel" voiced="true"/>
+			<phoneme name="e~" manner="short_vowel" voiced="true"/>
+			<phoneme name="a~" manner="short_vowel" voiced="true"/>
+			<phoneme name="o~" manner="short_vowel" voiced="true"/>
+			<phoneme name="9~" manner="short_vowel" voiced="true"/>
+			<phoneme name="9" manner="shprt_vowel" voiced="true"/>
+			<phoneme name="@" manner="short_vowel" voiced="true"/>
+			<!-- approximants -->
+			<phoneme name="l" manner="approximant" voiced="true"/>
+			<phoneme name="R" manner="approximant" voiced="true"/>
+			<phoneme name="w" manner="approximant" voiced="true"/>
+			<phoneme name="j" manner="approximant" voiced="true"/>
+			<!-- nasals -->
+			<phoneme name="m" manner="nasal" voiced="true"/>
+			<phoneme name="n" manner="nasal" voiced="true"/>
+			<phoneme name="N" manner="nasal" voiced="true"/>
+			<!-- voiced fricatives -->
+			<phoneme name="v" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="z" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="Z" manner="fricative_voiced" voiced="true"/>
+			<!-- voiceless fricatives -->
+			<phoneme name="S" manner="fricative_voiceless" voiced="true"/>
+			<phoneme name="H" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="s" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="f" manner="fricative_voiceless" voiced="false"/>
+			<!-- voiced stops -->
+			<phoneme name="b" manner="stop_voiced" voiced="true"/>
+			<phoneme name="d" manner="stop_voiced" voiced="true"/>
+			<phoneme name="g" manner="stop_voiced" voiced="true"/>
+			<!-- voiceless stops -->
+			<phoneme name="k" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="p" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="t" manner="stop_voiceless" voiced="false"/>
+			<!-- silence -->
+			<phoneme name="_" manner="silence" voiced="false"/>
+		</phonemes>
+	</language>
+	<language name="fr3" male="true" locale="fr">
+		<description>&lt;html&gt;This  database was recorded by  Vincent  Pagel &lt;br&gt;for Babel Technologies
+SA.  &lt;br&gt;For  questions   concerning   the   database   itself    contact&lt;br&gt;
+pagel@babeltech.com 
+&lt;/html&gt;</description>
+		<replacements>
+			<replacement central="A" decentral="a"/>
+			<replacement central="O" decentral="o"/>
+			<replacement central="9" decentral="2"/>
+			<replacement central="@" decentral="E"/>
+			<replacement central="@" decentral="e"/>
+		</replacements>
+		<phonemes>
+			<!-- diphtongs -->
+			<!-- long vowels -->
+			<phoneme name="a" manner="long_vowel" voiced="true"/>
+			<phoneme name="i" manner="long_vowel" voiced="true"/>
+			<phoneme name="e" manner="long_vowel" voiced="true"/>
+			<phoneme name="o" manner="long_vowel" voiced="true"/>
+			<phoneme name="E" manner="long_vowel" voiced="true"/>
+			<phoneme name="u" manner="long_vowel" voiced="true"/>
+			<phoneme name="y" manner="long_vowel" voiced="true"/>
+			<phoneme name="2" manner="long_vowel" voiced="true"/>
+			<!-- short vowels -->
+			<phoneme name="A" manner="short_vowel" voiced="true"/>
+			<phoneme name="O" manner="short_vowel" voiced="true"/>
+			<phoneme name="9" manner="short_vowel" voiced="true"/>
+			<phoneme name="@" manner="short_vowel" voiced="true"/>
+			<phoneme name="e~" manner="short_vowel" voiced="true"/>
+			<phoneme name="a~" manner="short_vowel" voiced="true"/>
+			<phoneme name="o~" manner="short_vowel" voiced="true"/>
+			<phoneme name="9~" manner="short_vowel" voiced="true"/>
+			<phoneme name="9" manner="shprt_vowel" voiced="true"/>
+			<phoneme name="@" manner="short_vowel" voiced="true"/>
+			<!-- approximants -->
+			<phoneme name="l" manner="approximant" voiced="true"/>
+			<phoneme name="R" manner="approximant" voiced="true"/>
+			<phoneme name="w" manner="approximant" voiced="true"/>
+			<phoneme name="j" manner="approximant" voiced="true"/>
+			<!-- nasals -->
+			<phoneme name="m" manner="nasal" voiced="true"/>
+			<phoneme name="n" manner="nasal" voiced="true"/>
+			<phoneme name="N" manner="nasal" voiced="true"/>
+			<!-- voiced fricatives -->
+			<phoneme name="v" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="z" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="Z" manner="fricative_voiced" voiced="true"/>
+			<!-- voiceless fricatives -->
+			<phoneme name="S" manner="fricative_voiceless" voiced="true"/>
+			<phoneme name="H" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="s" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="f" manner="fricative_voiceless" voiced="false"/>
+			<!-- voiced stops -->
+			<phoneme name="b" manner="stop_voiced" voiced="true"/>
+			<phoneme name="d" manner="stop_voiced" voiced="true"/>
+			<phoneme name="g" manner="stop_voiced" voiced="true"/>
+			<!-- voiceless stops -->
+			<phoneme name="k" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="p" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="t" manner="stop_voiceless" voiced="false"/>
+			<!-- silence -->
+			<phoneme name="_" manner="silence" voiced="false"/>
+		</phonemes>
+	</language>
+	<language name="fr4" male="true" locale="fr">
+		<description>&lt;html&gt;French male voice derived from Thierry 
+            Dutoit,&lt;br&gt; author of MBROLA&lt;/html&gt;</description>
+		<replacements>
+			<replacement central="A" decentral="a"/>
+			<replacement central="O" decentral="o"/>
+			<replacement central="9" decentral="2"/>
+			<replacement central="@" decentral="E"/>
+			<replacement central="@" decentral="e"/>
+		</replacements>
+		<phonemes>
+			<!-- diphtongs -->
+			<!-- long vowels -->
+			<phoneme name="a" manner="long_vowel" voiced="true"/>
+			<phoneme name="i" manner="long_vowel" voiced="true"/>
+			<phoneme name="e" manner="long_vowel" voiced="true"/>
+			<phoneme name="o" manner="long_vowel" voiced="true"/>
+			<phoneme name="E" manner="long_vowel" voiced="true"/>
+			<phoneme name="u" manner="long_vowel" voiced="true"/>
+			<phoneme name="y" manner="long_vowel" voiced="true"/>
+			<phoneme name="2" manner="long_vowel" voiced="true"/>
+			<!-- short vowels -->
+			<phoneme name="A" manner="short_vowel" voiced="true"/>
+			<phoneme name="O" manner="short_vowel" voiced="true"/>
+			<phoneme name="9" manner="short_vowel" voiced="true"/>
+			<phoneme name="@" manner="short_vowel" voiced="true"/>
+			<phoneme name="e~" manner="short_vowel" voiced="true"/>
+			<phoneme name="a~" manner="short_vowel" voiced="true"/>
+			<phoneme name="o~" manner="short_vowel" voiced="true"/>
+			<phoneme name="9~" manner="short_vowel" voiced="true"/>
+			<!-- approximants -->
+			<phoneme name="l" manner="approximant" voiced="true"/>
+			<phoneme name="R" manner="approximant" voiced="true"/>
+			<phoneme name="w" manner="approximant" voiced="true"/>
+			<phoneme name="j" manner="approximant" voiced="true"/>
+			<!-- nasals -->
+			<phoneme name="m" manner="nasal" voiced="true"/>
+			<phoneme name="n" manner="nasal" voiced="true"/>
+			<phoneme name="N" manner="nasal" voiced="true"/>
+			<!-- voiced fricatives -->
+			<phoneme name="v" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="z" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="Z" manner="fricative_voiced" voiced="true"/>
+			<!-- voiceless fricatives -->
+			<phoneme name="S" manner="fricative_voiceless" voiced="true"/>
+			<phoneme name="H" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="s" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="f" manner="fricative_voiceless" voiced="false"/>
+			<!-- voiced stops -->
+			<phoneme name="b" manner="stop_voiced" voiced="true"/>
+			<phoneme name="d" manner="stop_voiced" voiced="true"/>
+			<phoneme name="g" manner="stop_voiced" voiced="true"/>
+			<!-- voiceless stops -->
+			<phoneme name="k" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="p" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="t" manner="stop_voiceless" voiced="false"/>
+			<!-- silence -->
+			<phoneme name="_" manner="silence" voiced="false"/>
+		</phonemes>
+	</language>
+	<language name="fr5" male="true" locale="fr">
+		<description>&lt;html&gt;French male voice derived from Thierry 
+            Dutoit,&lt;br&gt; author of MBROLA&lt;/html&gt;</description>
+		<replacements>
+			<replacement central="A" decentral="a"/>
+			<replacement central="O" decentral="o"/>
+			<replacement central="9" decentral="2"/>
+			<replacement central="@" decentral="E"/>
+			<replacement central="@" decentral="e"/>
+		</replacements>
+		<phonemes>
+			<!-- diphtongs -->
+			<!-- long vowels -->
+			<phoneme name="a" manner="long_vowel" voiced="true"/>
+			<phoneme name="i" manner="long_vowel" voiced="true"/>
+			<phoneme name="e" manner="long_vowel" voiced="true"/>
+			<phoneme name="o" manner="long_vowel" voiced="true"/>
+			<phoneme name="E" manner="long_vowel" voiced="true"/>
+			<phoneme name="u" manner="long_vowel" voiced="true"/>
+			<phoneme name="y" manner="long_vowel" voiced="true"/>
+			<phoneme name="2" manner="long_vowel" voiced="true"/>
+			<!-- short vowels -->
+			<phoneme name="A" manner="short_vowel" voiced="true"/>
+			<phoneme name="O" manner="short_vowel" voiced="true"/>
+			<phoneme name="9" manner="short_vowel" voiced="true"/>
+			<phoneme name="@" manner="short_vowel" voiced="true"/>
+			<phoneme name="e~" manner="short_vowel" voiced="true"/>
+			<phoneme name="a~" manner="short_vowel" voiced="true"/>
+			<phoneme name="o~" manner="short_vowel" voiced="true"/>
+			<phoneme name="9~" manner="short_vowel" voiced="true"/>
+			<!-- approximants -->
+			<phoneme name="l" manner="approximant" voiced="true"/>
+			<phoneme name="R" manner="approximant" voiced="true"/>
+			<phoneme name="w" manner="approximant" voiced="true"/>
+			<phoneme name="j" manner="approximant" voiced="true"/>
+			<!-- nasals -->
+			<phoneme name="m" manner="nasal" voiced="true"/>
+			<phoneme name="n" manner="nasal" voiced="true"/>
+			<phoneme name="N" manner="nasal" voiced="true"/>
+			<!-- voiced fricatives -->
+			<phoneme name="v" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="z" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="Z" manner="fricative_voiced" voiced="true"/>
+			<!-- voiceless fricatives -->
+			<phoneme name="S" manner="fricative_voiceless" voiced="true"/>
+			<phoneme name="H" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="s" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="f" manner="fricative_voiceless" voiced="false"/>
+			<!-- voiced stops -->
+			<phoneme name="b" manner="stop_voiced" voiced="true"/>
+			<phoneme name="d" manner="stop_voiced" voiced="true"/>
+			<phoneme name="g" manner="stop_voiced" voiced="true"/>
+			<!-- voiceless stops -->
+			<phoneme name="k" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="p" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="t" manner="stop_voiceless" voiced="false"/>
+			<!-- silence -->
+			<phoneme name="_" manner="silence" voiced="false"/>
+		</phonemes>
+	</language>
+	<language name="fr6" male="true" locale="fr">
+		<description>&lt;html&gt;French male voice derived from Thierry 
+            Dutoit,&lt;br&gt; author of MBROLA&lt;/html&gt;</description>
+		<replacements>
+			<replacement central="A" decentral="a"/>
+			<replacement central="O" decentral="o"/>
+			<replacement central="9" decentral="2"/>
+			<replacement central="@" decentral="E"/>
+			<replacement central="@" decentral="e"/>
+		</replacements>
+		<phonemes>
+			<!-- diphtongs -->
+			<!-- long vowels -->
+			<phoneme name="a" manner="long_vowel" voiced="true"/>
+			<phoneme name="i" manner="long_vowel" voiced="true"/>
+			<phoneme name="e" manner="long_vowel" voiced="true"/>
+			<phoneme name="o" manner="long_vowel" voiced="true"/>
+			<phoneme name="E" manner="long_vowel" voiced="true"/>
+			<phoneme name="u" manner="long_vowel" voiced="true"/>
+			<phoneme name="y" manner="long_vowel" voiced="true"/>
+			<phoneme name="2" manner="long_vowel" voiced="true"/>
+			<!-- short vowels -->
+			<phoneme name="A" manner="short_vowel" voiced="true"/>
+			<phoneme name="O" manner="short_vowel" voiced="true"/>
+			<phoneme name="9" manner="short_vowel" voiced="true"/>
+			<phoneme name="@" manner="short_vowel" voiced="true"/>
+			<phoneme name="e~" manner="short_vowel" voiced="true"/>
+			<phoneme name="a~" manner="short_vowel" voiced="true"/>
+			<phoneme name="o~" manner="short_vowel" voiced="true"/>
+			<phoneme name="9~" manner="short_vowel" voiced="true"/>
+			<!-- approximants -->
+			<phoneme name="l" manner="approximant" voiced="true"/>
+			<phoneme name="R" manner="approximant" voiced="true"/>
+			<phoneme name="w" manner="approximant" voiced="true"/>
+			<phoneme name="j" manner="approximant" voiced="true"/>
+			<!-- nasals -->
+			<phoneme name="m" manner="nasal" voiced="true"/>
+			<phoneme name="n" manner="nasal" voiced="true"/>
+			<phoneme name="N" manner="nasal" voiced="true"/>
+			<!-- voiced fricatives -->
+			<phoneme name="v" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="z" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="Z" manner="fricative_voiced" voiced="true"/>
+			<!-- voiceless fricatives -->
+			<phoneme name="S" manner="fricative_voiceless" voiced="true"/>
+			<phoneme name="H" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="s" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="f" manner="fricative_voiceless" voiced="false"/>
+			<!-- voiced stops -->
+			<phoneme name="b" manner="stop_voiced" voiced="true"/>
+			<phoneme name="d" manner="stop_voiced" voiced="true"/>
+			<phoneme name="g" manner="stop_voiced" voiced="true"/>
+			<!-- voiceless stops -->
+			<phoneme name="k" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="p" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="t" manner="stop_voiceless" voiced="false"/>
+			<!-- silence -->
+			<phoneme name="_" manner="silence" voiced="false"/>
+		</phonemes>
+	</language>
+	<language name="fr7" male="true" locale="fr">
+		<description>&lt;html&gt;French male voice derived from Thierry 
+            Dutoit,&lt;br&gt; author of MBROLA&lt;/html&gt;</description>
+		<replacements>
+			<replacement central="A" decentral="a"/>
+			<replacement central="O" decentral="o"/>
+			<replacement central="9" decentral="2"/>
+			<replacement central="@" decentral="E"/>
+			<replacement central="@" decentral="e"/>
+		</replacements>
+		<phonemes>
+			<!-- diphtongs -->
+			<!-- long vowels -->
+			<phoneme name="a" manner="long_vowel" voiced="true"/>
+			<phoneme name="i" manner="long_vowel" voiced="true"/>
+			<phoneme name="e" manner="long_vowel" voiced="true"/>
+			<phoneme name="o" manner="long_vowel" voiced="true"/>
+			<phoneme name="E" manner="long_vowel" voiced="true"/>
+			<phoneme name="u" manner="long_vowel" voiced="true"/>
+			<phoneme name="y" manner="long_vowel" voiced="true"/>
+			<phoneme name="2" manner="long_vowel" voiced="true"/>
+			<!-- short vowels -->
+			<phoneme name="A" manner="short_vowel" voiced="true"/>
+			<phoneme name="O" manner="short_vowel" voiced="true"/>
+			<phoneme name="9" manner="short_vowel" voiced="true"/>
+			<phoneme name="@" manner="short_vowel" voiced="true"/>
+			<phoneme name="e~" manner="short_vowel" voiced="true"/>
+			<phoneme name="a~" manner="short_vowel" voiced="true"/>
+			<phoneme name="o~" manner="short_vowel" voiced="true"/>
+			<phoneme name="9~" manner="short_vowel" voiced="true"/>
+			<!-- approximants -->
+			<phoneme name="l" manner="approximant" voiced="true"/>
+			<phoneme name="R" manner="approximant" voiced="true"/>
+			<phoneme name="w" manner="approximant" voiced="true"/>
+			<phoneme name="j" manner="approximant" voiced="true"/>
+			<!-- nasals -->
+			<phoneme name="m" manner="nasal" voiced="true"/>
+			<phoneme name="n" manner="nasal" voiced="true"/>
+			<phoneme name="N" manner="nasal" voiced="true"/>
+			<!-- voiced fricatives -->
+			<phoneme name="v" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="z" manner="fricative_voiced" voiced="true"/>
+			<phoneme name="Z" manner="fricative_voiced" voiced="true"/>
+			<!-- voiceless fricatives -->
+			<phoneme name="S" manner="fricative_voiceless" voiced="true"/>
+			<phoneme name="H" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="s" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="f" manner="fricative_voiceless" voiced="false"/>
+			<!-- voiced stops -->
+			<phoneme name="b" manner="stop_voiced" voiced="true"/>
+			<phoneme name="d" manner="stop_voiced" voiced="true"/>
+			<phoneme name="g" manner="stop_voiced" voiced="true"/>
+			<!-- voiceless stops -->
+			<phoneme name="k" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="p" manner="stop_voiceless" voiced="false"/>
+			<phoneme name="t" manner="stop_voiceless" voiced="false"/>
+			<!-- silence -->
+			<phoneme name="_" manner="silence" voiced="false"/>
+		</phonemes>
+	</language>
+</languages>

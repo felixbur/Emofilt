@@ -1,0 +1,13 @@
+name|vocalEffort
+label|vocal Effort
+type|phonation
+defaultType|normal
+typeLabel|effort
+tooltip|<html>Choose soft or loud diphone versions. Works only with voices de6 and de7!!!</html>
+button.tooltip|<html>Click the label to reset the values to default.<html>
+# Foreground color
+controlFG|White
+# Background color
+controlBG.red|20
+controlBG.green|20
+controlBG.blue|20

@@ -1,0 +1,183 @@
+<!--#include FILE="top.inc" -->
+<table width="100%" cellspacing="20">
+
+<tr>
+<td rowspan="5" width="30%" valign="top">
+Emofilt is an <a href="emofilt_software_user_agreement.txt">open
+source</a> program to simulate emotional arousal with speech synthesis based on the
+free-for-non-commercial-use <a href="http://tcts.fpms.ac.be/synthesis/mbrola/">MBROLA</a> synthesis engine.<br>
+It is NOT a complete text-to-speech system, but acts as a transformer between
+the <a href="http://tcts.fpms.ac.be/synthesis/mbrola/mbrtts.html">phonemisation</a> and the speech-generation component (see  fig. 3).
+So you need to have Mbrola installed in order to use emofilt AND a text-to-phoneme component for your language in order to have unrestricted text -to-speech!<br>
+Originally developed at the Technical University of Berlin in 1998 it was revived in 2005 as a source forge open-source project and completely rewritten in  the Java programming language.
+ <br>
+ It should run under every VM, it was tested with Linux (Suse 9), Mac (Os X 1.6) and Windows XP.
+ <br>
+Emofilt's language-dependent modules are controlled by external
+XML-files and it is as multilingual as <a
+href="http://tcts.fpms.ac.be/synthesis/mbrola/">MBROLA</a> which
+currently supports 35 languages.
+<p>
+There is an <a
+href="http://felix.syntheticspeech.de/publications/emofiltInterspeech05.pdf">article</a>
+ that describes emofilt.
+<p>
+You're welcome to use emofilt in your projects: if you do, please let me
+know to be included on the <a href="links.html">reference list</a>.
+<p>
+<font color="#ff0000"><b>NEW</b></font> added story tagger interface.
+<p>
+The emotional simulation is achieved by manipulationof the following aspects of a speech signal, constrained by the limitations that a diphone-concatenation approach presents (see fig. 4):
+<ul>
+<li>        Pitch changes
+<li>        Duration changes
+<li>        Voice Quality (simulation of Jitter and support of multiple-voice-quality database)
+<li>        Articulation (replacement of central / decentral vowels with their antagonists)
+</ul>
+<p>
+Emofilt consists of three main interfaces:
+<ul>
+<li>        Emofilt-Developer: a graphical editor for emotion-description XML-files with visual and acoustic feedback. (see fig 1)</li>
+<li>        A StoryTagger interface consisting of a text editor with the possibility to mark-up text with emotions (see fig. 2)</li>
+<li>        Emofilt itself, taking the emotion-description files as input to act as a filter in the <a href="http://tcts.fpms.ac.be/synthesis/mbrola/">MBROLA</a> framework.</li>
+</ul>
+<p>
+<b>features</b>
+<ul>
+<li><a href="http://emofilt.syntheticspeech.de/doc/emofilt/ModificationPlugin.html">pluggable</a> modification modules</li>
+<li>support for graded emotions</li>
+</ul>
+<p>
+<table>
+<tr><td colspan=6"><center><h3>Samples<h3></center></td></tr>
+<tr bgcolor="#bb8888"><th>descr.</th><th>neutr.</th><th>anger</th><th>joy</th><th>sad</th><th>fear</th></tr>
+
+<tr bgcolor="#bb8888">
+<td><img src="images/english.gif"><br>
+English male voice (en1)</td>
+<td> <a href="samples/emofiltMaleEnglish_neutral.mp3"  border="0"><img src="images/play.gif" alt="mp3"  border="0"></a> </td>
+<td><a href="samples/emofiltMaleEnglish_anger.mp3"  border="0"><img src="images/play.gif" alt="mp3"  border="0"></a></td>
+<td> <a href="samples/emofiltMaleEnglish_joy.mp3"  border="0"><img src="images/play.gif" alt="mp3"  border="0"></a></td>
+<td><a href="samples/emofiltMaleEnglish_sad.mp3"  border="0"><img src="images/play.gif" alt="mp3"  border="0"></a></td>
+<td><a href="samples/emofiltMaleEnglish_fear.mp3"  border="0"><img src="images/play.gif" alt="mp3"  border="0"></a></td>
+</tr>
+<tr bgcolor="#bb8888">
+<td><img src="images/spain.gif"><br>
+Spanish male voice (es2)</td>
+<td> <a href="samples/emofiltMaleSpanishEs2_neutral.mp3"  border="0"><img src="images/play.gif" alt="mp3"  border="0"></a> </td>
+<td><a href="samples/emofiltMaleSpanishEs2_anger.mp3"  border="0"><img src="images/play.gif" alt="mp3"  border="0"></a></td>
+<td> <a href="samples/emofiltMaleSpanishEs2_joy.mp3"  border="0"><img src="images/play.gif" alt="mp3"  border="0"></a></td>
+<td><a href="samples/emofiltMaleSpanishEs2_sad.mp3"  border="0"><img src="images/play.gif" alt="mp3"  border="0"></a></td>
+<td><a href="samples/emofiltMaleSpanishEs2_fear.mp3"  border="0"><img src="images/play.gif" alt="mp3"  border="0"></a></td>
+</tr>
+<tr bgcolor="#bb8888">
+<td>
+<img src="images/french.gif"><br>French male voice (fr1)</td>
+<td> <a href="samples/emofiltMaleFrench_neutral.mp3"  border="0"><img src="images/play.gif" alt="mp3"  border="0"></a> </td>
+<td><a href="samples/emofiltMaleFrench_anger.mp3"  border="0"><img src="images/play.gif" alt="mp3"  border="0"></a></td>
+<td> <a href="samples/emofiltMaleFrench_joy.mp3"  border="0"><img src="images/play.gif" alt="mp3"  border="0"></a></td>
+<td><a href="samples/emofiltMaleFrench_sad.mp3"  border="0"><img src="images/play.gif" alt="mp3"  border="0"></a></td>
+<td><a href="samples/emofiltMaleFrench_fear.mp3"  border="0"><img src="images/play.gif" alt="mp3"  border="0"></a></td>
+</tr>
+<tr bgcolor="#bb8888">
+<td><img src="images/german.gif"><br>
+German male voice (de6) (neutral prosody <a href="http://www.ikp.uni-bonn.de/dt/forsch/phonetik/hadifix/HADIFIXforMBROLA.html">txt2pho</a>)</td>
+<td> <a href="samples/emofiltMaleGerman_neutral.mp3"  border="0"><img src="images/play.gif" alt="mp3"  border="0"></a> </td>
+<td><a href="samples/emofiltMaleGerman_anger.mp3"  border="0"><img src="images/play.gif" alt="mp3"  border="0"></a></td>
+<td> <a href="samples/emofiltMaleGerman_joy.mp3"  border="0"><img src="images/play.gif" alt="mp3"  border="0"></a></td>
+<td><a href="samples/emofiltMaleGerman_sad.mp3"  border="0"><img src="images/play.gif" alt="mp3"  border="0"></a></td>
+<td><a href="samples/emofiltMaleGerman_fear.mp3"  border="0"><img src="images/play.gif" alt="mp3"  border="0"></a></td>
+</tr>
+<tr bgcolor="#bb8888">
+<td>
+<img src="images/greek.gif"><br>Greek male voice (gr2)</td>
+<td> <a href="samples/emofiltMaleGreek_neutral.mp3"  border="0"><img src="images/play.gif" alt="mp3"  border="0"></a> </td>
+<td><a href="samples/emofiltMaleGreek_anger.mp3"  border="0"><img src="images/play.gif" alt="mp3"  border="0"></a></td>
+<td> <a href="samples/emofiltMaleGreek_joy.mp3"  border="0"><img src="images/play.gif" alt="mp3"  border="0"></a></td>
+<td><a href="samples/emofiltMaleGreek_sad.mp3"  border="0"><img src="images/play.gif" alt="mp3"  border="0"></a></td>
+<td><a href="samples/emofiltMaleGreek_fear.mp3"  border="0"><img src="images/play.gif" alt="mp3"  border="0"></a></td>
+</tr>
+<tr bgcolor="#bb8888">
+<td>
+<img src="images/hu.gif"><br>Hungarian male voice (hu1)</td>
+<td> <a href="samples/emofiltMaleHu1_neutral.mp3"  border="0"><img src="images/play.gif" alt="mp3"  border="0"></a> </td>
+<td><a href="samples/emofiltMaleHu1_anger.mp3"  border="0"><img src="images/play.gif" alt="mp3"  border="0"></a></td>
+<td> <a href="samples/emofiltMaleHu1_joy.mp3"  border="0"><img src="images/play.gif" alt="mp3"  border="0"></a></td>
+<td><a href="samples/emofiltMaleHu1_sad.mp3"  border="0"><img src="images/play.gif" alt="mp3"  border="0"></a></td>
+<td><a href="samples/emofiltMaleHu1_fear.mp3"  border="0"><img src="images/play.gif" alt="mp3"  border="0"></a></td>
+</tr>
+<tr bgcolor="#bb8888">
+<td>
+<img src="images/it.gif"><br>Italian male voice (it3)</td>
+<td> <a href="samples/emofiltMaleIt3_neutral.mp3"  border="0"><img src="images/play.gif" alt="mp3"  border="0"></a> </td>
+<td><a href="samples/emofiltMaleIt3_anger.mp3"  border="0"><img src="images/play.gif" alt="mp3"  border="0"></a></td>
+<td> <a href="samples/emofiltMaleIt3_joy.mp3"  border="0"><img src="images/play.gif" alt="mp3"  border="0"></a></td>
+<td><a href="samples/emofiltMaleIt3_sad.mp3"  border="0"><img src="images/play.gif" alt="mp3"  border="0"></a></td>
+<td><a href="samples/emofiltMaleIt3_fear.mp3"  border="0"><img src="images/play.gif" alt="mp3"  border="0"></a></td>
+</tr>
+<tr bgcolor="#bb8888">
+<td>
+<img src="images/cn.gif"><br>Mandarin female voice (cn1)</td>
+<td> <a href="samples/cn1_neutral.wav"  border="0"><img src="images/play.gif" alt="mp3"  border="0"></a> </td>
+<td><a href="samples/cn1_anger.wav"  border="0"><img src="images/play.gif" alt="mp3"  border="0"></a></td>
+<td> <a href="samples/cn1_joy.wav"  border="0"><img src="images/play.gif" alt="mp3"  border="0"></a></td>
+<td><a href="samples/cn1_sad.wav"  border="0"><img src="images/play.gif" alt="mp3"  border="0"></a></td>
+<td><a href="samples/cn1_fear.wav"  border="0"><img src="images/play.gif" alt="mp3"  border="0"></a></td>
+</tr>
+<tr bgcolor="#bb8888">
+<td>
+<img src="images/nl.gif"><br>Dutch male voice (it3)</td>
+<td> <a href="samples/emofiltMaleNl2_neutral.mp3"  border="0"><img src="images/play.gif" alt="mp3"  border="0"></a> </td>
+<td><a href="samples/emofiltMaleNl2_anger.mp3"  border="0"><img src="images/play.gif" alt="mp3"  border="0"></a></td>
+<td> <a href="samples/emofiltMaleNl2_joy.mp3"  border="0"><img src="images/play.gif" alt="mp3"  border="0"></a></td>
+<td><a href="samples/emofiltMaleNl2_sad.mp3"  border="0"><img src="images/play.gif" alt="mp3"  border="0"></a></td>
+<td><a href="samples/emofiltMaleNl2_fear.mp3"  border="0"><img src="images/play.gif" alt="mp3"  border="0"></a></td>
+</tr>
+<tr bgcolor="#bb8888">
+<td>
+<img src="images/turkish.gif"><br>Turkish male voice (tr1)</td>
+<td> <a href="samples/emofiltMaleTurkish_neutral.mp3"  border="0"><img src="images/play.gif" alt="mp3"  border="0"></a> </td>
+<td><a href="samples/emofiltMaleTurkish_anger.mp3"  border="0"><img src="images/play.gif" alt="mp3"  border="0"></a></td>
+<td> <a href="samples/emofiltMaleTurkish_joy.mp3"  border="0"><img src="images/play.gif" alt="mp3"  border="0"></a></td>
+<td><a href="samples/emofiltMaleTurkish_sad.mp3"  border="0"><img src="images/play.gif" alt="mp3"  border="0"></a></td>
+<td><a href="samples/emofiltMaleTurkish_fear.mp3"  border="0"><img src="images/play.gif" alt="mp3"  border="0"></a></td>
+</tr>
+</table>
+
+
+</td>
+<td>
+</td></tr>
+
+<tr><td align="center">
+<a href="images/screenshot.jpg"><image src="images/screenshot-small.jpg" border="0"/></a><br>
+fig 1: screenshot of EmofiltDeveloper (click for a larger version)
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<a href="images/storyTellerScreenshot.jpg"><image src="images/storyTellerScreenshot-small.jpg" border="0"/></a><br>
+fig 2: screenshot of the story tagger interface (click for a larger version)
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<a href="images/emofilt-1.jpg"><image src="images/emofilt-1s.jpg" border="0"/></a><br>
+fig 3: emofilt acts as a transformer between the natural language processing<br/>
+component (NLP) and the digital speech processing component (DSP), i.e. MBROLA.
+</td>
+</tr>
+<tr>
+<td align="center">
+<a href="images/emofilt-2.jpg"><image src="images/emofilt-2s.jpg" border="0"/></a><br>
+fig 4: processing steps
+</td></tr>
+</table>
+<p>
+
+
+
+
+<!--#include FILE="bottom.inc" -->

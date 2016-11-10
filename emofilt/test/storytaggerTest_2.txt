@@ -1,0 +1,21 @@
+<emotion val="fairytale">Es war einmal ein armer Müller, der hatte eine sehr schöne Tochter. Er ging zum König und sagte:</emotion>
+
+<emotion val="joy">Werter König, ich habe eine Tochter, die kann Stroh zu Gold spinnen!</emotion>
+
+<emotion val="fairytale">Der König schickte nach der Tochter, führte sie in eine Kammer voll Stroh und sagte:</emotion>
+
+<emotion val="coldAnger">Spinne dieses Stroh bis morgen früh zu Gold. Schaffst du es nicht, sollst du sterben!</emotion>
+
+<emotion val="fairytale">Darauf wurde die Kammer verschlossen und sie war allein.</emotion>
+
+<emotion val="sad">Da saß die arme Tochter nun und wußte sich keinen Rat.</emotion>
+
+<emotion val="sad">Sie wußte ja gar nicht, wie man Stroh zu Gold spinnen konnte,</emotion>
+
+<emotion val="despair">da fing sie an zu weinen.</emotion>
+
+<emotion val="fairytale">Da ging auf einmal die Türe auf und ein kleines Männlein trat herein und sprach:</emotion>
+
+<emotion val="neurotic">Guten Abend, werte Müllerin. Warum weint Ihr so sehr?</emotion>
+
+

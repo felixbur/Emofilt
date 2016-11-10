@@ -1,0 +1,63 @@
+<!--#include FILE="top.inc" -->
+
+<h2>Language configuration</h2>
+In order for your language to work with emofilt, you need to insert a <language> tag
+in the language.xml file where you specify the features of the language's phoneme set.
+Note that each voice needs to have its own <language> tag as it can have its own phoneme set.<br/>
+Some languages are already provided for
+<a href="languages.xml">languages XML-file</a>, currently German,
+Turkish, Greek, French, English (British and US), Italian, Hungarian,
+Dutch, Spanish:
+de[1,2,3,4,6,7], en1, es[2,4], fr1, tr1, gr2, hu1, it3, nl2, us[1,2,3]
+<p>
+example language-description:
+<pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;languages&gt;
+    &lt;language name=&quot;ex1&quot; male=&quot;false&quot; locale=&quot;ex_EX&quot;&gt;
+        &lt;!-- The language name MUST be the same as the corresponding Mbrola voice --&gt;
+        &lt;!-- The description will appear as tooltip. --&gt;
+        &lt;description&gt;This is only a template for further
+            languages&lt;/description&gt;
+        &lt;replacements&gt;
+            &lt;!-- this is to simulate vowal target overshoot or undershoot.  --&gt;
+            &lt;!-- If you give a number of central vowels and their decentral --&gt;
+            &lt;!-- counterparts, they will be replaced by each other-- --&gt;
+            &lt;replacement central=&quot;6&quot; decentral=&quot;a:&quot;/&gt;
+            &lt;replacement central=&quot;E&quot; decentral=&quot;e:&quot;/&gt;
+            &lt;replacement central=&quot;I&quot; decentral=&quot;i:&quot;/&gt;
+            &lt;replacement central=&quot;O&quot; decentral=&quot;o:&quot;/&gt;
+            &lt;replacement central=&quot;U&quot; decentral=&quot;u:&quot;/&gt;
+            &lt;replacement central=&quot;9&quot; decentral=&quot;2:&quot;/&gt;
+            &lt;replacement central=&quot;Y&quot; decentral=&quot;y:&quot;/&gt;
+            &lt;replacement central=&quot;@&quot; decentral=&quot;E:&quot;/&gt;
+        &lt;/replacements&gt;
+        &lt;phonemes&gt;
+            &lt;!-- now all phonemes should be classified --&gt;
+            &lt;!-- long vowels --&gt;
+            &lt;phoneme name=&quot;EI&quot; manner=&quot;long_vowel&quot; voiced=&quot;true&quot; /&gt;
+            &lt;phoneme name=&quot;a:&quot; manner=&quot;long_vowel&quot; voiced=&quot;true&quot; /&gt;
+            &lt;!-- short vowels --&gt;
+            &lt;phoneme name=&quot;a&quot; manner=&quot;short_vowel&quot; voiced=&quot;true&quot; /&gt;
+            &lt;!-- approximants --&gt;
+            &lt;phoneme name=&quot;l&quot; manner=&quot;approximant&quot; voiced=&quot;true&quot; /&gt;
+            &lt;!-- nasals --&gt;
+            &lt;phoneme name=&quot;n&quot; manner=&quot;nasal&quot; voiced=&quot;true&quot; /&gt;
+            &lt;!-- voiced fricatives --&gt;
+            &lt;phoneme name=&quot;z&quot; manner=&quot;fricative_voiced&quot; voiced=&quot;true&quot; /&gt;
+            &lt;!-- voiceless fricatives --&gt;
+            &lt;phoneme name=&quot;S&quot; manner=&quot;fricative_voiceless&quot; voiced=&quot;false&quot; /&gt;
+            &lt;phoneme name=&quot;pf&quot; manner=&quot;fricative_voiceless&quot; voiced=&quot;true&quot; /&gt;
+            &lt;!-- voiced stops --&gt;
+            &lt;phoneme name=&quot;b&quot; manner=&quot;stop_voiced&quot; voiced=&quot;true&quot; /&gt;
+            &lt;!-- voiceless stops --&gt;
+            &lt;phoneme name=&quot;p&quot; manner=&quot;stop_voiceless&quot; voiced=&quot;false&quot; /&gt;
+            &lt;!-- silence --&gt;
+            &lt;phoneme name=&quot;_&quot; manner=&quot;silence&quot; voiced=&quot;false&quot; /&gt;
+        &lt;/phonemes&gt;
+    &lt;/language&gt;
+&lt;/languages&gt;
+
+</pre>
+
+<!--#include FILE="bottom.inc" -->

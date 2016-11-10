@@ -1,0 +1,21 @@
+@charset "iso-8859-1";
+
+	a:link {color:#3355ff;}
+	a:visited {color:#3355ff;}
+	a:active {color:#ff0000;}
+ body { 
+	background-color:#ffffff;
+	color:#000000;
+	}
+   td,p,br,li,h2, h3,h4,ul,ol,th {
+   font-family:Verdana,Helvetica,Arial,Swizerland,Futura;
+   }
+   td,p,br,li,h2, h3,h4,ul,ol,th {
+   font-size:10pt
+   }
+   h1 {
+   font-family:Verdana,Helvetica,Arial,Swizerland,Futura;
+        color:#FF2222;
+   }
+tr.tablecell1 { background-color:#cccccc; color:#000000; }
+tr.tablecell2 { background-color:#eeeeee;  color:#000000;}

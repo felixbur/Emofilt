@@ -1,0 +1,20 @@
+name|contourWordstress
+label|contour word
+type|pitch
+defaultRate|0
+defaultType|straight
+minRate|0
+maxRate|200
+step|10
+rateLabel|rate
+typeLabel|type
+tooltip|<html>Change contour of word-stressed syllables.<br> "rate" gives gradient in semitones/sec.</html>
+button.tooltip|<html>Click the label to reset the values to default.<html>
+# Foreground color
+controlFG.red|255
+controlFG.green|255
+controlFG.blue|255
+# Background color
+controlBG.red|20
+controlBG.green|20
+controlBG.blue|20

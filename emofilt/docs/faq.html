@@ -1,0 +1,38 @@
+<!--#include FILE="top.inc" -->
+<h2>FAQ</h2>
+<ul>
+<li><b>Is emofilt a text-to-speech synthesizer?</b>
+<br>No, it's simply a program to manipulate the input-format of the free-for-non-commercial use
+speech synthesis engine <a href="http://tcts.fpms.ac.be/synthesis/mbrola.html">MBROLA</a><br>
+You will have to install Mbrola if you want to use text-to-speech software.
+
+<li><b>Is my language supported?</b>
+<br>Languages (Mbrola-voices) are supported if there is an entry for them in the
+<a href="languages.html">languages.xml</a> file. If a specific voice is missing, emofilt can probably not operate correctly with the pho-files,
+because phoneme-symbols might not be declared in the currently loaded language.<br>
+You could add an entry for your desired voice (there is a template in the languages.xml file called "ex1") and
+send it to me so I can include it in later distributions.
+
+<li><b>I'm using txt2pho under unix and get the Mbrola error message "check your pitch"</b><br>
+If the pathes in the txt2phorc are not both set to txt2pho's data directory, it outputs zero pitch values.
+
+<li><b>I'm using txt2pho under windows and don't get an output</b><br>
+Windows txt2pho needs a file called "txt2pho.ini" (can be empty) in the working directory.
+
+<li><b>How about integration with Festival?</b><br>
+There is an integration between Festival and Mbrola as Festival can output PHO-format. Emofilt can be used as a transformer for this PHO interface.
+
+<li><b>I try to use <a href="http://mary.dfki.de/">Mary</a> as phonetizer but it doesn't work.</b><br>
+The last emofilt version (0.98) supports Mary version 4.3, other versions might work but weren't tested. Older emofilt versions support Mary 3.6. Mary only can phonetize for Mbrola voices that are installed, i.e. de6, de7, us1, us3. Note also that the location attribute in the languages.xml file must correspond to the location used by Mary.
+
+
+<li><b>other questions?</b>
+<br>
+ask <a href=mailto:felixbur@gmx.de>felix</a>
+
+<li><b>?</b>
+<br>
+
+</ul>
+
+<!--#include FILE="bottom.inc" -->

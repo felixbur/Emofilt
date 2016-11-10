@@ -1,0 +1,9 @@
+<emotion val="fairytale">Il était une fois un gentilhomme qui épousa, en secondes noces, une femme,</emotion>
+<emotion val="joy">Moi, dit l'aînée, je mettrai mon habit de velours rouge et ma garniture d'Angleterre.</emotion>
+<emotion val="happy">Moi, dit la cadette, je n'aurai que ma jupe ordinaire ; mais, en récompense, je mettrai mon manteau à fleurs d'or et ma barrière de diamants, qui n'est pas des plus indifférentes.</emotion>
+<emotion val="sad">On envoya quérir la bonne coiffeuse pour dresser les cornettes à deux rangs, et on fit acheter des mouches de la bonne faiseuse.</emotion>
+<emotion val="fairytale">Elles appelèrent Cendrillon pour lui demander son avis, car elle avait le goût bon. Cendrillon les conseilla le mieux du monde, et s'offrit même à les coiffer; ce qu'elles voulurent bien.</emotion>
+<emotion val="neurotic">En les coiffant, elles lui disaient</emotion>
+<emotion val="despair">Cendrillon, serais-tu bien aise d'aller au bal ?</emotion>
+<emotion val="coldAnger">Hélas, mesdemoiselles, vous vous moquez, de moi : ce n'est pas là ce qu'il me faut.</emotion>
+<emotion val="fairytale">Tu as raison, on rirait bien, si on voyait un Cucendron aller au bal.</emotion>

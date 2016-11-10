@@ -1,0 +1,9 @@
+emoFilt is NOT a text-to-speech synthesizer, it's ONLY a filter between an MBROLA
+pho-file and the MBROLA-engine to "emotionalize" the speech.
+In order for the acoustic ouput to work, you have to specify the path to your 
+Mbrola installation in the config-file. 
+Also, if you want the "new utterance" functionality to work, you have to specify a 
+grapheme-to-phoneme program in the config-file.
+Alternatively you can load an existing pho-file via the utterance.load-menu-item.
+Help is provided mainly by tooltips, which should pop up if 
+you linger with the pointer over the panels.
