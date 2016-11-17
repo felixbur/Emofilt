@@ -1,0 +1,26 @@
+Rotkäppchen ging durch den Wald und traf den Wolf.
+Sie sagte.
+Hallo Wolf, ich besuche meine Großmutter! 
+Der Wolf. 
+Wie schön, pfück doch ein paar Blumen und bringe sie ihr.
+Er ging zur Großmutter, fraß sie auf und legte sich in ihr Bett.
+Als Rotkäppchen kam sagte sie.
+Was hast du für große Ohren?
+Damit ich dich besser hören kann!
+Was für einen großen Mund?
+Der Wolf sagte.
+Damit ich dich besser fressen kann! und fraß sie auch auf.
+
+<emotion val="fairytale">Rotkäppchen ging durch den Wald und traf den Wolf.</emotion>
+<emotion val="fairytale">Sie sagte</emotion>
+<emotion val="joy">Hallo Wolf, ich besuche meine Großmutter!</emotion>
+<emotion val="fairytale">Der Wolf</emotion>
+<emotion val="joy">Wie schön, pfück doch ein paar Blumen und bringe sie ihr</emotion>
+<emotion val="fairytale">Er ging zur Großmutter, fraß sie auf und legte sich in ihr Bett</emotion>
+<emotion val="fairytale">Als Rotkäppchen kam sagte sie</emotion>
+<emotion val="joy">Was hast du für große Ohren?</emotion>
+<emotion val="angrySad">Damit ich dich besser hören kann.</emotion>
+<emotion val="joy">Und so einen großen Mund?</emotion>
+<emotion val="fairytale">Der Wolf</emotion>
+<emotion val="angrySad">sagte: Damit ich dich besser fressen kann.</emotion>
+<emotion val="fairytale">und fraß sie auf</emotion>

@@ -1,0 +1,794 @@
+17.Nov.16 13:15:36 DEBUG emofiltDebug - F0Mean, F0Range, Variability, PhraseContour, ContourFromStress, LevelUnstress, LevelFocusstress, LevelWordstress, ContourUnstress, ContourFocusstress, ContourWordstress, LastSylContour, WaveModel, SpeechRate, DurationFocusstressedSyls, DurationWordstressedSyls, DurationUnstressedSyls, DurVowel, DurAprx, DurNasal, DurVFric, DurVLFric, DurVStop, DurVLStop, DurPause, Jitter, VocalEffort, VowelTarget
+17.Nov.16 13:15:36 DEBUG emofiltDebug -  initialisation, use GUI=true
+17.Nov.16 13:15:36 DEBUG emofiltDebug - loaded plugin: name: f0Mean, type: pitch
+17.Nov.16 13:15:36 DEBUG emofiltDebug -  initialisation, use GUI=true
+17.Nov.16 13:15:36 DEBUG emofiltDebug - loaded plugin: name: f0Range, type: pitch
+17.Nov.16 13:15:36 DEBUG emofiltDebug -  initialisation, use GUI=true
+17.Nov.16 13:15:36 DEBUG emofiltDebug - loaded plugin: name: variability, type: pitch
+17.Nov.16 13:15:36 DEBUG emofiltDebug -  initialisation, use GUI=true
+17.Nov.16 13:15:36 DEBUG emofiltDebug - loaded plugin: name: phraseContour, type: pitch
+17.Nov.16 13:15:36 DEBUG emofiltDebug -  initialisation, use GUI=true
+17.Nov.16 13:15:36 DEBUG emofiltDebug - loaded plugin: name: contourFromStress, type: pitch
+17.Nov.16 13:15:36 DEBUG emofiltDebug -  initialisation, use GUI=true
+17.Nov.16 13:15:36 DEBUG emofiltDebug - loaded plugin: name: levelUnstress, type: pitch
+17.Nov.16 13:15:36 DEBUG emofiltDebug -  initialisation, use GUI=true
+17.Nov.16 13:15:36 DEBUG emofiltDebug - loaded plugin: name: levelFocusstress, type: pitch
+17.Nov.16 13:15:36 DEBUG emofiltDebug -  initialisation, use GUI=true
+17.Nov.16 13:15:36 DEBUG emofiltDebug - loaded plugin: name: levelWordstress, type: pitch
+17.Nov.16 13:15:36 DEBUG emofiltDebug -  initialisation, use GUI=true
+17.Nov.16 13:15:36 DEBUG emofiltDebug - loaded plugin: name: contourUnstress, type: pitch
+17.Nov.16 13:15:36 DEBUG emofiltDebug -  initialisation, use GUI=true
+17.Nov.16 13:15:36 DEBUG emofiltDebug - loaded plugin: name: contourFocusstress, type: pitch
+17.Nov.16 13:15:36 DEBUG emofiltDebug -  initialisation, use GUI=true
+17.Nov.16 13:15:36 DEBUG emofiltDebug - loaded plugin: name: contourWordstress, type: pitch
+17.Nov.16 13:15:36 DEBUG emofiltDebug -  initialisation, use GUI=true
+17.Nov.16 13:15:36 DEBUG emofiltDebug - loaded plugin: name: lastSylContour, type: pitch
+17.Nov.16 13:15:36 DEBUG emofiltDebug -  initialisation, use GUI=true
+17.Nov.16 13:15:36 DEBUG emofiltDebug - loaded plugin: name: waveModel, type: pitch
+17.Nov.16 13:15:36 DEBUG emofiltDebug -  initialisation, use GUI=true
+17.Nov.16 13:15:36 DEBUG emofiltDebug - loaded plugin: name: speechRate, type: duration
+17.Nov.16 13:15:36 DEBUG emofiltDebug -  initialisation, use GUI=true
+17.Nov.16 13:15:36 DEBUG emofiltDebug - loaded plugin: name: durationFocusstressedSyls, type: duration
+17.Nov.16 13:15:36 DEBUG emofiltDebug -  initialisation, use GUI=true
+17.Nov.16 13:15:36 DEBUG emofiltDebug - loaded plugin: name: durationWordstressedSyls, type: duration
+17.Nov.16 13:15:36 DEBUG emofiltDebug -  initialisation, use GUI=true
+17.Nov.16 13:15:36 DEBUG emofiltDebug - loaded plugin: name: durationUnstressedSyls, type: duration
+17.Nov.16 13:15:36 DEBUG emofiltDebug -  initialisation, use GUI=true
+17.Nov.16 13:15:36 DEBUG emofiltDebug - loaded plugin: name: durVowel, type: duration
+17.Nov.16 13:15:36 DEBUG emofiltDebug -  initialisation, use GUI=true
+17.Nov.16 13:15:36 DEBUG emofiltDebug - loaded plugin: name: durAprx, type: duration
+17.Nov.16 13:15:36 DEBUG emofiltDebug -  initialisation, use GUI=true
+17.Nov.16 13:15:36 DEBUG emofiltDebug - loaded plugin: name: durNasal, type: duration
+17.Nov.16 13:15:36 DEBUG emofiltDebug -  initialisation, use GUI=true
+17.Nov.16 13:15:36 DEBUG emofiltDebug - loaded plugin: name: durVFric, type: duration
+17.Nov.16 13:15:36 DEBUG emofiltDebug -  initialisation, use GUI=true
+17.Nov.16 13:15:36 DEBUG emofiltDebug - loaded plugin: name: durVLFric, type: duration
+17.Nov.16 13:15:36 DEBUG emofiltDebug -  initialisation, use GUI=true
+17.Nov.16 13:15:36 DEBUG emofiltDebug - loaded plugin: name: durVStop, type: duration
+17.Nov.16 13:15:36 DEBUG emofiltDebug -  initialisation, use GUI=true
+17.Nov.16 13:15:36 DEBUG emofiltDebug - loaded plugin: name: durVLStop, type: duration
+17.Nov.16 13:15:36 DEBUG emofiltDebug -  initialisation, use GUI=true
+17.Nov.16 13:15:36 DEBUG emofiltDebug - loaded plugin: name: durPause, type: duration
+17.Nov.16 13:15:36 DEBUG emofiltDebug -  initialisation, use GUI=true
+17.Nov.16 13:15:36 DEBUG emofiltDebug - loaded plugin: name: jitter, type: phonation
+17.Nov.16 13:15:36 DEBUG emofiltDebug -  initialisation, use GUI=true
+17.Nov.16 13:15:36 DEBUG emofiltDebug - loaded plugin: name: vocalEffort, type: phonation
+17.Nov.16 13:15:36 DEBUG emofiltDebug -  initialisation, use GUI=true
+17.Nov.16 13:15:36 DEBUG emofiltDebug - loaded plugin: name: vowelTarget, type: articulation
+17.Nov.16 13:15:36 DEBUG emofiltDebug - loaded 28 plugins.
+17.Nov.16 13:15:36 DEBUG emofiltDebug - lfp: D:/Work/emofilt/emofilt\languages.xml
+17.Nov.16 13:15:36 DEBUG emofiltDebug - loaded: language: ex, voice: 1
+17.Nov.16 13:15:37 DEBUG emofiltDebug - loaded: language: cn, voice: 1
+17.Nov.16 13:15:37 DEBUG emofiltDebug - loaded: language: tl, voice: 1
+17.Nov.16 13:15:37 DEBUG emofiltDebug - loaded: language: es, voice: 4
+17.Nov.16 13:15:37 DEBUG emofiltDebug - loaded: language: es, voice: 2
+17.Nov.16 13:15:37 DEBUG emofiltDebug - loaded: language: nl, voice: 2
+17.Nov.16 13:15:37 DEBUG emofiltDebug - loaded: language: hu, voice: 1
+17.Nov.16 13:15:37 DEBUG emofiltDebug - loaded: language: it, voice: 3
+17.Nov.16 13:15:37 DEBUG emofiltDebug - loaded: language: gr, voice: 2
+17.Nov.16 13:15:37 DEBUG emofiltDebug - loaded: language: tr, voice: 1
+17.Nov.16 13:15:37 DEBUG emofiltDebug - loaded: language: de, voice: 1
+17.Nov.16 13:15:37 DEBUG emofiltDebug - loaded: language: de, voice: 2
+17.Nov.16 13:15:37 DEBUG emofiltDebug - loaded: language: de, voice: 3
+17.Nov.16 13:15:37 DEBUG emofiltDebug - loaded: language: de, voice: 4
+17.Nov.16 13:15:37 DEBUG emofiltDebug - loaded: language: de, voice: 6
+17.Nov.16 13:15:37 DEBUG emofiltDebug - loaded: language: de, voice: 7
+17.Nov.16 13:15:37 DEBUG emofiltDebug - loaded: language: en, voice: 1
+17.Nov.16 13:15:37 DEBUG emofiltDebug - loaded: language: us, voice: 1
+17.Nov.16 13:15:37 DEBUG emofiltDebug - loaded: language: us, voice: 2
+17.Nov.16 13:15:37 DEBUG emofiltDebug - loaded: language: us, voice: 3
+17.Nov.16 13:15:37 DEBUG emofiltDebug - loaded: language: fr, voice: 1
+17.Nov.16 13:15:37 DEBUG emofiltDebug - loaded: language: fr, voice: 2
+17.Nov.16 13:15:37 DEBUG emofiltDebug - loaded: language: fr, voice: 3
+17.Nov.16 13:15:37 DEBUG emofiltDebug - loaded: language: fr, voice: 4
+17.Nov.16 13:15:37 DEBUG emofiltDebug - loaded: language: fr, voice: 5
+17.Nov.16 13:15:37 DEBUG emofiltDebug - loaded: language: fr, voice: 6
+17.Nov.16 13:15:37 DEBUG emofiltDebug - loaded: language: fr, voice: 7
+17.Nov.16 13:15:37 DEBUG emofiltDebug - loaded 27 languages
+17.Nov.16 13:15:37 DEBUG emofiltDebug - happySad
+17.Nov.16 13:15:37 DEBUG emofiltDebug - angrySad
+17.Nov.16 13:15:37 DEBUG emofiltDebug - sadAngry
+17.Nov.16 13:15:37 DEBUG emofiltDebug - boredom
+17.Nov.16 13:15:37 DEBUG emofiltDebug - despair
+17.Nov.16 13:15:37 DEBUG emofiltDebug - sad
+17.Nov.16 13:15:37 DEBUG emofiltDebug - scared
+17.Nov.16 13:15:37 DEBUG emofiltDebug - neurotic
+17.Nov.16 13:15:37 DEBUG emofiltDebug - fairytale
+17.Nov.16 13:15:37 DEBUG emofiltDebug - coldAnger
+17.Nov.16 13:15:37 DEBUG emofiltDebug - yawning
+17.Nov.16 13:15:37 DEBUG emofiltDebug - joy
+17.Nov.16 13:15:37 DEBUG emofiltDebug - happy
+17.Nov.16 13:15:37 DEBUG emofiltDebug - hotAnger
+17.Nov.16 13:15:37 DEBUG emofiltDebug - neutral
+17.Nov.16 13:15:37 DEBUG emofiltDebug - returning emotion: neutral
+17.Nov.16 13:15:37 DEBUG emofiltDebug - returning emotion: neutral
+17.Nov.16 13:15:37 DEBUG emofiltDebug - setting emotions: neutral
+17.Nov.16 13:15:37 DEBUG emofiltDebug - returning emotion: neutral
+17.Nov.16 13:15:37 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:15:37 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:15:37 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:15:37 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:15:37 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:15:37 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:15:37 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:15:39 DEBUG emofiltDebug - exec: d:/Programme/Mbrola/phoplayer.exe database=d:/Programme/Mbrola/voices/de2/de2 d:/temp/tmp.pho /O=d:/temp/TMP.WAV /T=wav
+17.Nov.16 13:15:50 DEBUG emofiltDebug - setting emotions: neutral
+17.Nov.16 13:15:50 DEBUG emofiltDebug - returning emotion: neutral
+17.Nov.16 13:15:50 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:15:50 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:15:50 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:15:50 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:15:50 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:15:50 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:15:50 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:15:52 DEBUG emofiltDebug - exec: d:/Programme/Mbrola/phoplayer.exe database=d:/Programme/Mbrola/voices/de6/de6 d:/temp/tmp.pho /O=d:/temp/TMP.WAV /T=wav
+17.Nov.16 13:16:01 DEBUG emofiltDebug - setting emotions: sadAngry
+17.Nov.16 13:16:01 DEBUG emofiltDebug - returning emotion: sadAngry
+17.Nov.16 13:16:01 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:01 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:16:01 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:16:01 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:16:01 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:16:01 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:01 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:01 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:01 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:01 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:01 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:01 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:16:01 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:16:01 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:16:01 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:01 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:16:01 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:16:01 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:16:01 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:01 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:16:01 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:16:01 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:01 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:01 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:01 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:01 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:01 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:01 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:01 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:01 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:01 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:01 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:01 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:16:01 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:16:01 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:16:01 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:16:01 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:16:01 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:16:03 DEBUG emofiltDebug - exec: d:/Programme/Mbrola/phoplayer.exe database=d:/Programme/Mbrola/voices/de6/de6 d:/temp/tmp.pho /O=d:/temp/TMP.WAV /T=wav
+17.Nov.16 13:16:16 DEBUG emofiltDebug - setting emotions: happySad
+17.Nov.16 13:16:16 DEBUG emofiltDebug - returning emotion: happySad
+17.Nov.16 13:16:16 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:16 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:16 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:16:16 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:16:16 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:16 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:16:16 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:16:16 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:16 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:16 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:16 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:16 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:16 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:16 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:16 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:16:16 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:16:16 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:16 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:16 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:16:16 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:16:16 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:16:16 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:16:16 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:16 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:16:16 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:16:16 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:16 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:16 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:16 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:16 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:16 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:16 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:16 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:16:16 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:16:16 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:16 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:16 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:16 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:16:16 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:16:16 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:16:18 DEBUG emofiltDebug - exec: d:/Programme/Mbrola/phoplayer.exe database=d:/Programme/Mbrola/voices/de6/de6 d:/temp/tmp.pho /O=d:/temp/TMP.WAV /T=wav
+17.Nov.16 13:16:24 DEBUG emofiltDebug - setting emotions: joy
+17.Nov.16 13:16:24 DEBUG emofiltDebug - returning emotion: joy
+17.Nov.16 13:16:24 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:16:24 DEBUG emofiltDebug - meanF0, 150, new mean: 108.51612903225806
+17.Nov.16 13:16:24 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:16:24 DEBUG emofiltDebug - meanF0, 150, new mean: 108.51612903225806
+17.Nov.16 13:16:24 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:16:24 DEBUG emofiltDebug - meanF0, 150, new mean: 108.51612903225806
+17.Nov.16 13:16:24 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:16:24 DEBUG emofiltDebug - meanF0, 150, new mean: 108.51612903225806
+17.Nov.16 13:16:24 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:24 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:24 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:24 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:24 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:24 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:24 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:24 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:16:24 DEBUG emofiltDebug - meanF0, 150, new mean: 108.51612903225806
+17.Nov.16 13:16:24 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:16:24 DEBUG emofiltDebug - meanF0, 150, new mean: 108.51612903225806
+17.Nov.16 13:16:24 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:16:24 DEBUG emofiltDebug - meanF0, 150, new mean: 108.51612903225806
+17.Nov.16 13:16:24 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:24 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:24 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:24 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:16:24 DEBUG emofiltDebug - meanF0, 150, new mean: 108.51612903225806
+17.Nov.16 13:16:24 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:16:24 DEBUG emofiltDebug - meanF0, 150, new mean: 108.51612903225806
+17.Nov.16 13:16:24 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:16:24 DEBUG emofiltDebug - meanF0, 150, new mean: 108.51612903225806
+17.Nov.16 13:16:24 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:16:24 DEBUG emofiltDebug - meanF0, 150, new mean: 108.51612903225806
+17.Nov.16 13:16:24 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:24 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:24 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:24 DEBUG emofiltDebug - defaultrate:100
+17.Nov.16 13:16:24 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:16:24 DEBUG emofiltDebug - meanF0, 150, new mean: 108.51612903225806
+17.Nov.16 13:16:24 DEBUG emofiltDebug - defaultrate:100
+17.Nov.16 13:16:24 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:16:24 DEBUG emofiltDebug - meanF0, 150, new mean: 108.51612903225806
+17.Nov.16 13:16:24 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:24 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:24 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:24 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:16:24 DEBUG emofiltDebug - meanF0, 150, new mean: 108.51612903225806
+17.Nov.16 13:16:24 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:24 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:24 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:24 DEBUG emofiltDebug - Element not found in Emotion Description
+17.Nov.16 13:16:24 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:16:24 DEBUG emofiltDebug - meanF0, 150, new mean: 108.51612903225806
+17.Nov.16 13:16:24 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:16:24 DEBUG emofiltDebug - meanF0, 150, new mean: 108.51612903225806
+17.Nov.16 13:16:24 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:16:24 DEBUG emofiltDebug - meanF0, 150, new mean: 108.51612903225806
+17.Nov.16 13:16:24 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:16:24 DEBUG emofiltDebug - meanF0, 150, new mean: 108.51612903225806
+17.Nov.16 13:16:24 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:16:24 DEBUG emofiltDebug - meanF0, 150, new mean: 108.51612903225806
+17.Nov.16 13:16:26 DEBUG emofiltDebug - exec: d:/Programme/Mbrola/phoplayer.exe database=d:/Programme/Mbrola/voices/de6/de6 d:/temp/tmp.pho /O=d:/temp/TMP.WAV /T=wav
+17.Nov.16 13:17:29 DEBUG emofiltDebug - F0Mean, F0Range, Variability, PhraseContour, ContourFromStress, LevelUnstress, LevelFocusstress, LevelWordstress, ContourUnstress, ContourFocusstress, ContourWordstress, LastSylContour, WaveModel, SpeechRate, DurationFocusstressedSyls, DurationWordstressedSyls, DurationUnstressedSyls, DurVowel, DurAprx, DurNasal, DurVFric, DurVLFric, DurVStop, DurVLStop, DurPause, Jitter, VocalEffort, VowelTarget
+17.Nov.16 13:17:29 DEBUG emofiltDebug -  initialisation, use GUI=false
+17.Nov.16 13:17:29 DEBUG emofiltDebug - loaded plugin: name: f0Mean, type: pitch
+17.Nov.16 13:17:29 DEBUG emofiltDebug -  initialisation, use GUI=false
+17.Nov.16 13:17:29 DEBUG emofiltDebug - loaded plugin: name: f0Range, type: pitch
+17.Nov.16 13:17:29 DEBUG emofiltDebug -  initialisation, use GUI=false
+17.Nov.16 13:17:29 DEBUG emofiltDebug - loaded plugin: name: variability, type: pitch
+17.Nov.16 13:17:29 DEBUG emofiltDebug -  initialisation, use GUI=false
+17.Nov.16 13:17:29 DEBUG emofiltDebug - loaded plugin: name: phraseContour, type: pitch
+17.Nov.16 13:17:29 DEBUG emofiltDebug -  initialisation, use GUI=false
+17.Nov.16 13:17:29 DEBUG emofiltDebug - loaded plugin: name: contourFromStress, type: pitch
+17.Nov.16 13:17:29 DEBUG emofiltDebug -  initialisation, use GUI=false
+17.Nov.16 13:17:29 DEBUG emofiltDebug - loaded plugin: name: levelUnstress, type: pitch
+17.Nov.16 13:17:29 DEBUG emofiltDebug -  initialisation, use GUI=false
+17.Nov.16 13:17:29 DEBUG emofiltDebug - loaded plugin: name: levelFocusstress, type: pitch
+17.Nov.16 13:17:29 DEBUG emofiltDebug -  initialisation, use GUI=false
+17.Nov.16 13:17:29 DEBUG emofiltDebug - loaded plugin: name: levelWordstress, type: pitch
+17.Nov.16 13:17:29 DEBUG emofiltDebug -  initialisation, use GUI=false
+17.Nov.16 13:17:29 DEBUG emofiltDebug - loaded plugin: name: contourUnstress, type: pitch
+17.Nov.16 13:17:29 DEBUG emofiltDebug -  initialisation, use GUI=false
+17.Nov.16 13:17:29 DEBUG emofiltDebug - loaded plugin: name: contourFocusstress, type: pitch
+17.Nov.16 13:17:29 DEBUG emofiltDebug -  initialisation, use GUI=false
+17.Nov.16 13:17:29 DEBUG emofiltDebug - loaded plugin: name: contourWordstress, type: pitch
+17.Nov.16 13:17:29 DEBUG emofiltDebug -  initialisation, use GUI=false
+17.Nov.16 13:17:29 DEBUG emofiltDebug - loaded plugin: name: lastSylContour, type: pitch
+17.Nov.16 13:17:29 DEBUG emofiltDebug -  initialisation, use GUI=false
+17.Nov.16 13:17:29 DEBUG emofiltDebug - loaded plugin: name: waveModel, type: pitch
+17.Nov.16 13:17:29 DEBUG emofiltDebug -  initialisation, use GUI=false
+17.Nov.16 13:17:29 DEBUG emofiltDebug - loaded plugin: name: speechRate, type: duration
+17.Nov.16 13:17:29 DEBUG emofiltDebug -  initialisation, use GUI=false
+17.Nov.16 13:17:29 DEBUG emofiltDebug - loaded plugin: name: durationFocusstressedSyls, type: duration
+17.Nov.16 13:17:29 DEBUG emofiltDebug -  initialisation, use GUI=false
+17.Nov.16 13:17:29 DEBUG emofiltDebug - loaded plugin: name: durationWordstressedSyls, type: duration
+17.Nov.16 13:17:29 DEBUG emofiltDebug -  initialisation, use GUI=false
+17.Nov.16 13:17:29 DEBUG emofiltDebug - loaded plugin: name: durationUnstressedSyls, type: duration
+17.Nov.16 13:17:29 DEBUG emofiltDebug -  initialisation, use GUI=false
+17.Nov.16 13:17:29 DEBUG emofiltDebug - loaded plugin: name: durVowel, type: duration
+17.Nov.16 13:17:29 DEBUG emofiltDebug -  initialisation, use GUI=false
+17.Nov.16 13:17:29 DEBUG emofiltDebug - loaded plugin: name: durAprx, type: duration
+17.Nov.16 13:17:29 DEBUG emofiltDebug -  initialisation, use GUI=false
+17.Nov.16 13:17:29 DEBUG emofiltDebug - loaded plugin: name: durNasal, type: duration
+17.Nov.16 13:17:29 DEBUG emofiltDebug -  initialisation, use GUI=false
+17.Nov.16 13:17:29 DEBUG emofiltDebug - loaded plugin: name: durVFric, type: duration
+17.Nov.16 13:17:29 DEBUG emofiltDebug -  initialisation, use GUI=false
+17.Nov.16 13:17:29 DEBUG emofiltDebug - loaded plugin: name: durVLFric, type: duration
+17.Nov.16 13:17:29 DEBUG emofiltDebug -  initialisation, use GUI=false
+17.Nov.16 13:17:29 DEBUG emofiltDebug - loaded plugin: name: durVStop, type: duration
+17.Nov.16 13:17:29 DEBUG emofiltDebug -  initialisation, use GUI=false
+17.Nov.16 13:17:29 DEBUG emofiltDebug - loaded plugin: name: durVLStop, type: duration
+17.Nov.16 13:17:29 DEBUG emofiltDebug -  initialisation, use GUI=false
+17.Nov.16 13:17:29 DEBUG emofiltDebug - loaded plugin: name: durPause, type: duration
+17.Nov.16 13:17:29 DEBUG emofiltDebug -  initialisation, use GUI=false
+17.Nov.16 13:17:29 DEBUG emofiltDebug - loaded plugin: name: jitter, type: phonation
+17.Nov.16 13:17:29 DEBUG emofiltDebug -  initialisation, use GUI=false
+17.Nov.16 13:17:29 DEBUG emofiltDebug - loaded plugin: name: vocalEffort, type: phonation
+17.Nov.16 13:17:29 DEBUG emofiltDebug -  initialisation, use GUI=false
+17.Nov.16 13:17:29 DEBUG emofiltDebug - loaded plugin: name: vowelTarget, type: articulation
+17.Nov.16 13:17:29 DEBUG emofiltDebug - loaded 28 plugins.
+17.Nov.16 13:17:29 DEBUG emofiltDebug - lfp: D:/Work/emofilt/emofilt\languages.xml
+17.Nov.16 13:17:29 DEBUG emofiltDebug - loaded: language: ex, voice: 1
+17.Nov.16 13:17:29 DEBUG emofiltDebug - loaded: language: cn, voice: 1
+17.Nov.16 13:17:29 DEBUG emofiltDebug - loaded: language: tl, voice: 1
+17.Nov.16 13:17:29 DEBUG emofiltDebug - loaded: language: es, voice: 4
+17.Nov.16 13:17:29 DEBUG emofiltDebug - loaded: language: es, voice: 2
+17.Nov.16 13:17:29 DEBUG emofiltDebug - loaded: language: nl, voice: 2
+17.Nov.16 13:17:29 DEBUG emofiltDebug - loaded: language: hu, voice: 1
+17.Nov.16 13:17:29 DEBUG emofiltDebug - loaded: language: it, voice: 3
+17.Nov.16 13:17:29 DEBUG emofiltDebug - loaded: language: gr, voice: 2
+17.Nov.16 13:17:29 DEBUG emofiltDebug - loaded: language: tr, voice: 1
+17.Nov.16 13:17:29 DEBUG emofiltDebug - loaded: language: de, voice: 1
+17.Nov.16 13:17:29 DEBUG emofiltDebug - loaded: language: de, voice: 2
+17.Nov.16 13:17:29 DEBUG emofiltDebug - loaded: language: de, voice: 3
+17.Nov.16 13:17:29 DEBUG emofiltDebug - loaded: language: de, voice: 4
+17.Nov.16 13:17:29 DEBUG emofiltDebug - loaded: language: de, voice: 6
+17.Nov.16 13:17:29 DEBUG emofiltDebug - loaded: language: de, voice: 7
+17.Nov.16 13:17:29 DEBUG emofiltDebug - loaded: language: en, voice: 1
+17.Nov.16 13:17:29 DEBUG emofiltDebug - loaded: language: us, voice: 1
+17.Nov.16 13:17:29 DEBUG emofiltDebug - loaded: language: us, voice: 2
+17.Nov.16 13:17:29 DEBUG emofiltDebug - loaded: language: us, voice: 3
+17.Nov.16 13:17:29 DEBUG emofiltDebug - loaded: language: fr, voice: 1
+17.Nov.16 13:17:29 DEBUG emofiltDebug - loaded: language: fr, voice: 2
+17.Nov.16 13:17:29 DEBUG emofiltDebug - loaded: language: fr, voice: 3
+17.Nov.16 13:17:29 DEBUG emofiltDebug - loaded: language: fr, voice: 4
+17.Nov.16 13:17:29 DEBUG emofiltDebug - loaded: language: fr, voice: 5
+17.Nov.16 13:17:29 DEBUG emofiltDebug - loaded: language: fr, voice: 6
+17.Nov.16 13:17:29 DEBUG emofiltDebug - loaded: language: fr, voice: 7
+17.Nov.16 13:17:29 DEBUG emofiltDebug - loaded 27 languages
+17.Nov.16 13:17:29 DEBUG emofiltDebug - happySad
+17.Nov.16 13:17:29 DEBUG emofiltDebug - angrySad
+17.Nov.16 13:17:29 DEBUG emofiltDebug - sadAngry
+17.Nov.16 13:17:29 DEBUG emofiltDebug - boredom
+17.Nov.16 13:17:29 DEBUG emofiltDebug - despair
+17.Nov.16 13:17:29 DEBUG emofiltDebug - sad
+17.Nov.16 13:17:29 DEBUG emofiltDebug - scared
+17.Nov.16 13:17:29 DEBUG emofiltDebug - neurotic
+17.Nov.16 13:17:29 DEBUG emofiltDebug - fairytale
+17.Nov.16 13:17:29 DEBUG emofiltDebug - coldAnger
+17.Nov.16 13:17:29 DEBUG emofiltDebug - yawning
+17.Nov.16 13:17:29 DEBUG emofiltDebug - joy
+17.Nov.16 13:17:29 DEBUG emofiltDebug - happy
+17.Nov.16 13:17:29 DEBUG emofiltDebug - hotAnger
+17.Nov.16 13:17:29 DEBUG emofiltDebug - neutral
+17.Nov.16 13:17:38 DEBUG emofilt.storyreading.Story - token: emotion val="neutral">das ist ein test, emotion: neutral , text: das ist ein test
+17.Nov.16 13:17:39 WARN  emofiltDebug - phoneme name a_loud not found in language de2
+17.Nov.16 13:17:39 ERROR emofiltDebug - couldn't classify phoneme: a_loud. Perhaps pho-file and language do not match.
+17.Nov.16 13:17:39 ERROR emofiltDebug - something went wrong, last Phoneme:_
+17.Nov.16 13:17:39 DEBUG emofiltDebug - returning emotion: neutral
+17.Nov.16 13:17:39 DEBUG emofiltDebug - exec: d:/Programme/Mbrola/phoplayer.exe database=d:/Programme/Mbrola/voices/de2/de2 d:/temp/tmp.pho /O=d:/temp/TMP.WAV /T=wav
+17.Nov.16 13:17:47 DEBUG emofiltDebug - setting language to de6
+17.Nov.16 13:17:48 DEBUG emofilt.storyreading.Story - token: emotion val="neutral">das ist ein test, emotion: neutral , text: das ist ein test
+17.Nov.16 13:17:49 DEBUG emofiltDebug - returning emotion: neutral
+17.Nov.16 13:17:49 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:17:49 DEBUG emofiltDebug - exec: d:/Programme/Mbrola/phoplayer.exe database=d:/Programme/Mbrola/voices/de6/de6 d:/temp/tmp.pho /O=d:/temp/TMP.WAV /T=wav
+17.Nov.16 13:19:06 DEBUG emofiltDebug - F0Mean, F0Range, Variability, PhraseContour, ContourFromStress, LevelUnstress, LevelFocusstress, LevelWordstress, ContourUnstress, ContourFocusstress, ContourWordstress, LastSylContour, WaveModel, SpeechRate, DurationFocusstressedSyls, DurationWordstressedSyls, DurationUnstressedSyls, DurVowel, DurAprx, DurNasal, DurVFric, DurVLFric, DurVStop, DurVLStop, DurPause, Jitter, VocalEffort, VowelTarget
+17.Nov.16 13:19:06 DEBUG emofiltDebug -  initialisation, use GUI=false
+17.Nov.16 13:19:06 DEBUG emofiltDebug - loaded plugin: name: f0Mean, type: pitch
+17.Nov.16 13:19:06 DEBUG emofiltDebug -  initialisation, use GUI=false
+17.Nov.16 13:19:06 DEBUG emofiltDebug - loaded plugin: name: f0Range, type: pitch
+17.Nov.16 13:19:06 DEBUG emofiltDebug -  initialisation, use GUI=false
+17.Nov.16 13:19:06 DEBUG emofiltDebug - loaded plugin: name: variability, type: pitch
+17.Nov.16 13:19:06 DEBUG emofiltDebug -  initialisation, use GUI=false
+17.Nov.16 13:19:06 DEBUG emofiltDebug - loaded plugin: name: phraseContour, type: pitch
+17.Nov.16 13:19:06 DEBUG emofiltDebug -  initialisation, use GUI=false
+17.Nov.16 13:19:06 DEBUG emofiltDebug - loaded plugin: name: contourFromStress, type: pitch
+17.Nov.16 13:19:06 DEBUG emofiltDebug -  initialisation, use GUI=false
+17.Nov.16 13:19:06 DEBUG emofiltDebug - loaded plugin: name: levelUnstress, type: pitch
+17.Nov.16 13:19:06 DEBUG emofiltDebug -  initialisation, use GUI=false
+17.Nov.16 13:19:06 DEBUG emofiltDebug - loaded plugin: name: levelFocusstress, type: pitch
+17.Nov.16 13:19:06 DEBUG emofiltDebug -  initialisation, use GUI=false
+17.Nov.16 13:19:06 DEBUG emofiltDebug - loaded plugin: name: levelWordstress, type: pitch
+17.Nov.16 13:19:06 DEBUG emofiltDebug -  initialisation, use GUI=false
+17.Nov.16 13:19:06 DEBUG emofiltDebug - loaded plugin: name: contourUnstress, type: pitch
+17.Nov.16 13:19:06 DEBUG emofiltDebug -  initialisation, use GUI=false
+17.Nov.16 13:19:06 DEBUG emofiltDebug - loaded plugin: name: contourFocusstress, type: pitch
+17.Nov.16 13:19:06 DEBUG emofiltDebug -  initialisation, use GUI=false
+17.Nov.16 13:19:06 DEBUG emofiltDebug - loaded plugin: name: contourWordstress, type: pitch
+17.Nov.16 13:19:06 DEBUG emofiltDebug -  initialisation, use GUI=false
+17.Nov.16 13:19:06 DEBUG emofiltDebug - loaded plugin: name: lastSylContour, type: pitch
+17.Nov.16 13:19:06 DEBUG emofiltDebug -  initialisation, use GUI=false
+17.Nov.16 13:19:06 DEBUG emofiltDebug - loaded plugin: name: waveModel, type: pitch
+17.Nov.16 13:19:06 DEBUG emofiltDebug -  initialisation, use GUI=false
+17.Nov.16 13:19:06 DEBUG emofiltDebug - loaded plugin: name: speechRate, type: duration
+17.Nov.16 13:19:06 DEBUG emofiltDebug -  initialisation, use GUI=false
+17.Nov.16 13:19:06 DEBUG emofiltDebug - loaded plugin: name: durationFocusstressedSyls, type: duration
+17.Nov.16 13:19:06 DEBUG emofiltDebug -  initialisation, use GUI=false
+17.Nov.16 13:19:06 DEBUG emofiltDebug - loaded plugin: name: durationWordstressedSyls, type: duration
+17.Nov.16 13:19:06 DEBUG emofiltDebug -  initialisation, use GUI=false
+17.Nov.16 13:19:06 DEBUG emofiltDebug - loaded plugin: name: durationUnstressedSyls, type: duration
+17.Nov.16 13:19:06 DEBUG emofiltDebug -  initialisation, use GUI=false
+17.Nov.16 13:19:06 DEBUG emofiltDebug - loaded plugin: name: durVowel, type: duration
+17.Nov.16 13:19:06 DEBUG emofiltDebug -  initialisation, use GUI=false
+17.Nov.16 13:19:06 DEBUG emofiltDebug - loaded plugin: name: durAprx, type: duration
+17.Nov.16 13:19:06 DEBUG emofiltDebug -  initialisation, use GUI=false
+17.Nov.16 13:19:06 DEBUG emofiltDebug - loaded plugin: name: durNasal, type: duration
+17.Nov.16 13:19:06 DEBUG emofiltDebug -  initialisation, use GUI=false
+17.Nov.16 13:19:06 DEBUG emofiltDebug - loaded plugin: name: durVFric, type: duration
+17.Nov.16 13:19:06 DEBUG emofiltDebug -  initialisation, use GUI=false
+17.Nov.16 13:19:06 DEBUG emofiltDebug - loaded plugin: name: durVLFric, type: duration
+17.Nov.16 13:19:06 DEBUG emofiltDebug -  initialisation, use GUI=false
+17.Nov.16 13:19:06 DEBUG emofiltDebug - loaded plugin: name: durVStop, type: duration
+17.Nov.16 13:19:06 DEBUG emofiltDebug -  initialisation, use GUI=false
+17.Nov.16 13:19:06 DEBUG emofiltDebug - loaded plugin: name: durVLStop, type: duration
+17.Nov.16 13:19:06 DEBUG emofiltDebug -  initialisation, use GUI=false
+17.Nov.16 13:19:06 DEBUG emofiltDebug - loaded plugin: name: durPause, type: duration
+17.Nov.16 13:19:06 DEBUG emofiltDebug -  initialisation, use GUI=false
+17.Nov.16 13:19:06 DEBUG emofiltDebug - loaded plugin: name: jitter, type: phonation
+17.Nov.16 13:19:06 DEBUG emofiltDebug -  initialisation, use GUI=false
+17.Nov.16 13:19:06 DEBUG emofiltDebug - loaded plugin: name: vocalEffort, type: phonation
+17.Nov.16 13:19:06 DEBUG emofiltDebug -  initialisation, use GUI=false
+17.Nov.16 13:19:06 DEBUG emofiltDebug - loaded plugin: name: vowelTarget, type: articulation
+17.Nov.16 13:19:06 DEBUG emofiltDebug - loaded 28 plugins.
+17.Nov.16 13:19:06 DEBUG emofiltDebug - lfp: D:/Work/emofilt/emofilt\languages.xml
+17.Nov.16 13:19:06 DEBUG emofiltDebug - loaded: language: ex, voice: 1
+17.Nov.16 13:19:06 DEBUG emofiltDebug - loaded: language: cn, voice: 1
+17.Nov.16 13:19:06 DEBUG emofiltDebug - loaded: language: tl, voice: 1
+17.Nov.16 13:19:06 DEBUG emofiltDebug - loaded: language: es, voice: 4
+17.Nov.16 13:19:06 DEBUG emofiltDebug - loaded: language: es, voice: 2
+17.Nov.16 13:19:06 DEBUG emofiltDebug - loaded: language: nl, voice: 2
+17.Nov.16 13:19:06 DEBUG emofiltDebug - loaded: language: hu, voice: 1
+17.Nov.16 13:19:06 DEBUG emofiltDebug - loaded: language: it, voice: 3
+17.Nov.16 13:19:06 DEBUG emofiltDebug - loaded: language: gr, voice: 2
+17.Nov.16 13:19:06 DEBUG emofiltDebug - loaded: language: tr, voice: 1
+17.Nov.16 13:19:06 DEBUG emofiltDebug - loaded: language: de, voice: 1
+17.Nov.16 13:19:06 DEBUG emofiltDebug - loaded: language: de, voice: 2
+17.Nov.16 13:19:06 DEBUG emofiltDebug - loaded: language: de, voice: 3
+17.Nov.16 13:19:07 DEBUG emofiltDebug - loaded: language: de, voice: 4
+17.Nov.16 13:19:07 DEBUG emofiltDebug - loaded: language: de, voice: 6
+17.Nov.16 13:19:07 DEBUG emofiltDebug - loaded: language: de, voice: 7
+17.Nov.16 13:19:07 DEBUG emofiltDebug - loaded: language: en, voice: 1
+17.Nov.16 13:19:07 DEBUG emofiltDebug - loaded: language: us, voice: 1
+17.Nov.16 13:19:07 DEBUG emofiltDebug - loaded: language: us, voice: 2
+17.Nov.16 13:19:07 DEBUG emofiltDebug - loaded: language: us, voice: 3
+17.Nov.16 13:19:07 DEBUG emofiltDebug - loaded: language: fr, voice: 1
+17.Nov.16 13:19:07 DEBUG emofiltDebug - loaded: language: fr, voice: 2
+17.Nov.16 13:19:07 DEBUG emofiltDebug - loaded: language: fr, voice: 3
+17.Nov.16 13:19:07 DEBUG emofiltDebug - loaded: language: fr, voice: 4
+17.Nov.16 13:19:07 DEBUG emofiltDebug - loaded: language: fr, voice: 5
+17.Nov.16 13:19:07 DEBUG emofiltDebug - loaded: language: fr, voice: 6
+17.Nov.16 13:19:07 DEBUG emofiltDebug - loaded: language: fr, voice: 7
+17.Nov.16 13:19:07 DEBUG emofiltDebug - loaded 27 languages
+17.Nov.16 13:19:07 DEBUG emofiltDebug - happySad
+17.Nov.16 13:19:07 DEBUG emofiltDebug - angrySad
+17.Nov.16 13:19:07 DEBUG emofiltDebug - sadAngry
+17.Nov.16 13:19:07 DEBUG emofiltDebug - boredom
+17.Nov.16 13:19:07 DEBUG emofiltDebug - despair
+17.Nov.16 13:19:07 DEBUG emofiltDebug - sad
+17.Nov.16 13:19:07 DEBUG emofiltDebug - scared
+17.Nov.16 13:19:07 DEBUG emofiltDebug - neurotic
+17.Nov.16 13:19:07 DEBUG emofiltDebug - fairytale
+17.Nov.16 13:19:07 DEBUG emofiltDebug - coldAnger
+17.Nov.16 13:19:07 DEBUG emofiltDebug - yawning
+17.Nov.16 13:19:07 DEBUG emofiltDebug - joy
+17.Nov.16 13:19:07 DEBUG emofiltDebug - happy
+17.Nov.16 13:19:07 DEBUG emofiltDebug - hotAnger
+17.Nov.16 13:19:07 DEBUG emofiltDebug - neutral
+17.Nov.16 13:19:12 DEBUG emofiltDebug - setting language to de6
+17.Nov.16 13:19:22 DEBUG emofilt.storyreading.Story - token: emotion val="neutral">das ist ein Test, emotion: neutral , text: das ist ein Test
+17.Nov.16 13:19:23 DEBUG emofiltDebug - returning emotion: neutral
+17.Nov.16 13:19:23 DEBUG emofiltDebug - exec: d:/Programme/Mbrola/phoplayer.exe database=d:/Programme/Mbrola/voices/de6/de6 d:/temp/tmp.pho /O=d:/temp/TMP.WAV /T=wav
+17.Nov.16 13:19:52 DEBUG emofilt.storyreading.Story - token: emotion val="neutral">das ist ein Test, emotion: neutral , text: das ist ein Test
+17.Nov.16 13:19:52 DEBUG emofiltDebug - calling Mary server with phrase das ist ein Test and language: de6
+17.Nov.16 13:19:52 DEBUG emofiltDebug - returning emotion: neutral
+17.Nov.16 13:19:52 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:19:52 DEBUG emofiltDebug - exec: d:/Programme/Mbrola/phoplayer.exe database=d:/Programme/Mbrola/voices/de6/de6 d:/temp/tmp.pho /O=d:/temp/TMP.WAV /T=wav
+17.Nov.16 13:30:42 DEBUG emofilt.storyreading.Story - token: emotion val="fairytale">Rotk‰ppchen ging durch den Wald und traf den Wolf., emotion: fairytale , text: Rotk‰ppchen ging durch den Wald und traf den Wolf.
+17.Nov.16 13:30:42 DEBUG emofilt.storyreading.Story - token: emotion val="fairytale">
+Sie sagte, emotion: fairytale , text: Sie sagte
+17.Nov.16 13:30:42 DEBUG emofilt.storyreading.Story - token: emotion val="joy">: hallo Wolf, ich besuche meine Groﬂmutter!, emotion: joy , text: : hallo Wolf, ich besuche meine Groﬂmutter!
+17.Nov.16 13:30:42 DEBUG emofilt.storyreading.Story - token: emotion val="fairytale">
+Der Wol, emotion: fairytale , text: Der Wol
+17.Nov.16 13:30:42 DEBUG emofilt.storyreading.Story - token: emotion val="neutral">f, emotion: neutral , text: f
+17.Nov.16 13:30:42 DEBUG emofilt.storyreading.Story - token: emotion val="joy">: Wie schˆn, pf¸ck doch ein paar Blumen und bringe sie ih, emotion: joy , text: : Wie schˆn, pf¸ck doch ein paar Blumen und bringe sie ih
+17.Nov.16 13:30:42 DEBUG emofilt.storyreading.Story - token: emotion val="neutral">r, emotion: neutral , text: r
+17.Nov.16 13:30:42 DEBUG emofilt.storyreading.Story - token: emotion val="fairytale">.
+Er ging zur Groﬂmutter, fraﬂ sie auf und legte sich in ihr B, emotion: fairytale , text: .Er ging zur Groﬂmutter, fraﬂ sie auf und legte sich in ihr B
+17.Nov.16 13:30:42 DEBUG emofilt.storyreading.Story - token: emotion val="neutral">et, emotion: neutral , text: et
+17.Nov.16 13:30:42 DEBUG emofilt.storyreading.Story - token: emotion val="fairytale">t.
+Als Rotk‰ppchen kam sagte , emotion: fairytale , text: t.Als Rotk‰ppchen kam sagte
+17.Nov.16 13:30:42 DEBUG emofilt.storyreading.Story - token: emotion val="neutral">s, emotion: neutral , text: s
+17.Nov.16 13:30:42 DEBUG emofilt.storyreading.Story - token: emotion val="joy">ie: Was hast du f¸r groﬂe Oh, emotion: joy , text: ie: Was hast du f¸r groﬂe Oh
+17.Nov.16 13:30:42 DEBUG emofilt.storyreading.Story - token: emotion val="neutral">r, emotion: neutral , text: r
+17.Nov.16 13:30:42 DEBUG emofilt.storyreading.Story - token: emotion val="neurotic">en?
+Damit ich dich besser hˆren, emotion: neurotic , text: en?Damit ich dich besser hˆren
+17.Nov.16 13:30:42 DEBUG emofilt.storyreading.Story - token: emotion val="joy">kann
+Was f¸r einen groﬂen, emotion: joy , text: kannWas f¸r einen groﬂen
+17.Nov.16 13:30:42 DEBUG emofilt.storyreading.Story - token: emotion val="fairytale">Mund?
+Der Wolf, emotion: fairytale , text: Mund?Der Wolf
+17.Nov.16 13:30:42 DEBUG emofilt.storyreading.Story - token: emotion val="neurotic">sagte: Damit ich dich besser fresse, emotion: neurotic , text: sagte: Damit ich dich besser fresse
+17.Nov.16 13:30:42 DEBUG emofilt.storyreading.Story - token: emotion val="neutral">n, emotion: neutral , text: n
+17.Nov.16 13:30:42 DEBUG emofilt.storyreading.Story - token: emotion val="fairytale"> kann! und fraﬂ sie au, emotion: fairytale , text: kann! und fraﬂ sie au
+17.Nov.16 13:30:42 DEBUG emofilt.storyreading.Story - token: emotion val="333333">ch auf., emotion: 333333 , text: ch auf.
+17.Nov.16 13:30:42 DEBUG emofiltDebug - calling Mary server with phrase Rotk‰ppchen ging durch den Wald und traf den Wolf. and language: de6
+17.Nov.16 13:30:42 DEBUG emofiltDebug - returning emotion: fairytale
+17.Nov.16 13:30:42 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:30:42 DEBUG emofiltDebug - meanF0, 70, new mean: 72.33333333333333
+17.Nov.16 13:30:42 DEBUG emofiltDebug - calling Mary server with phrase Sie sagte and language: de6
+17.Nov.16 13:30:42 DEBUG emofiltDebug - returning emotion: fairytale
+17.Nov.16 13:30:42 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:30:42 DEBUG emofiltDebug - meanF0, 70, new mean: 43.5
+17.Nov.16 13:30:42 DEBUG emofiltDebug - calling Mary server with phrase : hallo Wolf, ich besuche meine Groﬂmutter! and language: de6
+17.Nov.16 13:30:42 DEBUG emofiltDebug - returning emotion: joy
+17.Nov.16 13:30:42 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:30:42 DEBUG emofiltDebug - meanF0, 150, new mean: 148.21428571428572
+17.Nov.16 13:30:42 DEBUG emofiltDebug - calling Mary server with phrase Der Wol and language: de6
+17.Nov.16 13:30:42 DEBUG emofiltDebug - returning emotion: fairytale
+17.Nov.16 13:30:42 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:30:42 DEBUG emofiltDebug - meanF0, 70, new mean: 60.0
+17.Nov.16 13:30:42 DEBUG emofiltDebug - calling Mary server with phrase f and language: de6
+17.Nov.16 13:30:42 DEBUG emofiltDebug - returning emotion: neutral
+17.Nov.16 13:30:42 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:30:42 DEBUG emofiltDebug - calling Mary server with phrase : Wie schˆn, pf¸ck doch ein paar Blumen und bringe sie ih and language: de6
+17.Nov.16 13:30:42 DEBUG emofiltDebug - returning emotion: joy
+17.Nov.16 13:30:42 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:30:42 DEBUG emofiltDebug - meanF0, 150, new mean: 136.1875
+17.Nov.16 13:30:42 DEBUG emofiltDebug - calling Mary server with phrase r and language: de6
+17.Nov.16 13:30:42 DEBUG emofiltDebug - returning emotion: neutral
+17.Nov.16 13:30:42 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:30:42 DEBUG emofiltDebug - calling Mary server with phrase .Er ging zur Groﬂmutter, fraﬂ sie auf und legte sich in ihr B and language: de6
+17.Nov.16 13:30:42 DEBUG emofiltDebug - returning emotion: fairytale
+17.Nov.16 13:30:42 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:30:42 DEBUG emofiltDebug - meanF0, 70, new mean: 69.45
+17.Nov.16 13:30:42 DEBUG emofiltDebug - calling Mary server with phrase et and language: de6
+17.Nov.16 13:30:42 DEBUG emofiltDebug - returning emotion: neutral
+17.Nov.16 13:30:42 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:30:42 DEBUG emofiltDebug - calling Mary server with phrase t.Als Rotk‰ppchen kam sagte and language: de6
+17.Nov.16 13:30:42 DEBUG emofiltDebug - returning emotion: fairytale
+17.Nov.16 13:30:42 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:30:42 DEBUG emofiltDebug - meanF0, 70, new mean: 65.11111111111111
+17.Nov.16 13:30:42 DEBUG emofiltDebug - calling Mary server with phrase s and language: de6
+17.Nov.16 13:30:42 DEBUG emofiltDebug - returning emotion: neutral
+17.Nov.16 13:30:42 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:30:42 DEBUG emofiltDebug - calling Mary server with phrase ie: Was hast du f¸r groﬂe Oh and language: de6
+17.Nov.16 13:30:42 DEBUG emofiltDebug - returning emotion: joy
+17.Nov.16 13:30:42 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:30:42 DEBUG emofiltDebug - meanF0, 150, new mean: 122.75
+17.Nov.16 13:30:42 DEBUG emofiltDebug - calling Mary server with phrase r and language: de6
+17.Nov.16 13:30:42 DEBUG emofiltDebug - returning emotion: neutral
+17.Nov.16 13:30:42 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:30:42 DEBUG emofiltDebug - calling Mary server with phrase en?Damit ich dich besser hˆren and language: de6
+17.Nov.16 13:30:42 DEBUG emofiltDebug - returning emotion: neurotic
+17.Nov.16 13:30:42 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:30:42 DEBUG emofiltDebug - meanF0, 120, new mean: 100.36363636363636
+17.Nov.16 13:30:42 DEBUG emofiltDebug - calling Mary server with phrase kannWas f¸r einen groﬂen and language: de6
+17.Nov.16 13:30:42 DEBUG emofiltDebug - returning emotion: joy
+17.Nov.16 13:30:42 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:30:42 DEBUG emofiltDebug - meanF0, 150, new mean: 150.33333333333334
+17.Nov.16 13:30:42 DEBUG emofiltDebug - calling Mary server with phrase Mund?Der Wolf and language: de6
+17.Nov.16 13:30:42 DEBUG emofiltDebug - returning emotion: fairytale
+17.Nov.16 13:30:42 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:30:42 DEBUG emofiltDebug - meanF0, 70, new mean: 48.833333333333336
+17.Nov.16 13:30:42 DEBUG emofiltDebug - calling Mary server with phrase sagte: Damit ich dich besser fresse and language: de6
+17.Nov.16 13:30:42 DEBUG emofiltDebug - returning emotion: neurotic
+17.Nov.16 13:30:42 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:30:42 DEBUG emofiltDebug - meanF0, 120, new mean: 101.41666666666667
+17.Nov.16 13:30:42 DEBUG emofiltDebug - calling Mary server with phrase n and language: de6
+17.Nov.16 13:30:42 DEBUG emofiltDebug - returning emotion: neutral
+17.Nov.16 13:30:42 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:30:42 DEBUG emofiltDebug - calling Mary server with phrase kann! und fraﬂ sie au and language: de6
+17.Nov.16 13:30:42 DEBUG emofiltDebug - returning emotion: fairytale
+17.Nov.16 13:30:42 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:30:42 DEBUG emofiltDebug - meanF0, 70, new mean: 49.714285714285715
+17.Nov.16 13:30:42 DEBUG emofiltDebug - calling Mary server with phrase ch auf. and language: de6
+17.Nov.16 13:30:42 WARN  emofiltDebug - emotion "333333" not found
+17.Nov.16 13:30:42 DEBUG emofiltDebug - exec: d:/Programme/Mbrola/phoplayer.exe database=d:/Programme/Mbrola/voices/de6/de6 d:/temp/tmp.pho /O=d:/temp/TMP.WAV /T=wav
+17.Nov.16 13:36:27 DEBUG emofilt.storyreading.Story - token: emotion val="fairytale">Rotk‰ppchen ging durch den Wald und traf den Wolf., emotion: fairytale , text: Rotk‰ppchen ging durch den Wald und traf den Wolf.
+17.Nov.16 13:36:27 DEBUG emofilt.storyreading.Story - token: emotion val="fairytale">
+Sie sagte, emotion: fairytale , text: Sie sagte
+17.Nov.16 13:36:27 DEBUG emofilt.storyreading.Story - token: emotion val="joy">: hallo Wolf, ich besuche meine Groﬂmutter!, emotion: joy , text: : hallo Wolf, ich besuche meine Groﬂmutter!
+17.Nov.16 13:36:27 DEBUG emofilt.storyreading.Story - token: emotion val="fairytale">
+Der Wol, emotion: fairytale , text: Der Wol
+17.Nov.16 13:36:27 DEBUG emofilt.storyreading.Story - token: emotion val="neutral">f, emotion: neutral , text: f
+17.Nov.16 13:36:27 DEBUG emofilt.storyreading.Story - token: emotion val="joy">: Wie schˆn, pf¸ck doch ein paar Blumen und bringe sie ih, emotion: joy , text: : Wie schˆn, pf¸ck doch ein paar Blumen und bringe sie ih
+17.Nov.16 13:36:27 DEBUG emofilt.storyreading.Story - token: emotion val="neutral">r, emotion: neutral , text: r
+17.Nov.16 13:36:27 DEBUG emofilt.storyreading.Story - token: emotion val="fairytale">.
+Er ging zur Groﬂmutter, fraﬂ sie auf und legte sich in ihr B, emotion: fairytale , text: .Er ging zur Groﬂmutter, fraﬂ sie auf und legte sich in ihr B
+17.Nov.16 13:36:27 DEBUG emofilt.storyreading.Story - token: emotion val="neutral">et, emotion: neutral , text: et
+17.Nov.16 13:36:27 DEBUG emofilt.storyreading.Story - token: emotion val="fairytale">t.
+Als Rotk‰ppchen kam sagte , emotion: fairytale , text: t.Als Rotk‰ppchen kam sagte
+17.Nov.16 13:36:27 DEBUG emofilt.storyreading.Story - token: emotion val="neutral">s, emotion: neutral , text: s
+17.Nov.16 13:36:27 DEBUG emofilt.storyreading.Story - token: emotion val="joy">ie: Was hast du f¸r groﬂe Oh, emotion: joy , text: ie: Was hast du f¸r groﬂe Oh
+17.Nov.16 13:36:27 DEBUG emofilt.storyreading.Story - token: emotion val="neutral">r, emotion: neutral , text: r
+17.Nov.16 13:36:27 DEBUG emofilt.storyreading.Story - token: emotion val="neurotic">en?
+Damit ich dich besser hˆren, emotion: neurotic , text: en?Damit ich dich besser hˆren
+17.Nov.16 13:36:27 DEBUG emofilt.storyreading.Story - token: emotion val="joy">kann
+Was f¸r einen groﬂen, emotion: joy , text: kannWas f¸r einen groﬂen
+17.Nov.16 13:36:27 DEBUG emofilt.storyreading.Story - token: emotion val="fairytale">Mund?
+Der Wolf, emotion: fairytale , text: Mund?Der Wolf
+17.Nov.16 13:36:27 DEBUG emofilt.storyreading.Story - token: emotion val="neurotic">sagte: Damit ich dich besser fresse, emotion: neurotic , text: sagte: Damit ich dich besser fresse
+17.Nov.16 13:36:27 DEBUG emofilt.storyreading.Story - token: emotion val="neutral">n, emotion: neutral , text: n
+17.Nov.16 13:36:27 DEBUG emofilt.storyreading.Story - token: emotion val="fairytale"> kann! und fraﬂ sie au, emotion: fairytale , text: kann! und fraﬂ sie au
+17.Nov.16 13:36:27 DEBUG emofilt.storyreading.Story - token: emotion val="333333">ch auf., emotion: 333333 , text: ch auf.
+17.Nov.16 13:36:27 DEBUG emofiltDebug - calling Mary server with phrase Rotk‰ppchen ging durch den Wald und traf den Wolf. and language: de6
+17.Nov.16 13:36:27 DEBUG emofiltDebug - returning emotion: fairytale
+17.Nov.16 13:36:27 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:36:27 DEBUG emofiltDebug - meanF0, 70, new mean: 72.33333333333333
+17.Nov.16 13:36:27 DEBUG emofiltDebug - calling Mary server with phrase Sie sagte and language: de6
+17.Nov.16 13:36:27 DEBUG emofiltDebug - returning emotion: fairytale
+17.Nov.16 13:36:27 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:36:27 DEBUG emofiltDebug - meanF0, 70, new mean: 43.5
+17.Nov.16 13:36:27 DEBUG emofiltDebug - calling Mary server with phrase : hallo Wolf, ich besuche meine Groﬂmutter! and language: de6
+17.Nov.16 13:36:27 DEBUG emofiltDebug - returning emotion: joy
+17.Nov.16 13:36:27 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:36:27 DEBUG emofiltDebug - meanF0, 150, new mean: 148.21428571428572
+17.Nov.16 13:36:27 DEBUG emofiltDebug - calling Mary server with phrase Der Wol and language: de6
+17.Nov.16 13:36:27 DEBUG emofiltDebug - returning emotion: fairytale
+17.Nov.16 13:36:27 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:36:27 DEBUG emofiltDebug - meanF0, 70, new mean: 60.0
+17.Nov.16 13:36:27 DEBUG emofiltDebug - calling Mary server with phrase f and language: de6
+17.Nov.16 13:36:27 DEBUG emofiltDebug - returning emotion: neutral
+17.Nov.16 13:36:27 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:36:27 DEBUG emofiltDebug - calling Mary server with phrase : Wie schˆn, pf¸ck doch ein paar Blumen und bringe sie ih and language: de6
+17.Nov.16 13:36:27 DEBUG emofiltDebug - returning emotion: joy
+17.Nov.16 13:36:27 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:36:27 DEBUG emofiltDebug - meanF0, 150, new mean: 136.1875
+17.Nov.16 13:36:27 DEBUG emofiltDebug - calling Mary server with phrase r and language: de6
+17.Nov.16 13:36:27 DEBUG emofiltDebug - returning emotion: neutral
+17.Nov.16 13:36:27 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:36:27 DEBUG emofiltDebug - calling Mary server with phrase .Er ging zur Groﬂmutter, fraﬂ sie auf und legte sich in ihr B and language: de6
+17.Nov.16 13:36:27 DEBUG emofiltDebug - returning emotion: fairytale
+17.Nov.16 13:36:27 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:36:27 DEBUG emofiltDebug - meanF0, 70, new mean: 69.45
+17.Nov.16 13:36:27 DEBUG emofiltDebug - calling Mary server with phrase et and language: de6
+17.Nov.16 13:36:27 DEBUG emofiltDebug - returning emotion: neutral
+17.Nov.16 13:36:27 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:36:27 DEBUG emofiltDebug - calling Mary server with phrase t.Als Rotk‰ppchen kam sagte and language: de6
+17.Nov.16 13:36:27 DEBUG emofiltDebug - returning emotion: fairytale
+17.Nov.16 13:36:27 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:36:27 DEBUG emofiltDebug - meanF0, 70, new mean: 65.11111111111111
+17.Nov.16 13:36:27 DEBUG emofiltDebug - calling Mary server with phrase s and language: de6
+17.Nov.16 13:36:27 DEBUG emofiltDebug - returning emotion: neutral
+17.Nov.16 13:36:27 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:36:27 DEBUG emofiltDebug - calling Mary server with phrase ie: Was hast du f¸r groﬂe Oh and language: de6
+17.Nov.16 13:36:27 DEBUG emofiltDebug - returning emotion: joy
+17.Nov.16 13:36:27 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:36:27 DEBUG emofiltDebug - meanF0, 150, new mean: 122.75
+17.Nov.16 13:36:27 DEBUG emofiltDebug - calling Mary server with phrase r and language: de6
+17.Nov.16 13:36:27 DEBUG emofiltDebug - returning emotion: neutral
+17.Nov.16 13:36:27 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:36:27 DEBUG emofiltDebug - calling Mary server with phrase en?Damit ich dich besser hˆren and language: de6
+17.Nov.16 13:36:27 DEBUG emofiltDebug - returning emotion: neurotic
+17.Nov.16 13:36:27 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:36:27 DEBUG emofiltDebug - meanF0, 120, new mean: 100.36363636363636
+17.Nov.16 13:36:27 DEBUG emofiltDebug - calling Mary server with phrase kannWas f¸r einen groﬂen and language: de6
+17.Nov.16 13:36:27 DEBUG emofiltDebug - returning emotion: joy
+17.Nov.16 13:36:27 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:36:27 DEBUG emofiltDebug - meanF0, 150, new mean: 150.33333333333334
+17.Nov.16 13:36:27 DEBUG emofiltDebug - calling Mary server with phrase Mund?Der Wolf and language: de6
+17.Nov.16 13:36:27 DEBUG emofiltDebug - returning emotion: fairytale
+17.Nov.16 13:36:27 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:36:27 DEBUG emofiltDebug - meanF0, 70, new mean: 48.833333333333336
+17.Nov.16 13:36:27 DEBUG emofiltDebug - calling Mary server with phrase sagte: Damit ich dich besser fresse and language: de6
+17.Nov.16 13:36:27 DEBUG emofiltDebug - returning emotion: neurotic
+17.Nov.16 13:36:27 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:36:27 DEBUG emofiltDebug - meanF0, 120, new mean: 101.41666666666667
+17.Nov.16 13:36:27 DEBUG emofiltDebug - calling Mary server with phrase n and language: de6
+17.Nov.16 13:36:27 DEBUG emofiltDebug - returning emotion: neutral
+17.Nov.16 13:36:27 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:36:27 DEBUG emofiltDebug - calling Mary server with phrase kann! und fraﬂ sie au and language: de6
+17.Nov.16 13:36:27 DEBUG emofiltDebug - returning emotion: fairytale
+17.Nov.16 13:36:27 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:36:27 DEBUG emofiltDebug - meanF0, 70, new mean: 49.714285714285715
+17.Nov.16 13:36:27 DEBUG emofiltDebug - calling Mary server with phrase ch auf. and language: de6
+17.Nov.16 13:36:27 WARN  emofiltDebug - emotion "333333" not found
+17.Nov.16 13:36:27 DEBUG emofiltDebug - exec: d:/Programme/Mbrola/phoplayer.exe database=d:/Programme/Mbrola/voices/de6/de6 d:/temp/tmp.pho /O=d:/temp/TMP.WAV /T=wav
+17.Nov.16 13:36:53 DEBUG emofiltDebug - exec: d:/Programme/Mbrola/phoplayer.exe database=d:/Programme/Mbrola/voices/de6/de6 d:/temp/tmp.pho /O=d:/temp/TMP.WAV /T=wav
+17.Nov.16 13:38:35 DEBUG emofilt.storyreading.Story - token: emotion val="fairytale">Rotk‰ppchen ging durch den Wald und traf den Wolf.
+Sie sagte., emotion: fairytale , text: Rotk‰ppchen ging durch den Wald und traf den Wolf.Sie sagte.
+17.Nov.16 13:38:35 DEBUG emofilt.storyreading.Story - token: emotion val="joy">
+Hallo Wolf, ich besuche meine Groﬂmutter, emotion: joy , text: Hallo Wolf, ich besuche meine Groﬂmutter
+17.Nov.16 13:38:35 DEBUG emofilt.storyreading.Story - token: emotion val="fairytale">! 
+Der Wol, emotion: fairytale , text: ! Der Wol
+17.Nov.16 13:38:35 DEBUG emofilt.storyreading.Story - token: emotion val="happySad">f.
+Wie schˆn, pf¸ck doch ein paar Blumen und bringe sie , emotion: happySad , text: f.Wie schˆn, pf¸ck doch ein paar Blumen und bringe sie
+17.Nov.16 13:38:35 DEBUG emofilt.storyreading.Story - token: emotion val="333333">ihr., emotion: 333333 , text: ihr.
+17.Nov.16 13:38:35 DEBUG emofiltDebug - calling Mary server with phrase Rotk‰ppchen ging durch den Wald und traf den Wolf.Sie sagte. and language: de6
+17.Nov.16 13:38:35 DEBUG emofiltDebug - returning emotion: fairytale
+17.Nov.16 13:38:35 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:38:35 DEBUG emofiltDebug - meanF0, 70, new mean: 69.625
+17.Nov.16 13:38:35 DEBUG emofiltDebug - calling Mary server with phrase Hallo Wolf, ich besuche meine Groﬂmutter and language: de6
+17.Nov.16 13:38:35 DEBUG emofiltDebug - returning emotion: joy
+17.Nov.16 13:38:35 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:38:35 DEBUG emofiltDebug - meanF0, 150, new mean: 144.71428571428572
+17.Nov.16 13:38:35 DEBUG emofiltDebug - calling Mary server with phrase ! Der Wol and language: de6
+17.Nov.16 13:38:35 DEBUG emofiltDebug - returning emotion: fairytale
+17.Nov.16 13:38:35 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:38:35 DEBUG emofiltDebug - meanF0, 70, new mean: 60.5
+17.Nov.16 13:38:35 DEBUG emofiltDebug - calling Mary server with phrase f.Wie schˆn, pf¸ck doch ein paar Blumen und bringe sie and language: de6
+17.Nov.16 13:38:35 DEBUG emofiltDebug - returning emotion: happySad
+17.Nov.16 13:38:35 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:38:35 DEBUG emofiltDebug - calling Mary server with phrase ihr. and language: de6
+17.Nov.16 13:38:35 WARN  emofiltDebug - emotion "333333" not found
+17.Nov.16 13:38:35 DEBUG emofiltDebug - exec: d:/Programme/Mbrola/phoplayer.exe database=d:/Programme/Mbrola/voices/de6/de6 d:/temp/tmp.pho /O=d:/temp/TMP.WAV /T=wav
+17.Nov.16 13:39:27 DEBUG emofilt.storyreading.Story - token: emotion val="fairytale">Rotk‰ppchen ging durch den Wald und traf den Wolf.
+Sie sagte., emotion: fairytale , text: Rotk‰ppchen ging durch den Wald und traf den Wolf.Sie sagte.
+17.Nov.16 13:39:27 DEBUG emofilt.storyreading.Story - token: emotion val="joy">
+Hallo Wolf, ich besuche meine Groﬂmutter, emotion: joy , text: Hallo Wolf, ich besuche meine Groﬂmutter
+17.Nov.16 13:39:27 DEBUG emofilt.storyreading.Story - token: emotion val="fairytale">! 
+Der Wol, emotion: fairytale , text: ! Der Wol
+17.Nov.16 13:39:27 DEBUG emofilt.storyreading.Story - token: emotion val="happySad">f.
+Wie schˆn, pf¸ck doch ein paar Blumen und bringe sie , emotion: happySad , text: f.Wie schˆn, pf¸ck doch ein paar Blumen und bringe sie
+17.Nov.16 13:39:27 DEBUG emofilt.storyreading.Story - token: emotion val="333333">ihr., emotion: 333333 , text: ihr.
+17.Nov.16 13:39:27 DEBUG emofiltDebug - calling Mary server with phrase Rotk‰ppchen ging durch den Wald und traf den Wolf.Sie sagte. and language: de6
+17.Nov.16 13:39:27 DEBUG emofiltDebug - returning emotion: fairytale
+17.Nov.16 13:39:27 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:39:27 DEBUG emofiltDebug - meanF0, 70, new mean: 69.625
+17.Nov.16 13:39:27 DEBUG emofiltDebug - calling Mary server with phrase Hallo Wolf, ich besuche meine Groﬂmutter and language: de6
+17.Nov.16 13:39:27 DEBUG emofiltDebug - returning emotion: joy
+17.Nov.16 13:39:27 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:39:27 DEBUG emofiltDebug - meanF0, 150, new mean: 144.71428571428572
+17.Nov.16 13:39:27 DEBUG emofiltDebug - calling Mary server with phrase ! Der Wol and language: de6
+17.Nov.16 13:39:27 DEBUG emofiltDebug - returning emotion: fairytale
+17.Nov.16 13:39:27 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:39:27 DEBUG emofiltDebug - meanF0, 70, new mean: 60.5
+17.Nov.16 13:39:27 DEBUG emofiltDebug - calling Mary server with phrase f.Wie schˆn, pf¸ck doch ein paar Blumen und bringe sie and language: de6
+17.Nov.16 13:39:27 DEBUG emofiltDebug - returning emotion: happySad
+17.Nov.16 13:39:27 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:39:27 DEBUG emofiltDebug - calling Mary server with phrase ihr. and language: de6
+17.Nov.16 13:39:27 WARN  emofiltDebug - emotion "333333" not found
+17.Nov.16 13:39:27 DEBUG emofiltDebug - exec: d:/Programme/Mbrola/phoplayer.exe database=d:/Programme/Mbrola/voices/de6/de6 d:/temp/tmp.pho /O=d:/temp/TMP.WAV /T=wav
+17.Nov.16 13:40:06 DEBUG emofiltDebug - setting language to de7
+17.Nov.16 13:40:07 DEBUG emofilt.storyreading.Story - token: emotion val="fairytale">Rotk‰ppchen ging durch den Wald und traf den Wolf.
+Sie sagte., emotion: fairytale , text: Rotk‰ppchen ging durch den Wald und traf den Wolf.Sie sagte.
+17.Nov.16 13:40:07 DEBUG emofilt.storyreading.Story - token: emotion val="joy">
+Hallo Wolf, ich besuche meine Groﬂmutter, emotion: joy , text: Hallo Wolf, ich besuche meine Groﬂmutter
+17.Nov.16 13:40:07 DEBUG emofilt.storyreading.Story - token: emotion val="fairytale">! 
+Der Wol, emotion: fairytale , text: ! Der Wol
+17.Nov.16 13:40:07 DEBUG emofilt.storyreading.Story - token: emotion val="happySad">f.
+Wie schˆn, pf¸ck doch ein paar Blumen und bringe sie , emotion: happySad , text: f.Wie schˆn, pf¸ck doch ein paar Blumen und bringe sie
+17.Nov.16 13:40:07 DEBUG emofilt.storyreading.Story - token: emotion val="333333">ihr., emotion: 333333 , text: ihr.
+17.Nov.16 13:40:07 DEBUG emofiltDebug - calling Mary server with phrase Rotk‰ppchen ging durch den Wald und traf den Wolf.Sie sagte. and language: de7
+17.Nov.16 13:40:07 DEBUG emofiltDebug - returning emotion: fairytale
+17.Nov.16 13:40:07 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:40:07 DEBUG emofiltDebug - meanF0, 70, new mean: 115.5625
+17.Nov.16 13:40:07 DEBUG emofiltDebug - calling Mary server with phrase Hallo Wolf, ich besuche meine Groﬂmutter and language: de7
+17.Nov.16 13:40:08 DEBUG emofiltDebug - returning emotion: joy
+17.Nov.16 13:40:08 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:40:08 DEBUG emofiltDebug - meanF0, 150, new mean: 238.0
+17.Nov.16 13:40:08 DEBUG emofiltDebug - calling Mary server with phrase ! Der Wol and language: de7
+17.Nov.16 13:40:08 DEBUG emofiltDebug - returning emotion: fairytale
+17.Nov.16 13:40:08 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:40:08 DEBUG emofiltDebug - meanF0, 70, new mean: 99.5
+17.Nov.16 13:40:08 DEBUG emofiltDebug - calling Mary server with phrase f.Wie schˆn, pf¸ck doch ein paar Blumen und bringe sie and language: de7
+17.Nov.16 13:40:08 DEBUG emofiltDebug - returning emotion: happySad
+17.Nov.16 13:40:08 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:40:08 DEBUG emofiltDebug - calling Mary server with phrase ihr. and language: de7
+17.Nov.16 13:40:08 WARN  emofiltDebug - emotion "333333" not found
+17.Nov.16 13:40:08 DEBUG emofiltDebug - exec: d:/Programme/Mbrola/phoplayer.exe database=d:/Programme/Mbrola/voices/de7/de7 d:/temp/tmp.pho /O=d:/temp/TMP.WAV /T=wav
+17.Nov.16 13:41:28 DEBUG emofilt.storyreading.Story - token: emotion val="fairytale">Rotk‰ppchen ging durch den Wald und traf den Wolf.
+Sie sagte., emotion: fairytale , text: Rotk‰ppchen ging durch den Wald und traf den Wolf.Sie sagte.
+17.Nov.16 13:41:28 DEBUG emofilt.storyreading.Story - token: emotion val="joy">
+Hallo Wolf, ich besuche meine Groﬂmutter, emotion: joy , text: Hallo Wolf, ich besuche meine Groﬂmutter
+17.Nov.16 13:41:28 DEBUG emofilt.storyreading.Story - token: emotion val="333333">! , emotion: 333333 , text: !
+17.Nov.16 13:41:28 DEBUG emofiltDebug - calling Mary server with phrase Rotk‰ppchen ging durch den Wald und traf den Wolf.Sie sagte. and language: de7
+17.Nov.16 13:41:28 DEBUG emofiltDebug - returning emotion: fairytale
+17.Nov.16 13:41:28 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:41:28 DEBUG emofiltDebug - meanF0, 70, new mean: 115.5625
+17.Nov.16 13:41:28 DEBUG emofiltDebug - calling Mary server with phrase Hallo Wolf, ich besuche meine Groﬂmutter and language: de7
+17.Nov.16 13:41:28 DEBUG emofiltDebug - returning emotion: joy
+17.Nov.16 13:41:28 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+17.Nov.16 13:41:28 DEBUG emofiltDebug - meanF0, 150, new mean: 238.0
+17.Nov.16 13:41:28 DEBUG emofiltDebug - calling Mary server with phrase ! and language: de7
+17.Nov.16 13:41:28 WARN  emofiltDebug - emotion "333333" not found
+17.Nov.16 13:41:28 DEBUG emofiltDebug - exec: d:/Programme/Mbrola/phoplayer.exe database=d:/Programme/Mbrola/voices/de7/de7 d:/temp/tmp.pho /O=d:/temp/TMP.WAV /T=wav
