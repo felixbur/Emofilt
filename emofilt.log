@@ -1,0 +1,774 @@
+18.Nov.16 09:59:22 DEBUG emofiltDebug - F0Mean, F0Range, Variability, PhraseContour, ContourFromStress, LevelUnstress, LevelFocusstress, LevelWordstress, ContourUnstress, ContourFocusstress, ContourWordstress, LastSylContour, WaveModel, SpeechRate, DurationFocusstressedSyls, DurationWordstressedSyls, DurationUnstressedSyls, DurVowel, DurAprx, DurNasal, DurVFric, DurVLFric, DurVStop, DurVLStop, DurPause, Jitter, VocalEffort, VowelTarget
+18.Nov.16 09:59:22 DEBUG emofiltDebug -  initialisation, use GUI=true
+18.Nov.16 09:59:23 DEBUG emofiltDebug - loaded plugin: name: f0Mean, type: pitch
+18.Nov.16 09:59:23 DEBUG emofiltDebug -  initialisation, use GUI=true
+18.Nov.16 09:59:23 DEBUG emofiltDebug - loaded plugin: name: f0Range, type: pitch
+18.Nov.16 09:59:23 DEBUG emofiltDebug -  initialisation, use GUI=true
+18.Nov.16 09:59:23 DEBUG emofiltDebug - loaded plugin: name: variability, type: pitch
+18.Nov.16 09:59:23 DEBUG emofiltDebug -  initialisation, use GUI=true
+18.Nov.16 09:59:23 DEBUG emofiltDebug - loaded plugin: name: phraseContour, type: pitch
+18.Nov.16 09:59:23 DEBUG emofiltDebug -  initialisation, use GUI=true
+18.Nov.16 09:59:23 DEBUG emofiltDebug - loaded plugin: name: contourFromStress, type: pitch
+18.Nov.16 09:59:23 DEBUG emofiltDebug -  initialisation, use GUI=true
+18.Nov.16 09:59:23 DEBUG emofiltDebug - loaded plugin: name: levelUnstress, type: pitch
+18.Nov.16 09:59:23 DEBUG emofiltDebug -  initialisation, use GUI=true
+18.Nov.16 09:59:23 DEBUG emofiltDebug - loaded plugin: name: levelFocusstress, type: pitch
+18.Nov.16 09:59:23 DEBUG emofiltDebug -  initialisation, use GUI=true
+18.Nov.16 09:59:23 DEBUG emofiltDebug - loaded plugin: name: levelWordstress, type: pitch
+18.Nov.16 09:59:23 DEBUG emofiltDebug -  initialisation, use GUI=true
+18.Nov.16 09:59:23 DEBUG emofiltDebug - loaded plugin: name: contourUnstress, type: pitch
+18.Nov.16 09:59:23 DEBUG emofiltDebug -  initialisation, use GUI=true
+18.Nov.16 09:59:23 DEBUG emofiltDebug - loaded plugin: name: contourFocusstress, type: pitch
+18.Nov.16 09:59:23 DEBUG emofiltDebug -  initialisation, use GUI=true
+18.Nov.16 09:59:23 DEBUG emofiltDebug - loaded plugin: name: contourWordstress, type: pitch
+18.Nov.16 09:59:23 DEBUG emofiltDebug -  initialisation, use GUI=true
+18.Nov.16 09:59:23 DEBUG emofiltDebug - loaded plugin: name: lastSylContour, type: pitch
+18.Nov.16 09:59:23 DEBUG emofiltDebug -  initialisation, use GUI=true
+18.Nov.16 09:59:23 DEBUG emofiltDebug - loaded plugin: name: waveModel, type: pitch
+18.Nov.16 09:59:23 DEBUG emofiltDebug -  initialisation, use GUI=true
+18.Nov.16 09:59:23 DEBUG emofiltDebug - loaded plugin: name: speechRate, type: duration
+18.Nov.16 09:59:23 DEBUG emofiltDebug -  initialisation, use GUI=true
+18.Nov.16 09:59:23 DEBUG emofiltDebug - loaded plugin: name: durationFocusstressedSyls, type: duration
+18.Nov.16 09:59:23 DEBUG emofiltDebug -  initialisation, use GUI=true
+18.Nov.16 09:59:23 DEBUG emofiltDebug - loaded plugin: name: durationWordstressedSyls, type: duration
+18.Nov.16 09:59:23 DEBUG emofiltDebug -  initialisation, use GUI=true
+18.Nov.16 09:59:23 DEBUG emofiltDebug - loaded plugin: name: durationUnstressedSyls, type: duration
+18.Nov.16 09:59:23 DEBUG emofiltDebug -  initialisation, use GUI=true
+18.Nov.16 09:59:23 DEBUG emofiltDebug - loaded plugin: name: durVowel, type: duration
+18.Nov.16 09:59:23 DEBUG emofiltDebug -  initialisation, use GUI=true
+18.Nov.16 09:59:23 DEBUG emofiltDebug - loaded plugin: name: durAprx, type: duration
+18.Nov.16 09:59:23 DEBUG emofiltDebug -  initialisation, use GUI=true
+18.Nov.16 09:59:23 DEBUG emofiltDebug - loaded plugin: name: durNasal, type: duration
+18.Nov.16 09:59:23 DEBUG emofiltDebug -  initialisation, use GUI=true
+18.Nov.16 09:59:23 DEBUG emofiltDebug - loaded plugin: name: durVFric, type: duration
+18.Nov.16 09:59:23 DEBUG emofiltDebug -  initialisation, use GUI=true
+18.Nov.16 09:59:23 DEBUG emofiltDebug - loaded plugin: name: durVLFric, type: duration
+18.Nov.16 09:59:23 DEBUG emofiltDebug -  initialisation, use GUI=true
+18.Nov.16 09:59:23 DEBUG emofiltDebug - loaded plugin: name: durVStop, type: duration
+18.Nov.16 09:59:23 DEBUG emofiltDebug -  initialisation, use GUI=true
+18.Nov.16 09:59:23 DEBUG emofiltDebug - loaded plugin: name: durVLStop, type: duration
+18.Nov.16 09:59:23 DEBUG emofiltDebug -  initialisation, use GUI=true
+18.Nov.16 09:59:23 DEBUG emofiltDebug - loaded plugin: name: durPause, type: duration
+18.Nov.16 09:59:23 DEBUG emofiltDebug -  initialisation, use GUI=true
+18.Nov.16 09:59:23 DEBUG emofiltDebug - loaded plugin: name: jitter, type: phonation
+18.Nov.16 09:59:23 DEBUG emofiltDebug -  initialisation, use GUI=true
+18.Nov.16 09:59:23 DEBUG emofiltDebug - loaded plugin: name: vocalEffort, type: phonation
+18.Nov.16 09:59:23 DEBUG emofiltDebug -  initialisation, use GUI=true
+18.Nov.16 09:59:23 DEBUG emofiltDebug - loaded plugin: name: vowelTarget, type: articulation
+18.Nov.16 09:59:23 DEBUG emofiltDebug - loaded 28 plugins.
+18.Nov.16 09:59:23 DEBUG emofiltDebug - lfp: /home/felix/workspace/Emofilt/emofilt/languages.xml
+18.Nov.16 09:59:23 DEBUG emofiltDebug - loaded: language: ex, voice: 1
+18.Nov.16 09:59:23 DEBUG emofiltDebug - loaded: language: cn, voice: 1
+18.Nov.16 09:59:23 DEBUG emofiltDebug - loaded: language: tl, voice: 1
+18.Nov.16 09:59:23 DEBUG emofiltDebug - loaded: language: es, voice: 4
+18.Nov.16 09:59:23 DEBUG emofiltDebug - loaded: language: es, voice: 2
+18.Nov.16 09:59:23 DEBUG emofiltDebug - loaded: language: nl, voice: 2
+18.Nov.16 09:59:23 DEBUG emofiltDebug - loaded: language: hu, voice: 1
+18.Nov.16 09:59:23 DEBUG emofiltDebug - loaded: language: it, voice: 3
+18.Nov.16 09:59:23 DEBUG emofiltDebug - loaded: language: gr, voice: 2
+18.Nov.16 09:59:23 DEBUG emofiltDebug - loaded: language: tr, voice: 1
+18.Nov.16 09:59:23 DEBUG emofiltDebug - loaded: language: de, voice: 1
+18.Nov.16 09:59:23 DEBUG emofiltDebug - loaded: language: de, voice: 2
+18.Nov.16 09:59:23 DEBUG emofiltDebug - loaded: language: de, voice: 3
+18.Nov.16 09:59:23 DEBUG emofiltDebug - loaded: language: de, voice: 4
+18.Nov.16 09:59:23 DEBUG emofiltDebug - loaded: language: de, voice: 6
+18.Nov.16 09:59:23 DEBUG emofiltDebug - loaded: language: de, voice: 7
+18.Nov.16 09:59:23 DEBUG emofiltDebug - loaded: language: en, voice: 1
+18.Nov.16 09:59:23 DEBUG emofiltDebug - loaded: language: us, voice: 1
+18.Nov.16 09:59:23 DEBUG emofiltDebug - loaded: language: us, voice: 2
+18.Nov.16 09:59:23 DEBUG emofiltDebug - loaded: language: us, voice: 3
+18.Nov.16 09:59:23 DEBUG emofiltDebug - loaded: language: fr, voice: 1
+18.Nov.16 09:59:23 DEBUG emofiltDebug - loaded: language: fr, voice: 2
+18.Nov.16 09:59:23 DEBUG emofiltDebug - loaded: language: fr, voice: 3
+18.Nov.16 09:59:23 DEBUG emofiltDebug - loaded: language: fr, voice: 4
+18.Nov.16 09:59:23 DEBUG emofiltDebug - loaded: language: fr, voice: 5
+18.Nov.16 09:59:23 DEBUG emofiltDebug - loaded: language: fr, voice: 6
+18.Nov.16 09:59:23 DEBUG emofiltDebug - loaded: language: fr, voice: 7
+18.Nov.16 09:59:23 DEBUG emofiltDebug - loaded 27 languages
+18.Nov.16 09:59:23 DEBUG emofiltDebug - happySad
+18.Nov.16 09:59:23 DEBUG emofiltDebug - angrySad
+18.Nov.16 09:59:23 DEBUG emofiltDebug - sadAngry
+18.Nov.16 09:59:23 DEBUG emofiltDebug - boredom
+18.Nov.16 09:59:23 DEBUG emofiltDebug - despair
+18.Nov.16 09:59:23 DEBUG emofiltDebug - sad
+18.Nov.16 09:59:23 DEBUG emofiltDebug - scared
+18.Nov.16 09:59:23 DEBUG emofiltDebug - neurotic
+18.Nov.16 09:59:23 DEBUG emofiltDebug - fairytale
+18.Nov.16 09:59:23 DEBUG emofiltDebug - coldAnger
+18.Nov.16 09:59:23 DEBUG emofiltDebug - yawning
+18.Nov.16 09:59:23 DEBUG emofiltDebug - joy
+18.Nov.16 09:59:23 DEBUG emofiltDebug - happy
+18.Nov.16 09:59:23 DEBUG emofiltDebug - hotAnger
+18.Nov.16 09:59:23 DEBUG emofiltDebug - neutral
+18.Nov.16 09:59:23 DEBUG emofiltDebug - returning emotion: neutral
+18.Nov.16 09:59:23 DEBUG emofiltDebug - returning emotion: neutral
+18.Nov.16 09:59:23 DEBUG emofiltDebug - setting emotions: neutral
+18.Nov.16 09:59:23 DEBUG emofiltDebug - returning emotion: neutral
+18.Nov.16 09:59:46 DEBUG emofiltDebug - setting emotions: neutral
+18.Nov.16 09:59:46 DEBUG emofiltDebug - returning emotion: neutral
+18.Nov.16 09:59:58 DEBUG emofiltDebug - calling Mary server with phrase das ist ein Test and language: de6
+18.Nov.16 10:00:01 DEBUG emofiltDebug - exec: mbrola /home/felix/bin/mbrola/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+18.Nov.16 10:01:11 DEBUG emofiltDebug - exec: mbrola /home/felix/bin/mbrola/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+18.Nov.16 10:17:56 DEBUG emofiltDebug - F0Mean, F0Range, Variability, PhraseContour, ContourFromStress, LevelUnstress, LevelFocusstress, LevelWordstress, ContourUnstress, ContourFocusstress, ContourWordstress, LastSylContour, WaveModel, SpeechRate, DurationFocusstressedSyls, DurationWordstressedSyls, DurationUnstressedSyls, DurVowel, DurAprx, DurNasal, DurVFric, DurVLFric, DurVStop, DurVLStop, DurPause, Jitter, VocalEffort, VowelTarget
+18.Nov.16 10:17:56 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:17:56 DEBUG emofiltDebug - loaded plugin: name: f0Mean, type: pitch
+18.Nov.16 10:17:56 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:17:56 DEBUG emofiltDebug - loaded plugin: name: f0Range, type: pitch
+18.Nov.16 10:17:56 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:17:56 DEBUG emofiltDebug - loaded plugin: name: variability, type: pitch
+18.Nov.16 10:17:56 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:17:56 DEBUG emofiltDebug - loaded plugin: name: phraseContour, type: pitch
+18.Nov.16 10:17:56 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:17:56 DEBUG emofiltDebug - loaded plugin: name: contourFromStress, type: pitch
+18.Nov.16 10:17:56 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:17:56 DEBUG emofiltDebug - loaded plugin: name: levelUnstress, type: pitch
+18.Nov.16 10:17:56 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:17:56 DEBUG emofiltDebug - loaded plugin: name: levelFocusstress, type: pitch
+18.Nov.16 10:17:56 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:17:56 DEBUG emofiltDebug - loaded plugin: name: levelWordstress, type: pitch
+18.Nov.16 10:17:56 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:17:56 DEBUG emofiltDebug - loaded plugin: name: contourUnstress, type: pitch
+18.Nov.16 10:17:56 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:17:56 DEBUG emofiltDebug - loaded plugin: name: contourFocusstress, type: pitch
+18.Nov.16 10:17:56 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:17:56 DEBUG emofiltDebug - loaded plugin: name: contourWordstress, type: pitch
+18.Nov.16 10:17:56 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:17:56 DEBUG emofiltDebug - loaded plugin: name: lastSylContour, type: pitch
+18.Nov.16 10:17:56 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:17:56 DEBUG emofiltDebug - loaded plugin: name: waveModel, type: pitch
+18.Nov.16 10:17:56 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:17:56 DEBUG emofiltDebug - loaded plugin: name: speechRate, type: duration
+18.Nov.16 10:17:56 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:17:56 DEBUG emofiltDebug - loaded plugin: name: durationFocusstressedSyls, type: duration
+18.Nov.16 10:17:56 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:17:56 DEBUG emofiltDebug - loaded plugin: name: durationWordstressedSyls, type: duration
+18.Nov.16 10:17:56 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:17:56 DEBUG emofiltDebug - loaded plugin: name: durationUnstressedSyls, type: duration
+18.Nov.16 10:17:56 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:17:56 DEBUG emofiltDebug - loaded plugin: name: durVowel, type: duration
+18.Nov.16 10:17:56 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:17:56 DEBUG emofiltDebug - loaded plugin: name: durAprx, type: duration
+18.Nov.16 10:17:56 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:17:56 DEBUG emofiltDebug - loaded plugin: name: durNasal, type: duration
+18.Nov.16 10:17:56 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:17:56 DEBUG emofiltDebug - loaded plugin: name: durVFric, type: duration
+18.Nov.16 10:17:56 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:17:56 DEBUG emofiltDebug - loaded plugin: name: durVLFric, type: duration
+18.Nov.16 10:17:56 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:17:56 DEBUG emofiltDebug - loaded plugin: name: durVStop, type: duration
+18.Nov.16 10:17:56 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:17:56 DEBUG emofiltDebug - loaded plugin: name: durVLStop, type: duration
+18.Nov.16 10:17:56 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:17:56 DEBUG emofiltDebug - loaded plugin: name: durPause, type: duration
+18.Nov.16 10:17:56 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:17:56 DEBUG emofiltDebug - loaded plugin: name: jitter, type: phonation
+18.Nov.16 10:17:56 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:17:56 DEBUG emofiltDebug - loaded plugin: name: vocalEffort, type: phonation
+18.Nov.16 10:17:56 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:17:56 DEBUG emofiltDebug - loaded plugin: name: vowelTarget, type: articulation
+18.Nov.16 10:17:56 DEBUG emofiltDebug - loaded 28 plugins.
+18.Nov.16 10:17:56 DEBUG emofiltDebug - lfp: /home/felix/workspace/Emofilt/emofilt/languages.xml
+18.Nov.16 10:17:56 DEBUG emofiltDebug - loaded: language: ex, voice: 1
+18.Nov.16 10:17:56 DEBUG emofiltDebug - loaded: language: cn, voice: 1
+18.Nov.16 10:17:56 DEBUG emofiltDebug - loaded: language: tl, voice: 1
+18.Nov.16 10:17:56 DEBUG emofiltDebug - loaded: language: es, voice: 4
+18.Nov.16 10:17:56 DEBUG emofiltDebug - loaded: language: es, voice: 2
+18.Nov.16 10:17:56 DEBUG emofiltDebug - loaded: language: nl, voice: 2
+18.Nov.16 10:17:56 DEBUG emofiltDebug - loaded: language: hu, voice: 1
+18.Nov.16 10:17:56 DEBUG emofiltDebug - loaded: language: it, voice: 3
+18.Nov.16 10:17:56 DEBUG emofiltDebug - loaded: language: gr, voice: 2
+18.Nov.16 10:17:56 DEBUG emofiltDebug - loaded: language: tr, voice: 1
+18.Nov.16 10:17:56 DEBUG emofiltDebug - loaded: language: de, voice: 1
+18.Nov.16 10:17:56 DEBUG emofiltDebug - loaded: language: de, voice: 2
+18.Nov.16 10:17:56 DEBUG emofiltDebug - loaded: language: de, voice: 3
+18.Nov.16 10:17:56 DEBUG emofiltDebug - loaded: language: de, voice: 4
+18.Nov.16 10:17:56 DEBUG emofiltDebug - loaded: language: de, voice: 6
+18.Nov.16 10:17:56 DEBUG emofiltDebug - loaded: language: de, voice: 7
+18.Nov.16 10:17:56 DEBUG emofiltDebug - loaded: language: en, voice: 1
+18.Nov.16 10:17:56 DEBUG emofiltDebug - loaded: language: us, voice: 1
+18.Nov.16 10:17:56 DEBUG emofiltDebug - loaded: language: us, voice: 2
+18.Nov.16 10:17:56 DEBUG emofiltDebug - loaded: language: us, voice: 3
+18.Nov.16 10:17:56 DEBUG emofiltDebug - loaded: language: fr, voice: 1
+18.Nov.16 10:17:56 DEBUG emofiltDebug - loaded: language: fr, voice: 2
+18.Nov.16 10:17:56 DEBUG emofiltDebug - loaded: language: fr, voice: 3
+18.Nov.16 10:17:56 DEBUG emofiltDebug - loaded: language: fr, voice: 4
+18.Nov.16 10:17:56 DEBUG emofiltDebug - loaded: language: fr, voice: 5
+18.Nov.16 10:17:56 DEBUG emofiltDebug - loaded: language: fr, voice: 6
+18.Nov.16 10:17:56 DEBUG emofiltDebug - loaded: language: fr, voice: 7
+18.Nov.16 10:17:56 DEBUG emofiltDebug - loaded 27 languages
+18.Nov.16 10:17:56 DEBUG emofiltDebug - happySad
+18.Nov.16 10:17:56 DEBUG emofiltDebug - angrySad
+18.Nov.16 10:17:56 DEBUG emofiltDebug - sadAngry
+18.Nov.16 10:17:56 DEBUG emofiltDebug - boredom
+18.Nov.16 10:17:56 DEBUG emofiltDebug - despair
+18.Nov.16 10:17:56 DEBUG emofiltDebug - sad
+18.Nov.16 10:17:56 DEBUG emofiltDebug - scared
+18.Nov.16 10:17:56 DEBUG emofiltDebug - neurotic
+18.Nov.16 10:17:56 DEBUG emofiltDebug - fairytale
+18.Nov.16 10:17:56 DEBUG emofiltDebug - coldAnger
+18.Nov.16 10:17:56 DEBUG emofiltDebug - yawning
+18.Nov.16 10:17:56 DEBUG emofiltDebug - joy
+18.Nov.16 10:17:56 DEBUG emofiltDebug - happy
+18.Nov.16 10:17:56 DEBUG emofiltDebug - hotAnger
+18.Nov.16 10:17:56 DEBUG emofiltDebug - neutral
+18.Nov.16 10:19:29 DEBUG emofiltDebug - F0Mean, F0Range, Variability, PhraseContour, ContourFromStress, LevelUnstress, LevelFocusstress, LevelWordstress, ContourUnstress, ContourFocusstress, ContourWordstress, LastSylContour, WaveModel, SpeechRate, DurationFocusstressedSyls, DurationWordstressedSyls, DurationUnstressedSyls, DurVowel, DurAprx, DurNasal, DurVFric, DurVLFric, DurVStop, DurVLStop, DurPause, Jitter, VocalEffort, VowelTarget
+18.Nov.16 10:19:29 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:19:29 DEBUG emofiltDebug - loaded plugin: name: f0Mean, type: pitch
+18.Nov.16 10:19:29 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:19:29 DEBUG emofiltDebug - loaded plugin: name: f0Range, type: pitch
+18.Nov.16 10:19:29 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:19:29 DEBUG emofiltDebug - loaded plugin: name: variability, type: pitch
+18.Nov.16 10:19:29 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:19:29 DEBUG emofiltDebug - loaded plugin: name: phraseContour, type: pitch
+18.Nov.16 10:19:29 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:19:29 DEBUG emofiltDebug - loaded plugin: name: contourFromStress, type: pitch
+18.Nov.16 10:19:29 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:19:29 DEBUG emofiltDebug - loaded plugin: name: levelUnstress, type: pitch
+18.Nov.16 10:19:29 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:19:29 DEBUG emofiltDebug - loaded plugin: name: levelFocusstress, type: pitch
+18.Nov.16 10:19:29 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:19:29 DEBUG emofiltDebug - loaded plugin: name: levelWordstress, type: pitch
+18.Nov.16 10:19:29 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:19:29 DEBUG emofiltDebug - loaded plugin: name: contourUnstress, type: pitch
+18.Nov.16 10:19:29 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:19:29 DEBUG emofiltDebug - loaded plugin: name: contourFocusstress, type: pitch
+18.Nov.16 10:19:29 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:19:29 DEBUG emofiltDebug - loaded plugin: name: contourWordstress, type: pitch
+18.Nov.16 10:19:29 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:19:29 DEBUG emofiltDebug - loaded plugin: name: lastSylContour, type: pitch
+18.Nov.16 10:19:29 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:19:29 DEBUG emofiltDebug - loaded plugin: name: waveModel, type: pitch
+18.Nov.16 10:19:29 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:19:29 DEBUG emofiltDebug - loaded plugin: name: speechRate, type: duration
+18.Nov.16 10:19:29 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:19:29 DEBUG emofiltDebug - loaded plugin: name: durationFocusstressedSyls, type: duration
+18.Nov.16 10:19:29 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:19:29 DEBUG emofiltDebug - loaded plugin: name: durationWordstressedSyls, type: duration
+18.Nov.16 10:19:29 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:19:29 DEBUG emofiltDebug - loaded plugin: name: durationUnstressedSyls, type: duration
+18.Nov.16 10:19:29 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:19:29 DEBUG emofiltDebug - loaded plugin: name: durVowel, type: duration
+18.Nov.16 10:19:29 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:19:29 DEBUG emofiltDebug - loaded plugin: name: durAprx, type: duration
+18.Nov.16 10:19:29 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:19:29 DEBUG emofiltDebug - loaded plugin: name: durNasal, type: duration
+18.Nov.16 10:19:29 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:19:29 DEBUG emofiltDebug - loaded plugin: name: durVFric, type: duration
+18.Nov.16 10:19:29 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:19:29 DEBUG emofiltDebug - loaded plugin: name: durVLFric, type: duration
+18.Nov.16 10:19:29 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:19:29 DEBUG emofiltDebug - loaded plugin: name: durVStop, type: duration
+18.Nov.16 10:19:29 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:19:29 DEBUG emofiltDebug - loaded plugin: name: durVLStop, type: duration
+18.Nov.16 10:19:29 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:19:29 DEBUG emofiltDebug - loaded plugin: name: durPause, type: duration
+18.Nov.16 10:19:29 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:19:29 DEBUG emofiltDebug - loaded plugin: name: jitter, type: phonation
+18.Nov.16 10:19:29 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:19:29 DEBUG emofiltDebug - loaded plugin: name: vocalEffort, type: phonation
+18.Nov.16 10:19:29 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:19:29 DEBUG emofiltDebug - loaded plugin: name: vowelTarget, type: articulation
+18.Nov.16 10:19:29 DEBUG emofiltDebug - loaded 28 plugins.
+18.Nov.16 10:19:29 DEBUG emofiltDebug - lfp: /home/felix/workspace/Emofilt/emofilt/languages.xml
+18.Nov.16 10:19:29 DEBUG emofiltDebug - loaded: language: ex, voice: 1
+18.Nov.16 10:19:29 DEBUG emofiltDebug - loaded: language: cn, voice: 1
+18.Nov.16 10:19:29 DEBUG emofiltDebug - loaded: language: tl, voice: 1
+18.Nov.16 10:19:29 DEBUG emofiltDebug - loaded: language: es, voice: 4
+18.Nov.16 10:19:29 DEBUG emofiltDebug - loaded: language: es, voice: 2
+18.Nov.16 10:19:29 DEBUG emofiltDebug - loaded: language: nl, voice: 2
+18.Nov.16 10:19:29 DEBUG emofiltDebug - loaded: language: hu, voice: 1
+18.Nov.16 10:19:29 DEBUG emofiltDebug - loaded: language: it, voice: 3
+18.Nov.16 10:19:29 DEBUG emofiltDebug - loaded: language: gr, voice: 2
+18.Nov.16 10:19:29 DEBUG emofiltDebug - loaded: language: tr, voice: 1
+18.Nov.16 10:19:29 DEBUG emofiltDebug - loaded: language: de, voice: 1
+18.Nov.16 10:19:29 DEBUG emofiltDebug - loaded: language: de, voice: 2
+18.Nov.16 10:19:29 DEBUG emofiltDebug - loaded: language: de, voice: 3
+18.Nov.16 10:19:29 DEBUG emofiltDebug - loaded: language: de, voice: 4
+18.Nov.16 10:19:29 DEBUG emofiltDebug - loaded: language: de, voice: 6
+18.Nov.16 10:19:29 DEBUG emofiltDebug - loaded: language: de, voice: 7
+18.Nov.16 10:19:29 DEBUG emofiltDebug - loaded: language: en, voice: 1
+18.Nov.16 10:19:29 DEBUG emofiltDebug - loaded: language: us, voice: 1
+18.Nov.16 10:19:29 DEBUG emofiltDebug - loaded: language: us, voice: 2
+18.Nov.16 10:19:29 DEBUG emofiltDebug - loaded: language: us, voice: 3
+18.Nov.16 10:19:29 DEBUG emofiltDebug - loaded: language: fr, voice: 1
+18.Nov.16 10:19:29 DEBUG emofiltDebug - loaded: language: fr, voice: 2
+18.Nov.16 10:19:29 DEBUG emofiltDebug - loaded: language: fr, voice: 3
+18.Nov.16 10:19:29 DEBUG emofiltDebug - loaded: language: fr, voice: 4
+18.Nov.16 10:19:29 DEBUG emofiltDebug - loaded: language: fr, voice: 5
+18.Nov.16 10:19:29 DEBUG emofiltDebug - loaded: language: fr, voice: 6
+18.Nov.16 10:19:29 DEBUG emofiltDebug - loaded: language: fr, voice: 7
+18.Nov.16 10:19:29 DEBUG emofiltDebug - loaded 27 languages
+18.Nov.16 10:19:29 DEBUG emofiltDebug - happySad
+18.Nov.16 10:19:29 DEBUG emofiltDebug - angrySad
+18.Nov.16 10:19:29 DEBUG emofiltDebug - sadAngry
+18.Nov.16 10:19:29 DEBUG emofiltDebug - boredom
+18.Nov.16 10:19:29 DEBUG emofiltDebug - despair
+18.Nov.16 10:19:29 DEBUG emofiltDebug - sad
+18.Nov.16 10:19:29 DEBUG emofiltDebug - scared
+18.Nov.16 10:19:29 DEBUG emofiltDebug - neurotic
+18.Nov.16 10:19:29 DEBUG emofiltDebug - fairytale
+18.Nov.16 10:19:29 DEBUG emofiltDebug - coldAnger
+18.Nov.16 10:19:29 DEBUG emofiltDebug - yawning
+18.Nov.16 10:19:29 DEBUG emofiltDebug - joy
+18.Nov.16 10:19:29 DEBUG emofiltDebug - happy
+18.Nov.16 10:19:29 DEBUG emofiltDebug - hotAnger
+18.Nov.16 10:19:29 DEBUG emofiltDebug - neutral
+18.Nov.16 10:19:35 DEBUG emofilt.storyreading.Story - token: emotion val="neutral">test, emotion: neutral , text: test
+18.Nov.16 10:19:35 DEBUG emofiltDebug - executing: /home/felix/workspace/Emofilt/emofilt/call_LiaPhon.sh
+18.Nov.16 10:19:35 WARN  emofiltDebug - phoneme name ? not found in language fr1
+18.Nov.16 10:19:35 ERROR emofiltDebug - couldn't classify phoneme: ?. Perhaps pho-file and language do not match.
+18.Nov.16 10:19:35 ERROR emofiltDebug - something went wrong, last Phoneme:s
+18.Nov.16 10:19:35 DEBUG emofiltDebug - returning emotion: neutral
+18.Nov.16 10:19:35 DEBUG emofiltDebug - exec: mbrola /home/felix/bin/mbrola/fr1/fr1 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+18.Nov.16 10:20:49 DEBUG emofiltDebug - F0Mean, F0Range, Variability, PhraseContour, ContourFromStress, LevelUnstress, LevelFocusstress, LevelWordstress, ContourUnstress, ContourFocusstress, ContourWordstress, LastSylContour, WaveModel, SpeechRate, DurationFocusstressedSyls, DurationWordstressedSyls, DurationUnstressedSyls, DurVowel, DurAprx, DurNasal, DurVFric, DurVLFric, DurVStop, DurVLStop, DurPause, Jitter, VocalEffort, VowelTarget
+18.Nov.16 10:20:49 DEBUG emofiltDebug -  initialisation, use GUI=true
+18.Nov.16 10:20:50 DEBUG emofiltDebug - loaded plugin: name: f0Mean, type: pitch
+18.Nov.16 10:20:50 DEBUG emofiltDebug -  initialisation, use GUI=true
+18.Nov.16 10:20:50 DEBUG emofiltDebug - loaded plugin: name: f0Range, type: pitch
+18.Nov.16 10:20:50 DEBUG emofiltDebug -  initialisation, use GUI=true
+18.Nov.16 10:20:50 DEBUG emofiltDebug - loaded plugin: name: variability, type: pitch
+18.Nov.16 10:20:50 DEBUG emofiltDebug -  initialisation, use GUI=true
+18.Nov.16 10:20:50 DEBUG emofiltDebug - loaded plugin: name: phraseContour, type: pitch
+18.Nov.16 10:20:50 DEBUG emofiltDebug -  initialisation, use GUI=true
+18.Nov.16 10:20:50 DEBUG emofiltDebug - loaded plugin: name: contourFromStress, type: pitch
+18.Nov.16 10:20:50 DEBUG emofiltDebug -  initialisation, use GUI=true
+18.Nov.16 10:20:50 DEBUG emofiltDebug - loaded plugin: name: levelUnstress, type: pitch
+18.Nov.16 10:20:50 DEBUG emofiltDebug -  initialisation, use GUI=true
+18.Nov.16 10:20:50 DEBUG emofiltDebug - loaded plugin: name: levelFocusstress, type: pitch
+18.Nov.16 10:20:50 DEBUG emofiltDebug -  initialisation, use GUI=true
+18.Nov.16 10:20:50 DEBUG emofiltDebug - loaded plugin: name: levelWordstress, type: pitch
+18.Nov.16 10:20:50 DEBUG emofiltDebug -  initialisation, use GUI=true
+18.Nov.16 10:20:50 DEBUG emofiltDebug - loaded plugin: name: contourUnstress, type: pitch
+18.Nov.16 10:20:50 DEBUG emofiltDebug -  initialisation, use GUI=true
+18.Nov.16 10:20:50 DEBUG emofiltDebug - loaded plugin: name: contourFocusstress, type: pitch
+18.Nov.16 10:20:50 DEBUG emofiltDebug -  initialisation, use GUI=true
+18.Nov.16 10:20:50 DEBUG emofiltDebug - loaded plugin: name: contourWordstress, type: pitch
+18.Nov.16 10:20:50 DEBUG emofiltDebug -  initialisation, use GUI=true
+18.Nov.16 10:20:50 DEBUG emofiltDebug - loaded plugin: name: lastSylContour, type: pitch
+18.Nov.16 10:20:50 DEBUG emofiltDebug -  initialisation, use GUI=true
+18.Nov.16 10:20:50 DEBUG emofiltDebug - loaded plugin: name: waveModel, type: pitch
+18.Nov.16 10:20:50 DEBUG emofiltDebug -  initialisation, use GUI=true
+18.Nov.16 10:20:50 DEBUG emofiltDebug - loaded plugin: name: speechRate, type: duration
+18.Nov.16 10:20:50 DEBUG emofiltDebug -  initialisation, use GUI=true
+18.Nov.16 10:20:50 DEBUG emofiltDebug - loaded plugin: name: durationFocusstressedSyls, type: duration
+18.Nov.16 10:20:50 DEBUG emofiltDebug -  initialisation, use GUI=true
+18.Nov.16 10:20:50 DEBUG emofiltDebug - loaded plugin: name: durationWordstressedSyls, type: duration
+18.Nov.16 10:20:50 DEBUG emofiltDebug -  initialisation, use GUI=true
+18.Nov.16 10:20:50 DEBUG emofiltDebug - loaded plugin: name: durationUnstressedSyls, type: duration
+18.Nov.16 10:20:50 DEBUG emofiltDebug -  initialisation, use GUI=true
+18.Nov.16 10:20:50 DEBUG emofiltDebug - loaded plugin: name: durVowel, type: duration
+18.Nov.16 10:20:50 DEBUG emofiltDebug -  initialisation, use GUI=true
+18.Nov.16 10:20:50 DEBUG emofiltDebug - loaded plugin: name: durAprx, type: duration
+18.Nov.16 10:20:50 DEBUG emofiltDebug -  initialisation, use GUI=true
+18.Nov.16 10:20:50 DEBUG emofiltDebug - loaded plugin: name: durNasal, type: duration
+18.Nov.16 10:20:50 DEBUG emofiltDebug -  initialisation, use GUI=true
+18.Nov.16 10:20:50 DEBUG emofiltDebug - loaded plugin: name: durVFric, type: duration
+18.Nov.16 10:20:50 DEBUG emofiltDebug -  initialisation, use GUI=true
+18.Nov.16 10:20:50 DEBUG emofiltDebug - loaded plugin: name: durVLFric, type: duration
+18.Nov.16 10:20:50 DEBUG emofiltDebug -  initialisation, use GUI=true
+18.Nov.16 10:20:50 DEBUG emofiltDebug - loaded plugin: name: durVStop, type: duration
+18.Nov.16 10:20:50 DEBUG emofiltDebug -  initialisation, use GUI=true
+18.Nov.16 10:20:50 DEBUG emofiltDebug - loaded plugin: name: durVLStop, type: duration
+18.Nov.16 10:20:50 DEBUG emofiltDebug -  initialisation, use GUI=true
+18.Nov.16 10:20:50 DEBUG emofiltDebug - loaded plugin: name: durPause, type: duration
+18.Nov.16 10:20:50 DEBUG emofiltDebug -  initialisation, use GUI=true
+18.Nov.16 10:20:50 DEBUG emofiltDebug - loaded plugin: name: jitter, type: phonation
+18.Nov.16 10:20:50 DEBUG emofiltDebug -  initialisation, use GUI=true
+18.Nov.16 10:20:50 DEBUG emofiltDebug - loaded plugin: name: vocalEffort, type: phonation
+18.Nov.16 10:20:50 DEBUG emofiltDebug -  initialisation, use GUI=true
+18.Nov.16 10:20:50 DEBUG emofiltDebug - loaded plugin: name: vowelTarget, type: articulation
+18.Nov.16 10:20:50 DEBUG emofiltDebug - loaded 28 plugins.
+18.Nov.16 10:20:50 DEBUG emofiltDebug - lfp: /home/felix/workspace/Emofilt/emofilt/languages.xml
+18.Nov.16 10:20:50 DEBUG emofiltDebug - loaded: language: ex, voice: 1
+18.Nov.16 10:20:50 DEBUG emofiltDebug - loaded: language: cn, voice: 1
+18.Nov.16 10:20:50 DEBUG emofiltDebug - loaded: language: tl, voice: 1
+18.Nov.16 10:20:50 DEBUG emofiltDebug - loaded: language: es, voice: 4
+18.Nov.16 10:20:50 DEBUG emofiltDebug - loaded: language: es, voice: 2
+18.Nov.16 10:20:50 DEBUG emofiltDebug - loaded: language: nl, voice: 2
+18.Nov.16 10:20:50 DEBUG emofiltDebug - loaded: language: hu, voice: 1
+18.Nov.16 10:20:50 DEBUG emofiltDebug - loaded: language: it, voice: 3
+18.Nov.16 10:20:50 DEBUG emofiltDebug - loaded: language: gr, voice: 2
+18.Nov.16 10:20:50 DEBUG emofiltDebug - loaded: language: tr, voice: 1
+18.Nov.16 10:20:50 DEBUG emofiltDebug - loaded: language: de, voice: 1
+18.Nov.16 10:20:50 DEBUG emofiltDebug - loaded: language: de, voice: 2
+18.Nov.16 10:20:50 DEBUG emofiltDebug - loaded: language: de, voice: 3
+18.Nov.16 10:20:50 DEBUG emofiltDebug - loaded: language: de, voice: 4
+18.Nov.16 10:20:50 DEBUG emofiltDebug - loaded: language: de, voice: 6
+18.Nov.16 10:20:50 DEBUG emofiltDebug - loaded: language: de, voice: 7
+18.Nov.16 10:20:50 DEBUG emofiltDebug - loaded: language: en, voice: 1
+18.Nov.16 10:20:50 DEBUG emofiltDebug - loaded: language: us, voice: 1
+18.Nov.16 10:20:50 DEBUG emofiltDebug - loaded: language: us, voice: 2
+18.Nov.16 10:20:50 DEBUG emofiltDebug - loaded: language: us, voice: 3
+18.Nov.16 10:20:50 DEBUG emofiltDebug - loaded: language: fr, voice: 1
+18.Nov.16 10:20:50 DEBUG emofiltDebug - loaded: language: fr, voice: 2
+18.Nov.16 10:20:50 DEBUG emofiltDebug - loaded: language: fr, voice: 3
+18.Nov.16 10:20:50 DEBUG emofiltDebug - loaded: language: fr, voice: 4
+18.Nov.16 10:20:50 DEBUG emofiltDebug - loaded: language: fr, voice: 5
+18.Nov.16 10:20:50 DEBUG emofiltDebug - loaded: language: fr, voice: 6
+18.Nov.16 10:20:50 DEBUG emofiltDebug - loaded: language: fr, voice: 7
+18.Nov.16 10:20:50 DEBUG emofiltDebug - loaded 27 languages
+18.Nov.16 10:20:50 DEBUG emofiltDebug - happySad
+18.Nov.16 10:20:50 DEBUG emofiltDebug - angrySad
+18.Nov.16 10:20:50 DEBUG emofiltDebug - sadAngry
+18.Nov.16 10:20:50 DEBUG emofiltDebug - boredom
+18.Nov.16 10:20:50 DEBUG emofiltDebug - despair
+18.Nov.16 10:20:50 DEBUG emofiltDebug - sad
+18.Nov.16 10:20:50 DEBUG emofiltDebug - scared
+18.Nov.16 10:20:50 DEBUG emofiltDebug - neurotic
+18.Nov.16 10:20:50 DEBUG emofiltDebug - fairytale
+18.Nov.16 10:20:50 DEBUG emofiltDebug - coldAnger
+18.Nov.16 10:20:50 DEBUG emofiltDebug - yawning
+18.Nov.16 10:20:50 DEBUG emofiltDebug - joy
+18.Nov.16 10:20:50 DEBUG emofiltDebug - happy
+18.Nov.16 10:20:50 DEBUG emofiltDebug - hotAnger
+18.Nov.16 10:20:50 DEBUG emofiltDebug - neutral
+18.Nov.16 10:20:50 DEBUG emofiltDebug - returning emotion: neutral
+18.Nov.16 10:20:50 DEBUG emofiltDebug - returning emotion: neutral
+18.Nov.16 10:20:50 DEBUG emofiltDebug - setting emotions: neutral
+18.Nov.16 10:20:50 DEBUG emofiltDebug - returning emotion: neutral
+18.Nov.16 10:21:56 DEBUG emofiltDebug - F0Mean, F0Range, Variability, PhraseContour, ContourFromStress, LevelUnstress, LevelFocusstress, LevelWordstress, ContourUnstress, ContourFocusstress, ContourWordstress, LastSylContour, WaveModel, SpeechRate, DurationFocusstressedSyls, DurationWordstressedSyls, DurationUnstressedSyls, DurVowel, DurAprx, DurNasal, DurVFric, DurVLFric, DurVStop, DurVLStop, DurPause, Jitter, VocalEffort, VowelTarget
+18.Nov.16 10:21:56 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:21:56 DEBUG emofiltDebug - loaded plugin: name: f0Mean, type: pitch
+18.Nov.16 10:21:56 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:21:56 DEBUG emofiltDebug - loaded plugin: name: f0Range, type: pitch
+18.Nov.16 10:21:56 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:21:56 DEBUG emofiltDebug - loaded plugin: name: variability, type: pitch
+18.Nov.16 10:21:56 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:21:56 DEBUG emofiltDebug - loaded plugin: name: phraseContour, type: pitch
+18.Nov.16 10:21:56 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:21:56 DEBUG emofiltDebug - loaded plugin: name: contourFromStress, type: pitch
+18.Nov.16 10:21:56 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:21:56 DEBUG emofiltDebug - loaded plugin: name: levelUnstress, type: pitch
+18.Nov.16 10:21:56 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:21:56 DEBUG emofiltDebug - loaded plugin: name: levelFocusstress, type: pitch
+18.Nov.16 10:21:56 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:21:56 DEBUG emofiltDebug - loaded plugin: name: levelWordstress, type: pitch
+18.Nov.16 10:21:56 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:21:56 DEBUG emofiltDebug - loaded plugin: name: contourUnstress, type: pitch
+18.Nov.16 10:21:56 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:21:56 DEBUG emofiltDebug - loaded plugin: name: contourFocusstress, type: pitch
+18.Nov.16 10:21:56 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:21:56 DEBUG emofiltDebug - loaded plugin: name: contourWordstress, type: pitch
+18.Nov.16 10:21:56 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:21:56 DEBUG emofiltDebug - loaded plugin: name: lastSylContour, type: pitch
+18.Nov.16 10:21:56 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:21:56 DEBUG emofiltDebug - loaded plugin: name: waveModel, type: pitch
+18.Nov.16 10:21:56 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:21:56 DEBUG emofiltDebug - loaded plugin: name: speechRate, type: duration
+18.Nov.16 10:21:56 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:21:56 DEBUG emofiltDebug - loaded plugin: name: durationFocusstressedSyls, type: duration
+18.Nov.16 10:21:56 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:21:56 DEBUG emofiltDebug - loaded plugin: name: durationWordstressedSyls, type: duration
+18.Nov.16 10:21:56 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:21:56 DEBUG emofiltDebug - loaded plugin: name: durationUnstressedSyls, type: duration
+18.Nov.16 10:21:56 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:21:56 DEBUG emofiltDebug - loaded plugin: name: durVowel, type: duration
+18.Nov.16 10:21:56 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:21:56 DEBUG emofiltDebug - loaded plugin: name: durAprx, type: duration
+18.Nov.16 10:21:56 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:21:56 DEBUG emofiltDebug - loaded plugin: name: durNasal, type: duration
+18.Nov.16 10:21:56 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:21:56 DEBUG emofiltDebug - loaded plugin: name: durVFric, type: duration
+18.Nov.16 10:21:56 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:21:56 DEBUG emofiltDebug - loaded plugin: name: durVLFric, type: duration
+18.Nov.16 10:21:56 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:21:56 DEBUG emofiltDebug - loaded plugin: name: durVStop, type: duration
+18.Nov.16 10:21:56 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:21:56 DEBUG emofiltDebug - loaded plugin: name: durVLStop, type: duration
+18.Nov.16 10:21:56 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:21:56 DEBUG emofiltDebug - loaded plugin: name: durPause, type: duration
+18.Nov.16 10:21:56 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:21:56 DEBUG emofiltDebug - loaded plugin: name: jitter, type: phonation
+18.Nov.16 10:21:56 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:21:56 DEBUG emofiltDebug - loaded plugin: name: vocalEffort, type: phonation
+18.Nov.16 10:21:56 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:21:56 DEBUG emofiltDebug - loaded plugin: name: vowelTarget, type: articulation
+18.Nov.16 10:21:56 DEBUG emofiltDebug - loaded 28 plugins.
+18.Nov.16 10:21:56 DEBUG emofiltDebug - lfp: /home/felix/workspace/Emofilt/emofilt/languages.xml
+18.Nov.16 10:21:56 DEBUG emofiltDebug - loaded: language: ex, voice: 1
+18.Nov.16 10:21:56 DEBUG emofiltDebug - loaded: language: cn, voice: 1
+18.Nov.16 10:21:56 DEBUG emofiltDebug - loaded: language: tl, voice: 1
+18.Nov.16 10:21:56 DEBUG emofiltDebug - loaded: language: es, voice: 4
+18.Nov.16 10:21:56 DEBUG emofiltDebug - loaded: language: es, voice: 2
+18.Nov.16 10:21:56 DEBUG emofiltDebug - loaded: language: nl, voice: 2
+18.Nov.16 10:21:56 DEBUG emofiltDebug - loaded: language: hu, voice: 1
+18.Nov.16 10:21:56 DEBUG emofiltDebug - loaded: language: it, voice: 3
+18.Nov.16 10:21:56 DEBUG emofiltDebug - loaded: language: gr, voice: 2
+18.Nov.16 10:21:56 DEBUG emofiltDebug - loaded: language: tr, voice: 1
+18.Nov.16 10:21:56 DEBUG emofiltDebug - loaded: language: de, voice: 1
+18.Nov.16 10:21:56 DEBUG emofiltDebug - loaded: language: de, voice: 2
+18.Nov.16 10:21:56 DEBUG emofiltDebug - loaded: language: de, voice: 3
+18.Nov.16 10:21:56 DEBUG emofiltDebug - loaded: language: de, voice: 4
+18.Nov.16 10:21:56 DEBUG emofiltDebug - loaded: language: de, voice: 6
+18.Nov.16 10:21:56 DEBUG emofiltDebug - loaded: language: de, voice: 7
+18.Nov.16 10:21:56 DEBUG emofiltDebug - loaded: language: en, voice: 1
+18.Nov.16 10:21:56 DEBUG emofiltDebug - loaded: language: us, voice: 1
+18.Nov.16 10:21:56 DEBUG emofiltDebug - loaded: language: us, voice: 2
+18.Nov.16 10:21:56 DEBUG emofiltDebug - loaded: language: us, voice: 3
+18.Nov.16 10:21:56 DEBUG emofiltDebug - loaded: language: fr, voice: 1
+18.Nov.16 10:21:56 DEBUG emofiltDebug - loaded: language: fr, voice: 2
+18.Nov.16 10:21:56 DEBUG emofiltDebug - loaded: language: fr, voice: 3
+18.Nov.16 10:21:56 DEBUG emofiltDebug - loaded: language: fr, voice: 4
+18.Nov.16 10:21:56 DEBUG emofiltDebug - loaded: language: fr, voice: 5
+18.Nov.16 10:21:56 DEBUG emofiltDebug - loaded: language: fr, voice: 6
+18.Nov.16 10:21:56 DEBUG emofiltDebug - loaded: language: fr, voice: 7
+18.Nov.16 10:21:56 DEBUG emofiltDebug - loaded 27 languages
+18.Nov.16 10:21:56 DEBUG emofiltDebug - happySad
+18.Nov.16 10:21:56 DEBUG emofiltDebug - angrySad
+18.Nov.16 10:21:56 DEBUG emofiltDebug - sadAngry
+18.Nov.16 10:21:56 DEBUG emofiltDebug - boredom
+18.Nov.16 10:21:56 DEBUG emofiltDebug - despair
+18.Nov.16 10:21:56 DEBUG emofiltDebug - sad
+18.Nov.16 10:21:56 DEBUG emofiltDebug - scared
+18.Nov.16 10:21:56 DEBUG emofiltDebug - neurotic
+18.Nov.16 10:21:56 DEBUG emofiltDebug - fairytale
+18.Nov.16 10:21:56 DEBUG emofiltDebug - coldAnger
+18.Nov.16 10:21:56 DEBUG emofiltDebug - yawning
+18.Nov.16 10:21:56 DEBUG emofiltDebug - joy
+18.Nov.16 10:21:56 DEBUG emofiltDebug - happy
+18.Nov.16 10:21:56 DEBUG emofiltDebug - hotAnger
+18.Nov.16 10:21:56 DEBUG emofiltDebug - neutral
+18.Nov.16 10:22:04 DEBUG emofilt.storyreading.Story - token: emotion val="neutral">test, emotion: neutral , text: test
+18.Nov.16 10:22:04 DEBUG emofiltDebug - calling Mary server with phrase test and language: de6
+18.Nov.16 10:22:04 DEBUG emofiltDebug - returning emotion: neutral
+18.Nov.16 10:22:04 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+18.Nov.16 10:22:04 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+18.Nov.16 10:22:12 DEBUG emofilt.storyreading.Story - token: emotion val="neutral">test, emotion: neutral , text: test
+18.Nov.16 10:22:12 DEBUG emofiltDebug - calling Mary server with phrase test and language: de6
+18.Nov.16 10:22:12 DEBUG emofiltDebug - returning emotion: neutral
+18.Nov.16 10:22:12 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+18.Nov.16 10:22:12 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+18.Nov.16 10:22:18 DEBUG emofilt.storyreading.Story - token: emotion val="neutral">test, emotion: neutral , text: test
+18.Nov.16 10:22:18 DEBUG emofiltDebug - calling Mary server with phrase test and language: de6
+18.Nov.16 10:22:18 DEBUG emofiltDebug - returning emotion: neutral
+18.Nov.16 10:22:18 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+18.Nov.16 10:22:18 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+18.Nov.16 10:29:04 DEBUG emofiltDebug - F0Mean, F0Range, Variability, PhraseContour, ContourFromStress, LevelUnstress, LevelFocusstress, LevelWordstress, ContourUnstress, ContourFocusstress, ContourWordstress, LastSylContour, WaveModel, SpeechRate, DurationFocusstressedSyls, DurationWordstressedSyls, DurationUnstressedSyls, DurVowel, DurAprx, DurNasal, DurVFric, DurVLFric, DurVStop, DurVLStop, DurPause, Jitter, VocalEffort, VowelTarget
+18.Nov.16 10:29:04 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:29:04 DEBUG emofiltDebug - loaded plugin: name: f0Mean, type: pitch
+18.Nov.16 10:29:04 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:29:04 DEBUG emofiltDebug - loaded plugin: name: f0Range, type: pitch
+18.Nov.16 10:29:04 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:29:04 DEBUG emofiltDebug - loaded plugin: name: variability, type: pitch
+18.Nov.16 10:29:04 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:29:04 DEBUG emofiltDebug - loaded plugin: name: phraseContour, type: pitch
+18.Nov.16 10:29:04 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:29:04 DEBUG emofiltDebug - loaded plugin: name: contourFromStress, type: pitch
+18.Nov.16 10:29:04 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:29:04 DEBUG emofiltDebug - loaded plugin: name: levelUnstress, type: pitch
+18.Nov.16 10:29:04 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:29:04 DEBUG emofiltDebug - loaded plugin: name: levelFocusstress, type: pitch
+18.Nov.16 10:29:04 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:29:04 DEBUG emofiltDebug - loaded plugin: name: levelWordstress, type: pitch
+18.Nov.16 10:29:04 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:29:04 DEBUG emofiltDebug - loaded plugin: name: contourUnstress, type: pitch
+18.Nov.16 10:29:04 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:29:04 DEBUG emofiltDebug - loaded plugin: name: contourFocusstress, type: pitch
+18.Nov.16 10:29:04 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:29:04 DEBUG emofiltDebug - loaded plugin: name: contourWordstress, type: pitch
+18.Nov.16 10:29:04 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:29:04 DEBUG emofiltDebug - loaded plugin: name: lastSylContour, type: pitch
+18.Nov.16 10:29:04 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:29:04 DEBUG emofiltDebug - loaded plugin: name: waveModel, type: pitch
+18.Nov.16 10:29:04 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:29:04 DEBUG emofiltDebug - loaded plugin: name: speechRate, type: duration
+18.Nov.16 10:29:04 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:29:04 DEBUG emofiltDebug - loaded plugin: name: durationFocusstressedSyls, type: duration
+18.Nov.16 10:29:04 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:29:04 DEBUG emofiltDebug - loaded plugin: name: durationWordstressedSyls, type: duration
+18.Nov.16 10:29:04 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:29:04 DEBUG emofiltDebug - loaded plugin: name: durationUnstressedSyls, type: duration
+18.Nov.16 10:29:04 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:29:04 DEBUG emofiltDebug - loaded plugin: name: durVowel, type: duration
+18.Nov.16 10:29:04 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:29:04 DEBUG emofiltDebug - loaded plugin: name: durAprx, type: duration
+18.Nov.16 10:29:04 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:29:04 DEBUG emofiltDebug - loaded plugin: name: durNasal, type: duration
+18.Nov.16 10:29:04 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:29:04 DEBUG emofiltDebug - loaded plugin: name: durVFric, type: duration
+18.Nov.16 10:29:04 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:29:04 DEBUG emofiltDebug - loaded plugin: name: durVLFric, type: duration
+18.Nov.16 10:29:04 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:29:04 DEBUG emofiltDebug - loaded plugin: name: durVStop, type: duration
+18.Nov.16 10:29:04 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:29:04 DEBUG emofiltDebug - loaded plugin: name: durVLStop, type: duration
+18.Nov.16 10:29:04 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:29:04 DEBUG emofiltDebug - loaded plugin: name: durPause, type: duration
+18.Nov.16 10:29:04 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:29:04 DEBUG emofiltDebug - loaded plugin: name: jitter, type: phonation
+18.Nov.16 10:29:04 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:29:04 DEBUG emofiltDebug - loaded plugin: name: vocalEffort, type: phonation
+18.Nov.16 10:29:04 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:29:04 DEBUG emofiltDebug - loaded plugin: name: vowelTarget, type: articulation
+18.Nov.16 10:29:04 DEBUG emofiltDebug - loaded 28 plugins.
+18.Nov.16 10:29:04 DEBUG emofiltDebug - lfp: /home/felix/workspace/Emofilt/emofilt/languages.xml
+18.Nov.16 10:29:04 DEBUG emofiltDebug - loaded: language: ex, voice: 1
+18.Nov.16 10:29:04 DEBUG emofiltDebug - loaded: language: cn, voice: 1
+18.Nov.16 10:29:04 DEBUG emofiltDebug - loaded: language: tl, voice: 1
+18.Nov.16 10:29:04 DEBUG emofiltDebug - loaded: language: es, voice: 4
+18.Nov.16 10:29:04 DEBUG emofiltDebug - loaded: language: es, voice: 2
+18.Nov.16 10:29:04 DEBUG emofiltDebug - loaded: language: nl, voice: 2
+18.Nov.16 10:29:04 DEBUG emofiltDebug - loaded: language: hu, voice: 1
+18.Nov.16 10:29:04 DEBUG emofiltDebug - loaded: language: it, voice: 3
+18.Nov.16 10:29:04 DEBUG emofiltDebug - loaded: language: gr, voice: 2
+18.Nov.16 10:29:04 DEBUG emofiltDebug - loaded: language: tr, voice: 1
+18.Nov.16 10:29:04 DEBUG emofiltDebug - loaded: language: de, voice: 1
+18.Nov.16 10:29:04 DEBUG emofiltDebug - loaded: language: de, voice: 2
+18.Nov.16 10:29:04 DEBUG emofiltDebug - loaded: language: de, voice: 3
+18.Nov.16 10:29:04 DEBUG emofiltDebug - loaded: language: de, voice: 4
+18.Nov.16 10:29:04 DEBUG emofiltDebug - loaded: language: de, voice: 6
+18.Nov.16 10:29:04 DEBUG emofiltDebug - loaded: language: de, voice: 7
+18.Nov.16 10:29:04 DEBUG emofiltDebug - loaded: language: en, voice: 1
+18.Nov.16 10:29:04 DEBUG emofiltDebug - loaded: language: us, voice: 1
+18.Nov.16 10:29:04 DEBUG emofiltDebug - loaded: language: us, voice: 2
+18.Nov.16 10:29:04 DEBUG emofiltDebug - loaded: language: us, voice: 3
+18.Nov.16 10:29:04 DEBUG emofiltDebug - loaded: language: fr, voice: 1
+18.Nov.16 10:29:04 DEBUG emofiltDebug - loaded: language: fr, voice: 2
+18.Nov.16 10:29:04 DEBUG emofiltDebug - loaded: language: fr, voice: 3
+18.Nov.16 10:29:04 DEBUG emofiltDebug - loaded: language: fr, voice: 4
+18.Nov.16 10:29:04 DEBUG emofiltDebug - loaded: language: fr, voice: 5
+18.Nov.16 10:29:04 DEBUG emofiltDebug - loaded: language: fr, voice: 6
+18.Nov.16 10:29:04 DEBUG emofiltDebug - loaded: language: fr, voice: 7
+18.Nov.16 10:29:04 DEBUG emofiltDebug - loaded 27 languages
+18.Nov.16 10:29:04 DEBUG emofiltDebug - happySad
+18.Nov.16 10:29:04 DEBUG emofiltDebug - angrySad
+18.Nov.16 10:29:04 DEBUG emofiltDebug - sadAngry
+18.Nov.16 10:29:04 DEBUG emofiltDebug - boredom
+18.Nov.16 10:29:04 DEBUG emofiltDebug - despair
+18.Nov.16 10:29:04 DEBUG emofiltDebug - sad
+18.Nov.16 10:29:04 DEBUG emofiltDebug - scared
+18.Nov.16 10:29:04 DEBUG emofiltDebug - neurotic
+18.Nov.16 10:29:04 DEBUG emofiltDebug - fairytale
+18.Nov.16 10:29:04 DEBUG emofiltDebug - coldAnger
+18.Nov.16 10:29:04 DEBUG emofiltDebug - yawning
+18.Nov.16 10:29:04 DEBUG emofiltDebug - joy
+18.Nov.16 10:29:04 DEBUG emofiltDebug - happy
+18.Nov.16 10:29:04 DEBUG emofiltDebug - hotAnger
+18.Nov.16 10:29:04 DEBUG emofiltDebug - neutral
+18.Nov.16 10:29:09 DEBUG emofilt.storyreading.Story - token: emotion val="neutral">test, emotion: neutral , text: test
+18.Nov.16 10:29:09 DEBUG emofiltDebug - calling Mary server with phrase test and language: de6
+18.Nov.16 10:29:09 DEBUG emofiltDebug - returning emotion: neutral
+18.Nov.16 10:29:09 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+18.Nov.16 10:29:09 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+18.Nov.16 10:29:29 DEBUG emofilt.storyreading.Story - token: emotion val="neutral">test, emotion: neutral , text: test
+18.Nov.16 10:29:29 DEBUG emofiltDebug - calling Mary server with phrase test and language: de6
+18.Nov.16 10:29:29 DEBUG emofiltDebug - returning emotion: neutral
+18.Nov.16 10:29:29 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+18.Nov.16 10:29:30 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+18.Nov.16 10:30:38 DEBUG emofiltDebug - F0Mean, F0Range, Variability, PhraseContour, ContourFromStress, LevelUnstress, LevelFocusstress, LevelWordstress, ContourUnstress, ContourFocusstress, ContourWordstress, LastSylContour, WaveModel, SpeechRate, DurationFocusstressedSyls, DurationWordstressedSyls, DurationUnstressedSyls, DurVowel, DurAprx, DurNasal, DurVFric, DurVLFric, DurVStop, DurVLStop, DurPause, Jitter, VocalEffort, VowelTarget
+18.Nov.16 10:30:38 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:30:38 DEBUG emofiltDebug - loaded plugin: name: f0Mean, type: pitch
+18.Nov.16 10:30:38 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:30:38 DEBUG emofiltDebug - loaded plugin: name: f0Range, type: pitch
+18.Nov.16 10:30:38 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:30:38 DEBUG emofiltDebug - loaded plugin: name: variability, type: pitch
+18.Nov.16 10:30:38 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:30:38 DEBUG emofiltDebug - loaded plugin: name: phraseContour, type: pitch
+18.Nov.16 10:30:38 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:30:38 DEBUG emofiltDebug - loaded plugin: name: contourFromStress, type: pitch
+18.Nov.16 10:30:38 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:30:38 DEBUG emofiltDebug - loaded plugin: name: levelUnstress, type: pitch
+18.Nov.16 10:30:38 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:30:38 DEBUG emofiltDebug - loaded plugin: name: levelFocusstress, type: pitch
+18.Nov.16 10:30:38 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:30:38 DEBUG emofiltDebug - loaded plugin: name: levelWordstress, type: pitch
+18.Nov.16 10:30:38 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:30:38 DEBUG emofiltDebug - loaded plugin: name: contourUnstress, type: pitch
+18.Nov.16 10:30:38 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:30:38 DEBUG emofiltDebug - loaded plugin: name: contourFocusstress, type: pitch
+18.Nov.16 10:30:38 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:30:38 DEBUG emofiltDebug - loaded plugin: name: contourWordstress, type: pitch
+18.Nov.16 10:30:38 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:30:38 DEBUG emofiltDebug - loaded plugin: name: lastSylContour, type: pitch
+18.Nov.16 10:30:38 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:30:38 DEBUG emofiltDebug - loaded plugin: name: waveModel, type: pitch
+18.Nov.16 10:30:38 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:30:38 DEBUG emofiltDebug - loaded plugin: name: speechRate, type: duration
+18.Nov.16 10:30:38 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:30:38 DEBUG emofiltDebug - loaded plugin: name: durationFocusstressedSyls, type: duration
+18.Nov.16 10:30:38 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:30:38 DEBUG emofiltDebug - loaded plugin: name: durationWordstressedSyls, type: duration
+18.Nov.16 10:30:38 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:30:38 DEBUG emofiltDebug - loaded plugin: name: durationUnstressedSyls, type: duration
+18.Nov.16 10:30:38 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:30:38 DEBUG emofiltDebug - loaded plugin: name: durVowel, type: duration
+18.Nov.16 10:30:38 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:30:38 DEBUG emofiltDebug - loaded plugin: name: durAprx, type: duration
+18.Nov.16 10:30:38 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:30:38 DEBUG emofiltDebug - loaded plugin: name: durNasal, type: duration
+18.Nov.16 10:30:38 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:30:38 DEBUG emofiltDebug - loaded plugin: name: durVFric, type: duration
+18.Nov.16 10:30:38 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:30:38 DEBUG emofiltDebug - loaded plugin: name: durVLFric, type: duration
+18.Nov.16 10:30:38 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:30:38 DEBUG emofiltDebug - loaded plugin: name: durVStop, type: duration
+18.Nov.16 10:30:38 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:30:38 DEBUG emofiltDebug - loaded plugin: name: durVLStop, type: duration
+18.Nov.16 10:30:38 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:30:38 DEBUG emofiltDebug - loaded plugin: name: durPause, type: duration
+18.Nov.16 10:30:38 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:30:38 DEBUG emofiltDebug - loaded plugin: name: jitter, type: phonation
+18.Nov.16 10:30:38 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:30:38 DEBUG emofiltDebug - loaded plugin: name: vocalEffort, type: phonation
+18.Nov.16 10:30:38 DEBUG emofiltDebug -  initialisation, use GUI=false
+18.Nov.16 10:30:38 DEBUG emofiltDebug - loaded plugin: name: vowelTarget, type: articulation
+18.Nov.16 10:30:38 DEBUG emofiltDebug - loaded 28 plugins.
+18.Nov.16 10:30:38 DEBUG emofiltDebug - lfp: /home/felix/workspace/Emofilt/emofilt/languages.xml
+18.Nov.16 10:30:38 DEBUG emofiltDebug - loaded: language: ex, voice: 1
+18.Nov.16 10:30:38 DEBUG emofiltDebug - loaded: language: cn, voice: 1
+18.Nov.16 10:30:38 DEBUG emofiltDebug - loaded: language: tl, voice: 1
+18.Nov.16 10:30:38 DEBUG emofiltDebug - loaded: language: es, voice: 4
+18.Nov.16 10:30:38 DEBUG emofiltDebug - loaded: language: es, voice: 2
+18.Nov.16 10:30:38 DEBUG emofiltDebug - loaded: language: nl, voice: 2
+18.Nov.16 10:30:38 DEBUG emofiltDebug - loaded: language: hu, voice: 1
+18.Nov.16 10:30:38 DEBUG emofiltDebug - loaded: language: it, voice: 3
+18.Nov.16 10:30:38 DEBUG emofiltDebug - loaded: language: gr, voice: 2
+18.Nov.16 10:30:38 DEBUG emofiltDebug - loaded: language: tr, voice: 1
+18.Nov.16 10:30:38 DEBUG emofiltDebug - loaded: language: de, voice: 1
+18.Nov.16 10:30:38 DEBUG emofiltDebug - loaded: language: de, voice: 2
+18.Nov.16 10:30:38 DEBUG emofiltDebug - loaded: language: de, voice: 3
+18.Nov.16 10:30:38 DEBUG emofiltDebug - loaded: language: de, voice: 4
+18.Nov.16 10:30:38 DEBUG emofiltDebug - loaded: language: de, voice: 6
+18.Nov.16 10:30:38 DEBUG emofiltDebug - loaded: language: de, voice: 7
+18.Nov.16 10:30:38 DEBUG emofiltDebug - loaded: language: en, voice: 1
+18.Nov.16 10:30:38 DEBUG emofiltDebug - loaded: language: us, voice: 1
+18.Nov.16 10:30:38 DEBUG emofiltDebug - loaded: language: us, voice: 2
+18.Nov.16 10:30:38 DEBUG emofiltDebug - loaded: language: us, voice: 3
+18.Nov.16 10:30:38 DEBUG emofiltDebug - loaded: language: fr, voice: 1
+18.Nov.16 10:30:38 DEBUG emofiltDebug - loaded: language: fr, voice: 2
+18.Nov.16 10:30:38 DEBUG emofiltDebug - loaded: language: fr, voice: 3
+18.Nov.16 10:30:38 DEBUG emofiltDebug - loaded: language: fr, voice: 4
+18.Nov.16 10:30:38 DEBUG emofiltDebug - loaded: language: fr, voice: 5
+18.Nov.16 10:30:38 DEBUG emofiltDebug - loaded: language: fr, voice: 6
+18.Nov.16 10:30:38 DEBUG emofiltDebug - loaded: language: fr, voice: 7
+18.Nov.16 10:30:38 DEBUG emofiltDebug - loaded 27 languages
+18.Nov.16 10:30:38 DEBUG emofiltDebug - happySad
+18.Nov.16 10:30:38 DEBUG emofiltDebug - angrySad
+18.Nov.16 10:30:38 DEBUG emofiltDebug - sadAngry
+18.Nov.16 10:30:38 DEBUG emofiltDebug - boredom
+18.Nov.16 10:30:38 DEBUG emofiltDebug - despair
+18.Nov.16 10:30:38 DEBUG emofiltDebug - sad
+18.Nov.16 10:30:38 DEBUG emofiltDebug - scared
+18.Nov.16 10:30:38 DEBUG emofiltDebug - neurotic
+18.Nov.16 10:30:38 DEBUG emofiltDebug - fairytale
+18.Nov.16 10:30:38 DEBUG emofiltDebug - coldAnger
+18.Nov.16 10:30:38 DEBUG emofiltDebug - yawning
+18.Nov.16 10:30:38 DEBUG emofiltDebug - joy
+18.Nov.16 10:30:38 DEBUG emofiltDebug - happy
+18.Nov.16 10:30:38 DEBUG emofiltDebug - hotAnger
+18.Nov.16 10:30:38 DEBUG emofiltDebug - neutral
+18.Nov.16 10:30:41 DEBUG emofilt.storyreading.Story - token: emotion val="neutral">test, emotion: neutral , text: test
+18.Nov.16 10:30:41 DEBUG emofiltDebug - calling Mary server with phrase test and language: de6
+18.Nov.16 10:30:41 DEBUG emofiltDebug - returning emotion: neutral
+18.Nov.16 10:30:41 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+18.Nov.16 10:30:41 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+18.Nov.16 10:30:49 DEBUG emofilt.storyreading.Story - token: emotion val="neutral">test Felix, emotion: neutral , text: test Felix
+18.Nov.16 10:30:49 DEBUG emofiltDebug - calling Mary server with phrase test Felix and language: de6
+18.Nov.16 10:30:49 DEBUG emofiltDebug - returning emotion: neutral
+18.Nov.16 10:30:49 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+18.Nov.16 10:30:49 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+18.Nov.16 10:31:11 DEBUG emofilt.storyreading.Story - token: emotion val="neutral">test Johannes, emotion: neutral , text: test Johannes
+18.Nov.16 10:31:11 DEBUG emofiltDebug - calling Mary server with phrase test Johannes and language: de6
+18.Nov.16 10:31:11 DEBUG emofiltDebug - returning emotion: neutral
+18.Nov.16 10:31:11 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+18.Nov.16 10:31:11 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 

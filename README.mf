@@ -158,6 +158,12 @@ for new voices/languages,
 I'll be happy to include them in future distributions.
 
 CHANGELOG
+TaggerGui
+0.2
+- added possibility to generate sound from text-pane directly.
+
+
+Emofilt:
 1.1 
 - fixed bug that allowed pitch to go below zero because pause length was used in descending pitch calcule.
 1.0

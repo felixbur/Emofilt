@@ -85,6 +85,8 @@ public class TaggerGUI extends JFrame implements ActionListener {
 	private Emofilt _emofilt;
 	private PlayThread _playThread = null;
 	private JComboBox _langBox;
+	private JPanel _colorPanel;
+	private JPanel _textPanel;
 
 	/**
 	 * Start with path to configuration file.
@@ -94,8 +96,7 @@ public class TaggerGUI extends JFrame implements ActionListener {
 	public TaggerGUI(String configPath) {
 		super();
 		_config = new KeyValues(configPath, "=");
-		setTitle(_config.getString("windowTitle") + " "
-				+ Constants.TAGGER_VERSION);
+		setTitle(_config.getString("windowTitle") + " " + Constants.TAGGER_VERSION);
 		JPanel labelPane = new JPanel();
 		_emofilt = new Emofilt(_config.getString("emofiltConfig"));
 		_story = new Story(_emofilt);
@@ -111,8 +112,7 @@ public class TaggerGUI extends JFrame implements ActionListener {
 		this.getContentPane().add(labelPane);
 		dim_width = _config.getInt("dimWidth");
 		dim_height = _config.getInt("dimHeight");
-		this.getContentPane().setPreferredSize(
-				new Dimension(dim_width, dim_height));
+		this.getContentPane().setPreferredSize(new Dimension(dim_width, dim_height));
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		pack();
 		setVisible(true);
@@ -181,8 +181,7 @@ public class TaggerGUI extends JFrame implements ActionListener {
 		} else if ("saveAudioButton".equals(e.getActionCommand())) {
 			saveAudio();
 		} else if (e.getSource() == _langBox) {
-			_emofilt.setActLanguage(_emofilt.getLanguages().findLanguage(
-					((String) _langBox.getSelectedItem()).trim()));
+			_emofilt.setActLanguage(_emofilt.getLanguages().findLanguage(((String) _langBox.getSelectedItem()).trim()));
 		}
 	}
 
@@ -199,8 +198,7 @@ public class TaggerGUI extends JFrame implements ActionListener {
 			_actStoryFileName = fc.getSelectedFile().getAbsolutePath();
 		}
 		try {
-			String text = FileUtil.getFileText(_actStoryFileName,
-					FileUtil.ENCODING_UTF_8);
+			String text = FileUtil.getFileText(_actStoryFileName, FileUtil.ENCODING_UTF_8);
 			_textField.setText(text);
 			Vector<TaggedPiece> pieces = parseMarkup(text);
 			for (Iterator iterator = pieces.iterator(); iterator.hasNext();) {
@@ -222,8 +220,7 @@ public class TaggerGUI extends JFrame implements ActionListener {
 			saveAs();
 		} else {
 			try {
-				FileUtil.writeFileContent(_actStoryFileName,
-						makeEmotionTagText(), FileUtil.ENCODING_UTF_8);
+				FileUtil.writeFileContent(_actStoryFileName, makeEmotionTagText(), FileUtil.ENCODING_UTF_8);
 			} catch (Exception e) {
 				e.printStackTrace();
 				Util.reportError(e, _logger);
@@ -292,7 +289,12 @@ public class TaggerGUI extends JFrame implements ActionListener {
 	}
 
 	private void play() {
-		_text = makeEmotionTagText();
+		if (_textPanel.isVisible()) {
+			_text = _textField.getText();
+		}
+		if (_colorPanel.isVisible()) {
+			_text = makeEmotionTagText();
+		}
 		_textField.setText(_text);
 		_playThread = new PlayThread();
 		_playThread.start();
@@ -332,22 +334,18 @@ public class TaggerGUI extends JFrame implements ActionListener {
 						// String phrase = StringUtil.stripNewlines(token
 						// .substring(braceIndex + 1, token.length())
 						// .trim());
-						String phrase = token.substring(braceIndex + 1,
-								token.length()).trim();
+						String phrase = token.substring(braceIndex + 1, token.length()).trim();
 						if (phrase.length() > 0) {
-							TaggedPiece tp = new TaggedPiece(emotionName,
-									phrase);
+							TaggedPiece tp = new TaggedPiece(emotionName, phrase);
 							Element emotion = _emotions.getEmotion(emotionName);
-							Color c = ColorUtil.hexStringToColor(emotion
-									.getAttribute("color").getValue());
+							Color c = ColorUtil.hexStringToColor(emotion.getAttribute("color").getValue());
 							tp.setColor(c);
 							phrases.add(tp);
 						}
 					}
 				} else {
 					String phrase = token;
-					TaggedPiece tp = new TaggedPiece(Constants.NEUTRAL_EMOTION,
-							phrase);
+					TaggedPiece tp = new TaggedPiece(Constants.NEUTRAL_EMOTION, phrase);
 					tp.setColor(Constants.NEUTRAL_COLOR);
 					phrases.add(tp);
 				}
@@ -358,18 +356,16 @@ public class TaggerGUI extends JFrame implements ActionListener {
 
 	private JTabbedPane makeTextPanel() {
 		JTabbedPane tabbedPane = new JTabbedPane();
-		JPanel colorPanel = new JPanel();
-		colorPanel.setLayout(new BoxLayout(colorPanel, BoxLayout.X_AXIS));
+		_colorPanel = new JPanel();
+		_colorPanel.setLayout(new BoxLayout(_colorPanel, BoxLayout.X_AXIS));
 		_colorTextField = new ColorPane();
 		JScrollPane inputScrollPane = new JScrollPane(_colorTextField);
-		inputScrollPane
-				.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
-		inputScrollPane
-				.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_AS_NEEDED);
+		inputScrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
+		inputScrollPane.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_AS_NEEDED);
 		int width = _config.getInt("dimWidth");
 		int height = _config.getInt("dimHeight");
 		inputScrollPane.setPreferredSize(new Dimension(width, height));
-		colorPanel.add(inputScrollPane);
+		_colorPanel.add(inputScrollPane);
 		_colorTextField.addMouseListener(new MouseAdapter() {
 			public void mouseReleased(MouseEvent mouseEvent) {
 				Point clickPoint = mouseEvent.getPoint();
@@ -391,16 +387,14 @@ public class TaggerGUI extends JFrame implements ActionListener {
 				}
 			}
 		});
-		JPanel textPanel = new JPanel();
-		textPanel.setLayout(new BoxLayout(textPanel, BoxLayout.X_AXIS));
+		_textPanel = new JPanel();
+		_textPanel.setLayout(new BoxLayout(_textPanel, BoxLayout.X_AXIS));
 		_textField = new JTextArea();
 		JScrollPane inputScrollPane2 = new JScrollPane(_textField);
-		inputScrollPane2
-				.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
+		inputScrollPane2.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
 		inputScrollPane2.setPreferredSize(new Dimension(width, height));
-		inputScrollPane2
-				.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_AS_NEEDED);
-		textPanel.add(inputScrollPane2);
+		inputScrollPane2.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_AS_NEEDED);
+		_textPanel.add(inputScrollPane2);
 		_textField.addMouseListener(new MouseAdapter() {
 			public void mouseReleased(MouseEvent mouseEvent) {
 				Point clickPoint = mouseEvent.getPoint();
@@ -416,10 +410,10 @@ public class TaggerGUI extends JFrame implements ActionListener {
 				}
 			}
 		});
-		colorPanel.setName(_config.getString("colorPanelName"));
-		tabbedPane.add(colorPanel);
-		textPanel.setName(_config.getString("textPanelName"));
-		tabbedPane.add(textPanel);
+		_colorPanel.setName(_config.getString("colorPanelName"));
+		tabbedPane.add(_colorPanel);
+		_textPanel.setName(_config.getString("textPanelName"));
+		tabbedPane.add(_textPanel);
 		return tabbedPane;
 	}
 
@@ -461,7 +455,6 @@ public class TaggerGUI extends JFrame implements ActionListener {
 	}
 
 	private void appendTitle(String s) {
-		setTitle(_config.getString("windowTitle") + " "
-				+ Constants.TAGGER_VERSION + " " + s);
+		setTitle(_config.getString("windowTitle") + " " + Constants.TAGGER_VERSION + " " + s);
 	}
 }
