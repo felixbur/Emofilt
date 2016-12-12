@@ -65,7 +65,7 @@ The default configuration file is in English, but you can write
 your own for your language by translating the wordings.
 In order to have the "new utterance" command in the Gui-interface work,
 you have to have installed and configured (in the configuration-file) a
-text-to-phofile  converter program, e.g. MARY TTS.
+text-to-phofile  converter program, e.g. MARY TTS version 4, txt2pho or eSpeak.
 
 USAGE
 
@@ -134,6 +134,8 @@ $ cat sayMary.sh
 echo $2 | java -jar emofilt_fat.jar -mary -voc us1 -e $1 -of tmp_e.pho;
 PhoPlayer.exe database="D:\Programme\Mbrola\us1\us1" tmp_e.pho;
 
+or, if you use espeak
+espeak -v mb-de2 -q --pho --phonout "test.pho" "das ist ein Testsatz" 
 
 
 the same function as a bash-script under linux
