@@ -1992,3 +1992,1726 @@ Hallo Wolf, ich besuche meine Groﬂmutter, emotion: joy , text: Hallo Wolf, ich b
 18.Nov.16 10:36:51 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
 18.Nov.16 10:36:51 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
 18.Nov.16 10:36:54 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+13.Mar.17 15:44:10 DEBUG emofiltDebug - F0Mean, F0Range, Variability, PhraseContour, ContourFromStress, LevelUnstress, LevelFocusstress, LevelWordstress, ContourUnstress, ContourFocusstress, ContourWordstress, LastSylContour, WaveModel, SpeechRate, DurationFocusstressedSyls, DurationWordstressedSyls, DurationUnstressedSyls, DurVowel, DurAprx, DurNasal, DurVFric, DurVLFric, DurVStop, DurVLStop, DurPause, Jitter, VocalEffort, VowelTarget
+13.Mar.17 15:44:10 DEBUG emofiltDebug -  initialisation, use GUI=true
+13.Mar.17 15:44:10 DEBUG emofiltDebug - loaded plugin: name: f0Mean, type: pitch
+13.Mar.17 15:44:10 DEBUG emofiltDebug -  initialisation, use GUI=true
+13.Mar.17 15:44:10 DEBUG emofiltDebug - loaded plugin: name: f0Range, type: pitch
+13.Mar.17 15:44:10 DEBUG emofiltDebug -  initialisation, use GUI=true
+13.Mar.17 15:44:10 DEBUG emofiltDebug - loaded plugin: name: variability, type: pitch
+13.Mar.17 15:44:10 DEBUG emofiltDebug -  initialisation, use GUI=true
+13.Mar.17 15:44:10 DEBUG emofiltDebug - loaded plugin: name: phraseContour, type: pitch
+13.Mar.17 15:44:10 DEBUG emofiltDebug -  initialisation, use GUI=true
+13.Mar.17 15:44:10 DEBUG emofiltDebug - loaded plugin: name: contourFromStress, type: pitch
+13.Mar.17 15:44:10 DEBUG emofiltDebug -  initialisation, use GUI=true
+13.Mar.17 15:44:10 DEBUG emofiltDebug - loaded plugin: name: levelUnstress, type: pitch
+13.Mar.17 15:44:10 DEBUG emofiltDebug -  initialisation, use GUI=true
+13.Mar.17 15:44:10 DEBUG emofiltDebug - loaded plugin: name: levelFocusstress, type: pitch
+13.Mar.17 15:44:10 DEBUG emofiltDebug -  initialisation, use GUI=true
+13.Mar.17 15:44:10 DEBUG emofiltDebug - loaded plugin: name: levelWordstress, type: pitch
+13.Mar.17 15:44:10 DEBUG emofiltDebug -  initialisation, use GUI=true
+13.Mar.17 15:44:10 DEBUG emofiltDebug - loaded plugin: name: contourUnstress, type: pitch
+13.Mar.17 15:44:10 DEBUG emofiltDebug -  initialisation, use GUI=true
+13.Mar.17 15:44:10 DEBUG emofiltDebug - loaded plugin: name: contourFocusstress, type: pitch
+13.Mar.17 15:44:10 DEBUG emofiltDebug -  initialisation, use GUI=true
+13.Mar.17 15:44:10 DEBUG emofiltDebug - loaded plugin: name: contourWordstress, type: pitch
+13.Mar.17 15:44:10 DEBUG emofiltDebug -  initialisation, use GUI=true
+13.Mar.17 15:44:10 DEBUG emofiltDebug - loaded plugin: name: lastSylContour, type: pitch
+13.Mar.17 15:44:10 DEBUG emofiltDebug -  initialisation, use GUI=true
+13.Mar.17 15:44:10 DEBUG emofiltDebug - loaded plugin: name: waveModel, type: pitch
+13.Mar.17 15:44:10 DEBUG emofiltDebug -  initialisation, use GUI=true
+13.Mar.17 15:44:10 DEBUG emofiltDebug - loaded plugin: name: speechRate, type: duration
+13.Mar.17 15:44:10 DEBUG emofiltDebug -  initialisation, use GUI=true
+13.Mar.17 15:44:10 DEBUG emofiltDebug - loaded plugin: name: durationFocusstressedSyls, type: duration
+13.Mar.17 15:44:10 DEBUG emofiltDebug -  initialisation, use GUI=true
+13.Mar.17 15:44:10 DEBUG emofiltDebug - loaded plugin: name: durationWordstressedSyls, type: duration
+13.Mar.17 15:44:10 DEBUG emofiltDebug -  initialisation, use GUI=true
+13.Mar.17 15:44:10 DEBUG emofiltDebug - loaded plugin: name: durationUnstressedSyls, type: duration
+13.Mar.17 15:44:10 DEBUG emofiltDebug -  initialisation, use GUI=true
+13.Mar.17 15:44:10 DEBUG emofiltDebug - loaded plugin: name: durVowel, type: duration
+13.Mar.17 15:44:10 DEBUG emofiltDebug -  initialisation, use GUI=true
+13.Mar.17 15:44:10 DEBUG emofiltDebug - loaded plugin: name: durAprx, type: duration
+13.Mar.17 15:44:10 DEBUG emofiltDebug -  initialisation, use GUI=true
+13.Mar.17 15:44:10 DEBUG emofiltDebug - loaded plugin: name: durNasal, type: duration
+13.Mar.17 15:44:10 DEBUG emofiltDebug -  initialisation, use GUI=true
+13.Mar.17 15:44:10 DEBUG emofiltDebug - loaded plugin: name: durVFric, type: duration
+13.Mar.17 15:44:10 DEBUG emofiltDebug -  initialisation, use GUI=true
+13.Mar.17 15:44:10 DEBUG emofiltDebug - loaded plugin: name: durVLFric, type: duration
+13.Mar.17 15:44:10 DEBUG emofiltDebug -  initialisation, use GUI=true
+13.Mar.17 15:44:10 DEBUG emofiltDebug - loaded plugin: name: durVStop, type: duration
+13.Mar.17 15:44:10 DEBUG emofiltDebug -  initialisation, use GUI=true
+13.Mar.17 15:44:10 DEBUG emofiltDebug - loaded plugin: name: durVLStop, type: duration
+13.Mar.17 15:44:10 DEBUG emofiltDebug -  initialisation, use GUI=true
+13.Mar.17 15:44:10 DEBUG emofiltDebug - loaded plugin: name: durPause, type: duration
+13.Mar.17 15:44:10 DEBUG emofiltDebug -  initialisation, use GUI=true
+13.Mar.17 15:44:10 DEBUG emofiltDebug - loaded plugin: name: jitter, type: phonation
+13.Mar.17 15:44:10 DEBUG emofiltDebug -  initialisation, use GUI=true
+13.Mar.17 15:44:10 DEBUG emofiltDebug - loaded plugin: name: vocalEffort, type: phonation
+13.Mar.17 15:44:10 DEBUG emofiltDebug -  initialisation, use GUI=true
+13.Mar.17 15:44:11 DEBUG emofiltDebug - loaded plugin: name: vowelTarget, type: articulation
+13.Mar.17 15:44:11 DEBUG emofiltDebug - loaded 28 plugins.
+13.Mar.17 15:44:11 DEBUG emofiltDebug - lfp: /home/felix/workspace/Emofilt/emofilt/languages.xml
+13.Mar.17 15:44:11 DEBUG emofiltDebug - loaded: language: ex, voice: 1
+13.Mar.17 15:44:11 DEBUG emofiltDebug - loaded: language: cn, voice: 1
+13.Mar.17 15:44:11 DEBUG emofiltDebug - loaded: language: tl, voice: 1
+13.Mar.17 15:44:11 DEBUG emofiltDebug - loaded: language: es, voice: 4
+13.Mar.17 15:44:11 DEBUG emofiltDebug - loaded: language: es, voice: 2
+13.Mar.17 15:44:11 DEBUG emofiltDebug - loaded: language: nl, voice: 2
+13.Mar.17 15:44:11 DEBUG emofiltDebug - loaded: language: hu, voice: 1
+13.Mar.17 15:44:11 DEBUG emofiltDebug - loaded: language: it, voice: 3
+13.Mar.17 15:44:11 DEBUG emofiltDebug - loaded: language: gr, voice: 2
+13.Mar.17 15:44:11 DEBUG emofiltDebug - loaded: language: tr, voice: 1
+13.Mar.17 15:44:11 DEBUG emofiltDebug - loaded: language: de, voice: 1
+13.Mar.17 15:44:11 DEBUG emofiltDebug - loaded: language: de, voice: 2
+13.Mar.17 15:44:11 DEBUG emofiltDebug - loaded: language: de, voice: 3
+13.Mar.17 15:44:11 DEBUG emofiltDebug - loaded: language: de, voice: 4
+13.Mar.17 15:44:11 DEBUG emofiltDebug - loaded: language: de, voice: 6
+13.Mar.17 15:44:11 DEBUG emofiltDebug - loaded: language: de, voice: 7
+13.Mar.17 15:44:11 DEBUG emofiltDebug - loaded: language: en, voice: 1
+13.Mar.17 15:44:11 DEBUG emofiltDebug - loaded: language: us, voice: 1
+13.Mar.17 15:44:11 DEBUG emofiltDebug - loaded: language: us, voice: 2
+13.Mar.17 15:44:11 DEBUG emofiltDebug - loaded: language: us, voice: 3
+13.Mar.17 15:44:11 DEBUG emofiltDebug - loaded: language: fr, voice: 1
+13.Mar.17 15:44:11 DEBUG emofiltDebug - loaded: language: fr, voice: 2
+13.Mar.17 15:44:11 DEBUG emofiltDebug - loaded: language: fr, voice: 3
+13.Mar.17 15:44:11 DEBUG emofiltDebug - loaded: language: fr, voice: 4
+13.Mar.17 15:44:11 DEBUG emofiltDebug - loaded: language: fr, voice: 5
+13.Mar.17 15:44:11 DEBUG emofiltDebug - loaded: language: fr, voice: 6
+13.Mar.17 15:44:11 DEBUG emofiltDebug - loaded: language: fr, voice: 7
+13.Mar.17 15:44:11 DEBUG emofiltDebug - loaded 27 languages
+13.Mar.17 15:44:11 DEBUG emofiltDebug - happySad
+13.Mar.17 15:44:11 DEBUG emofiltDebug - angrySad
+13.Mar.17 15:44:11 DEBUG emofiltDebug - sadAngry
+13.Mar.17 15:44:11 DEBUG emofiltDebug - boredom
+13.Mar.17 15:44:11 DEBUG emofiltDebug - despair
+13.Mar.17 15:44:11 DEBUG emofiltDebug - sad
+13.Mar.17 15:44:11 DEBUG emofiltDebug - scared
+13.Mar.17 15:44:11 DEBUG emofiltDebug - neurotic
+13.Mar.17 15:44:11 DEBUG emofiltDebug - fairytale
+13.Mar.17 15:44:11 DEBUG emofiltDebug - coldAnger
+13.Mar.17 15:44:11 DEBUG emofiltDebug - yawning
+13.Mar.17 15:44:11 DEBUG emofiltDebug - joy
+13.Mar.17 15:44:11 DEBUG emofiltDebug - happy
+13.Mar.17 15:44:11 DEBUG emofiltDebug - hotAnger
+13.Mar.17 15:44:11 DEBUG emofiltDebug - neutral
+13.Mar.17 15:44:11 DEBUG emofiltDebug - returning emotion: neutral
+13.Mar.17 15:44:11 DEBUG emofiltDebug - returning emotion: neutral
+13.Mar.17 15:44:11 DEBUG emofiltDebug - setting emotions: neutral
+13.Mar.17 15:44:11 DEBUG emofiltDebug - returning emotion: neutral
+13.Mar.17 15:44:11 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Mar.17 15:44:11 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Mar.17 15:44:11 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Mar.17 15:44:11 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Mar.17 15:44:11 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Mar.17 15:44:11 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Mar.17 15:44:11 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Mar.17 15:44:13 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+13.Mar.17 15:44:22 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+14.Mar.17 13:36:12 DEBUG emofiltDebug - F0Mean, F0Range, Variability, PhraseContour, ContourFromStress, LevelUnstress, LevelFocusstress, LevelWordstress, ContourUnstress, ContourFocusstress, ContourWordstress, LastSylContour, WaveModel, SpeechRate, DurationFocusstressedSyls, DurationWordstressedSyls, DurationUnstressedSyls, DurVowel, DurAprx, DurNasal, DurVFric, DurVLFric, DurVStop, DurVLStop, DurPause, Jitter, VocalEffort, VowelTarget
+14.Mar.17 13:36:12 DEBUG emofiltDebug -  initialisation, use GUI=true
+14.Mar.17 13:36:12 DEBUG emofiltDebug - loaded plugin: name: f0Mean, type: pitch
+14.Mar.17 13:36:12 DEBUG emofiltDebug -  initialisation, use GUI=true
+14.Mar.17 13:36:12 DEBUG emofiltDebug - loaded plugin: name: f0Range, type: pitch
+14.Mar.17 13:36:12 DEBUG emofiltDebug -  initialisation, use GUI=true
+14.Mar.17 13:36:12 DEBUG emofiltDebug - loaded plugin: name: variability, type: pitch
+14.Mar.17 13:36:12 DEBUG emofiltDebug -  initialisation, use GUI=true
+14.Mar.17 13:36:12 DEBUG emofiltDebug - loaded plugin: name: phraseContour, type: pitch
+14.Mar.17 13:36:12 DEBUG emofiltDebug -  initialisation, use GUI=true
+14.Mar.17 13:36:12 DEBUG emofiltDebug - loaded plugin: name: contourFromStress, type: pitch
+14.Mar.17 13:36:12 DEBUG emofiltDebug -  initialisation, use GUI=true
+14.Mar.17 13:36:12 DEBUG emofiltDebug - loaded plugin: name: levelUnstress, type: pitch
+14.Mar.17 13:36:12 DEBUG emofiltDebug -  initialisation, use GUI=true
+14.Mar.17 13:36:12 DEBUG emofiltDebug - loaded plugin: name: levelFocusstress, type: pitch
+14.Mar.17 13:36:12 DEBUG emofiltDebug -  initialisation, use GUI=true
+14.Mar.17 13:36:12 DEBUG emofiltDebug - loaded plugin: name: levelWordstress, type: pitch
+14.Mar.17 13:36:12 DEBUG emofiltDebug -  initialisation, use GUI=true
+14.Mar.17 13:36:12 DEBUG emofiltDebug - loaded plugin: name: contourUnstress, type: pitch
+14.Mar.17 13:36:12 DEBUG emofiltDebug -  initialisation, use GUI=true
+14.Mar.17 13:36:12 DEBUG emofiltDebug - loaded plugin: name: contourFocusstress, type: pitch
+14.Mar.17 13:36:12 DEBUG emofiltDebug -  initialisation, use GUI=true
+14.Mar.17 13:36:12 DEBUG emofiltDebug - loaded plugin: name: contourWordstress, type: pitch
+14.Mar.17 13:36:12 DEBUG emofiltDebug -  initialisation, use GUI=true
+14.Mar.17 13:36:12 DEBUG emofiltDebug - loaded plugin: name: lastSylContour, type: pitch
+14.Mar.17 13:36:12 DEBUG emofiltDebug -  initialisation, use GUI=true
+14.Mar.17 13:36:12 DEBUG emofiltDebug - loaded plugin: name: waveModel, type: pitch
+14.Mar.17 13:36:12 DEBUG emofiltDebug -  initialisation, use GUI=true
+14.Mar.17 13:36:12 DEBUG emofiltDebug - loaded plugin: name: speechRate, type: duration
+14.Mar.17 13:36:12 DEBUG emofiltDebug -  initialisation, use GUI=true
+14.Mar.17 13:36:13 DEBUG emofiltDebug - loaded plugin: name: durationFocusstressedSyls, type: duration
+14.Mar.17 13:36:13 DEBUG emofiltDebug -  initialisation, use GUI=true
+14.Mar.17 13:36:13 DEBUG emofiltDebug - loaded plugin: name: durationWordstressedSyls, type: duration
+14.Mar.17 13:36:13 DEBUG emofiltDebug -  initialisation, use GUI=true
+14.Mar.17 13:36:13 DEBUG emofiltDebug - loaded plugin: name: durationUnstressedSyls, type: duration
+14.Mar.17 13:36:13 DEBUG emofiltDebug -  initialisation, use GUI=true
+14.Mar.17 13:36:13 DEBUG emofiltDebug - loaded plugin: name: durVowel, type: duration
+14.Mar.17 13:36:13 DEBUG emofiltDebug -  initialisation, use GUI=true
+14.Mar.17 13:36:13 DEBUG emofiltDebug - loaded plugin: name: durAprx, type: duration
+14.Mar.17 13:36:13 DEBUG emofiltDebug -  initialisation, use GUI=true
+14.Mar.17 13:36:13 DEBUG emofiltDebug - loaded plugin: name: durNasal, type: duration
+14.Mar.17 13:36:13 DEBUG emofiltDebug -  initialisation, use GUI=true
+14.Mar.17 13:36:13 DEBUG emofiltDebug - loaded plugin: name: durVFric, type: duration
+14.Mar.17 13:36:13 DEBUG emofiltDebug -  initialisation, use GUI=true
+14.Mar.17 13:36:13 DEBUG emofiltDebug - loaded plugin: name: durVLFric, type: duration
+14.Mar.17 13:36:13 DEBUG emofiltDebug -  initialisation, use GUI=true
+14.Mar.17 13:36:13 DEBUG emofiltDebug - loaded plugin: name: durVStop, type: duration
+14.Mar.17 13:36:13 DEBUG emofiltDebug -  initialisation, use GUI=true
+14.Mar.17 13:36:13 DEBUG emofiltDebug - loaded plugin: name: durVLStop, type: duration
+14.Mar.17 13:36:13 DEBUG emofiltDebug -  initialisation, use GUI=true
+14.Mar.17 13:36:13 DEBUG emofiltDebug - loaded plugin: name: durPause, type: duration
+14.Mar.17 13:36:13 DEBUG emofiltDebug -  initialisation, use GUI=true
+14.Mar.17 13:36:13 DEBUG emofiltDebug - loaded plugin: name: jitter, type: phonation
+14.Mar.17 13:36:13 DEBUG emofiltDebug -  initialisation, use GUI=true
+14.Mar.17 13:36:13 DEBUG emofiltDebug - loaded plugin: name: vocalEffort, type: phonation
+14.Mar.17 13:36:13 DEBUG emofiltDebug -  initialisation, use GUI=true
+14.Mar.17 13:36:13 DEBUG emofiltDebug - loaded plugin: name: vowelTarget, type: articulation
+14.Mar.17 13:36:13 DEBUG emofiltDebug - loaded 28 plugins.
+14.Mar.17 13:36:13 DEBUG emofiltDebug - lfp: /home/felix/workspace/Emofilt/emofilt/languages.xml
+14.Mar.17 13:36:13 DEBUG emofiltDebug - loaded: language: ex, voice: 1
+14.Mar.17 13:36:13 DEBUG emofiltDebug - loaded: language: cn, voice: 1
+14.Mar.17 13:36:13 DEBUG emofiltDebug - loaded: language: tl, voice: 1
+14.Mar.17 13:36:13 DEBUG emofiltDebug - loaded: language: es, voice: 4
+14.Mar.17 13:36:13 DEBUG emofiltDebug - loaded: language: es, voice: 2
+14.Mar.17 13:36:13 DEBUG emofiltDebug - loaded: language: nl, voice: 2
+14.Mar.17 13:36:13 DEBUG emofiltDebug - loaded: language: hu, voice: 1
+14.Mar.17 13:36:13 DEBUG emofiltDebug - loaded: language: it, voice: 3
+14.Mar.17 13:36:13 DEBUG emofiltDebug - loaded: language: gr, voice: 2
+14.Mar.17 13:36:13 DEBUG emofiltDebug - loaded: language: tr, voice: 1
+14.Mar.17 13:36:13 DEBUG emofiltDebug - loaded: language: de, voice: 1
+14.Mar.17 13:36:13 DEBUG emofiltDebug - loaded: language: de, voice: 2
+14.Mar.17 13:36:13 DEBUG emofiltDebug - loaded: language: de, voice: 3
+14.Mar.17 13:36:13 DEBUG emofiltDebug - loaded: language: de, voice: 4
+14.Mar.17 13:36:13 DEBUG emofiltDebug - loaded: language: de, voice: 6
+14.Mar.17 13:36:13 DEBUG emofiltDebug - loaded: language: de, voice: 7
+14.Mar.17 13:36:13 DEBUG emofiltDebug - loaded: language: en, voice: 1
+14.Mar.17 13:36:13 DEBUG emofiltDebug - loaded: language: us, voice: 1
+14.Mar.17 13:36:13 DEBUG emofiltDebug - loaded: language: us, voice: 2
+14.Mar.17 13:36:13 DEBUG emofiltDebug - loaded: language: us, voice: 3
+14.Mar.17 13:36:13 DEBUG emofiltDebug - loaded: language: fr, voice: 1
+14.Mar.17 13:36:13 DEBUG emofiltDebug - loaded: language: fr, voice: 2
+14.Mar.17 13:36:13 DEBUG emofiltDebug - loaded: language: fr, voice: 3
+14.Mar.17 13:36:13 DEBUG emofiltDebug - loaded: language: fr, voice: 4
+14.Mar.17 13:36:13 DEBUG emofiltDebug - loaded: language: fr, voice: 5
+14.Mar.17 13:36:13 DEBUG emofiltDebug - loaded: language: fr, voice: 6
+14.Mar.17 13:36:13 DEBUG emofiltDebug - loaded: language: fr, voice: 7
+14.Mar.17 13:36:13 DEBUG emofiltDebug - loaded 27 languages
+14.Mar.17 13:36:13 DEBUG emofiltDebug - happySad
+14.Mar.17 13:36:13 DEBUG emofiltDebug - angrySad
+14.Mar.17 13:36:13 DEBUG emofiltDebug - sadAngry
+14.Mar.17 13:36:13 DEBUG emofiltDebug - boredom
+14.Mar.17 13:36:13 DEBUG emofiltDebug - despair
+14.Mar.17 13:36:13 DEBUG emofiltDebug - sad
+14.Mar.17 13:36:13 DEBUG emofiltDebug - scared
+14.Mar.17 13:36:13 DEBUG emofiltDebug - neurotic
+14.Mar.17 13:36:13 DEBUG emofiltDebug - fairytale
+14.Mar.17 13:36:13 DEBUG emofiltDebug - coldAnger
+14.Mar.17 13:36:13 DEBUG emofiltDebug - yawning
+14.Mar.17 13:36:13 DEBUG emofiltDebug - joy
+14.Mar.17 13:36:13 DEBUG emofiltDebug - happy
+14.Mar.17 13:36:13 DEBUG emofiltDebug - hotAnger
+14.Mar.17 13:36:13 DEBUG emofiltDebug - neutral
+14.Mar.17 13:36:13 DEBUG emofiltDebug - returning emotion: neutral
+14.Mar.17 13:36:13 DEBUG emofiltDebug - returning emotion: neutral
+14.Mar.17 13:36:13 DEBUG emofiltDebug - setting emotions: neutral
+14.Mar.17 13:36:13 DEBUG emofiltDebug - returning emotion: neutral
+14.Mar.17 13:36:13 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+14.Mar.17 13:36:13 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+14.Mar.17 13:36:13 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+14.Mar.17 13:36:13 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+14.Mar.17 13:36:13 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+14.Mar.17 13:36:13 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+14.Mar.17 13:36:13 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+14.Mar.17 15:26:57 DEBUG emofiltDebug - F0Mean, F0Range, Variability, PhraseContour, ContourFromStress, LevelUnstress, LevelFocusstress, LevelWordstress, ContourUnstress, ContourFocusstress, ContourWordstress, LastSylContour, WaveModel, SpeechRate, DurationFocusstressedSyls, DurationWordstressedSyls, DurationUnstressedSyls, DurVowel, DurAprx, DurNasal, DurVFric, DurVLFric, DurVStop, DurVLStop, DurPause, Jitter, VocalEffort, VowelTarget
+14.Mar.17 15:26:57 DEBUG emofiltDebug -  initialisation, use GUI=true
+14.Mar.17 15:26:57 DEBUG emofiltDebug - loaded plugin: name: f0Mean, type: pitch
+14.Mar.17 15:26:57 DEBUG emofiltDebug -  initialisation, use GUI=true
+14.Mar.17 15:26:57 DEBUG emofiltDebug - loaded plugin: name: f0Range, type: pitch
+14.Mar.17 15:26:57 DEBUG emofiltDebug -  initialisation, use GUI=true
+14.Mar.17 15:26:57 DEBUG emofiltDebug - loaded plugin: name: variability, type: pitch
+14.Mar.17 15:26:57 DEBUG emofiltDebug -  initialisation, use GUI=true
+14.Mar.17 15:26:57 DEBUG emofiltDebug - loaded plugin: name: phraseContour, type: pitch
+14.Mar.17 15:26:57 DEBUG emofiltDebug -  initialisation, use GUI=true
+14.Mar.17 15:26:57 DEBUG emofiltDebug - loaded plugin: name: contourFromStress, type: pitch
+14.Mar.17 15:26:57 DEBUG emofiltDebug -  initialisation, use GUI=true
+14.Mar.17 15:26:57 DEBUG emofiltDebug - loaded plugin: name: levelUnstress, type: pitch
+14.Mar.17 15:26:57 DEBUG emofiltDebug -  initialisation, use GUI=true
+14.Mar.17 15:26:57 DEBUG emofiltDebug - loaded plugin: name: levelFocusstress, type: pitch
+14.Mar.17 15:26:57 DEBUG emofiltDebug -  initialisation, use GUI=true
+14.Mar.17 15:26:57 DEBUG emofiltDebug - loaded plugin: name: levelWordstress, type: pitch
+14.Mar.17 15:26:57 DEBUG emofiltDebug -  initialisation, use GUI=true
+14.Mar.17 15:26:57 DEBUG emofiltDebug - loaded plugin: name: contourUnstress, type: pitch
+14.Mar.17 15:26:57 DEBUG emofiltDebug -  initialisation, use GUI=true
+14.Mar.17 15:26:57 DEBUG emofiltDebug - loaded plugin: name: contourFocusstress, type: pitch
+14.Mar.17 15:26:57 DEBUG emofiltDebug -  initialisation, use GUI=true
+14.Mar.17 15:26:57 DEBUG emofiltDebug - loaded plugin: name: contourWordstress, type: pitch
+14.Mar.17 15:26:57 DEBUG emofiltDebug -  initialisation, use GUI=true
+14.Mar.17 15:26:57 DEBUG emofiltDebug - loaded plugin: name: lastSylContour, type: pitch
+14.Mar.17 15:26:57 DEBUG emofiltDebug -  initialisation, use GUI=true
+14.Mar.17 15:26:57 DEBUG emofiltDebug - loaded plugin: name: waveModel, type: pitch
+14.Mar.17 15:26:57 DEBUG emofiltDebug -  initialisation, use GUI=true
+14.Mar.17 15:26:57 DEBUG emofiltDebug - loaded plugin: name: speechRate, type: duration
+14.Mar.17 15:26:57 DEBUG emofiltDebug -  initialisation, use GUI=true
+14.Mar.17 15:26:57 DEBUG emofiltDebug - loaded plugin: name: durationFocusstressedSyls, type: duration
+14.Mar.17 15:26:57 DEBUG emofiltDebug -  initialisation, use GUI=true
+14.Mar.17 15:26:57 DEBUG emofiltDebug - loaded plugin: name: durationWordstressedSyls, type: duration
+14.Mar.17 15:26:57 DEBUG emofiltDebug -  initialisation, use GUI=true
+14.Mar.17 15:26:57 DEBUG emofiltDebug - loaded plugin: name: durationUnstressedSyls, type: duration
+14.Mar.17 15:26:57 DEBUG emofiltDebug -  initialisation, use GUI=true
+14.Mar.17 15:26:57 DEBUG emofiltDebug - loaded plugin: name: durVowel, type: duration
+14.Mar.17 15:26:57 DEBUG emofiltDebug -  initialisation, use GUI=true
+14.Mar.17 15:26:57 DEBUG emofiltDebug - loaded plugin: name: durAprx, type: duration
+14.Mar.17 15:26:57 DEBUG emofiltDebug -  initialisation, use GUI=true
+14.Mar.17 15:26:57 DEBUG emofiltDebug - loaded plugin: name: durNasal, type: duration
+14.Mar.17 15:26:57 DEBUG emofiltDebug -  initialisation, use GUI=true
+14.Mar.17 15:26:57 DEBUG emofiltDebug - loaded plugin: name: durVFric, type: duration
+14.Mar.17 15:26:57 DEBUG emofiltDebug -  initialisation, use GUI=true
+14.Mar.17 15:26:57 DEBUG emofiltDebug - loaded plugin: name: durVLFric, type: duration
+14.Mar.17 15:26:57 DEBUG emofiltDebug -  initialisation, use GUI=true
+14.Mar.17 15:26:57 DEBUG emofiltDebug - loaded plugin: name: durVStop, type: duration
+14.Mar.17 15:26:57 DEBUG emofiltDebug -  initialisation, use GUI=true
+14.Mar.17 15:26:57 DEBUG emofiltDebug - loaded plugin: name: durVLStop, type: duration
+14.Mar.17 15:26:57 DEBUG emofiltDebug -  initialisation, use GUI=true
+14.Mar.17 15:26:57 DEBUG emofiltDebug - loaded plugin: name: durPause, type: duration
+14.Mar.17 15:26:57 DEBUG emofiltDebug -  initialisation, use GUI=true
+14.Mar.17 15:26:57 DEBUG emofiltDebug - loaded plugin: name: jitter, type: phonation
+14.Mar.17 15:26:57 DEBUG emofiltDebug -  initialisation, use GUI=true
+14.Mar.17 15:26:57 DEBUG emofiltDebug - loaded plugin: name: vocalEffort, type: phonation
+14.Mar.17 15:26:57 DEBUG emofiltDebug -  initialisation, use GUI=true
+14.Mar.17 15:26:57 DEBUG emofiltDebug - loaded plugin: name: vowelTarget, type: articulation
+14.Mar.17 15:26:57 DEBUG emofiltDebug - loaded 28 plugins.
+14.Mar.17 15:26:57 DEBUG emofiltDebug - lfp: /home/felix/workspace/Emofilt/emofilt/languages.xml
+14.Mar.17 15:26:57 DEBUG emofiltDebug - loaded: language: ex, voice: 1
+14.Mar.17 15:26:57 DEBUG emofiltDebug - loaded: language: cn, voice: 1
+14.Mar.17 15:26:57 DEBUG emofiltDebug - loaded: language: tl, voice: 1
+14.Mar.17 15:26:57 DEBUG emofiltDebug - loaded: language: es, voice: 4
+14.Mar.17 15:26:57 DEBUG emofiltDebug - loaded: language: es, voice: 2
+14.Mar.17 15:26:57 DEBUG emofiltDebug - loaded: language: nl, voice: 2
+14.Mar.17 15:26:57 DEBUG emofiltDebug - loaded: language: hu, voice: 1
+14.Mar.17 15:26:57 DEBUG emofiltDebug - loaded: language: it, voice: 3
+14.Mar.17 15:26:57 DEBUG emofiltDebug - loaded: language: gr, voice: 2
+14.Mar.17 15:26:57 DEBUG emofiltDebug - loaded: language: tr, voice: 1
+14.Mar.17 15:26:57 DEBUG emofiltDebug - loaded: language: de, voice: 1
+14.Mar.17 15:26:57 DEBUG emofiltDebug - loaded: language: de, voice: 2
+14.Mar.17 15:26:57 DEBUG emofiltDebug - loaded: language: de, voice: 3
+14.Mar.17 15:26:57 DEBUG emofiltDebug - loaded: language: de, voice: 4
+14.Mar.17 15:26:57 DEBUG emofiltDebug - loaded: language: de, voice: 6
+14.Mar.17 15:26:57 DEBUG emofiltDebug - loaded: language: de, voice: 7
+14.Mar.17 15:26:57 DEBUG emofiltDebug - loaded: language: en, voice: 1
+14.Mar.17 15:26:57 DEBUG emofiltDebug - loaded: language: us, voice: 1
+14.Mar.17 15:26:57 DEBUG emofiltDebug - loaded: language: us, voice: 2
+14.Mar.17 15:26:57 DEBUG emofiltDebug - loaded: language: us, voice: 3
+14.Mar.17 15:26:57 DEBUG emofiltDebug - loaded: language: fr, voice: 1
+14.Mar.17 15:26:57 DEBUG emofiltDebug - loaded: language: fr, voice: 2
+14.Mar.17 15:26:57 DEBUG emofiltDebug - loaded: language: fr, voice: 3
+14.Mar.17 15:26:57 DEBUG emofiltDebug - loaded: language: fr, voice: 4
+14.Mar.17 15:26:57 DEBUG emofiltDebug - loaded: language: fr, voice: 5
+14.Mar.17 15:26:57 DEBUG emofiltDebug - loaded: language: fr, voice: 6
+14.Mar.17 15:26:57 DEBUG emofiltDebug - loaded: language: fr, voice: 7
+14.Mar.17 15:26:57 DEBUG emofiltDebug - loaded 27 languages
+14.Mar.17 15:26:57 DEBUG emofiltDebug - happySad
+14.Mar.17 15:26:57 DEBUG emofiltDebug - angrySad
+14.Mar.17 15:26:57 DEBUG emofiltDebug - sadAngry
+14.Mar.17 15:26:57 DEBUG emofiltDebug - boredom
+14.Mar.17 15:26:57 DEBUG emofiltDebug - despair
+14.Mar.17 15:26:57 DEBUG emofiltDebug - sad
+14.Mar.17 15:26:57 DEBUG emofiltDebug - scared
+14.Mar.17 15:26:57 DEBUG emofiltDebug - neurotic
+14.Mar.17 15:26:57 DEBUG emofiltDebug - fairytale
+14.Mar.17 15:26:57 DEBUG emofiltDebug - coldAnger
+14.Mar.17 15:26:57 DEBUG emofiltDebug - yawning
+14.Mar.17 15:26:57 DEBUG emofiltDebug - joy
+14.Mar.17 15:26:57 DEBUG emofiltDebug - happy
+14.Mar.17 15:26:57 DEBUG emofiltDebug - hotAnger
+14.Mar.17 15:26:57 DEBUG emofiltDebug - neutral
+14.Mar.17 15:26:57 DEBUG emofiltDebug - returning emotion: neutral
+14.Mar.17 15:26:57 DEBUG emofiltDebug - returning emotion: neutral
+14.Mar.17 15:26:57 DEBUG emofiltDebug - setting emotions: neutral
+14.Mar.17 15:26:57 DEBUG emofiltDebug - returning emotion: neutral
+14.Mar.17 15:26:57 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+14.Mar.17 15:26:57 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+14.Mar.17 15:26:57 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+14.Mar.17 15:26:57 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+14.Mar.17 15:26:57 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+14.Mar.17 15:26:57 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+14.Mar.17 15:26:57 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+14.Mar.17 15:27:00 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+14.Mar.17 15:30:47 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+14.Mar.17 15:31:01 DEBUG emofiltDebug - setting emotions: happySad
+14.Mar.17 15:31:01 DEBUG emofiltDebug - returning emotion: happySad
+14.Mar.17 15:31:01 DEBUG emofiltDebug - Element not found in Emotion Description
+14.Mar.17 15:31:01 DEBUG emofiltDebug - Element not found in Emotion Description
+14.Mar.17 15:31:01 DEBUG emofiltDebug - Element not found in Emotion Description
+14.Mar.17 15:31:01 DEBUG emofiltDebug - Element not found in Emotion Description
+14.Mar.17 15:31:01 DEBUG emofiltDebug - Element not found in Emotion Description
+14.Mar.17 15:31:01 DEBUG emofiltDebug - Element not found in Emotion Description
+14.Mar.17 15:31:01 DEBUG emofiltDebug - Element not found in Emotion Description
+14.Mar.17 15:31:01 DEBUG emofiltDebug - Element not found in Emotion Description
+14.Mar.17 15:31:01 DEBUG emofiltDebug - Element not found in Emotion Description
+14.Mar.17 15:31:01 DEBUG emofiltDebug - Element not found in Emotion Description
+14.Mar.17 15:31:01 DEBUG emofiltDebug - Element not found in Emotion Description
+14.Mar.17 15:31:01 DEBUG emofiltDebug - Element not found in Emotion Description
+14.Mar.17 15:31:01 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+14.Mar.17 15:31:01 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+14.Mar.17 15:31:01 DEBUG emofiltDebug - Element not found in Emotion Description
+14.Mar.17 15:31:01 DEBUG emofiltDebug - Element not found in Emotion Description
+14.Mar.17 15:31:01 DEBUG emofiltDebug - Element not found in Emotion Description
+14.Mar.17 15:31:01 DEBUG emofiltDebug - Element not found in Emotion Description
+14.Mar.17 15:31:01 DEBUG emofiltDebug - Element not found in Emotion Description
+14.Mar.17 15:31:01 DEBUG emofiltDebug - Element not found in Emotion Description
+14.Mar.17 15:31:01 DEBUG emofiltDebug - Element not found in Emotion Description
+14.Mar.17 15:31:01 DEBUG emofiltDebug - Element not found in Emotion Description
+14.Mar.17 15:31:01 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+14.Mar.17 15:31:01 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+14.Mar.17 15:31:01 DEBUG emofiltDebug - Element not found in Emotion Description
+14.Mar.17 15:31:01 DEBUG emofiltDebug - Element not found in Emotion Description
+14.Mar.17 15:31:01 DEBUG emofiltDebug - Element not found in Emotion Description
+14.Mar.17 15:31:01 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+14.Mar.17 15:31:01 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+14.Mar.17 15:31:01 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+14.Mar.17 15:31:01 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+14.Mar.17 15:31:01 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+14.Mar.17 15:31:01 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+14.Mar.17 15:31:03 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+14.Mar.17 15:31:57 DEBUG emofiltDebug - calling Mary server with phrase juhu, das ist ein Testsatz and language: de6
+14.Mar.17 15:31:59 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+14.Mar.17 15:32:16 DEBUG emofiltDebug - setting emotions: happySad
+14.Mar.17 15:32:16 DEBUG emofiltDebug - returning emotion: happySad
+14.Mar.17 15:32:16 DEBUG emofiltDebug - Element not found in Emotion Description
+14.Mar.17 15:32:16 DEBUG emofiltDebug - Element not found in Emotion Description
+14.Mar.17 15:32:16 DEBUG emofiltDebug - Element not found in Emotion Description
+14.Mar.17 15:32:16 DEBUG emofiltDebug - Element not found in Emotion Description
+14.Mar.17 15:32:16 DEBUG emofiltDebug - Element not found in Emotion Description
+14.Mar.17 15:32:16 DEBUG emofiltDebug - Element not found in Emotion Description
+14.Mar.17 15:32:16 DEBUG emofiltDebug - Element not found in Emotion Description
+14.Mar.17 15:32:16 DEBUG emofiltDebug - Element not found in Emotion Description
+14.Mar.17 15:32:16 DEBUG emofiltDebug - Element not found in Emotion Description
+14.Mar.17 15:32:16 DEBUG emofiltDebug - Element not found in Emotion Description
+14.Mar.17 15:32:16 DEBUG emofiltDebug - Element not found in Emotion Description
+14.Mar.17 15:32:16 DEBUG emofiltDebug - Element not found in Emotion Description
+14.Mar.17 15:32:16 DEBUG emofiltDebug - Element not found in Emotion Description
+14.Mar.17 15:32:16 DEBUG emofiltDebug - Element not found in Emotion Description
+14.Mar.17 15:32:16 DEBUG emofiltDebug - Element not found in Emotion Description
+14.Mar.17 15:32:16 DEBUG emofiltDebug - Element not found in Emotion Description
+14.Mar.17 15:32:16 DEBUG emofiltDebug - Element not found in Emotion Description
+14.Mar.17 15:32:16 DEBUG emofiltDebug - Element not found in Emotion Description
+14.Mar.17 15:32:16 DEBUG emofiltDebug - Element not found in Emotion Description
+14.Mar.17 15:32:16 DEBUG emofiltDebug - Element not found in Emotion Description
+14.Mar.17 15:32:16 DEBUG emofiltDebug - Element not found in Emotion Description
+14.Mar.17 15:32:16 DEBUG emofiltDebug - Element not found in Emotion Description
+14.Mar.17 15:32:16 DEBUG emofiltDebug - Element not found in Emotion Description
+14.Mar.17 15:32:16 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+14.Mar.17 15:32:16 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+14.Mar.17 15:32:18 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de7/de7 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+14.Mar.17 15:32:25 DEBUG emofiltDebug - setting emotions: neutral
+14.Mar.17 15:32:25 DEBUG emofiltDebug - returning emotion: neutral
+14.Mar.17 15:32:25 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+14.Mar.17 15:32:25 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+14.Mar.17 15:32:25 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+14.Mar.17 15:32:25 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+14.Mar.17 15:32:25 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+14.Mar.17 15:32:25 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+14.Mar.17 15:32:25 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+14.Mar.17 15:32:25 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+14.Mar.17 15:32:25 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+14.Mar.17 15:32:25 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+14.Mar.17 15:32:25 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+14.Mar.17 15:32:25 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+14.Mar.17 15:32:25 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+14.Mar.17 15:32:25 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+14.Mar.17 15:32:25 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+14.Mar.17 15:32:27 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de7/de7 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+14.Mar.17 15:32:37 DEBUG emofiltDebug - calling Mary server with phrase juhu, das ist ein Testsatz and language: de7
+14.Mar.17 15:32:39 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de7/de7 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+15.Mar.17 17:01:35 DEBUG emofiltDebug - F0Mean, F0Range, Variability, PhraseContour, ContourFromStress, LevelUnstress, LevelFocusstress, LevelWordstress, ContourUnstress, ContourFocusstress, ContourWordstress, LastSylContour, WaveModel, SpeechRate, DurationFocusstressedSyls, DurationWordstressedSyls, DurationUnstressedSyls, DurVowel, DurAprx, DurNasal, DurVFric, DurVLFric, DurVStop, DurVLStop, DurPause, Jitter, VocalEffort, VowelTarget
+15.Mar.17 17:01:35 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 17:01:36 DEBUG emofiltDebug - loaded plugin: name: f0Mean, type: pitch
+15.Mar.17 17:01:36 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 17:01:36 DEBUG emofiltDebug - loaded plugin: name: f0Range, type: pitch
+15.Mar.17 17:01:36 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 17:01:36 DEBUG emofiltDebug - loaded plugin: name: variability, type: pitch
+15.Mar.17 17:01:36 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 17:01:36 DEBUG emofiltDebug - loaded plugin: name: phraseContour, type: pitch
+15.Mar.17 17:01:36 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 17:01:36 DEBUG emofiltDebug - loaded plugin: name: contourFromStress, type: pitch
+15.Mar.17 17:01:36 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 17:01:36 DEBUG emofiltDebug - loaded plugin: name: levelUnstress, type: pitch
+15.Mar.17 17:01:36 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 17:01:36 DEBUG emofiltDebug - loaded plugin: name: levelFocusstress, type: pitch
+15.Mar.17 17:01:36 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 17:01:36 DEBUG emofiltDebug - loaded plugin: name: levelWordstress, type: pitch
+15.Mar.17 17:01:36 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 17:01:36 DEBUG emofiltDebug - loaded plugin: name: contourUnstress, type: pitch
+15.Mar.17 17:01:36 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 17:01:36 DEBUG emofiltDebug - loaded plugin: name: contourFocusstress, type: pitch
+15.Mar.17 17:01:36 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 17:01:36 DEBUG emofiltDebug - loaded plugin: name: contourWordstress, type: pitch
+15.Mar.17 17:01:36 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 17:01:36 DEBUG emofiltDebug - loaded plugin: name: lastSylContour, type: pitch
+15.Mar.17 17:01:36 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 17:01:36 DEBUG emofiltDebug - loaded plugin: name: waveModel, type: pitch
+15.Mar.17 17:01:36 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 17:01:36 DEBUG emofiltDebug - loaded plugin: name: speechRate, type: duration
+15.Mar.17 17:01:36 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 17:01:36 DEBUG emofiltDebug - loaded plugin: name: durationFocusstressedSyls, type: duration
+15.Mar.17 17:01:36 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 17:01:36 DEBUG emofiltDebug - loaded plugin: name: durationWordstressedSyls, type: duration
+15.Mar.17 17:01:36 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 17:01:36 DEBUG emofiltDebug - loaded plugin: name: durationUnstressedSyls, type: duration
+15.Mar.17 17:01:36 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 17:01:36 DEBUG emofiltDebug - loaded plugin: name: durVowel, type: duration
+15.Mar.17 17:01:36 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 17:01:36 DEBUG emofiltDebug - loaded plugin: name: durAprx, type: duration
+15.Mar.17 17:01:36 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 17:01:36 DEBUG emofiltDebug - loaded plugin: name: durNasal, type: duration
+15.Mar.17 17:01:36 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 17:01:36 DEBUG emofiltDebug - loaded plugin: name: durVFric, type: duration
+15.Mar.17 17:01:36 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 17:01:36 DEBUG emofiltDebug - loaded plugin: name: durVLFric, type: duration
+15.Mar.17 17:01:36 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 17:01:36 DEBUG emofiltDebug - loaded plugin: name: durVStop, type: duration
+15.Mar.17 17:01:36 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 17:01:36 DEBUG emofiltDebug - loaded plugin: name: durVLStop, type: duration
+15.Mar.17 17:01:36 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 17:01:36 DEBUG emofiltDebug - loaded plugin: name: durPause, type: duration
+15.Mar.17 17:01:36 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 17:01:36 DEBUG emofiltDebug - loaded plugin: name: jitter, type: phonation
+15.Mar.17 17:01:36 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 17:01:36 DEBUG emofiltDebug - loaded plugin: name: vocalEffort, type: phonation
+15.Mar.17 17:01:36 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 17:01:36 DEBUG emofiltDebug - loaded plugin: name: vowelTarget, type: articulation
+15.Mar.17 17:01:36 DEBUG emofiltDebug - loaded 28 plugins.
+15.Mar.17 17:01:36 DEBUG emofiltDebug - lfp: /home/felix/workspace/Emofilt/emofilt/languages.xml
+15.Mar.17 17:01:36 DEBUG emofiltDebug - loaded: language: ex, voice: 1
+15.Mar.17 17:01:36 DEBUG emofiltDebug - loaded: language: cn, voice: 1
+15.Mar.17 17:01:36 DEBUG emofiltDebug - loaded: language: tl, voice: 1
+15.Mar.17 17:01:36 DEBUG emofiltDebug - loaded: language: es, voice: 4
+15.Mar.17 17:01:36 DEBUG emofiltDebug - loaded: language: es, voice: 2
+15.Mar.17 17:01:36 DEBUG emofiltDebug - loaded: language: nl, voice: 2
+15.Mar.17 17:01:36 DEBUG emofiltDebug - loaded: language: hu, voice: 1
+15.Mar.17 17:01:36 DEBUG emofiltDebug - loaded: language: it, voice: 3
+15.Mar.17 17:01:36 DEBUG emofiltDebug - loaded: language: gr, voice: 2
+15.Mar.17 17:01:36 DEBUG emofiltDebug - loaded: language: tr, voice: 1
+15.Mar.17 17:01:36 DEBUG emofiltDebug - loaded: language: de, voice: 1
+15.Mar.17 17:01:36 DEBUG emofiltDebug - loaded: language: de, voice: 2
+15.Mar.17 17:01:36 DEBUG emofiltDebug - loaded: language: de, voice: 3
+15.Mar.17 17:01:36 DEBUG emofiltDebug - loaded: language: de, voice: 4
+15.Mar.17 17:01:36 DEBUG emofiltDebug - loaded: language: de, voice: 6
+15.Mar.17 17:01:36 DEBUG emofiltDebug - loaded: language: de, voice: 7
+15.Mar.17 17:01:36 DEBUG emofiltDebug - loaded: language: en, voice: 1
+15.Mar.17 17:01:36 DEBUG emofiltDebug - loaded: language: us, voice: 1
+15.Mar.17 17:01:36 DEBUG emofiltDebug - loaded: language: us, voice: 2
+15.Mar.17 17:01:36 DEBUG emofiltDebug - loaded: language: us, voice: 3
+15.Mar.17 17:01:36 DEBUG emofiltDebug - loaded: language: fr, voice: 1
+15.Mar.17 17:01:36 DEBUG emofiltDebug - loaded: language: fr, voice: 2
+15.Mar.17 17:01:36 DEBUG emofiltDebug - loaded: language: fr, voice: 3
+15.Mar.17 17:01:36 DEBUG emofiltDebug - loaded: language: fr, voice: 4
+15.Mar.17 17:01:36 DEBUG emofiltDebug - loaded: language: fr, voice: 5
+15.Mar.17 17:01:36 DEBUG emofiltDebug - loaded: language: fr, voice: 6
+15.Mar.17 17:01:36 DEBUG emofiltDebug - loaded: language: fr, voice: 7
+15.Mar.17 17:01:36 DEBUG emofiltDebug - loaded 27 languages
+15.Mar.17 17:01:36 DEBUG emofiltDebug - happySad
+15.Mar.17 17:01:36 DEBUG emofiltDebug - angrySad
+15.Mar.17 17:01:36 DEBUG emofiltDebug - sadAngry
+15.Mar.17 17:01:36 DEBUG emofiltDebug - boredom
+15.Mar.17 17:01:36 DEBUG emofiltDebug - despair
+15.Mar.17 17:01:36 DEBUG emofiltDebug - sad
+15.Mar.17 17:01:36 DEBUG emofiltDebug - scared
+15.Mar.17 17:01:36 DEBUG emofiltDebug - neurotic
+15.Mar.17 17:01:36 DEBUG emofiltDebug - fairytale
+15.Mar.17 17:01:36 DEBUG emofiltDebug - coldAnger
+15.Mar.17 17:01:36 DEBUG emofiltDebug - yawning
+15.Mar.17 17:01:36 DEBUG emofiltDebug - joy
+15.Mar.17 17:01:36 DEBUG emofiltDebug - happy
+15.Mar.17 17:01:36 DEBUG emofiltDebug - hotAnger
+15.Mar.17 17:01:36 DEBUG emofiltDebug - neutral
+15.Mar.17 17:01:36 DEBUG emofiltDebug - returning emotion: neutral
+15.Mar.17 17:01:36 DEBUG emofiltDebug - returning emotion: neutral
+15.Mar.17 17:01:36 DEBUG emofiltDebug - setting emotions: neutral
+15.Mar.17 17:01:36 DEBUG emofiltDebug - returning emotion: neutral
+15.Mar.17 17:01:36 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:01:36 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:01:36 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:01:36 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:01:36 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:01:36 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:01:36 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:01:41 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+15.Mar.17 17:01:58 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+15.Mar.17 17:02:04 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+15.Mar.17 17:02:14 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+15.Mar.17 17:03:01 DEBUG emofiltDebug - calling Mary server with phrase Hallo, liebe e s s v besucher! and language: de6
+15.Mar.17 17:03:03 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+15.Mar.17 17:04:10 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+15.Mar.17 17:08:48 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+15.Mar.17 17:08:59 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+15.Mar.17 17:09:10 DEBUG emofiltDebug - setting emotions: scared
+15.Mar.17 17:09:10 DEBUG emofiltDebug - returning emotion: scared
+15.Mar.17 17:09:10 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:10 DEBUG emofiltDebug - meanF0, 200, new mean: 202.23076923076923
+15.Mar.17 17:09:10 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:10 DEBUG emofiltDebug - meanF0, 200, new mean: 202.23076923076923
+15.Mar.17 17:09:10 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:10 DEBUG emofiltDebug - meanF0, 200, new mean: 202.23076923076923
+15.Mar.17 17:09:10 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:10 DEBUG emofiltDebug - meanF0, 200, new mean: 202.23076923076923
+15.Mar.17 17:09:10 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:09:10 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:10 DEBUG emofiltDebug - meanF0, 200, new mean: 202.23076923076923
+15.Mar.17 17:09:10 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:10 DEBUG emofiltDebug - meanF0, 200, new mean: 202.23076923076923
+15.Mar.17 17:09:10 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:10 DEBUG emofiltDebug - meanF0, 200, new mean: 202.23076923076923
+15.Mar.17 17:09:10 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:09:10 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:09:10 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:09:10 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:09:10 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:09:10 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:10 DEBUG emofiltDebug - meanF0, 200, new mean: 202.23076923076923
+15.Mar.17 17:09:10 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:10 DEBUG emofiltDebug - meanF0, 200, new mean: 202.23076923076923
+15.Mar.17 17:09:10 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:10 DEBUG emofiltDebug - meanF0, 200, new mean: 202.23076923076923
+15.Mar.17 17:09:10 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:09:10 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:10 DEBUG emofiltDebug - meanF0, 200, new mean: 202.23076923076923
+15.Mar.17 17:09:10 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:10 DEBUG emofiltDebug - meanF0, 200, new mean: 202.23076923076923
+15.Mar.17 17:09:10 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:10 DEBUG emofiltDebug - meanF0, 200, new mean: 202.23076923076923
+15.Mar.17 17:09:10 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:09:10 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:10 DEBUG emofiltDebug - meanF0, 200, new mean: 202.23076923076923
+15.Mar.17 17:09:10 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:10 DEBUG emofiltDebug - meanF0, 200, new mean: 202.23076923076923
+15.Mar.17 17:09:10 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:10 DEBUG emofiltDebug - meanF0, 200, new mean: 202.23076923076923
+15.Mar.17 17:09:10 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:10 DEBUG emofiltDebug - meanF0, 200, new mean: 202.23076923076923
+15.Mar.17 17:09:10 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:09:10 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:09:10 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:09:10 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:09:10 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:09:10 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:09:10 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:09:10 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:09:10 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:09:10 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:10 DEBUG emofiltDebug - meanF0, 200, new mean: 202.23076923076923
+15.Mar.17 17:09:10 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:10 DEBUG emofiltDebug - meanF0, 200, new mean: 202.23076923076923
+15.Mar.17 17:09:10 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:10 DEBUG emofiltDebug - meanF0, 200, new mean: 202.23076923076923
+15.Mar.17 17:09:10 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:10 DEBUG emofiltDebug - meanF0, 200, new mean: 202.23076923076923
+15.Mar.17 17:09:10 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:09:10 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:10 DEBUG emofiltDebug - meanF0, 200, new mean: 202.23076923076923
+15.Mar.17 17:09:10 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:10 DEBUG emofiltDebug - meanF0, 200, new mean: 202.23076923076923
+15.Mar.17 17:09:10 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:10 DEBUG emofiltDebug - meanF0, 200, new mean: 202.23076923076923
+15.Mar.17 17:09:18 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+15.Mar.17 17:09:30 DEBUG emofiltDebug - setting emotions: neutral
+15.Mar.17 17:09:30 DEBUG emofiltDebug - returning emotion: neutral
+15.Mar.17 17:09:30 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:30 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:30 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:30 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:30 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:30 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:30 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:30 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:30 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:30 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:30 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:30 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:30 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:30 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:30 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:30 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:30 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:30 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:30 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:30 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:30 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:30 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:30 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:30 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:30 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:30 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:33 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:33 DEBUG emofiltDebug - meanF0, 90, new mean: 90.61538461538461
+15.Mar.17 17:09:33 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:33 DEBUG emofiltDebug - meanF0, 90, new mean: 90.61538461538461
+15.Mar.17 17:09:34 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:34 DEBUG emofiltDebug - meanF0, 80, new mean: 80.46153846153847
+15.Mar.17 17:09:34 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:34 DEBUG emofiltDebug - meanF0, 70, new mean: 70.3076923076923
+15.Mar.17 17:09:37 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:37 DEBUG emofiltDebug - meanF0, 70, new mean: 70.3076923076923
+15.Mar.17 17:09:37 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:37 DEBUG emofiltDebug - meanF0, 70, new mean: 70.3076923076923
+15.Mar.17 17:09:37 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:37 DEBUG emofiltDebug - meanF0, 70, new mean: 70.3076923076923
+15.Mar.17 17:09:38 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:38 DEBUG emofiltDebug - meanF0, 70, new mean: 70.3076923076923
+15.Mar.17 17:09:38 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:38 DEBUG emofiltDebug - meanF0, 70, new mean: 70.3076923076923
+15.Mar.17 17:09:38 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:09:38 DEBUG emofiltDebug - meanF0, 70, new mean: 70.3076923076923
+15.Mar.17 17:09:40 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+15.Mar.17 17:11:35 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:11:35 DEBUG emofiltDebug - meanF0, 70, new mean: 70.3076923076923
+15.Mar.17 17:11:35 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:11:35 DEBUG emofiltDebug - meanF0, 70, new mean: 70.3076923076923
+15.Mar.17 17:11:37 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:11:37 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:11:43 DEBUG emofiltDebug - setting emotions: happy
+15.Mar.17 17:11:43 DEBUG emofiltDebug - returning emotion: happy
+15.Mar.17 17:11:43 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:11:43 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:11:43 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:11:43 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:11:43 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:11:43 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:11:43 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:11:43 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:11:43 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:11:43 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:11:43 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:11:43 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:11:43 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:11:43 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:11:43 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:11:43 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:11:43 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:11:43 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:11:43 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:11:43 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:11:43 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:11:43 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:11:43 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:11:43 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:11:43 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:11:43 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:11:43 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:11:43 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:11:43 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:11:46 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+15.Mar.17 17:11:51 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+15.Mar.17 17:12:04 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+15.Mar.17 17:12:09 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+15.Mar.17 17:12:21 DEBUG emofiltDebug - F0Mean, F0Range, Variability, PhraseContour, ContourFromStress, LevelUnstress, LevelFocusstress, LevelWordstress, ContourUnstress, ContourFocusstress, ContourWordstress, LastSylContour, WaveModel, SpeechRate, DurationFocusstressedSyls, DurationWordstressedSyls, DurationUnstressedSyls, DurVowel, DurAprx, DurNasal, DurVFric, DurVLFric, DurVStop, DurVLStop, DurPause, Jitter, VocalEffort, VowelTarget
+15.Mar.17 17:12:21 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 17:12:21 DEBUG emofiltDebug - loaded plugin: name: f0Mean, type: pitch
+15.Mar.17 17:12:21 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 17:12:21 DEBUG emofiltDebug - loaded plugin: name: f0Range, type: pitch
+15.Mar.17 17:12:21 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 17:12:21 DEBUG emofiltDebug - loaded plugin: name: variability, type: pitch
+15.Mar.17 17:12:21 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 17:12:21 DEBUG emofiltDebug - loaded plugin: name: phraseContour, type: pitch
+15.Mar.17 17:12:21 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 17:12:21 DEBUG emofiltDebug - loaded plugin: name: contourFromStress, type: pitch
+15.Mar.17 17:12:21 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 17:12:21 DEBUG emofiltDebug - loaded plugin: name: levelUnstress, type: pitch
+15.Mar.17 17:12:21 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 17:12:21 DEBUG emofiltDebug - loaded plugin: name: levelFocusstress, type: pitch
+15.Mar.17 17:12:21 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 17:12:21 DEBUG emofiltDebug - loaded plugin: name: levelWordstress, type: pitch
+15.Mar.17 17:12:21 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 17:12:21 DEBUG emofiltDebug - loaded plugin: name: contourUnstress, type: pitch
+15.Mar.17 17:12:21 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 17:12:21 DEBUG emofiltDebug - loaded plugin: name: contourFocusstress, type: pitch
+15.Mar.17 17:12:21 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 17:12:21 DEBUG emofiltDebug - loaded plugin: name: contourWordstress, type: pitch
+15.Mar.17 17:12:21 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 17:12:21 DEBUG emofiltDebug - loaded plugin: name: lastSylContour, type: pitch
+15.Mar.17 17:12:21 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 17:12:21 DEBUG emofiltDebug - loaded plugin: name: waveModel, type: pitch
+15.Mar.17 17:12:21 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 17:12:21 DEBUG emofiltDebug - loaded plugin: name: speechRate, type: duration
+15.Mar.17 17:12:21 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 17:12:21 DEBUG emofiltDebug - loaded plugin: name: durationFocusstressedSyls, type: duration
+15.Mar.17 17:12:21 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 17:12:21 DEBUG emofiltDebug - loaded plugin: name: durationWordstressedSyls, type: duration
+15.Mar.17 17:12:21 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 17:12:21 DEBUG emofiltDebug - loaded plugin: name: durationUnstressedSyls, type: duration
+15.Mar.17 17:12:21 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 17:12:21 DEBUG emofiltDebug - loaded plugin: name: durVowel, type: duration
+15.Mar.17 17:12:21 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 17:12:21 DEBUG emofiltDebug - loaded plugin: name: durAprx, type: duration
+15.Mar.17 17:12:21 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 17:12:21 DEBUG emofiltDebug - loaded plugin: name: durNasal, type: duration
+15.Mar.17 17:12:21 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 17:12:21 DEBUG emofiltDebug - loaded plugin: name: durVFric, type: duration
+15.Mar.17 17:12:21 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 17:12:21 DEBUG emofiltDebug - loaded plugin: name: durVLFric, type: duration
+15.Mar.17 17:12:21 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 17:12:21 DEBUG emofiltDebug - loaded plugin: name: durVStop, type: duration
+15.Mar.17 17:12:21 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 17:12:22 DEBUG emofiltDebug - loaded plugin: name: durVLStop, type: duration
+15.Mar.17 17:12:22 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 17:12:22 DEBUG emofiltDebug - loaded plugin: name: durPause, type: duration
+15.Mar.17 17:12:22 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 17:12:22 DEBUG emofiltDebug - loaded plugin: name: jitter, type: phonation
+15.Mar.17 17:12:22 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 17:12:22 DEBUG emofiltDebug - loaded plugin: name: vocalEffort, type: phonation
+15.Mar.17 17:12:22 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 17:12:22 DEBUG emofiltDebug - loaded plugin: name: vowelTarget, type: articulation
+15.Mar.17 17:12:22 DEBUG emofiltDebug - loaded 28 plugins.
+15.Mar.17 17:12:22 DEBUG emofiltDebug - lfp: /home/felix/workspace/Emofilt/emofilt/languages.xml
+15.Mar.17 17:12:22 DEBUG emofiltDebug - loaded: language: ex, voice: 1
+15.Mar.17 17:12:22 DEBUG emofiltDebug - loaded: language: cn, voice: 1
+15.Mar.17 17:12:22 DEBUG emofiltDebug - loaded: language: tl, voice: 1
+15.Mar.17 17:12:22 DEBUG emofiltDebug - loaded: language: es, voice: 4
+15.Mar.17 17:12:22 DEBUG emofiltDebug - loaded: language: es, voice: 2
+15.Mar.17 17:12:22 DEBUG emofiltDebug - loaded: language: nl, voice: 2
+15.Mar.17 17:12:22 DEBUG emofiltDebug - loaded: language: hu, voice: 1
+15.Mar.17 17:12:22 DEBUG emofiltDebug - loaded: language: it, voice: 3
+15.Mar.17 17:12:22 DEBUG emofiltDebug - loaded: language: gr, voice: 2
+15.Mar.17 17:12:22 DEBUG emofiltDebug - loaded: language: tr, voice: 1
+15.Mar.17 17:12:22 DEBUG emofiltDebug - loaded: language: de, voice: 1
+15.Mar.17 17:12:22 DEBUG emofiltDebug - loaded: language: de, voice: 2
+15.Mar.17 17:12:22 DEBUG emofiltDebug - loaded: language: de, voice: 3
+15.Mar.17 17:12:22 DEBUG emofiltDebug - loaded: language: de, voice: 4
+15.Mar.17 17:12:22 DEBUG emofiltDebug - loaded: language: de, voice: 6
+15.Mar.17 17:12:22 DEBUG emofiltDebug - loaded: language: de, voice: 7
+15.Mar.17 17:12:22 DEBUG emofiltDebug - loaded: language: en, voice: 1
+15.Mar.17 17:12:22 DEBUG emofiltDebug - loaded: language: us, voice: 1
+15.Mar.17 17:12:22 DEBUG emofiltDebug - loaded: language: us, voice: 2
+15.Mar.17 17:12:22 DEBUG emofiltDebug - loaded: language: us, voice: 3
+15.Mar.17 17:12:22 DEBUG emofiltDebug - loaded: language: fr, voice: 1
+15.Mar.17 17:12:22 DEBUG emofiltDebug - loaded: language: fr, voice: 2
+15.Mar.17 17:12:22 DEBUG emofiltDebug - loaded: language: fr, voice: 3
+15.Mar.17 17:12:22 DEBUG emofiltDebug - loaded: language: fr, voice: 4
+15.Mar.17 17:12:22 DEBUG emofiltDebug - loaded: language: fr, voice: 5
+15.Mar.17 17:12:22 DEBUG emofiltDebug - loaded: language: fr, voice: 6
+15.Mar.17 17:12:22 DEBUG emofiltDebug - loaded: language: fr, voice: 7
+15.Mar.17 17:12:22 DEBUG emofiltDebug - loaded 27 languages
+15.Mar.17 17:12:22 DEBUG emofiltDebug - happySad
+15.Mar.17 17:12:22 DEBUG emofiltDebug - angrySad
+15.Mar.17 17:12:22 DEBUG emofiltDebug - sadAngry
+15.Mar.17 17:12:22 DEBUG emofiltDebug - boredom
+15.Mar.17 17:12:22 DEBUG emofiltDebug - despair
+15.Mar.17 17:12:22 DEBUG emofiltDebug - sad
+15.Mar.17 17:12:22 DEBUG emofiltDebug - scared
+15.Mar.17 17:12:22 DEBUG emofiltDebug - neurotic
+15.Mar.17 17:12:22 DEBUG emofiltDebug - fairytale
+15.Mar.17 17:12:22 DEBUG emofiltDebug - coldAnger
+15.Mar.17 17:12:22 DEBUG emofiltDebug - yawning
+15.Mar.17 17:12:22 DEBUG emofiltDebug - joy
+15.Mar.17 17:12:22 DEBUG emofiltDebug - happy
+15.Mar.17 17:12:22 DEBUG emofiltDebug - hotAnger
+15.Mar.17 17:12:22 DEBUG emofiltDebug - neutral
+15.Mar.17 17:12:22 DEBUG emofiltDebug - returning emotion: neutral
+15.Mar.17 17:12:22 DEBUG emofiltDebug - returning emotion: neutral
+15.Mar.17 17:12:22 DEBUG emofiltDebug - setting emotions: neutral
+15.Mar.17 17:12:22 DEBUG emofiltDebug - returning emotion: neutral
+15.Mar.17 17:12:22 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:12:22 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:12:22 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:12:22 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:12:22 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:12:22 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:12:22 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:12:25 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+15.Mar.17 17:12:31 DEBUG emofiltDebug - setting emotions: happy
+15.Mar.17 17:12:31 DEBUG emofiltDebug - returning emotion: happy
+15.Mar.17 17:12:31 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:31 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:31 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:31 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:31 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:31 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:31 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:31 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:31 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:31 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:31 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:31 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:31 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:12:31 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:12:31 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:31 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:31 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:31 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:31 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:31 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:31 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:31 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:31 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:12:31 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:12:31 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:31 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:31 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:31 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:12:31 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:12:33 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+15.Mar.17 17:12:43 DEBUG emofiltDebug - setting emotions: sad
+15.Mar.17 17:12:43 DEBUG emofiltDebug - returning emotion: sad
+15.Mar.17 17:12:43 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:43 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:12:43 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:12:43 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:12:43 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:12:43 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:43 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:43 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:43 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:43 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:43 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:43 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:12:43 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:12:43 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:12:43 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:43 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:12:43 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:12:43 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:12:43 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:43 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:12:43 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:12:43 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:12:43 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:12:43 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:43 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:43 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:43 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:43 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:43 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:43 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:43 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:43 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:12:43 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:12:43 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:43 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:43 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:43 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:12:43 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:12:43 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:12:43 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:12:43 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:12:43 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:12:45 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+15.Mar.17 17:12:54 DEBUG emofiltDebug - setting emotions: happySad
+15.Mar.17 17:12:54 DEBUG emofiltDebug - returning emotion: happySad
+15.Mar.17 17:12:54 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:54 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:54 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:12:54 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:12:54 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:54 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:12:54 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:12:54 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:54 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:54 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:54 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:54 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:54 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:54 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:54 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:12:54 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:12:54 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:54 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:54 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:12:54 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:12:54 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:12:54 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:12:54 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:54 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:12:54 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:12:54 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:54 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:54 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:54 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:54 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:54 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:54 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:54 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:12:54 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:12:54 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:54 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:54 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:12:54 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:12:54 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:12:56 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+15.Mar.17 17:17:47 DEBUG emofiltDebug - setting emotions: neutral
+15.Mar.17 17:17:47 DEBUG emofiltDebug - returning emotion: neutral
+15.Mar.17 17:17:47 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:17:47 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:17:47 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:17:47 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:17:47 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:17:47 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:17:47 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:17:47 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:17:47 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:17:47 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:17:47 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:17:47 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:17:47 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:17:47 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:17:47 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:17:51 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+15.Mar.17 17:18:11 DEBUG emofiltDebug - setting emotions: happySad
+15.Mar.17 17:18:11 DEBUG emofiltDebug - returning emotion: happySad
+15.Mar.17 17:18:11 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:18:11 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:18:11 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:18:11 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:18:11 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:18:11 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:18:11 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:18:11 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:18:11 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:18:11 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:18:11 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:18:11 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:18:11 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:18:11 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:18:11 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:18:11 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:18:11 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:18:11 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:18:11 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:18:11 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:18:11 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:18:11 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:18:11 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:18:11 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:18:11 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:18:11 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:18:11 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:18:11 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:18:11 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:18:11 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:18:11 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:18:11 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:18:11 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:18:20 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+15.Mar.17 17:21:48 DEBUG emofiltDebug - setting emotions: neutral
+15.Mar.17 17:21:48 DEBUG emofiltDebug - returning emotion: neutral
+15.Mar.17 17:21:48 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:21:48 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:21:48 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:21:48 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:21:48 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:21:48 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:21:48 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:21:48 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:21:48 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:21:48 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:21:48 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:21:48 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:21:48 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:21:48 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:21:48 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:21:51 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+15.Mar.17 17:21:58 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:21:58 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:22:00 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+15.Mar.17 17:22:09 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:22:09 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:23:25 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+15.Mar.17 17:23:33 DEBUG emofiltDebug - setting emotions: happySad
+15.Mar.17 17:23:33 DEBUG emofiltDebug - returning emotion: happySad
+15.Mar.17 17:23:33 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:23:33 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:23:33 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:23:33 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:23:33 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:23:33 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:23:33 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:23:33 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:23:33 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:23:33 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:23:33 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:23:33 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:23:33 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:23:33 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:23:33 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:23:33 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:23:33 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:23:33 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:23:33 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:23:33 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:23:33 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:23:33 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:23:33 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:23:33 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:23:33 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:23:33 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:23:33 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:23:33 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:23:33 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:23:33 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:23:33 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:23:33 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:23:33 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:23:43 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+15.Mar.17 17:24:48 DEBUG emofiltDebug - setting emotions: neutral
+15.Mar.17 17:24:48 DEBUG emofiltDebug - returning emotion: neutral
+15.Mar.17 17:24:48 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:24:48 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:24:48 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:24:48 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:24:48 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:24:48 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:24:48 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:24:48 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:24:48 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:24:48 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:24:48 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:24:48 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:24:48 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:24:48 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:24:48 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:24:50 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:24:50 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:24:50 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:24:51 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:24:51 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:24:53 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+15.Mar.17 17:26:09 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:26:09 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:26:55 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+15.Mar.17 17:27:20 DEBUG emofiltDebug - setting emotions: coldAnger
+15.Mar.17 17:27:20 DEBUG emofiltDebug - returning emotion: coldAnger
+15.Mar.17 17:27:20 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:27:20 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:27:20 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:27:20 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:27:20 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:27:20 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:27:20 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:27:20 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:27:20 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:27:20 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:27:20 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:27:20 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:27:20 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:27:20 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:27:20 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:27:20 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:27:20 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:27:20 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:27:20 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:27:20 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:27:20 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:27:20 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:27:20 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:27:20 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:27:20 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:27:20 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:27:20 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:27:20 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:27:20 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:27:20 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:27:20 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:27:20 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:27:20 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:27:20 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:27:20 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:27:20 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:27:30 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+15.Mar.17 17:27:46 DEBUG emofiltDebug - setting emotions: happySad
+15.Mar.17 17:27:46 DEBUG emofiltDebug - returning emotion: happySad
+15.Mar.17 17:27:46 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:27:46 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:27:46 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:27:46 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:27:46 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:27:46 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:27:46 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:27:46 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:27:46 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:27:46 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:27:46 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:27:46 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:27:46 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:27:46 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:27:46 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:27:46 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:27:46 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:27:46 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:27:46 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:27:46 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:27:46 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:27:46 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:27:46 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:27:46 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:27:46 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:27:46 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:27:46 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:27:46 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:27:46 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:27:46 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:27:46 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:27:46 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:27:46 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:27:46 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:27:46 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:27:46 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:27:46 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:27:46 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:27:55 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+15.Mar.17 17:29:12 DEBUG emofiltDebug - setting emotions: neutral
+15.Mar.17 17:29:12 DEBUG emofiltDebug - returning emotion: neutral
+15.Mar.17 17:29:12 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:29:12 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:29:12 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:29:12 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:29:12 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:29:12 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:29:12 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:29:12 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:29:12 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:29:12 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:29:12 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:29:12 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:29:12 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:29:12 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:29:12 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:29:13 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+15.Mar.17 17:29:26 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:29:30 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+15.Mar.17 17:29:34 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:29:34 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:29:36 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+15.Mar.17 17:33:33 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:33:33 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:33:44 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+15.Mar.17 17:34:24 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:34:24 DEBUG emofiltDebug - meanF0, 110, new mean: 79.2258064516129
+15.Mar.17 17:34:24 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:34:24 DEBUG emofiltDebug - meanF0, 110, new mean: 79.2258064516129
+15.Mar.17 17:34:25 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:34:25 DEBUG emofiltDebug - meanF0, 120, new mean: 86.58064516129032
+15.Mar.17 17:34:25 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:34:25 DEBUG emofiltDebug - meanF0, 130, new mean: 93.7741935483871
+15.Mar.17 17:34:25 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:34:25 DEBUG emofiltDebug - meanF0, 140, new mean: 101.03225806451613
+15.Mar.17 17:34:25 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:34:25 DEBUG emofiltDebug - meanF0, 150, new mean: 108.51612903225806
+15.Mar.17 17:34:25 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:34:25 DEBUG emofiltDebug - meanF0, 160, new mean: 115.7741935483871
+15.Mar.17 17:34:25 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:34:25 DEBUG emofiltDebug - meanF0, 170, new mean: 122.87096774193549
+15.Mar.17 17:34:26 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:34:26 DEBUG emofiltDebug - meanF0, 180, new mean: 130.29032258064515
+15.Mar.17 17:34:32 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+15.Mar.17 17:34:41 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:34:41 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 17:35:59 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:44:05 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+15.Mar.17 17:44:17 DEBUG emofiltDebug - setting emotions: happySad
+15.Mar.17 17:44:17 DEBUG emofiltDebug - returning emotion: happySad
+15.Mar.17 17:44:17 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:44:17 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:44:17 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:44:17 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:44:17 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:44:17 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:44:17 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:44:17 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:44:17 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:44:17 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:44:17 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:44:17 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:44:17 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:44:17 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:44:17 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:44:17 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:44:17 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:44:17 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:44:17 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:44:17 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:44:17 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:44:17 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:44:17 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:44:17 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:44:17 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:44:17 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:44:17 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:44:17 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:44:17 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:44:17 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:44:17 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:44:17 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:44:17 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:44:19 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+15.Mar.17 17:44:39 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:44:39 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:44:43 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+15.Mar.17 17:45:02 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:45:02 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:45:03 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:45:03 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:45:04 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:45:04 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:45:05 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:45:05 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:45:06 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:45:07 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:45:08 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:47:59 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+15.Mar.17 17:48:10 DEBUG emofiltDebug - setting emotions: sadAngry
+15.Mar.17 17:48:10 DEBUG emofiltDebug - returning emotion: sadAngry
+15.Mar.17 17:48:10 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:48:10 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:48:10 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:48:10 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:48:10 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:48:10 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:48:10 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:48:10 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:48:10 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:48:10 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:48:10 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:48:10 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:48:10 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:48:10 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:48:10 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:48:10 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:48:10 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:48:10 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:48:10 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:48:10 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:48:10 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:48:10 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:48:10 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:48:10 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:48:10 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:48:10 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:48:10 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:48:10 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:48:10 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:48:10 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:48:10 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:48:10 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:48:10 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:48:10 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:48:10 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:48:10 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:48:10 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:48:10 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:48:10 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:48:14 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+15.Mar.17 17:48:28 DEBUG emofiltDebug - setting emotions: neutral
+15.Mar.17 17:48:28 DEBUG emofiltDebug - returning emotion: neutral
+15.Mar.17 17:48:28 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:48:28 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:48:28 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:48:28 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:48:28 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:48:28 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:48:28 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:48:28 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:48:28 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:48:28 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:48:28 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:48:28 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:48:28 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:48:28 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:48:28 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:48:28 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:48:28 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:48:28 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:48:28 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:48:28 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:48:28 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:49:38 DEBUG emofiltDebug - calling Mary server with phrase einfach der Ansatz mehr als eine Emotion gleichzeitig zu sprechen and language: de6
+15.Mar.17 17:49:43 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+15.Mar.17 17:50:03 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:50:03 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:50:03 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:50:05 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+15.Mar.17 17:50:09 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:50:09 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:50:09 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:50:17 DEBUG emofiltDebug - setting emotions: happySad
+15.Mar.17 17:50:17 DEBUG emofiltDebug - returning emotion: happySad
+15.Mar.17 17:50:17 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:17 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:17 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:17 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:17 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:17 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:17 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:17 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:17 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:17 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:17 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:17 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:17 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:50:17 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:50:17 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:17 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:17 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:17 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:17 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:17 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:17 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:17 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:17 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:50:17 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:50:17 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:17 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:17 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:17 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:50:17 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:50:17 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:50:17 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:50:17 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:50:17 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:50:33 DEBUG emofiltDebug - setting emotions: sad
+15.Mar.17 17:50:33 DEBUG emofiltDebug - returning emotion: sad
+15.Mar.17 17:50:33 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:33 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:50:33 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:50:33 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:50:33 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:50:33 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:33 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:33 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:33 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:33 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:33 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:33 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:50:33 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:50:33 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:50:33 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:33 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:50:33 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:50:33 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:50:33 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:33 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:50:33 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:50:33 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:50:33 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:50:33 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:33 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:33 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:33 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:33 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:33 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:33 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:33 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:33 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:50:33 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:50:33 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:33 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:33 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:33 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:50:33 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:50:46 DEBUG emofiltDebug - setting emotions: happySad
+15.Mar.17 17:50:46 DEBUG emofiltDebug - returning emotion: happySad
+15.Mar.17 17:50:46 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:46 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:46 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:50:46 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:50:46 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:46 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:50:46 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:50:46 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:46 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:46 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:46 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:46 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:46 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:46 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:46 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:50:46 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:50:46 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:46 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:46 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:50:46 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:50:46 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:50:46 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:50:46 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:46 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:50:46 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:50:46 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:46 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:46 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:46 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:46 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:46 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:46 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:46 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:50:46 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:50:46 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:46 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:46 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 17:50:46 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:50:46 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:50:48 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+15.Mar.17 17:51:04 DEBUG emofiltDebug - setting emotions: neutral
+15.Mar.17 17:51:04 DEBUG emofiltDebug - returning emotion: neutral
+15.Mar.17 17:51:04 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:51:04 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:51:04 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:51:04 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:51:04 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:51:04 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:51:04 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:51:04 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:51:04 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:51:04 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:51:04 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:51:04 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:51:04 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:51:04 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 17:51:04 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 18:02:16 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+15.Mar.17 18:02:30 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 18:02:30 DEBUG emofiltDebug - meanF0, 110, new mean: 119.38095238095238
+15.Mar.17 18:02:30 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 18:02:30 DEBUG emofiltDebug - meanF0, 110, new mean: 119.38095238095238
+15.Mar.17 18:02:30 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 18:02:30 DEBUG emofiltDebug - meanF0, 120, new mean: 130.14285714285714
+15.Mar.17 18:02:30 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 18:02:30 DEBUG emofiltDebug - meanF0, 131, new mean: 142.33333333333334
+15.Mar.17 18:02:30 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 18:02:30 DEBUG emofiltDebug - meanF0, 141, new mean: 153.04761904761904
+15.Mar.17 18:02:31 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 18:02:31 DEBUG emofiltDebug - meanF0, 152, new mean: 165.04761904761904
+15.Mar.17 18:02:34 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 18:02:34 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 18:02:46 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 18:02:46 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 18:02:49 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+15.Mar.17 18:02:57 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 18:02:57 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 18:03:05 DEBUG emofiltDebug - setting emotions: coldAnger
+15.Mar.17 18:03:05 DEBUG emofiltDebug - returning emotion: coldAnger
+15.Mar.17 18:03:05 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:03:05 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 18:03:05 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 18:03:05 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:03:05 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:03:05 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:03:05 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:03:05 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:03:05 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:03:05 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:03:05 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 18:03:05 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 18:03:05 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 18:03:05 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:03:05 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:03:05 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:03:05 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:03:05 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 18:03:05 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 18:03:05 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:03:05 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 18:03:05 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 18:03:05 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:03:05 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:03:05 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:03:05 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:03:05 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:03:05 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:03:05 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:03:05 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:03:05 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 18:03:05 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 18:03:05 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 18:03:05 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 18:03:05 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 18:03:05 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 18:03:07 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+15.Mar.17 18:03:12 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+15.Mar.17 18:03:20 DEBUG emofiltDebug - setting emotions: happySad
+15.Mar.17 18:03:20 DEBUG emofiltDebug - returning emotion: happySad
+15.Mar.17 18:03:20 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:03:20 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:03:20 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 18:03:20 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 18:03:20 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:03:20 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:03:20 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:03:20 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:03:20 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:03:20 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:03:20 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:03:20 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:03:20 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 18:03:20 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 18:03:20 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:03:20 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:03:20 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 18:03:20 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 18:03:20 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:03:20 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:03:20 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 18:03:20 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 18:03:20 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:03:20 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:03:20 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 18:03:20 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 18:03:20 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:03:20 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:03:20 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:03:20 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:03:20 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 18:03:20 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 18:03:20 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:03:20 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:03:20 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:03:20 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 18:03:20 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 18:03:20 DEBUG emofiltDebug - changing utterance with intensity rate: 0.04
+15.Mar.17 18:03:30 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+15.Mar.17 18:03:50 DEBUG emofiltDebug - F0Mean, F0Range, Variability, PhraseContour, ContourFromStress, LevelUnstress, LevelFocusstress, LevelWordstress, ContourUnstress, ContourFocusstress, ContourWordstress, LastSylContour, WaveModel, SpeechRate, DurationFocusstressedSyls, DurationWordstressedSyls, DurationUnstressedSyls, DurVowel, DurAprx, DurNasal, DurVFric, DurVLFric, DurVStop, DurVLStop, DurPause, Jitter, VocalEffort, VowelTarget
+15.Mar.17 18:03:50 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 18:03:50 DEBUG emofiltDebug - loaded plugin: name: f0Mean, type: pitch
+15.Mar.17 18:03:50 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 18:03:50 DEBUG emofiltDebug - loaded plugin: name: f0Range, type: pitch
+15.Mar.17 18:03:50 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 18:03:50 DEBUG emofiltDebug - loaded plugin: name: variability, type: pitch
+15.Mar.17 18:03:50 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 18:03:50 DEBUG emofiltDebug - loaded plugin: name: phraseContour, type: pitch
+15.Mar.17 18:03:50 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 18:03:50 DEBUG emofiltDebug - loaded plugin: name: contourFromStress, type: pitch
+15.Mar.17 18:03:50 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 18:03:50 DEBUG emofiltDebug - loaded plugin: name: levelUnstress, type: pitch
+15.Mar.17 18:03:50 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 18:03:50 DEBUG emofiltDebug - loaded plugin: name: levelFocusstress, type: pitch
+15.Mar.17 18:03:50 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 18:03:50 DEBUG emofiltDebug - loaded plugin: name: levelWordstress, type: pitch
+15.Mar.17 18:03:50 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 18:03:50 DEBUG emofiltDebug - loaded plugin: name: contourUnstress, type: pitch
+15.Mar.17 18:03:50 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 18:03:50 DEBUG emofiltDebug - loaded plugin: name: contourFocusstress, type: pitch
+15.Mar.17 18:03:50 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 18:03:50 DEBUG emofiltDebug - loaded plugin: name: contourWordstress, type: pitch
+15.Mar.17 18:03:50 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 18:03:50 DEBUG emofiltDebug - loaded plugin: name: lastSylContour, type: pitch
+15.Mar.17 18:03:50 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 18:03:50 DEBUG emofiltDebug - loaded plugin: name: waveModel, type: pitch
+15.Mar.17 18:03:50 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 18:03:50 DEBUG emofiltDebug - loaded plugin: name: speechRate, type: duration
+15.Mar.17 18:03:50 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 18:03:50 DEBUG emofiltDebug - loaded plugin: name: durationFocusstressedSyls, type: duration
+15.Mar.17 18:03:50 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 18:03:50 DEBUG emofiltDebug - loaded plugin: name: durationWordstressedSyls, type: duration
+15.Mar.17 18:03:50 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 18:03:50 DEBUG emofiltDebug - loaded plugin: name: durationUnstressedSyls, type: duration
+15.Mar.17 18:03:50 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 18:03:50 DEBUG emofiltDebug - loaded plugin: name: durVowel, type: duration
+15.Mar.17 18:03:50 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 18:03:50 DEBUG emofiltDebug - loaded plugin: name: durAprx, type: duration
+15.Mar.17 18:03:50 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 18:03:50 DEBUG emofiltDebug - loaded plugin: name: durNasal, type: duration
+15.Mar.17 18:03:50 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 18:03:50 DEBUG emofiltDebug - loaded plugin: name: durVFric, type: duration
+15.Mar.17 18:03:50 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 18:03:50 DEBUG emofiltDebug - loaded plugin: name: durVLFric, type: duration
+15.Mar.17 18:03:50 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 18:03:50 DEBUG emofiltDebug - loaded plugin: name: durVStop, type: duration
+15.Mar.17 18:03:50 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 18:03:50 DEBUG emofiltDebug - loaded plugin: name: durVLStop, type: duration
+15.Mar.17 18:03:50 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 18:03:50 DEBUG emofiltDebug - loaded plugin: name: durPause, type: duration
+15.Mar.17 18:03:50 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 18:03:50 DEBUG emofiltDebug - loaded plugin: name: jitter, type: phonation
+15.Mar.17 18:03:50 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 18:03:50 DEBUG emofiltDebug - loaded plugin: name: vocalEffort, type: phonation
+15.Mar.17 18:03:50 DEBUG emofiltDebug -  initialisation, use GUI=true
+15.Mar.17 18:03:50 DEBUG emofiltDebug - loaded plugin: name: vowelTarget, type: articulation
+15.Mar.17 18:03:50 DEBUG emofiltDebug - loaded 28 plugins.
+15.Mar.17 18:03:50 DEBUG emofiltDebug - lfp: /home/felix/workspace/Emofilt/emofilt/languages.xml
+15.Mar.17 18:03:50 DEBUG emofiltDebug - loaded: language: ex, voice: 1
+15.Mar.17 18:03:50 DEBUG emofiltDebug - loaded: language: cn, voice: 1
+15.Mar.17 18:03:50 DEBUG emofiltDebug - loaded: language: tl, voice: 1
+15.Mar.17 18:03:50 DEBUG emofiltDebug - loaded: language: es, voice: 4
+15.Mar.17 18:03:50 DEBUG emofiltDebug - loaded: language: es, voice: 2
+15.Mar.17 18:03:50 DEBUG emofiltDebug - loaded: language: nl, voice: 2
+15.Mar.17 18:03:50 DEBUG emofiltDebug - loaded: language: hu, voice: 1
+15.Mar.17 18:03:50 DEBUG emofiltDebug - loaded: language: it, voice: 3
+15.Mar.17 18:03:50 DEBUG emofiltDebug - loaded: language: gr, voice: 2
+15.Mar.17 18:03:50 DEBUG emofiltDebug - loaded: language: tr, voice: 1
+15.Mar.17 18:03:50 DEBUG emofiltDebug - loaded: language: de, voice: 1
+15.Mar.17 18:03:50 DEBUG emofiltDebug - loaded: language: de, voice: 2
+15.Mar.17 18:03:50 DEBUG emofiltDebug - loaded: language: de, voice: 3
+15.Mar.17 18:03:50 DEBUG emofiltDebug - loaded: language: de, voice: 4
+15.Mar.17 18:03:50 DEBUG emofiltDebug - loaded: language: de, voice: 6
+15.Mar.17 18:03:50 DEBUG emofiltDebug - loaded: language: de, voice: 7
+15.Mar.17 18:03:50 DEBUG emofiltDebug - loaded: language: en, voice: 1
+15.Mar.17 18:03:50 DEBUG emofiltDebug - loaded: language: us, voice: 1
+15.Mar.17 18:03:50 DEBUG emofiltDebug - loaded: language: us, voice: 2
+15.Mar.17 18:03:50 DEBUG emofiltDebug - loaded: language: us, voice: 3
+15.Mar.17 18:03:50 DEBUG emofiltDebug - loaded: language: fr, voice: 1
+15.Mar.17 18:03:50 DEBUG emofiltDebug - loaded: language: fr, voice: 2
+15.Mar.17 18:03:50 DEBUG emofiltDebug - loaded: language: fr, voice: 3
+15.Mar.17 18:03:50 DEBUG emofiltDebug - loaded: language: fr, voice: 4
+15.Mar.17 18:03:50 DEBUG emofiltDebug - loaded: language: fr, voice: 5
+15.Mar.17 18:03:50 DEBUG emofiltDebug - loaded: language: fr, voice: 6
+15.Mar.17 18:03:50 DEBUG emofiltDebug - loaded: language: fr, voice: 7
+15.Mar.17 18:03:50 DEBUG emofiltDebug - loaded 27 languages
+15.Mar.17 18:03:50 DEBUG emofiltDebug - happySad
+15.Mar.17 18:03:50 DEBUG emofiltDebug - angrySad
+15.Mar.17 18:03:50 DEBUG emofiltDebug - sadAngry
+15.Mar.17 18:03:50 DEBUG emofiltDebug - boredom
+15.Mar.17 18:03:50 DEBUG emofiltDebug - despair
+15.Mar.17 18:03:50 DEBUG emofiltDebug - sad
+15.Mar.17 18:03:50 DEBUG emofiltDebug - scared
+15.Mar.17 18:03:50 DEBUG emofiltDebug - neurotic
+15.Mar.17 18:03:50 DEBUG emofiltDebug - fairytale
+15.Mar.17 18:03:50 DEBUG emofiltDebug - coldAnger
+15.Mar.17 18:03:50 DEBUG emofiltDebug - yawning
+15.Mar.17 18:03:50 DEBUG emofiltDebug - joy
+15.Mar.17 18:03:50 DEBUG emofiltDebug - happy
+15.Mar.17 18:03:50 DEBUG emofiltDebug - hotAnger
+15.Mar.17 18:03:50 DEBUG emofiltDebug - neutral
+15.Mar.17 18:03:50 DEBUG emofiltDebug - returning emotion: neutral
+15.Mar.17 18:03:50 DEBUG emofiltDebug - returning emotion: neutral
+15.Mar.17 18:03:50 DEBUG emofiltDebug - setting emotions: neutral
+15.Mar.17 18:03:50 DEBUG emofiltDebug - returning emotion: neutral
+15.Mar.17 18:03:50 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 18:03:50 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 18:03:50 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 18:03:50 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 18:03:50 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 18:03:50 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 18:03:50 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 18:03:56 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+15.Mar.17 18:04:08 DEBUG emofiltDebug - setting emotions: happySad
+15.Mar.17 18:04:08 DEBUG emofiltDebug - returning emotion: happySad
+15.Mar.17 18:04:08 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:04:08 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:04:08 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:04:08 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:04:08 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:04:08 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:04:08 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:04:08 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:04:08 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:04:08 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:04:08 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:04:08 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:04:08 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 18:04:08 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 18:04:08 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:04:08 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:04:08 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:04:08 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:04:08 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:04:08 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:04:08 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:04:08 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:04:08 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 18:04:08 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 18:04:08 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:04:08 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:04:08 DEBUG emofiltDebug - Element not found in Emotion Description
+15.Mar.17 18:04:08 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 18:04:08 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 18:04:08 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 18:04:08 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 18:04:08 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 18:04:08 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+15.Mar.17 18:04:10 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+15.Mar.17 18:18:51 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
