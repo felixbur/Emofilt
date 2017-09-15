@@ -633,9 +633,9 @@
 			<phoneme name="@'" manner="short_vowel" voiced="true"/>
 			<!-- approximants -->
 			<phoneme name="l" manner="approximant" voiced="true"/>
-			<phoneme name="r" manner="approximant" voiced="true"/>
+			<phoneme name="v" manner="approximant" voiced="true"/>
 			<phoneme name="L" manner="approximant" voiced="true"/>
-			<phoneme name="G" manner="approximant" voiced="true"/>
+			<phoneme name="J" manner="approximant" voiced="true"/>
 			<!-- nasals -->
 			<phoneme name="m" manner="nasal" voiced="true"/>
 			<phoneme name="n" manner="nasal" voiced="true"/>
