@@ -646,7 +646,7 @@
 			<phoneme name="z" manner="fricative_voiced" voiced="true"/>
 			<phoneme name="j" manner="fricative_voiced" voiced="true"/>
 			<!-- voiceless fricatives -->
-			<phoneme name="tS" manner="fricative_voiceless" voiced="false"/>
+			<phoneme name="sh" manner="fricative_voiceless" voiced="false"/>
 			<phoneme name="f" manner="fricative_voiceless" voiced="true"/>
 			<phoneme name="s" manner="fricative_voiceless" voiced="true"/>
 			<phoneme name="S" manner="fricative_voiceless" voiced="true"/>
