@@ -609,8 +609,7 @@
 	<language name="tr1" male="true" locale="tr">
 		<description>tr1 is a diphone database for Turkish, consisting
 	of 960 diphones, male voice, recorded by Baris Bozkurt.  This
-	classification was done by Felix, who doesn't know Turkish, 
-	so many errors happened!</description>
+	classification was done by Gokay Abaci.</description>
 		<replacements>
 			<replacement central="@" decentral="i"/>
 			<replacement central="@" decentral="a"/>
@@ -630,7 +629,7 @@
 			<!-- short vowels -->
 			<phoneme name="@" manner="short_vowel" voiced="true"/>
 			<phoneme name="I" manner="short_vowel" voiced="true"/>
-			<phoneme name="@'" manner="short_vowel" voiced="true"/>
+			<phoneme name="i'" manner="short_vowel" voiced="true"/>
 			<!-- approximants -->
 			<phoneme name="l" manner="approximant" voiced="true"/>
 			<phoneme name="v" manner="approximant" voiced="true"/>
