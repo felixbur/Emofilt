@@ -3715,3 +3715,1073 @@ Hallo Wolf, ich besuche meine Groﬂmutter, emotion: joy , text: Hallo Wolf, ich b
 15.Mar.17 18:04:08 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
 15.Mar.17 18:04:10 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
 15.Mar.17 18:18:51 DEBUG emofiltDebug - exec: /home/felix/bin/mbrola/mbrola /home/felix/bin/mbrola/voices/de6/de6 /home/felix/tmp/tmp.pho /home/felix/tmp/tmp.wav 
+12.Sep.18 14:45:00 DEBUG emofiltDebug - F0Mean, F0Range, Variability, PhraseContour, ContourFromStress, LevelUnstress, LevelFocusstress, LevelWordstress, ContourUnstress, ContourFocusstress, ContourWordstress, LastSylContour, WaveModel, SpeechRate, DurationFocusstressedSyls, DurationWordstressedSyls, DurationUnstressedSyls, DurVowel, DurAprx, DurNasal, DurVFric, DurVLFric, DurVStop, DurVLStop, DurPause, Jitter, VocalEffort, VowelTarget
+12.Sep.18 14:45:00 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:45:00 DEBUG emofiltDebug - loaded plugin: name: f0Mean, type: pitch
+12.Sep.18 14:45:00 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:45:00 DEBUG emofiltDebug - loaded plugin: name: f0Range, type: pitch
+12.Sep.18 14:45:00 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:45:00 DEBUG emofiltDebug - loaded plugin: name: variability, type: pitch
+12.Sep.18 14:45:00 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:45:00 DEBUG emofiltDebug - loaded plugin: name: phraseContour, type: pitch
+12.Sep.18 14:45:00 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:45:00 DEBUG emofiltDebug - loaded plugin: name: contourFromStress, type: pitch
+12.Sep.18 14:45:00 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:45:00 DEBUG emofiltDebug - loaded plugin: name: levelUnstress, type: pitch
+12.Sep.18 14:45:00 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:45:00 DEBUG emofiltDebug - loaded plugin: name: levelFocusstress, type: pitch
+12.Sep.18 14:45:00 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:45:00 DEBUG emofiltDebug - loaded plugin: name: levelWordstress, type: pitch
+12.Sep.18 14:45:00 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:45:00 DEBUG emofiltDebug - loaded plugin: name: contourUnstress, type: pitch
+12.Sep.18 14:45:00 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:45:00 DEBUG emofiltDebug - loaded plugin: name: contourFocusstress, type: pitch
+12.Sep.18 14:45:00 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:45:00 DEBUG emofiltDebug - loaded plugin: name: contourWordstress, type: pitch
+12.Sep.18 14:45:00 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:45:00 DEBUG emofiltDebug - loaded plugin: name: lastSylContour, type: pitch
+12.Sep.18 14:45:00 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:45:00 DEBUG emofiltDebug - loaded plugin: name: waveModel, type: pitch
+12.Sep.18 14:45:01 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:45:01 DEBUG emofiltDebug - loaded plugin: name: speechRate, type: duration
+12.Sep.18 14:45:01 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:45:01 DEBUG emofiltDebug - loaded plugin: name: durationFocusstressedSyls, type: duration
+12.Sep.18 14:45:01 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:45:01 DEBUG emofiltDebug - loaded plugin: name: durationWordstressedSyls, type: duration
+12.Sep.18 14:45:01 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:45:01 DEBUG emofiltDebug - loaded plugin: name: durationUnstressedSyls, type: duration
+12.Sep.18 14:45:01 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:45:01 DEBUG emofiltDebug - loaded plugin: name: durVowel, type: duration
+12.Sep.18 14:45:01 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:45:01 DEBUG emofiltDebug - loaded plugin: name: durAprx, type: duration
+12.Sep.18 14:45:01 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:45:01 DEBUG emofiltDebug - loaded plugin: name: durNasal, type: duration
+12.Sep.18 14:45:01 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:45:01 DEBUG emofiltDebug - loaded plugin: name: durVFric, type: duration
+12.Sep.18 14:45:01 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:45:01 DEBUG emofiltDebug - loaded plugin: name: durVLFric, type: duration
+12.Sep.18 14:45:01 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:45:01 DEBUG emofiltDebug - loaded plugin: name: durVStop, type: duration
+12.Sep.18 14:45:01 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:45:01 DEBUG emofiltDebug - loaded plugin: name: durVLStop, type: duration
+12.Sep.18 14:45:01 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:45:01 DEBUG emofiltDebug - loaded plugin: name: durPause, type: duration
+12.Sep.18 14:45:01 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:45:01 DEBUG emofiltDebug - loaded plugin: name: jitter, type: phonation
+12.Sep.18 14:45:01 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:45:01 DEBUG emofiltDebug - loaded plugin: name: vocalEffort, type: phonation
+12.Sep.18 14:45:01 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:45:01 DEBUG emofiltDebug - loaded plugin: name: vowelTarget, type: articulation
+12.Sep.18 14:45:01 DEBUG emofiltDebug - loaded 28 plugins.
+12.Sep.18 14:45:01 DEBUG emofiltDebug - lfp: /home/fburkhardt/disk2/workspace/Emofilt/emofilt/languages.xml
+12.Sep.18 14:45:01 DEBUG emofiltDebug - loaded: language: ex, voice: 1
+12.Sep.18 14:45:01 DEBUG emofiltDebug - loaded: language: cn, voice: 1
+12.Sep.18 14:45:01 DEBUG emofiltDebug - loaded: language: tl, voice: 1
+12.Sep.18 14:45:01 DEBUG emofiltDebug - loaded: language: es, voice: 4
+12.Sep.18 14:45:01 DEBUG emofiltDebug - loaded: language: es, voice: 2
+12.Sep.18 14:45:01 DEBUG emofiltDebug - loaded: language: nl, voice: 2
+12.Sep.18 14:45:01 DEBUG emofiltDebug - loaded: language: hu, voice: 1
+12.Sep.18 14:45:01 DEBUG emofiltDebug - loaded: language: it, voice: 3
+12.Sep.18 14:45:01 DEBUG emofiltDebug - loaded: language: gr, voice: 2
+12.Sep.18 14:45:01 DEBUG emofiltDebug - loaded: language: tr, voice: 1
+12.Sep.18 14:45:01 DEBUG emofiltDebug - loaded: language: de, voice: 1
+12.Sep.18 14:45:01 DEBUG emofiltDebug - loaded: language: de, voice: 2
+12.Sep.18 14:45:01 DEBUG emofiltDebug - loaded: language: de, voice: 3
+12.Sep.18 14:45:01 DEBUG emofiltDebug - loaded: language: de, voice: 4
+12.Sep.18 14:45:01 DEBUG emofiltDebug - loaded: language: de, voice: 6
+12.Sep.18 14:45:01 DEBUG emofiltDebug - loaded: language: de, voice: 7
+12.Sep.18 14:45:01 DEBUG emofiltDebug - loaded: language: en, voice: 1
+12.Sep.18 14:45:01 DEBUG emofiltDebug - loaded: language: us, voice: 1
+12.Sep.18 14:45:01 DEBUG emofiltDebug - loaded: language: us, voice: 2
+12.Sep.18 14:45:01 DEBUG emofiltDebug - loaded: language: us, voice: 3
+12.Sep.18 14:45:01 DEBUG emofiltDebug - loaded: language: fr, voice: 1
+12.Sep.18 14:45:01 DEBUG emofiltDebug - loaded: language: fr, voice: 2
+12.Sep.18 14:45:01 DEBUG emofiltDebug - loaded: language: fr, voice: 3
+12.Sep.18 14:45:01 DEBUG emofiltDebug - loaded: language: fr, voice: 4
+12.Sep.18 14:45:01 DEBUG emofiltDebug - loaded: language: fr, voice: 5
+12.Sep.18 14:45:01 DEBUG emofiltDebug - loaded: language: fr, voice: 6
+12.Sep.18 14:45:01 DEBUG emofiltDebug - loaded: language: fr, voice: 7
+12.Sep.18 14:45:01 DEBUG emofiltDebug - loaded 27 languages
+12.Sep.18 14:45:01 DEBUG emofiltDebug - happySad
+12.Sep.18 14:45:01 DEBUG emofiltDebug - angrySad
+12.Sep.18 14:45:01 DEBUG emofiltDebug - sadAngry
+12.Sep.18 14:45:01 DEBUG emofiltDebug - boredom
+12.Sep.18 14:45:01 DEBUG emofiltDebug - despair
+12.Sep.18 14:45:01 DEBUG emofiltDebug - sad
+12.Sep.18 14:45:01 DEBUG emofiltDebug - scared
+12.Sep.18 14:45:01 DEBUG emofiltDebug - neurotic
+12.Sep.18 14:45:01 DEBUG emofiltDebug - fairytale
+12.Sep.18 14:45:01 DEBUG emofiltDebug - coldAnger
+12.Sep.18 14:45:01 DEBUG emofiltDebug - yawning
+12.Sep.18 14:45:01 DEBUG emofiltDebug - joy
+12.Sep.18 14:45:01 DEBUG emofiltDebug - happy
+12.Sep.18 14:45:01 DEBUG emofiltDebug - hotAnger
+12.Sep.18 14:45:01 DEBUG emofiltDebug - neutral
+12.Sep.18 14:45:01 DEBUG emofiltDebug - returning emotion: neutral
+12.Sep.18 14:45:01 DEBUG emofiltDebug - returning emotion: neutral
+12.Sep.18 14:45:01 DEBUG emofiltDebug - setting emotions: neutral
+12.Sep.18 14:45:01 DEBUG emofiltDebug - returning emotion: neutral
+12.Sep.18 14:45:01 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+12.Sep.18 14:45:01 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+12.Sep.18 14:45:01 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+12.Sep.18 14:45:01 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+12.Sep.18 14:45:01 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+12.Sep.18 14:45:01 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+12.Sep.18 14:45:01 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+12.Sep.18 14:45:05 DEBUG emofiltDebug - exec: /home/fburkhardt/bin/mbrola/mbrola /home/fburkhardt/bin/mbrola/mbrolade6/de6 /home/fburkhardt/tmp/tmp.pho /home/fburkhardt/tmp/tmp.wav 
+12.Sep.18 14:45:14 DEBUG emofiltDebug - exec: /home/fburkhardt/bin/mbrola/mbrola /home/fburkhardt/bin/mbrola/mbrolade6/de6 /home/fburkhardt/tmp/tmp.pho /home/fburkhardt/tmp/tmp.wav 
+12.Sep.18 14:46:16 DEBUG emofiltDebug - F0Mean, F0Range, Variability, PhraseContour, ContourFromStress, LevelUnstress, LevelFocusstress, LevelWordstress, ContourUnstress, ContourFocusstress, ContourWordstress, LastSylContour, WaveModel, SpeechRate, DurationFocusstressedSyls, DurationWordstressedSyls, DurationUnstressedSyls, DurVowel, DurAprx, DurNasal, DurVFric, DurVLFric, DurVStop, DurVLStop, DurPause, Jitter, VocalEffort, VowelTarget
+12.Sep.18 14:46:16 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:46:16 DEBUG emofiltDebug - loaded plugin: name: f0Mean, type: pitch
+12.Sep.18 14:46:16 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:46:16 DEBUG emofiltDebug - loaded plugin: name: f0Range, type: pitch
+12.Sep.18 14:46:16 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:46:16 DEBUG emofiltDebug - loaded plugin: name: variability, type: pitch
+12.Sep.18 14:46:16 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:46:16 DEBUG emofiltDebug - loaded plugin: name: phraseContour, type: pitch
+12.Sep.18 14:46:16 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:46:16 DEBUG emofiltDebug - loaded plugin: name: contourFromStress, type: pitch
+12.Sep.18 14:46:16 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:46:16 DEBUG emofiltDebug - loaded plugin: name: levelUnstress, type: pitch
+12.Sep.18 14:46:16 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:46:16 DEBUG emofiltDebug - loaded plugin: name: levelFocusstress, type: pitch
+12.Sep.18 14:46:16 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:46:16 DEBUG emofiltDebug - loaded plugin: name: levelWordstress, type: pitch
+12.Sep.18 14:46:16 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:46:16 DEBUG emofiltDebug - loaded plugin: name: contourUnstress, type: pitch
+12.Sep.18 14:46:16 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:46:16 DEBUG emofiltDebug - loaded plugin: name: contourFocusstress, type: pitch
+12.Sep.18 14:46:16 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:46:16 DEBUG emofiltDebug - loaded plugin: name: contourWordstress, type: pitch
+12.Sep.18 14:46:16 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:46:16 DEBUG emofiltDebug - loaded plugin: name: lastSylContour, type: pitch
+12.Sep.18 14:46:16 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:46:16 DEBUG emofiltDebug - loaded plugin: name: waveModel, type: pitch
+12.Sep.18 14:46:16 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:46:16 DEBUG emofiltDebug - loaded plugin: name: speechRate, type: duration
+12.Sep.18 14:46:16 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:46:16 DEBUG emofiltDebug - loaded plugin: name: durationFocusstressedSyls, type: duration
+12.Sep.18 14:46:16 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:46:16 DEBUG emofiltDebug - loaded plugin: name: durationWordstressedSyls, type: duration
+12.Sep.18 14:46:16 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:46:16 DEBUG emofiltDebug - loaded plugin: name: durationUnstressedSyls, type: duration
+12.Sep.18 14:46:16 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:46:16 DEBUG emofiltDebug - loaded plugin: name: durVowel, type: duration
+12.Sep.18 14:46:16 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:46:16 DEBUG emofiltDebug - loaded plugin: name: durAprx, type: duration
+12.Sep.18 14:46:16 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:46:16 DEBUG emofiltDebug - loaded plugin: name: durNasal, type: duration
+12.Sep.18 14:46:16 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:46:16 DEBUG emofiltDebug - loaded plugin: name: durVFric, type: duration
+12.Sep.18 14:46:16 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:46:16 DEBUG emofiltDebug - loaded plugin: name: durVLFric, type: duration
+12.Sep.18 14:46:16 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:46:16 DEBUG emofiltDebug - loaded plugin: name: durVStop, type: duration
+12.Sep.18 14:46:16 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:46:16 DEBUG emofiltDebug - loaded plugin: name: durVLStop, type: duration
+12.Sep.18 14:46:16 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:46:16 DEBUG emofiltDebug - loaded plugin: name: durPause, type: duration
+12.Sep.18 14:46:16 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:46:16 DEBUG emofiltDebug - loaded plugin: name: jitter, type: phonation
+12.Sep.18 14:46:16 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:46:16 DEBUG emofiltDebug - loaded plugin: name: vocalEffort, type: phonation
+12.Sep.18 14:46:16 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:46:16 DEBUG emofiltDebug - loaded plugin: name: vowelTarget, type: articulation
+12.Sep.18 14:46:16 DEBUG emofiltDebug - loaded 28 plugins.
+12.Sep.18 14:46:16 DEBUG emofiltDebug - lfp: /home/fburkhardt/disk2/workspace/Emofilt/emofilt/languages.xml
+12.Sep.18 14:46:16 DEBUG emofiltDebug - loaded: language: ex, voice: 1
+12.Sep.18 14:46:16 DEBUG emofiltDebug - loaded: language: cn, voice: 1
+12.Sep.18 14:46:16 DEBUG emofiltDebug - loaded: language: tl, voice: 1
+12.Sep.18 14:46:16 DEBUG emofiltDebug - loaded: language: es, voice: 4
+12.Sep.18 14:46:16 DEBUG emofiltDebug - loaded: language: es, voice: 2
+12.Sep.18 14:46:16 DEBUG emofiltDebug - loaded: language: nl, voice: 2
+12.Sep.18 14:46:16 DEBUG emofiltDebug - loaded: language: hu, voice: 1
+12.Sep.18 14:46:16 DEBUG emofiltDebug - loaded: language: it, voice: 3
+12.Sep.18 14:46:16 DEBUG emofiltDebug - loaded: language: gr, voice: 2
+12.Sep.18 14:46:16 DEBUG emofiltDebug - loaded: language: tr, voice: 1
+12.Sep.18 14:46:16 DEBUG emofiltDebug - loaded: language: de, voice: 1
+12.Sep.18 14:46:16 DEBUG emofiltDebug - loaded: language: de, voice: 2
+12.Sep.18 14:46:16 DEBUG emofiltDebug - loaded: language: de, voice: 3
+12.Sep.18 14:46:16 DEBUG emofiltDebug - loaded: language: de, voice: 4
+12.Sep.18 14:46:16 DEBUG emofiltDebug - loaded: language: de, voice: 6
+12.Sep.18 14:46:16 DEBUG emofiltDebug - loaded: language: de, voice: 7
+12.Sep.18 14:46:16 DEBUG emofiltDebug - loaded: language: en, voice: 1
+12.Sep.18 14:46:16 DEBUG emofiltDebug - loaded: language: us, voice: 1
+12.Sep.18 14:46:16 DEBUG emofiltDebug - loaded: language: us, voice: 2
+12.Sep.18 14:46:16 DEBUG emofiltDebug - loaded: language: us, voice: 3
+12.Sep.18 14:46:16 DEBUG emofiltDebug - loaded: language: fr, voice: 1
+12.Sep.18 14:46:16 DEBUG emofiltDebug - loaded: language: fr, voice: 2
+12.Sep.18 14:46:16 DEBUG emofiltDebug - loaded: language: fr, voice: 3
+12.Sep.18 14:46:16 DEBUG emofiltDebug - loaded: language: fr, voice: 4
+12.Sep.18 14:46:16 DEBUG emofiltDebug - loaded: language: fr, voice: 5
+12.Sep.18 14:46:16 DEBUG emofiltDebug - loaded: language: fr, voice: 6
+12.Sep.18 14:46:16 DEBUG emofiltDebug - loaded: language: fr, voice: 7
+12.Sep.18 14:46:16 DEBUG emofiltDebug - loaded 27 languages
+12.Sep.18 14:46:16 DEBUG emofiltDebug - happySad
+12.Sep.18 14:46:16 DEBUG emofiltDebug - angrySad
+12.Sep.18 14:46:16 DEBUG emofiltDebug - sadAngry
+12.Sep.18 14:46:16 DEBUG emofiltDebug - boredom
+12.Sep.18 14:46:16 DEBUG emofiltDebug - despair
+12.Sep.18 14:46:16 DEBUG emofiltDebug - sad
+12.Sep.18 14:46:16 DEBUG emofiltDebug - scared
+12.Sep.18 14:46:16 DEBUG emofiltDebug - neurotic
+12.Sep.18 14:46:16 DEBUG emofiltDebug - fairytale
+12.Sep.18 14:46:16 DEBUG emofiltDebug - coldAnger
+12.Sep.18 14:46:16 DEBUG emofiltDebug - yawning
+12.Sep.18 14:46:16 DEBUG emofiltDebug - joy
+12.Sep.18 14:46:16 DEBUG emofiltDebug - happy
+12.Sep.18 14:46:16 DEBUG emofiltDebug - hotAnger
+12.Sep.18 14:46:16 DEBUG emofiltDebug - neutral
+12.Sep.18 14:46:16 DEBUG emofiltDebug - returning emotion: neutral
+12.Sep.18 14:46:16 DEBUG emofiltDebug - returning emotion: neutral
+12.Sep.18 14:46:16 DEBUG emofiltDebug - setting emotions: neutral
+12.Sep.18 14:46:16 DEBUG emofiltDebug - returning emotion: neutral
+12.Sep.18 14:46:16 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+12.Sep.18 14:46:16 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+12.Sep.18 14:46:16 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+12.Sep.18 14:46:16 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+12.Sep.18 14:46:16 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+12.Sep.18 14:46:16 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+12.Sep.18 14:46:16 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+12.Sep.18 14:46:19 DEBUG emofiltDebug - exec: /home/fburkhardt/bin/mbrola/mbrola /home/fburkhardt/bin/mbrola/mbrola/de6/de6 /home/fburkhardt/tmp/tmp.pho /home/fburkhardt/tmp/tmp.wav 
+12.Sep.18 14:48:39 DEBUG emofiltDebug - F0Mean, F0Range, Variability, PhraseContour, ContourFromStress, LevelUnstress, LevelFocusstress, LevelWordstress, ContourUnstress, ContourFocusstress, ContourWordstress, LastSylContour, WaveModel, SpeechRate, DurationFocusstressedSyls, DurationWordstressedSyls, DurationUnstressedSyls, DurVowel, DurAprx, DurNasal, DurVFric, DurVLFric, DurVStop, DurVLStop, DurPause, Jitter, VocalEffort, VowelTarget
+12.Sep.18 14:48:39 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:48:39 DEBUG emofiltDebug - loaded plugin: name: f0Mean, type: pitch
+12.Sep.18 14:48:39 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:48:39 DEBUG emofiltDebug - loaded plugin: name: f0Range, type: pitch
+12.Sep.18 14:48:39 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:48:39 DEBUG emofiltDebug - loaded plugin: name: variability, type: pitch
+12.Sep.18 14:48:39 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:48:39 DEBUG emofiltDebug - loaded plugin: name: phraseContour, type: pitch
+12.Sep.18 14:48:39 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:48:39 DEBUG emofiltDebug - loaded plugin: name: contourFromStress, type: pitch
+12.Sep.18 14:48:39 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:48:40 DEBUG emofiltDebug - loaded plugin: name: levelUnstress, type: pitch
+12.Sep.18 14:48:40 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:48:40 DEBUG emofiltDebug - loaded plugin: name: levelFocusstress, type: pitch
+12.Sep.18 14:48:40 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:48:40 DEBUG emofiltDebug - loaded plugin: name: levelWordstress, type: pitch
+12.Sep.18 14:48:40 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:48:40 DEBUG emofiltDebug - loaded plugin: name: contourUnstress, type: pitch
+12.Sep.18 14:48:40 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:48:40 DEBUG emofiltDebug - loaded plugin: name: contourFocusstress, type: pitch
+12.Sep.18 14:48:40 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:48:40 DEBUG emofiltDebug - loaded plugin: name: contourWordstress, type: pitch
+12.Sep.18 14:48:40 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:48:40 DEBUG emofiltDebug - loaded plugin: name: lastSylContour, type: pitch
+12.Sep.18 14:48:40 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:48:40 DEBUG emofiltDebug - loaded plugin: name: waveModel, type: pitch
+12.Sep.18 14:48:40 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:48:40 DEBUG emofiltDebug - loaded plugin: name: speechRate, type: duration
+12.Sep.18 14:48:40 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:48:40 DEBUG emofiltDebug - loaded plugin: name: durationFocusstressedSyls, type: duration
+12.Sep.18 14:48:40 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:48:40 DEBUG emofiltDebug - loaded plugin: name: durationWordstressedSyls, type: duration
+12.Sep.18 14:48:40 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:48:40 DEBUG emofiltDebug - loaded plugin: name: durationUnstressedSyls, type: duration
+12.Sep.18 14:48:40 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:48:40 DEBUG emofiltDebug - loaded plugin: name: durVowel, type: duration
+12.Sep.18 14:48:40 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:48:40 DEBUG emofiltDebug - loaded plugin: name: durAprx, type: duration
+12.Sep.18 14:48:40 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:48:40 DEBUG emofiltDebug - loaded plugin: name: durNasal, type: duration
+12.Sep.18 14:48:40 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:48:40 DEBUG emofiltDebug - loaded plugin: name: durVFric, type: duration
+12.Sep.18 14:48:40 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:48:40 DEBUG emofiltDebug - loaded plugin: name: durVLFric, type: duration
+12.Sep.18 14:48:40 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:48:40 DEBUG emofiltDebug - loaded plugin: name: durVStop, type: duration
+12.Sep.18 14:48:40 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:48:40 DEBUG emofiltDebug - loaded plugin: name: durVLStop, type: duration
+12.Sep.18 14:48:40 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:48:40 DEBUG emofiltDebug - loaded plugin: name: durPause, type: duration
+12.Sep.18 14:48:40 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:48:40 DEBUG emofiltDebug - loaded plugin: name: jitter, type: phonation
+12.Sep.18 14:48:40 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:48:40 DEBUG emofiltDebug - loaded plugin: name: vocalEffort, type: phonation
+12.Sep.18 14:48:40 DEBUG emofiltDebug -  initialisation, use GUI=true
+12.Sep.18 14:48:40 DEBUG emofiltDebug - loaded plugin: name: vowelTarget, type: articulation
+12.Sep.18 14:48:40 DEBUG emofiltDebug - loaded 28 plugins.
+12.Sep.18 14:48:40 DEBUG emofiltDebug - lfp: /home/fburkhardt/disk2/workspace/Emofilt/emofilt/languages.xml
+12.Sep.18 14:48:40 DEBUG emofiltDebug - loaded: language: ex, voice: 1
+12.Sep.18 14:48:40 DEBUG emofiltDebug - loaded: language: cn, voice: 1
+12.Sep.18 14:48:40 DEBUG emofiltDebug - loaded: language: tl, voice: 1
+12.Sep.18 14:48:40 DEBUG emofiltDebug - loaded: language: es, voice: 4
+12.Sep.18 14:48:40 DEBUG emofiltDebug - loaded: language: es, voice: 2
+12.Sep.18 14:48:40 DEBUG emofiltDebug - loaded: language: nl, voice: 2
+12.Sep.18 14:48:40 DEBUG emofiltDebug - loaded: language: hu, voice: 1
+12.Sep.18 14:48:40 DEBUG emofiltDebug - loaded: language: it, voice: 3
+12.Sep.18 14:48:40 DEBUG emofiltDebug - loaded: language: gr, voice: 2
+12.Sep.18 14:48:40 DEBUG emofiltDebug - loaded: language: tr, voice: 1
+12.Sep.18 14:48:40 DEBUG emofiltDebug - loaded: language: de, voice: 1
+12.Sep.18 14:48:40 DEBUG emofiltDebug - loaded: language: de, voice: 2
+12.Sep.18 14:48:40 DEBUG emofiltDebug - loaded: language: de, voice: 3
+12.Sep.18 14:48:40 DEBUG emofiltDebug - loaded: language: de, voice: 4
+12.Sep.18 14:48:40 DEBUG emofiltDebug - loaded: language: de, voice: 6
+12.Sep.18 14:48:40 DEBUG emofiltDebug - loaded: language: de, voice: 7
+12.Sep.18 14:48:40 DEBUG emofiltDebug - loaded: language: en, voice: 1
+12.Sep.18 14:48:40 DEBUG emofiltDebug - loaded: language: us, voice: 1
+12.Sep.18 14:48:40 DEBUG emofiltDebug - loaded: language: us, voice: 2
+12.Sep.18 14:48:40 DEBUG emofiltDebug - loaded: language: us, voice: 3
+12.Sep.18 14:48:40 DEBUG emofiltDebug - loaded: language: fr, voice: 1
+12.Sep.18 14:48:40 DEBUG emofiltDebug - loaded: language: fr, voice: 2
+12.Sep.18 14:48:40 DEBUG emofiltDebug - loaded: language: fr, voice: 3
+12.Sep.18 14:48:40 DEBUG emofiltDebug - loaded: language: fr, voice: 4
+12.Sep.18 14:48:40 DEBUG emofiltDebug - loaded: language: fr, voice: 5
+12.Sep.18 14:48:40 DEBUG emofiltDebug - loaded: language: fr, voice: 6
+12.Sep.18 14:48:40 DEBUG emofiltDebug - loaded: language: fr, voice: 7
+12.Sep.18 14:48:40 DEBUG emofiltDebug - loaded 27 languages
+12.Sep.18 14:48:40 DEBUG emofiltDebug - happySad
+12.Sep.18 14:48:40 DEBUG emofiltDebug - angrySad
+12.Sep.18 14:48:40 DEBUG emofiltDebug - sadAngry
+12.Sep.18 14:48:40 DEBUG emofiltDebug - boredom
+12.Sep.18 14:48:40 DEBUG emofiltDebug - despair
+12.Sep.18 14:48:40 DEBUG emofiltDebug - sad
+12.Sep.18 14:48:40 DEBUG emofiltDebug - scared
+12.Sep.18 14:48:40 DEBUG emofiltDebug - neurotic
+12.Sep.18 14:48:40 DEBUG emofiltDebug - fairytale
+12.Sep.18 14:48:40 DEBUG emofiltDebug - coldAnger
+12.Sep.18 14:48:40 DEBUG emofiltDebug - yawning
+12.Sep.18 14:48:40 DEBUG emofiltDebug - joy
+12.Sep.18 14:48:40 DEBUG emofiltDebug - happy
+12.Sep.18 14:48:40 DEBUG emofiltDebug - hotAnger
+12.Sep.18 14:48:40 DEBUG emofiltDebug - neutral
+12.Sep.18 14:48:40 DEBUG emofiltDebug - returning emotion: neutral
+12.Sep.18 14:48:40 DEBUG emofiltDebug - returning emotion: neutral
+12.Sep.18 14:48:40 DEBUG emofiltDebug - setting emotions: neutral
+12.Sep.18 14:48:40 DEBUG emofiltDebug - returning emotion: neutral
+12.Sep.18 14:48:40 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+12.Sep.18 14:48:40 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+12.Sep.18 14:48:40 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+12.Sep.18 14:48:40 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+12.Sep.18 14:48:40 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+12.Sep.18 14:48:40 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+12.Sep.18 14:48:40 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+12.Sep.18 14:48:42 DEBUG emofiltDebug - exec: /home/fburkhardt/bin/mbrola/mbrola /home/fburkhardt/bin/mbrola/de6/de6 /home/fburkhardt/tmp/tmp.pho /home/fburkhardt/tmp/tmp.wav 
+12.Sep.18 14:48:58 DEBUG emofiltDebug - setting emotions: scared
+12.Sep.18 14:48:58 DEBUG emofiltDebug - returning emotion: scared
+12.Sep.18 14:48:58 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+12.Sep.18 14:48:58 DEBUG emofiltDebug - meanF0, 200, new mean: 145.09677419354838
+12.Sep.18 14:48:58 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+12.Sep.18 14:48:58 DEBUG emofiltDebug - meanF0, 200, new mean: 145.09677419354838
+12.Sep.18 14:48:58 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+12.Sep.18 14:48:58 DEBUG emofiltDebug - meanF0, 200, new mean: 145.09677419354838
+12.Sep.18 14:48:58 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+12.Sep.18 14:48:58 DEBUG emofiltDebug - meanF0, 200, new mean: 145.09677419354838
+12.Sep.18 14:48:58 DEBUG emofiltDebug - Element not found in Emotion Description
+12.Sep.18 14:48:58 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+12.Sep.18 14:48:58 DEBUG emofiltDebug - meanF0, 200, new mean: 145.09677419354838
+12.Sep.18 14:48:58 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+12.Sep.18 14:48:58 DEBUG emofiltDebug - meanF0, 200, new mean: 145.09677419354838
+12.Sep.18 14:48:58 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+12.Sep.18 14:48:58 DEBUG emofiltDebug - meanF0, 200, new mean: 145.09677419354838
+12.Sep.18 14:48:58 DEBUG emofiltDebug - Element not found in Emotion Description
+12.Sep.18 14:48:58 DEBUG emofiltDebug - Element not found in Emotion Description
+12.Sep.18 14:48:58 DEBUG emofiltDebug - Element not found in Emotion Description
+12.Sep.18 14:48:58 DEBUG emofiltDebug - Element not found in Emotion Description
+12.Sep.18 14:48:58 DEBUG emofiltDebug - Element not found in Emotion Description
+12.Sep.18 14:48:58 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+12.Sep.18 14:48:58 DEBUG emofiltDebug - meanF0, 200, new mean: 145.09677419354838
+12.Sep.18 14:48:58 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+12.Sep.18 14:48:58 DEBUG emofiltDebug - meanF0, 200, new mean: 145.09677419354838
+12.Sep.18 14:48:58 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+12.Sep.18 14:48:58 DEBUG emofiltDebug - meanF0, 200, new mean: 145.09677419354838
+12.Sep.18 14:48:58 DEBUG emofiltDebug - Element not found in Emotion Description
+12.Sep.18 14:48:58 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+12.Sep.18 14:48:58 DEBUG emofiltDebug - meanF0, 200, new mean: 145.09677419354838
+12.Sep.18 14:48:58 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+12.Sep.18 14:48:58 DEBUG emofiltDebug - meanF0, 200, new mean: 145.09677419354838
+12.Sep.18 14:48:58 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+12.Sep.18 14:48:58 DEBUG emofiltDebug - meanF0, 200, new mean: 145.09677419354838
+12.Sep.18 14:48:58 DEBUG emofiltDebug - Element not found in Emotion Description
+12.Sep.18 14:48:58 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+12.Sep.18 14:48:58 DEBUG emofiltDebug - meanF0, 200, new mean: 145.09677419354838
+12.Sep.18 14:48:58 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+12.Sep.18 14:48:58 DEBUG emofiltDebug - meanF0, 200, new mean: 145.09677419354838
+12.Sep.18 14:48:58 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+12.Sep.18 14:48:58 DEBUG emofiltDebug - meanF0, 200, new mean: 145.09677419354838
+12.Sep.18 14:48:58 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+12.Sep.18 14:48:58 DEBUG emofiltDebug - meanF0, 200, new mean: 145.09677419354838
+12.Sep.18 14:48:58 DEBUG emofiltDebug - Element not found in Emotion Description
+12.Sep.18 14:48:58 DEBUG emofiltDebug - Element not found in Emotion Description
+12.Sep.18 14:48:58 DEBUG emofiltDebug - Element not found in Emotion Description
+12.Sep.18 14:48:58 DEBUG emofiltDebug - Element not found in Emotion Description
+12.Sep.18 14:48:58 DEBUG emofiltDebug - Element not found in Emotion Description
+12.Sep.18 14:48:58 DEBUG emofiltDebug - Element not found in Emotion Description
+12.Sep.18 14:48:58 DEBUG emofiltDebug - Element not found in Emotion Description
+12.Sep.18 14:48:58 DEBUG emofiltDebug - Element not found in Emotion Description
+12.Sep.18 14:48:58 DEBUG emofiltDebug - Element not found in Emotion Description
+12.Sep.18 14:48:58 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+12.Sep.18 14:48:58 DEBUG emofiltDebug - meanF0, 200, new mean: 145.09677419354838
+12.Sep.18 14:48:58 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+12.Sep.18 14:48:58 DEBUG emofiltDebug - meanF0, 200, new mean: 145.09677419354838
+12.Sep.18 14:48:58 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+12.Sep.18 14:48:58 DEBUG emofiltDebug - meanF0, 200, new mean: 145.09677419354838
+12.Sep.18 14:48:58 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+12.Sep.18 14:48:58 DEBUG emofiltDebug - meanF0, 200, new mean: 145.09677419354838
+12.Sep.18 14:48:58 DEBUG emofiltDebug - Element not found in Emotion Description
+12.Sep.18 14:48:58 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+12.Sep.18 14:48:58 DEBUG emofiltDebug - meanF0, 200, new mean: 145.09677419354838
+12.Sep.18 14:48:58 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+12.Sep.18 14:48:58 DEBUG emofiltDebug - meanF0, 200, new mean: 145.09677419354838
+12.Sep.18 14:48:58 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+12.Sep.18 14:48:58 DEBUG emofiltDebug - meanF0, 200, new mean: 145.09677419354838
+12.Sep.18 14:49:00 DEBUG emofiltDebug - exec: /home/fburkhardt/bin/mbrola/mbrola /home/fburkhardt/bin/mbrola/de6/de6 /home/fburkhardt/tmp/tmp.pho /home/fburkhardt/tmp/tmp.wav 
+12.Sep.18 14:49:12 DEBUG emofiltDebug - happySad
+12.Sep.18 14:49:12 DEBUG emofiltDebug - angrySad
+12.Sep.18 14:49:12 DEBUG emofiltDebug - sadAngry
+12.Sep.18 14:49:12 DEBUG emofiltDebug - boredom
+12.Sep.18 14:49:12 DEBUG emofiltDebug - despair
+12.Sep.18 14:49:12 DEBUG emofiltDebug - sad
+12.Sep.18 14:49:12 DEBUG emofiltDebug - scared
+13.Sep.18 09:51:11 DEBUG emofiltDebug - F0Mean, F0Range, Variability, PhraseContour, ContourFromStress, LevelUnstress, LevelFocusstress, LevelWordstress, ContourUnstress, ContourFocusstress, ContourWordstress, LastSylContour, WaveModel, SpeechRate, DurationFocusstressedSyls, DurationWordstressedSyls, DurationUnstressedSyls, DurVowel, DurAprx, DurNasal, DurVFric, DurVLFric, DurVStop, DurVLStop, DurPause, Jitter, VocalEffort, VowelTarget
+13.Sep.18 09:51:11 DEBUG emofiltDebug -  initialisation, use GUI=true
+13.Sep.18 09:51:11 DEBUG emofiltDebug - loaded plugin: name: f0Mean, type: pitch
+13.Sep.18 09:51:11 DEBUG emofiltDebug -  initialisation, use GUI=true
+13.Sep.18 09:51:11 DEBUG emofiltDebug - loaded plugin: name: f0Range, type: pitch
+13.Sep.18 09:51:11 DEBUG emofiltDebug -  initialisation, use GUI=true
+13.Sep.18 09:51:11 DEBUG emofiltDebug - loaded plugin: name: variability, type: pitch
+13.Sep.18 09:51:11 DEBUG emofiltDebug -  initialisation, use GUI=true
+13.Sep.18 09:51:11 DEBUG emofiltDebug - loaded plugin: name: phraseContour, type: pitch
+13.Sep.18 09:51:11 DEBUG emofiltDebug -  initialisation, use GUI=true
+13.Sep.18 09:51:11 DEBUG emofiltDebug - loaded plugin: name: contourFromStress, type: pitch
+13.Sep.18 09:51:11 DEBUG emofiltDebug -  initialisation, use GUI=true
+13.Sep.18 09:51:11 DEBUG emofiltDebug - loaded plugin: name: levelUnstress, type: pitch
+13.Sep.18 09:51:11 DEBUG emofiltDebug -  initialisation, use GUI=true
+13.Sep.18 09:51:11 DEBUG emofiltDebug - loaded plugin: name: levelFocusstress, type: pitch
+13.Sep.18 09:51:11 DEBUG emofiltDebug -  initialisation, use GUI=true
+13.Sep.18 09:51:11 DEBUG emofiltDebug - loaded plugin: name: levelWordstress, type: pitch
+13.Sep.18 09:51:11 DEBUG emofiltDebug -  initialisation, use GUI=true
+13.Sep.18 09:51:11 DEBUG emofiltDebug - loaded plugin: name: contourUnstress, type: pitch
+13.Sep.18 09:51:11 DEBUG emofiltDebug -  initialisation, use GUI=true
+13.Sep.18 09:51:11 DEBUG emofiltDebug - loaded plugin: name: contourFocusstress, type: pitch
+13.Sep.18 09:51:11 DEBUG emofiltDebug -  initialisation, use GUI=true
+13.Sep.18 09:51:11 DEBUG emofiltDebug - loaded plugin: name: contourWordstress, type: pitch
+13.Sep.18 09:51:11 DEBUG emofiltDebug -  initialisation, use GUI=true
+13.Sep.18 09:51:11 DEBUG emofiltDebug - loaded plugin: name: lastSylContour, type: pitch
+13.Sep.18 09:51:11 DEBUG emofiltDebug -  initialisation, use GUI=true
+13.Sep.18 09:51:11 DEBUG emofiltDebug - loaded plugin: name: waveModel, type: pitch
+13.Sep.18 09:51:11 DEBUG emofiltDebug -  initialisation, use GUI=true
+13.Sep.18 09:51:11 DEBUG emofiltDebug - loaded plugin: name: speechRate, type: duration
+13.Sep.18 09:51:11 DEBUG emofiltDebug -  initialisation, use GUI=true
+13.Sep.18 09:51:11 DEBUG emofiltDebug - loaded plugin: name: durationFocusstressedSyls, type: duration
+13.Sep.18 09:51:11 DEBUG emofiltDebug -  initialisation, use GUI=true
+13.Sep.18 09:51:11 DEBUG emofiltDebug - loaded plugin: name: durationWordstressedSyls, type: duration
+13.Sep.18 09:51:11 DEBUG emofiltDebug -  initialisation, use GUI=true
+13.Sep.18 09:51:11 DEBUG emofiltDebug - loaded plugin: name: durationUnstressedSyls, type: duration
+13.Sep.18 09:51:11 DEBUG emofiltDebug -  initialisation, use GUI=true
+13.Sep.18 09:51:11 DEBUG emofiltDebug - loaded plugin: name: durVowel, type: duration
+13.Sep.18 09:51:11 DEBUG emofiltDebug -  initialisation, use GUI=true
+13.Sep.18 09:51:11 DEBUG emofiltDebug - loaded plugin: name: durAprx, type: duration
+13.Sep.18 09:51:11 DEBUG emofiltDebug -  initialisation, use GUI=true
+13.Sep.18 09:51:11 DEBUG emofiltDebug - loaded plugin: name: durNasal, type: duration
+13.Sep.18 09:51:11 DEBUG emofiltDebug -  initialisation, use GUI=true
+13.Sep.18 09:51:11 DEBUG emofiltDebug - loaded plugin: name: durVFric, type: duration
+13.Sep.18 09:51:11 DEBUG emofiltDebug -  initialisation, use GUI=true
+13.Sep.18 09:51:11 DEBUG emofiltDebug - loaded plugin: name: durVLFric, type: duration
+13.Sep.18 09:51:11 DEBUG emofiltDebug -  initialisation, use GUI=true
+13.Sep.18 09:51:11 DEBUG emofiltDebug - loaded plugin: name: durVStop, type: duration
+13.Sep.18 09:51:11 DEBUG emofiltDebug -  initialisation, use GUI=true
+13.Sep.18 09:51:11 DEBUG emofiltDebug - loaded plugin: name: durVLStop, type: duration
+13.Sep.18 09:51:11 DEBUG emofiltDebug -  initialisation, use GUI=true
+13.Sep.18 09:51:11 DEBUG emofiltDebug - loaded plugin: name: durPause, type: duration
+13.Sep.18 09:51:11 DEBUG emofiltDebug -  initialisation, use GUI=true
+13.Sep.18 09:51:11 DEBUG emofiltDebug - loaded plugin: name: jitter, type: phonation
+13.Sep.18 09:51:11 DEBUG emofiltDebug -  initialisation, use GUI=true
+13.Sep.18 09:51:11 DEBUG emofiltDebug - loaded plugin: name: vocalEffort, type: phonation
+13.Sep.18 09:51:11 DEBUG emofiltDebug -  initialisation, use GUI=true
+13.Sep.18 09:51:11 DEBUG emofiltDebug - loaded plugin: name: vowelTarget, type: articulation
+13.Sep.18 09:51:11 DEBUG emofiltDebug - loaded 28 plugins.
+13.Sep.18 09:51:11 DEBUG emofiltDebug - lfp: /home/fburkhardt/disk2/workspace/Emofilt/emofilt/languages.xml
+13.Sep.18 09:51:11 DEBUG emofiltDebug - loaded: language: ex, voice: 1
+13.Sep.18 09:51:11 DEBUG emofiltDebug - loaded: language: cn, voice: 1
+13.Sep.18 09:51:11 DEBUG emofiltDebug - loaded: language: tl, voice: 1
+13.Sep.18 09:51:11 DEBUG emofiltDebug - loaded: language: es, voice: 4
+13.Sep.18 09:51:11 DEBUG emofiltDebug - loaded: language: es, voice: 2
+13.Sep.18 09:51:11 DEBUG emofiltDebug - loaded: language: nl, voice: 2
+13.Sep.18 09:51:11 DEBUG emofiltDebug - loaded: language: hu, voice: 1
+13.Sep.18 09:51:11 DEBUG emofiltDebug - loaded: language: it, voice: 3
+13.Sep.18 09:51:11 DEBUG emofiltDebug - loaded: language: gr, voice: 2
+13.Sep.18 09:51:11 DEBUG emofiltDebug - loaded: language: tr, voice: 1
+13.Sep.18 09:51:11 DEBUG emofiltDebug - loaded: language: de, voice: 1
+13.Sep.18 09:51:11 DEBUG emofiltDebug - loaded: language: de, voice: 2
+13.Sep.18 09:51:11 DEBUG emofiltDebug - loaded: language: de, voice: 3
+13.Sep.18 09:51:11 DEBUG emofiltDebug - loaded: language: de, voice: 4
+13.Sep.18 09:51:11 DEBUG emofiltDebug - loaded: language: de, voice: 6
+13.Sep.18 09:51:11 DEBUG emofiltDebug - loaded: language: de, voice: 7
+13.Sep.18 09:51:11 DEBUG emofiltDebug - loaded: language: en, voice: 1
+13.Sep.18 09:51:11 DEBUG emofiltDebug - loaded: language: us, voice: 1
+13.Sep.18 09:51:11 DEBUG emofiltDebug - loaded: language: us, voice: 2
+13.Sep.18 09:51:11 DEBUG emofiltDebug - loaded: language: us, voice: 3
+13.Sep.18 09:51:11 DEBUG emofiltDebug - loaded: language: fr, voice: 1
+13.Sep.18 09:51:11 DEBUG emofiltDebug - loaded: language: fr, voice: 2
+13.Sep.18 09:51:11 DEBUG emofiltDebug - loaded: language: fr, voice: 3
+13.Sep.18 09:51:11 DEBUG emofiltDebug - loaded: language: fr, voice: 4
+13.Sep.18 09:51:11 DEBUG emofiltDebug - loaded: language: fr, voice: 5
+13.Sep.18 09:51:11 DEBUG emofiltDebug - loaded: language: fr, voice: 6
+13.Sep.18 09:51:11 DEBUG emofiltDebug - loaded: language: fr, voice: 7
+13.Sep.18 09:51:11 DEBUG emofiltDebug - loaded 27 languages
+13.Sep.18 09:51:11 DEBUG emofiltDebug - happySad
+13.Sep.18 09:51:11 DEBUG emofiltDebug - angrySad
+13.Sep.18 09:51:11 DEBUG emofiltDebug - sadAngry
+13.Sep.18 09:51:11 DEBUG emofiltDebug - boredom
+13.Sep.18 09:51:11 DEBUG emofiltDebug - despair
+13.Sep.18 09:51:11 DEBUG emofiltDebug - sad
+13.Sep.18 09:51:11 DEBUG emofiltDebug - neurotic
+13.Sep.18 09:51:11 DEBUG emofiltDebug - fairytale
+13.Sep.18 09:51:11 DEBUG emofiltDebug - coldAnger
+13.Sep.18 09:51:11 DEBUG emofiltDebug - yawning
+13.Sep.18 09:51:11 DEBUG emofiltDebug - joy
+13.Sep.18 09:51:11 DEBUG emofiltDebug - happy
+13.Sep.18 09:51:11 DEBUG emofiltDebug - hotAnger
+13.Sep.18 09:51:11 DEBUG emofiltDebug - neutral
+13.Sep.18 09:51:11 DEBUG emofiltDebug - scared
+13.Sep.18 09:51:11 DEBUG emofiltDebug - returning emotion: neutral
+13.Sep.18 09:51:11 DEBUG emofiltDebug - returning emotion: neutral
+13.Sep.18 09:51:11 DEBUG emofiltDebug - setting emotions: neutral
+13.Sep.18 09:51:11 DEBUG emofiltDebug - returning emotion: neutral
+13.Sep.18 09:51:11 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Sep.18 09:51:11 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Sep.18 09:51:11 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Sep.18 09:51:11 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Sep.18 09:51:11 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Sep.18 09:51:11 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Sep.18 09:51:11 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Sep.18 09:51:24 DEBUG emofiltDebug - calling Mary server with phrase das ist mein Testsatz and language: de6
+13.Sep.18 09:52:03 DEBUG emofiltDebug - exec: /home/fburkhardt/bin/mbrola/mbrola /home/fburkhardt/bin/mbrola/de6/de6 /home/fburkhardt/tmp/tmp.pho /home/fburkhardt/tmp/tmp.wav 
+13.Sep.18 09:52:14 DEBUG emofiltDebug - exec: /home/fburkhardt/bin/mbrola/mbrola /home/fburkhardt/bin/mbrola/de6/de6 /home/fburkhardt/tmp/tmp.pho /home/fburkhardt/tmp/tmp.wav 
+13.Sep.18 09:52:32 DEBUG emofiltDebug - setting emotions: neutral
+13.Sep.18 09:52:32 DEBUG emofiltDebug - returning emotion: neutral
+13.Sep.18 09:52:32 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Sep.18 09:52:32 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Sep.18 09:52:32 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Sep.18 09:52:32 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Sep.18 09:52:32 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Sep.18 09:52:32 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Sep.18 09:52:32 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Sep.18 09:52:55 DEBUG emofiltDebug - calling Mary server with phrase Guten Tag meine Damen und Herren, dies ist eine Demonstation von Mbrola and language: de7
+13.Sep.18 09:52:58 DEBUG emofiltDebug - exec: /home/fburkhardt/bin/mbrola/mbrola /home/fburkhardt/bin/mbrola/de7/de7 /home/fburkhardt/tmp/tmp.pho /home/fburkhardt/tmp/tmp.wav 
+13.Sep.18 09:53:06 DEBUG emofiltDebug - setting emotions: happy
+13.Sep.18 09:53:06 DEBUG emofiltDebug - returning emotion: happy
+13.Sep.18 09:53:06 DEBUG emofiltDebug - Element not found in Emotion Description
+13.Sep.18 09:53:06 DEBUG emofiltDebug - Element not found in Emotion Description
+13.Sep.18 09:53:06 DEBUG emofiltDebug - Element not found in Emotion Description
+13.Sep.18 09:53:06 DEBUG emofiltDebug - Element not found in Emotion Description
+13.Sep.18 09:53:06 DEBUG emofiltDebug - Element not found in Emotion Description
+13.Sep.18 09:53:06 DEBUG emofiltDebug - Element not found in Emotion Description
+13.Sep.18 09:53:06 DEBUG emofiltDebug - Element not found in Emotion Description
+13.Sep.18 09:53:06 DEBUG emofiltDebug - Element not found in Emotion Description
+13.Sep.18 09:53:06 DEBUG emofiltDebug - Element not found in Emotion Description
+13.Sep.18 09:53:06 DEBUG emofiltDebug - Element not found in Emotion Description
+13.Sep.18 09:53:06 DEBUG emofiltDebug - Element not found in Emotion Description
+13.Sep.18 09:53:06 DEBUG emofiltDebug - Element not found in Emotion Description
+13.Sep.18 09:53:06 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Sep.18 09:53:06 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Sep.18 09:53:06 DEBUG emofiltDebug - Element not found in Emotion Description
+13.Sep.18 09:53:06 DEBUG emofiltDebug - Element not found in Emotion Description
+13.Sep.18 09:53:06 DEBUG emofiltDebug - Element not found in Emotion Description
+13.Sep.18 09:53:06 DEBUG emofiltDebug - Element not found in Emotion Description
+13.Sep.18 09:53:06 DEBUG emofiltDebug - Element not found in Emotion Description
+13.Sep.18 09:53:06 DEBUG emofiltDebug - Element not found in Emotion Description
+13.Sep.18 09:53:06 DEBUG emofiltDebug - Element not found in Emotion Description
+13.Sep.18 09:53:06 DEBUG emofiltDebug - Element not found in Emotion Description
+13.Sep.18 09:53:06 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Sep.18 09:53:06 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Sep.18 09:53:06 DEBUG emofiltDebug - Element not found in Emotion Description
+13.Sep.18 09:53:06 DEBUG emofiltDebug - Element not found in Emotion Description
+13.Sep.18 09:53:06 DEBUG emofiltDebug - Element not found in Emotion Description
+13.Sep.18 09:53:06 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Sep.18 09:53:06 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Sep.18 09:53:08 DEBUG emofiltDebug - exec: /home/fburkhardt/bin/mbrola/mbrola /home/fburkhardt/bin/mbrola/de7/de7 /home/fburkhardt/tmp/tmp.pho /home/fburkhardt/tmp/tmp.wav 
+13.Sep.18 09:53:27 DEBUG emofiltDebug - calling Mary server with phrase Guten Tag meine Damen und Herren, dies ist eine Demonstration von emmbrola and language: de7
+13.Sep.18 09:53:29 DEBUG emofiltDebug - exec: /home/fburkhardt/bin/mbrola/mbrola /home/fburkhardt/bin/mbrola/de7/de7 /home/fburkhardt/tmp/tmp.pho /home/fburkhardt/tmp/tmp.wav 
+13.Sep.18 09:53:36 DEBUG emofiltDebug - setting emotions: joy
+13.Sep.18 09:53:36 DEBUG emofiltDebug - returning emotion: joy
+13.Sep.18 09:53:36 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Sep.18 09:53:36 DEBUG emofiltDebug - meanF0, 150, new mean: 245.41666666666666
+13.Sep.18 09:53:36 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Sep.18 09:53:36 DEBUG emofiltDebug - meanF0, 150, new mean: 245.41666666666666
+13.Sep.18 09:53:36 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Sep.18 09:53:36 DEBUG emofiltDebug - meanF0, 150, new mean: 245.41666666666666
+13.Sep.18 09:53:36 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Sep.18 09:53:36 DEBUG emofiltDebug - meanF0, 150, new mean: 245.41666666666666
+13.Sep.18 09:53:36 DEBUG emofiltDebug - Element not found in Emotion Description
+13.Sep.18 09:53:36 DEBUG emofiltDebug - Element not found in Emotion Description
+13.Sep.18 09:53:36 DEBUG emofiltDebug - Element not found in Emotion Description
+13.Sep.18 09:53:36 DEBUG emofiltDebug - Element not found in Emotion Description
+13.Sep.18 09:53:36 DEBUG emofiltDebug - Element not found in Emotion Description
+13.Sep.18 09:53:36 DEBUG emofiltDebug - Element not found in Emotion Description
+13.Sep.18 09:53:36 DEBUG emofiltDebug - Element not found in Emotion Description
+13.Sep.18 09:53:36 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Sep.18 09:53:36 DEBUG emofiltDebug - meanF0, 150, new mean: 245.41666666666666
+13.Sep.18 09:53:36 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Sep.18 09:53:36 DEBUG emofiltDebug - meanF0, 150, new mean: 245.41666666666666
+13.Sep.18 09:53:36 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Sep.18 09:53:36 DEBUG emofiltDebug - meanF0, 150, new mean: 245.41666666666666
+13.Sep.18 09:53:36 DEBUG emofiltDebug - Element not found in Emotion Description
+13.Sep.18 09:53:36 DEBUG emofiltDebug - Element not found in Emotion Description
+13.Sep.18 09:53:36 DEBUG emofiltDebug - Element not found in Emotion Description
+13.Sep.18 09:53:36 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Sep.18 09:53:36 DEBUG emofiltDebug - meanF0, 150, new mean: 245.41666666666666
+13.Sep.18 09:53:36 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Sep.18 09:53:36 DEBUG emofiltDebug - meanF0, 150, new mean: 245.41666666666666
+13.Sep.18 09:53:36 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Sep.18 09:53:36 DEBUG emofiltDebug - meanF0, 150, new mean: 245.41666666666666
+13.Sep.18 09:53:36 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Sep.18 09:53:36 DEBUG emofiltDebug - meanF0, 150, new mean: 245.41666666666666
+13.Sep.18 09:53:36 DEBUG emofiltDebug - Element not found in Emotion Description
+13.Sep.18 09:53:36 DEBUG emofiltDebug - Element not found in Emotion Description
+13.Sep.18 09:53:36 DEBUG emofiltDebug - Element not found in Emotion Description
+13.Sep.18 09:53:36 DEBUG emofiltDebug - defaultrate:100
+13.Sep.18 09:53:36 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Sep.18 09:53:36 DEBUG emofiltDebug - meanF0, 150, new mean: 245.41666666666666
+13.Sep.18 09:53:36 DEBUG emofiltDebug - defaultrate:100
+13.Sep.18 09:53:36 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Sep.18 09:53:36 DEBUG emofiltDebug - meanF0, 150, new mean: 245.41666666666666
+13.Sep.18 09:53:36 DEBUG emofiltDebug - Element not found in Emotion Description
+13.Sep.18 09:53:36 DEBUG emofiltDebug - Element not found in Emotion Description
+13.Sep.18 09:53:36 DEBUG emofiltDebug - Element not found in Emotion Description
+13.Sep.18 09:53:36 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Sep.18 09:53:36 DEBUG emofiltDebug - meanF0, 150, new mean: 245.41666666666666
+13.Sep.18 09:53:36 DEBUG emofiltDebug - Element not found in Emotion Description
+13.Sep.18 09:53:36 DEBUG emofiltDebug - Element not found in Emotion Description
+13.Sep.18 09:53:36 DEBUG emofiltDebug - Element not found in Emotion Description
+13.Sep.18 09:53:36 DEBUG emofiltDebug - Element not found in Emotion Description
+13.Sep.18 09:53:36 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Sep.18 09:53:36 DEBUG emofiltDebug - meanF0, 150, new mean: 245.41666666666666
+13.Sep.18 09:53:36 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Sep.18 09:53:36 DEBUG emofiltDebug - meanF0, 150, new mean: 245.41666666666666
+13.Sep.18 09:53:36 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Sep.18 09:53:36 DEBUG emofiltDebug - meanF0, 150, new mean: 245.41666666666666
+13.Sep.18 09:53:38 DEBUG emofiltDebug - exec: /home/fburkhardt/bin/mbrola/mbrola /home/fburkhardt/bin/mbrola/de7/de7 /home/fburkhardt/tmp/tmp.pho /home/fburkhardt/tmp/tmp.wav 
+13.Sep.18 09:53:52 DEBUG emofiltDebug - calling Mary server with phrase Guten Tag meine Damen und Herren, dies ist eine Demonstration von emm brola and language: de7
+13.Sep.18 09:53:58 DEBUG emofiltDebug - setting emotions: neutral
+13.Sep.18 09:53:58 DEBUG emofiltDebug - returning emotion: neutral
+13.Sep.18 09:53:58 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Sep.18 09:53:58 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Sep.18 09:53:58 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Sep.18 09:53:58 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Sep.18 09:53:58 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Sep.18 09:53:58 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Sep.18 09:53:58 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Sep.18 09:53:58 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Sep.18 09:53:58 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Sep.18 09:53:58 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Sep.18 09:53:58 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Sep.18 09:53:58 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Sep.18 09:53:58 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Sep.18 09:53:58 DEBUG emofiltDebug - defaultrate:100
+13.Sep.18 09:53:58 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Sep.18 09:53:58 DEBUG emofiltDebug - defaultrate:100
+13.Sep.18 09:53:58 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Sep.18 09:53:58 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Sep.18 09:53:58 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Sep.18 09:53:58 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Sep.18 09:53:58 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Sep.18 09:53:58 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+13.Sep.18 09:54:00 DEBUG emofiltDebug - exec: /home/fburkhardt/bin/mbrola/mbrola /home/fburkhardt/bin/mbrola/de7/de7 /home/fburkhardt/tmp/tmp.pho /home/fburkhardt/tmp/tmp.wav 
+25.Oct.18 13:39:02 DEBUG emofiltDebug - F0Mean, F0Range, Variability, PhraseContour, ContourFromStress, LevelUnstress, LevelFocusstress, LevelWordstress, ContourUnstress, ContourFocusstress, ContourWordstress, LastSylContour, WaveModel, SpeechRate, DurationFocusstressedSyls, DurationWordstressedSyls, DurationUnstressedSyls, DurVowel, DurAprx, DurNasal, DurVFric, DurVLFric, DurVStop, DurVLStop, DurPause, Jitter, VocalEffort, VowelTarget
+25.Oct.18 13:39:02 DEBUG emofiltDebug -  initialisation, use GUI=true
+25.Oct.18 13:39:02 DEBUG emofiltDebug - loaded plugin: name: f0Mean, type: pitch
+25.Oct.18 13:39:02 DEBUG emofiltDebug -  initialisation, use GUI=true
+25.Oct.18 13:39:02 DEBUG emofiltDebug - loaded plugin: name: f0Range, type: pitch
+25.Oct.18 13:39:02 DEBUG emofiltDebug -  initialisation, use GUI=true
+25.Oct.18 13:39:02 DEBUG emofiltDebug - loaded plugin: name: variability, type: pitch
+25.Oct.18 13:39:02 DEBUG emofiltDebug -  initialisation, use GUI=true
+25.Oct.18 13:39:02 DEBUG emofiltDebug - loaded plugin: name: phraseContour, type: pitch
+25.Oct.18 13:39:02 DEBUG emofiltDebug -  initialisation, use GUI=true
+25.Oct.18 13:39:02 DEBUG emofiltDebug - loaded plugin: name: contourFromStress, type: pitch
+25.Oct.18 13:39:02 DEBUG emofiltDebug -  initialisation, use GUI=true
+25.Oct.18 13:39:02 DEBUG emofiltDebug - loaded plugin: name: levelUnstress, type: pitch
+25.Oct.18 13:39:02 DEBUG emofiltDebug -  initialisation, use GUI=true
+25.Oct.18 13:39:02 DEBUG emofiltDebug - loaded plugin: name: levelFocusstress, type: pitch
+25.Oct.18 13:39:02 DEBUG emofiltDebug -  initialisation, use GUI=true
+25.Oct.18 13:39:02 DEBUG emofiltDebug - loaded plugin: name: levelWordstress, type: pitch
+25.Oct.18 13:39:02 DEBUG emofiltDebug -  initialisation, use GUI=true
+25.Oct.18 13:39:02 DEBUG emofiltDebug - loaded plugin: name: contourUnstress, type: pitch
+25.Oct.18 13:39:02 DEBUG emofiltDebug -  initialisation, use GUI=true
+25.Oct.18 13:39:02 DEBUG emofiltDebug - loaded plugin: name: contourFocusstress, type: pitch
+25.Oct.18 13:39:02 DEBUG emofiltDebug -  initialisation, use GUI=true
+25.Oct.18 13:39:02 DEBUG emofiltDebug - loaded plugin: name: contourWordstress, type: pitch
+25.Oct.18 13:39:02 DEBUG emofiltDebug -  initialisation, use GUI=true
+25.Oct.18 13:39:02 DEBUG emofiltDebug - loaded plugin: name: lastSylContour, type: pitch
+25.Oct.18 13:39:02 DEBUG emofiltDebug -  initialisation, use GUI=true
+25.Oct.18 13:39:02 DEBUG emofiltDebug - loaded plugin: name: waveModel, type: pitch
+25.Oct.18 13:39:02 DEBUG emofiltDebug -  initialisation, use GUI=true
+25.Oct.18 13:39:02 DEBUG emofiltDebug - loaded plugin: name: speechRate, type: duration
+25.Oct.18 13:39:02 DEBUG emofiltDebug -  initialisation, use GUI=true
+25.Oct.18 13:39:02 DEBUG emofiltDebug - loaded plugin: name: durationFocusstressedSyls, type: duration
+25.Oct.18 13:39:02 DEBUG emofiltDebug -  initialisation, use GUI=true
+25.Oct.18 13:39:02 DEBUG emofiltDebug - loaded plugin: name: durationWordstressedSyls, type: duration
+25.Oct.18 13:39:02 DEBUG emofiltDebug -  initialisation, use GUI=true
+25.Oct.18 13:39:02 DEBUG emofiltDebug - loaded plugin: name: durationUnstressedSyls, type: duration
+25.Oct.18 13:39:02 DEBUG emofiltDebug -  initialisation, use GUI=true
+25.Oct.18 13:39:02 DEBUG emofiltDebug - loaded plugin: name: durVowel, type: duration
+25.Oct.18 13:39:02 DEBUG emofiltDebug -  initialisation, use GUI=true
+25.Oct.18 13:39:02 DEBUG emofiltDebug - loaded plugin: name: durAprx, type: duration
+25.Oct.18 13:39:02 DEBUG emofiltDebug -  initialisation, use GUI=true
+25.Oct.18 13:39:02 DEBUG emofiltDebug - loaded plugin: name: durNasal, type: duration
+25.Oct.18 13:39:02 DEBUG emofiltDebug -  initialisation, use GUI=true
+25.Oct.18 13:39:02 DEBUG emofiltDebug - loaded plugin: name: durVFric, type: duration
+25.Oct.18 13:39:02 DEBUG emofiltDebug -  initialisation, use GUI=true
+25.Oct.18 13:39:02 DEBUG emofiltDebug - loaded plugin: name: durVLFric, type: duration
+25.Oct.18 13:39:02 DEBUG emofiltDebug -  initialisation, use GUI=true
+25.Oct.18 13:39:02 DEBUG emofiltDebug - loaded plugin: name: durVStop, type: duration
+25.Oct.18 13:39:02 DEBUG emofiltDebug -  initialisation, use GUI=true
+25.Oct.18 13:39:02 DEBUG emofiltDebug - loaded plugin: name: durVLStop, type: duration
+25.Oct.18 13:39:02 DEBUG emofiltDebug -  initialisation, use GUI=true
+25.Oct.18 13:39:02 DEBUG emofiltDebug - loaded plugin: name: durPause, type: duration
+25.Oct.18 13:39:02 DEBUG emofiltDebug -  initialisation, use GUI=true
+25.Oct.18 13:39:02 DEBUG emofiltDebug - loaded plugin: name: jitter, type: phonation
+25.Oct.18 13:39:02 DEBUG emofiltDebug -  initialisation, use GUI=true
+25.Oct.18 13:39:02 DEBUG emofiltDebug - loaded plugin: name: vocalEffort, type: phonation
+25.Oct.18 13:39:02 DEBUG emofiltDebug -  initialisation, use GUI=true
+25.Oct.18 13:39:02 DEBUG emofiltDebug - loaded plugin: name: vowelTarget, type: articulation
+25.Oct.18 13:39:02 DEBUG emofiltDebug - loaded 28 plugins.
+25.Oct.18 13:39:02 DEBUG emofiltDebug - lfp: /home/fburkhardt/disk2/workspace/Emofilt/emofilt/languages.xml
+25.Oct.18 13:39:02 DEBUG emofiltDebug - loaded: language: ex, voice: 1
+25.Oct.18 13:39:02 DEBUG emofiltDebug - loaded: language: cn, voice: 1
+25.Oct.18 13:39:02 DEBUG emofiltDebug - loaded: language: tl, voice: 1
+25.Oct.18 13:39:02 DEBUG emofiltDebug - loaded: language: es, voice: 4
+25.Oct.18 13:39:02 DEBUG emofiltDebug - loaded: language: es, voice: 2
+25.Oct.18 13:39:02 DEBUG emofiltDebug - loaded: language: nl, voice: 2
+25.Oct.18 13:39:02 DEBUG emofiltDebug - loaded: language: hu, voice: 1
+25.Oct.18 13:39:02 DEBUG emofiltDebug - loaded: language: it, voice: 3
+25.Oct.18 13:39:02 DEBUG emofiltDebug - loaded: language: gr, voice: 2
+25.Oct.18 13:39:02 DEBUG emofiltDebug - loaded: language: tr, voice: 1
+25.Oct.18 13:39:02 DEBUG emofiltDebug - loaded: language: de, voice: 1
+25.Oct.18 13:39:02 DEBUG emofiltDebug - loaded: language: de, voice: 2
+25.Oct.18 13:39:02 DEBUG emofiltDebug - loaded: language: de, voice: 3
+25.Oct.18 13:39:02 DEBUG emofiltDebug - loaded: language: de, voice: 4
+25.Oct.18 13:39:02 DEBUG emofiltDebug - loaded: language: de, voice: 6
+25.Oct.18 13:39:02 DEBUG emofiltDebug - loaded: language: de, voice: 7
+25.Oct.18 13:39:02 DEBUG emofiltDebug - loaded: language: en, voice: 1
+25.Oct.18 13:39:02 DEBUG emofiltDebug - loaded: language: us, voice: 1
+25.Oct.18 13:39:02 DEBUG emofiltDebug - loaded: language: us, voice: 2
+25.Oct.18 13:39:02 DEBUG emofiltDebug - loaded: language: us, voice: 3
+25.Oct.18 13:39:02 DEBUG emofiltDebug - loaded: language: fr, voice: 1
+25.Oct.18 13:39:02 DEBUG emofiltDebug - loaded: language: fr, voice: 2
+25.Oct.18 13:39:02 DEBUG emofiltDebug - loaded: language: fr, voice: 3
+25.Oct.18 13:39:02 DEBUG emofiltDebug - loaded: language: fr, voice: 4
+25.Oct.18 13:39:02 DEBUG emofiltDebug - loaded: language: fr, voice: 5
+25.Oct.18 13:39:02 DEBUG emofiltDebug - loaded: language: fr, voice: 6
+25.Oct.18 13:39:02 DEBUG emofiltDebug - loaded: language: fr, voice: 7
+25.Oct.18 13:39:02 DEBUG emofiltDebug - loaded 27 languages
+25.Oct.18 13:39:02 DEBUG emofiltDebug - happySad
+25.Oct.18 13:39:02 DEBUG emofiltDebug - angrySad
+25.Oct.18 13:39:02 DEBUG emofiltDebug - sadAngry
+25.Oct.18 13:39:02 DEBUG emofiltDebug - boredom
+25.Oct.18 13:39:02 DEBUG emofiltDebug - despair
+25.Oct.18 13:39:02 DEBUG emofiltDebug - sad
+25.Oct.18 13:39:02 DEBUG emofiltDebug - neurotic
+25.Oct.18 13:39:02 DEBUG emofiltDebug - fairytale
+25.Oct.18 13:39:02 DEBUG emofiltDebug - coldAnger
+25.Oct.18 13:39:02 DEBUG emofiltDebug - yawning
+25.Oct.18 13:39:02 DEBUG emofiltDebug - joy
+25.Oct.18 13:39:02 DEBUG emofiltDebug - happy
+25.Oct.18 13:39:02 DEBUG emofiltDebug - hotAnger
+25.Oct.18 13:39:02 DEBUG emofiltDebug - neutral
+25.Oct.18 13:39:02 DEBUG emofiltDebug - scared
+25.Oct.18 13:39:02 DEBUG emofiltDebug - returning emotion: neutral
+25.Oct.18 13:39:03 DEBUG emofiltDebug - returning emotion: neutral
+25.Oct.18 13:39:03 DEBUG emofiltDebug - setting emotions: neutral
+25.Oct.18 13:39:03 DEBUG emofiltDebug - returning emotion: neutral
+25.Oct.18 13:39:03 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:39:03 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:39:03 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:39:03 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:39:03 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:39:03 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:39:03 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:39:07 DEBUG emofiltDebug - exec: /home/fburkhardt/bin/mbrola/mbrola /home/fburkhardt/bin/mbrola/de6/de6 /home/fburkhardt/tmp/tmp.pho /home/fburkhardt/tmp/tmp.wav 
+25.Oct.18 13:40:18 DEBUG emofiltDebug - calling Mary server with phrase Hallo, ich bin Pepper! Ich freue mich dich zu sehen. Lass uns ein Spiel zusammen machen. and language: de6
+25.Oct.18 13:40:21 DEBUG emofiltDebug - exec: /home/fburkhardt/bin/mbrola/mbrola /home/fburkhardt/bin/mbrola/de6/de6 /home/fburkhardt/tmp/tmp.pho /home/fburkhardt/tmp/tmp.wav 
+25.Oct.18 13:42:14 DEBUG emofiltDebug - saving wav-file to: /home/fburkhardt/emofilt_pepper_de6_neutral.wav
+25.Oct.18 13:42:14 DEBUG emofiltDebug - exec: /home/fburkhardt/bin/mbrola/mbrola /home/fburkhardt/bin/mbrola/de6/de6 /home/fburkhardt/tmp/tmp.pho /home/fburkhardt/emofilt_pepper_de6_neutral.wav 
+25.Oct.18 13:42:46 DEBUG emofiltDebug - setting emotions: happy
+25.Oct.18 13:42:46 DEBUG emofiltDebug - returning emotion: happy
+25.Oct.18 13:42:46 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:42:46 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:42:46 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:42:46 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:42:46 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:42:46 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:42:46 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:42:46 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:42:46 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:42:46 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:42:46 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:42:46 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:42:46 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:42:46 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:42:46 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:42:46 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:42:46 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:42:46 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:42:46 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:42:46 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:42:46 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:42:46 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:42:46 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:42:46 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:42:46 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:42:46 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:42:46 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:42:46 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:42:46 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:42:48 DEBUG emofiltDebug - exec: /home/fburkhardt/bin/mbrola/mbrola /home/fburkhardt/bin/mbrola/de6/de6 /home/fburkhardt/tmp/tmp.pho /home/fburkhardt/tmp/tmp.wav 
+25.Oct.18 13:42:50 DEBUG emofiltDebug - exec: /home/fburkhardt/bin/mbrola/mbrola /home/fburkhardt/bin/mbrola/de6/de6 /home/fburkhardt/tmp/tmp.pho /home/fburkhardt/tmp/tmp.wav 
+25.Oct.18 13:42:53 DEBUG emofiltDebug - exec: /home/fburkhardt/bin/mbrola/mbrola /home/fburkhardt/bin/mbrola/de6/de6 /home/fburkhardt/tmp/tmp.pho /home/fburkhardt/tmp/tmp.wav 
+25.Oct.18 13:44:19 DEBUG emofiltDebug - calling Mary server with phrase Hallo, ich bin Pepper! Ich freue mich dich zu sehen. Lass uns ein Spiel zusammen machen. and language: de6
+25.Oct.18 13:44:24 DEBUG emofiltDebug - setting emotions: neutral
+25.Oct.18 13:44:24 DEBUG emofiltDebug - returning emotion: neutral
+25.Oct.18 13:44:24 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:44:24 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:44:24 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:44:24 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:44:24 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:44:24 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:44:24 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:44:24 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:44:24 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:44:24 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:44:24 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:44:29 DEBUG emofiltDebug - setting emotions: neutral
+25.Oct.18 13:44:29 DEBUG emofiltDebug - returning emotion: neutral
+25.Oct.18 13:44:29 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:44:29 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:44:29 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:44:29 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:44:29 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:44:29 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:44:29 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:44:31 DEBUG emofiltDebug - exec: /home/fburkhardt/bin/mbrola/mbrola /home/fburkhardt/bin/mbrola/de7/de7 /home/fburkhardt/tmp/tmp.pho /home/fburkhardt/tmp/tmp.wav 
+25.Oct.18 13:44:49 DEBUG emofiltDebug - calling Mary server with phrase Hallo, ich bin Pepper! Ich freue mich dich zu sehen. Lass uns ein Spiel zusammen machen. and language: de7
+25.Oct.18 13:44:51 DEBUG emofiltDebug - exec: /home/fburkhardt/bin/mbrola/mbrola /home/fburkhardt/bin/mbrola/de7/de7 /home/fburkhardt/tmp/tmp.pho /home/fburkhardt/tmp/tmp.wav 
+25.Oct.18 13:45:09 DEBUG emofiltDebug - saving wav-file to: /home/fburkhardt/emofilt_pepper_de7_neutral.wav
+25.Oct.18 13:45:09 DEBUG emofiltDebug - exec: /home/fburkhardt/bin/mbrola/mbrola /home/fburkhardt/bin/mbrola/de7/de7 /home/fburkhardt/tmp/tmp.pho /home/fburkhardt/emofilt_pepper_de7_neutral.wav 
+25.Oct.18 13:45:20 DEBUG emofiltDebug - setting emotions: happy
+25.Oct.18 13:45:20 DEBUG emofiltDebug - returning emotion: happy
+25.Oct.18 13:45:20 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:45:20 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:45:20 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:45:20 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:45:20 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:45:20 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:45:20 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:45:20 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:45:20 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:45:20 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:45:20 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:45:20 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:45:20 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:45:20 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:45:20 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:45:20 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:45:20 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:45:20 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:45:20 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:45:20 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:45:20 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:45:20 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:45:20 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:45:20 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:45:20 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:45:20 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:45:20 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:45:20 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:45:20 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:45:22 DEBUG emofiltDebug - exec: /home/fburkhardt/bin/mbrola/mbrola /home/fburkhardt/bin/mbrola/de7/de7 /home/fburkhardt/tmp/tmp.pho /home/fburkhardt/tmp/tmp.wav 
+25.Oct.18 13:52:00 DEBUG emofiltDebug - exec: /home/fburkhardt/bin/mbrola/mbrola /home/fburkhardt/bin/mbrola/de7/de7 /home/fburkhardt/tmp/tmp.pho /home/fburkhardt/tmp/tmp.wav 
+25.Oct.18 13:52:07 DEBUG emofiltDebug - calling Mary server with phrase Hallo, ich bin Pepper! Ich freue mich dich zu sehen. Lass uns ein Spiel zusammen machen. and language: de7
+25.Oct.18 13:52:19 DEBUG emofiltDebug - F0Mean, F0Range, Variability, PhraseContour, ContourFromStress, LevelUnstress, LevelFocusstress, LevelWordstress, ContourUnstress, ContourFocusstress, ContourWordstress, LastSylContour, WaveModel, SpeechRate, DurationFocusstressedSyls, DurationWordstressedSyls, DurationUnstressedSyls, DurVowel, DurAprx, DurNasal, DurVFric, DurVLFric, DurVStop, DurVLStop, DurPause, Jitter, VocalEffort, VowelTarget
+25.Oct.18 13:52:19 DEBUG emofiltDebug -  initialisation, use GUI=true
+25.Oct.18 13:52:19 DEBUG emofiltDebug - loaded plugin: name: f0Mean, type: pitch
+25.Oct.18 13:52:19 DEBUG emofiltDebug -  initialisation, use GUI=true
+25.Oct.18 13:52:19 DEBUG emofiltDebug - loaded plugin: name: f0Range, type: pitch
+25.Oct.18 13:52:19 DEBUG emofiltDebug -  initialisation, use GUI=true
+25.Oct.18 13:52:19 DEBUG emofiltDebug - loaded plugin: name: variability, type: pitch
+25.Oct.18 13:52:19 DEBUG emofiltDebug -  initialisation, use GUI=true
+25.Oct.18 13:52:19 DEBUG emofiltDebug - loaded plugin: name: phraseContour, type: pitch
+25.Oct.18 13:52:19 DEBUG emofiltDebug -  initialisation, use GUI=true
+25.Oct.18 13:52:19 DEBUG emofiltDebug - loaded plugin: name: contourFromStress, type: pitch
+25.Oct.18 13:52:19 DEBUG emofiltDebug -  initialisation, use GUI=true
+25.Oct.18 13:52:19 DEBUG emofiltDebug - loaded plugin: name: levelUnstress, type: pitch
+25.Oct.18 13:52:19 DEBUG emofiltDebug -  initialisation, use GUI=true
+25.Oct.18 13:52:19 DEBUG emofiltDebug - loaded plugin: name: levelFocusstress, type: pitch
+25.Oct.18 13:52:19 DEBUG emofiltDebug -  initialisation, use GUI=true
+25.Oct.18 13:52:19 DEBUG emofiltDebug - loaded plugin: name: levelWordstress, type: pitch
+25.Oct.18 13:52:19 DEBUG emofiltDebug -  initialisation, use GUI=true
+25.Oct.18 13:52:19 DEBUG emofiltDebug - loaded plugin: name: contourUnstress, type: pitch
+25.Oct.18 13:52:19 DEBUG emofiltDebug -  initialisation, use GUI=true
+25.Oct.18 13:52:19 DEBUG emofiltDebug - loaded plugin: name: contourFocusstress, type: pitch
+25.Oct.18 13:52:19 DEBUG emofiltDebug -  initialisation, use GUI=true
+25.Oct.18 13:52:19 DEBUG emofiltDebug - loaded plugin: name: contourWordstress, type: pitch
+25.Oct.18 13:52:19 DEBUG emofiltDebug -  initialisation, use GUI=true
+25.Oct.18 13:52:19 DEBUG emofiltDebug - loaded plugin: name: lastSylContour, type: pitch
+25.Oct.18 13:52:19 DEBUG emofiltDebug -  initialisation, use GUI=true
+25.Oct.18 13:52:19 DEBUG emofiltDebug - loaded plugin: name: waveModel, type: pitch
+25.Oct.18 13:52:19 DEBUG emofiltDebug -  initialisation, use GUI=true
+25.Oct.18 13:52:19 DEBUG emofiltDebug - loaded plugin: name: speechRate, type: duration
+25.Oct.18 13:52:19 DEBUG emofiltDebug -  initialisation, use GUI=true
+25.Oct.18 13:52:19 DEBUG emofiltDebug - loaded plugin: name: durationFocusstressedSyls, type: duration
+25.Oct.18 13:52:19 DEBUG emofiltDebug -  initialisation, use GUI=true
+25.Oct.18 13:52:19 DEBUG emofiltDebug - loaded plugin: name: durationWordstressedSyls, type: duration
+25.Oct.18 13:52:19 DEBUG emofiltDebug -  initialisation, use GUI=true
+25.Oct.18 13:52:19 DEBUG emofiltDebug - loaded plugin: name: durationUnstressedSyls, type: duration
+25.Oct.18 13:52:19 DEBUG emofiltDebug -  initialisation, use GUI=true
+25.Oct.18 13:52:19 DEBUG emofiltDebug - loaded plugin: name: durVowel, type: duration
+25.Oct.18 13:52:19 DEBUG emofiltDebug -  initialisation, use GUI=true
+25.Oct.18 13:52:19 DEBUG emofiltDebug - loaded plugin: name: durAprx, type: duration
+25.Oct.18 13:52:19 DEBUG emofiltDebug -  initialisation, use GUI=true
+25.Oct.18 13:52:19 DEBUG emofiltDebug - loaded plugin: name: durNasal, type: duration
+25.Oct.18 13:52:19 DEBUG emofiltDebug -  initialisation, use GUI=true
+25.Oct.18 13:52:19 DEBUG emofiltDebug - loaded plugin: name: durVFric, type: duration
+25.Oct.18 13:52:19 DEBUG emofiltDebug -  initialisation, use GUI=true
+25.Oct.18 13:52:19 DEBUG emofiltDebug - loaded plugin: name: durVLFric, type: duration
+25.Oct.18 13:52:19 DEBUG emofiltDebug -  initialisation, use GUI=true
+25.Oct.18 13:52:19 DEBUG emofiltDebug - loaded plugin: name: durVStop, type: duration
+25.Oct.18 13:52:19 DEBUG emofiltDebug -  initialisation, use GUI=true
+25.Oct.18 13:52:19 DEBUG emofiltDebug - loaded plugin: name: durVLStop, type: duration
+25.Oct.18 13:52:19 DEBUG emofiltDebug -  initialisation, use GUI=true
+25.Oct.18 13:52:19 DEBUG emofiltDebug - loaded plugin: name: durPause, type: duration
+25.Oct.18 13:52:19 DEBUG emofiltDebug -  initialisation, use GUI=true
+25.Oct.18 13:52:19 DEBUG emofiltDebug - loaded plugin: name: jitter, type: phonation
+25.Oct.18 13:52:19 DEBUG emofiltDebug -  initialisation, use GUI=true
+25.Oct.18 13:52:19 DEBUG emofiltDebug - loaded plugin: name: vocalEffort, type: phonation
+25.Oct.18 13:52:19 DEBUG emofiltDebug -  initialisation, use GUI=true
+25.Oct.18 13:52:19 DEBUG emofiltDebug - loaded plugin: name: vowelTarget, type: articulation
+25.Oct.18 13:52:19 DEBUG emofiltDebug - loaded 28 plugins.
+25.Oct.18 13:52:19 DEBUG emofiltDebug - lfp: /home/fburkhardt/disk2/workspace/Emofilt/emofilt/languages.xml
+25.Oct.18 13:52:19 DEBUG emofiltDebug - loaded: language: ex, voice: 1
+25.Oct.18 13:52:19 DEBUG emofiltDebug - loaded: language: cn, voice: 1
+25.Oct.18 13:52:19 DEBUG emofiltDebug - loaded: language: tl, voice: 1
+25.Oct.18 13:52:19 DEBUG emofiltDebug - loaded: language: es, voice: 4
+25.Oct.18 13:52:19 DEBUG emofiltDebug - loaded: language: es, voice: 2
+25.Oct.18 13:52:19 DEBUG emofiltDebug - loaded: language: nl, voice: 2
+25.Oct.18 13:52:19 DEBUG emofiltDebug - loaded: language: hu, voice: 1
+25.Oct.18 13:52:19 DEBUG emofiltDebug - loaded: language: it, voice: 3
+25.Oct.18 13:52:19 DEBUG emofiltDebug - loaded: language: gr, voice: 2
+25.Oct.18 13:52:19 DEBUG emofiltDebug - loaded: language: tr, voice: 1
+25.Oct.18 13:52:19 DEBUG emofiltDebug - loaded: language: de, voice: 1
+25.Oct.18 13:52:19 DEBUG emofiltDebug - loaded: language: de, voice: 2
+25.Oct.18 13:52:19 DEBUG emofiltDebug - loaded: language: de, voice: 3
+25.Oct.18 13:52:19 DEBUG emofiltDebug - loaded: language: de, voice: 4
+25.Oct.18 13:52:19 DEBUG emofiltDebug - loaded: language: de, voice: 6
+25.Oct.18 13:52:19 DEBUG emofiltDebug - loaded: language: de, voice: 7
+25.Oct.18 13:52:19 DEBUG emofiltDebug - loaded: language: en, voice: 1
+25.Oct.18 13:52:19 DEBUG emofiltDebug - loaded: language: us, voice: 1
+25.Oct.18 13:52:19 DEBUG emofiltDebug - loaded: language: us, voice: 2
+25.Oct.18 13:52:19 DEBUG emofiltDebug - loaded: language: us, voice: 3
+25.Oct.18 13:52:19 DEBUG emofiltDebug - loaded: language: fr, voice: 1
+25.Oct.18 13:52:19 DEBUG emofiltDebug - loaded: language: fr, voice: 2
+25.Oct.18 13:52:19 DEBUG emofiltDebug - loaded: language: fr, voice: 3
+25.Oct.18 13:52:19 DEBUG emofiltDebug - loaded: language: fr, voice: 4
+25.Oct.18 13:52:19 DEBUG emofiltDebug - loaded: language: fr, voice: 5
+25.Oct.18 13:52:19 DEBUG emofiltDebug - loaded: language: fr, voice: 6
+25.Oct.18 13:52:19 DEBUG emofiltDebug - loaded: language: fr, voice: 7
+25.Oct.18 13:52:19 DEBUG emofiltDebug - loaded 27 languages
+25.Oct.18 13:52:19 DEBUG emofiltDebug - happySad
+25.Oct.18 13:52:19 DEBUG emofiltDebug - angrySad
+25.Oct.18 13:52:19 DEBUG emofiltDebug - sadAngry
+25.Oct.18 13:52:19 DEBUG emofiltDebug - boredom
+25.Oct.18 13:52:19 DEBUG emofiltDebug - despair
+25.Oct.18 13:52:19 DEBUG emofiltDebug - sad
+25.Oct.18 13:52:19 DEBUG emofiltDebug - neurotic
+25.Oct.18 13:52:19 DEBUG emofiltDebug - fairytale
+25.Oct.18 13:52:19 DEBUG emofiltDebug - coldAnger
+25.Oct.18 13:52:19 DEBUG emofiltDebug - yawning
+25.Oct.18 13:52:19 DEBUG emofiltDebug - joy
+25.Oct.18 13:52:19 DEBUG emofiltDebug - happy
+25.Oct.18 13:52:19 DEBUG emofiltDebug - hotAnger
+25.Oct.18 13:52:19 DEBUG emofiltDebug - neutral
+25.Oct.18 13:52:19 DEBUG emofiltDebug - scared
+25.Oct.18 13:52:19 DEBUG emofiltDebug - returning emotion: neutral
+25.Oct.18 13:52:19 DEBUG emofiltDebug - returning emotion: neutral
+25.Oct.18 13:52:19 DEBUG emofiltDebug - setting emotions: neutral
+25.Oct.18 13:52:19 DEBUG emofiltDebug - returning emotion: neutral
+25.Oct.18 13:52:19 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:52:19 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:52:19 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:52:19 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:52:19 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:52:19 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:52:19 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:52:29 DEBUG emofiltDebug - setting emotions: happy
+25.Oct.18 13:52:29 DEBUG emofiltDebug - returning emotion: happy
+25.Oct.18 13:52:29 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:52:29 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:52:29 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:52:29 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:52:29 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:52:29 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:52:29 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:52:29 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:52:29 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:52:29 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:52:29 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:52:29 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:52:29 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:52:29 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:52:29 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:52:29 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:52:29 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:52:29 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:52:29 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:52:29 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:52:29 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:52:29 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:52:29 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:52:29 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:52:29 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:52:29 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:52:29 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:52:29 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:52:29 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:52:30 DEBUG emofiltDebug - exec: /home/fburkhardt/bin/mbrola/mbrola /home/fburkhardt/bin/mbrola/de6/de6 /home/fburkhardt/tmp/tmp.pho /home/fburkhardt/tmp/tmp.wav 
+25.Oct.18 13:53:21 DEBUG emofiltDebug - calling Mary server with phrase Hallo, ich bin Pepper! Ich freue mich dich zu sehen. Lass uns ein Spiel zusammen machen. and language: de6
+25.Oct.18 13:53:30 DEBUG emofiltDebug - setting emotions: neutral
+25.Oct.18 13:53:30 DEBUG emofiltDebug - returning emotion: neutral
+25.Oct.18 13:53:30 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:53:30 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:53:30 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:53:30 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:53:30 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:53:30 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:53:30 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:53:30 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:53:30 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:53:30 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:53:30 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:53:34 DEBUG emofiltDebug - setting emotions: happy
+25.Oct.18 13:53:34 DEBUG emofiltDebug - returning emotion: happy
+25.Oct.18 13:53:34 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:53:34 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:53:34 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:53:34 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:53:34 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:53:34 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:53:34 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:53:34 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:53:34 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:53:34 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:53:34 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:53:34 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:53:34 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:53:34 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:53:34 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:53:34 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:53:34 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:53:34 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:53:34 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:53:34 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:53:34 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:53:34 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:53:34 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:53:34 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:53:34 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:53:34 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:53:34 DEBUG emofiltDebug - Element not found in Emotion Description
+25.Oct.18 13:53:34 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:53:34 DEBUG emofiltDebug - changing utterance with intensity rate: 0.0
+25.Oct.18 13:53:36 DEBUG emofiltDebug - exec: /home/fburkhardt/bin/mbrola/mbrola /home/fburkhardt/bin/mbrola/de6/de6 /home/fburkhardt/tmp/tmp.pho /home/fburkhardt/tmp/tmp.wav 

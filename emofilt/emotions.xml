@@ -108,26 +108,7 @@
 		</articulation>
 	</emotion>
 	
-	<emotion name="scared" color="32cd32">
-		<pitch>
-			<f0Range rate="160" />
-			<phraseContour rate="10" type="fall" />
-			<f0Mean rate="200" />
-			<contourFocusstress rate="10" type="straight" />
-			<lastSylContour rate="30" type="rise" />
-		</pitch>
-		<duration>
-			<speechRate rate="70" />
-			<durationFocusstressedSyls rate="80" />
-			<durPause rate="210" />
-		</duration>
-		<phonation>
-			<jitter rate="5" />
-		</phonation>
-		<articulation>
-			<vowelTarget target="undershoot" />
-		</articulation>
-	</emotion>
+	
 	
 	
 	
@@ -243,4 +224,23 @@
 			<vowelTarget target="overshoot" />
 		</articulation>
 	</emotion>
-<emotion name="neutral" color="000000" /></emotions>
+<emotion name="neutral" color="000000" /><emotion name="scared" color="32cd32">
+		<pitch>
+			<f0Range rate="160" />
+			<phraseContour rate="10" type="fall" />
+			<f0Mean rate="200" />
+			<contourFocusstress rate="10" type="straight" />
+			<lastSylContour rate="30" type="rise" />
+		</pitch>
+		<duration>
+			<speechRate rate="70" />
+			<durationFocusstressedSyls rate="80" />
+			<durPause rate="210" />
+		</duration>
+		<phonation>
+			<jitter rate="5" />
+		</phonation>
+		<articulation>
+			<vowelTarget target="undershoot" />
+		</articulation>
+	</emotion></emotions>
