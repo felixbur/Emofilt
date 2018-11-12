@@ -457,6 +457,7 @@ public class Emofilt {
 	 */
 	public void setVoice(String name) {
 		this._actLanguage = _languages.findLanguage(name);
+		modifyUtterance();
 	}
 
 	/**
@@ -570,6 +571,8 @@ public class Emofilt {
 	public void addEmotion(String name) {
 		Element emoElem = _emotions.addEmotion(name);
 		setActEmotion(emoElem);
+		saveEmotions();
+		_mainFrame.setActEmotion();
 
 	}
 
