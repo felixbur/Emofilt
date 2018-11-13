@@ -224,7 +224,7 @@
 			<vowelTarget target="overshoot" />
 		</articulation>
 	</emotion>
-<emotion name="neutral" color="000000" /><emotion name="scared" color="32cd32">
+<emotion name="scared" color="32cd32">
 		<pitch>
 			<f0Range rate="160" />
 			<phraseContour rate="10" type="fall" />
@@ -243,4 +243,4 @@
 		<articulation>
 			<vowelTarget target="undershoot" />
 		</articulation>
-	</emotion></emotions>
+	</emotion><emotion name="neutral" color="000000" /></emotions>

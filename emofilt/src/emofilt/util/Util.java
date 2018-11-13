@@ -151,6 +151,21 @@ public class Util {
 	 *         the original value.
 	 * @see emofilt.Constants
 	 */
+	public static Integer checkMinPitch(Integer val) {
+		if (val.intValue() < emofilt.Constants.minF0Val) {
+			return  new Integer(emofilt.Constants.minF0Val);
+		}
+		return val;
+	}
+	/**
+	 * Check whether a f0-value is below a constant f0-value.
+	 * 
+	 * @param val
+	 *            The value to check
+	 * @return An F0-value with value set to minValue if the value was below or
+	 *         the original value.
+	 * @see emofilt.Constants
+	 */
 	public static int checkMinPitch(int val) {
 		if (val < emofilt.Constants.minF0Val) {
 			return emofilt.Constants.minF0Val;
