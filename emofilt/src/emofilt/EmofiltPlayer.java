@@ -130,7 +130,9 @@ public class EmofiltPlayer {
 	public String genPhoFile(String text, boolean male) {
 		String tmpPhoFile = Emofilt._config.getString("tmpDir")
 				+ Emofilt._config.getString("tmpPhoFile");
-		return genPhoFile(text, tmpPhoFile, male);
+		String tmpParamsFile = Emofilt._config.getString("tmpDir")
+				+ Emofilt._config.getString("tmpParamsFile");
+		return genPhoFile(text, tmpPhoFile, tmpParamsFile, male);
 	}
 
 	/**
@@ -144,7 +146,7 @@ public class EmofiltPlayer {
 	 *            The sex.
 	 * @return Some error logging.
 	 */
-	public String genPhoFile(String text, String outFilePath, boolean male) {
+	public String genPhoFile(String text, String outFilePath, String paramsFilePath, boolean male) {
 		String method = Emofilt._config.getString("phoGenCmd").trim();
 		String language = _emofilt.getActLanguage().getLangname();
 		PhoGenInterface phoGenerator = null;
@@ -171,7 +173,7 @@ public class EmofiltPlayer {
 		}
 		if (phoGenerator != null) {
 			phoGenerator.init(Emofilt._config, _logger);
-			return phoGenerator.genPhoFile(text, outFilePath,
+			return phoGenerator.genPhoFile(text, outFilePath, paramsFilePath,
 					_emofilt.getActLanguage(), male);
 		}
 		return "no pho generator";
@@ -190,7 +192,9 @@ public class EmofiltPlayer {
 		try {
 			String tmpPhoFile = Emofilt._config.getString("tmpDir")
 					+ Emofilt._config.getString("tmpPhoFile");
-			genPhoFile(text, tmpPhoFile, male);
+			String tmpParamsFile = Emofilt._config.getString("tmpDir")
+					+ Emofilt._config.getString("tmpParamsFile");
+			genPhoFile(text, tmpPhoFile, tmpParamsFile, male);
 			return FileUtil.getFileText(new File(tmpPhoFile));
 		} catch (Exception e) {
 			Util.reportError(e, _logger);

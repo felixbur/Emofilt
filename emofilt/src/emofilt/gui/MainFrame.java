@@ -608,10 +608,12 @@ public class MainFrame extends JFrame {
 		try {
 			String tmpPhoFile = Emofilt._config.getString("tmpDir")
 					+ Emofilt._config.getString("tmpPhoFile");
+			String tmpParamsFile = Emofilt._config.getString("tmpDir")
+					+ Emofilt._config.getString("tmpParamsFile");
 			sentence = SimpleInput.getString(Emofilt._config
 					.getString("mainFrame.insertStringLabel"), _lastText);
 			_lastText = sentence;
-			String cmdOutput = _emofiltPlayer.genPhoFile(sentence, tmpPhoFile,
+			String cmdOutput = _emofiltPlayer.genPhoFile(sentence, tmpPhoFile, tmpParamsFile,
 					utteranceGenderIsMale);
 			if (cmdOutput.trim().length() > 0) {
 				setMsg(cmdOutput);

@@ -351,7 +351,9 @@ public class Emofilt {
 		try {
 			String tmpPhoFile = Emofilt._config.getString("tmpDir")
 					+ Emofilt._config.getString("tmpPhoFile");
-			_emoEmofiltPlayer.genPhoFile(text, tmpPhoFile, male);
+			String tmpParamsFile = Emofilt._config.getString("tmpDir")
+					+ Emofilt._config.getString("tmpParamsFile");
+			_emoEmofiltPlayer.genPhoFile(text, tmpPhoFile, tmpParamsFile, male);
 			loadUtterance(tmpPhoFile);
 		} catch (Exception e) {
 			e.printStackTrace();

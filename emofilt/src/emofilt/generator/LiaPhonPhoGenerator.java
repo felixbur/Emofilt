@@ -30,7 +30,7 @@ public class LiaPhonPhoGenerator implements PhoGenInterface {
 	}
 
 	@Override
-	public String genPhoFile(String text, String outFilePath, Language lang,
+	public String genPhoFile(String text, String outFilePath, String tmpParamsFile, Language lang,
 			boolean male) {
 		String phoGenCmd = _config.getString("workingDir")+System.getProperty("file.separator")+_config.getString("liaphonCommand");
 		int waitTime = _config.getInt("liaPhonWaitTime");

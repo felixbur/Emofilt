@@ -25,7 +25,7 @@ public class MaryPhoGenerator implements PhoGenInterface {
 	}
 
 	@Override
-	public String genPhoFile(String text, String outFilePath, Language lang,
+	public String genPhoFile(String text, String outFilePath, String paramsFilePath, Language lang,
 			boolean male) {
 		String errString = "";
 		try {
@@ -43,6 +43,14 @@ public class MaryPhoGenerator implements PhoGenInterface {
 			System.err.println(baos.toString());
 			FileUtil.writeFileContent(phoF, baos.toString());
 			baos = null;
+			// write out phonetic description
+			ByteArrayOutputStream baosa = new ByteArrayOutputStream();
+			mary.process(text, "TEXT", "ACOUSTPARAMS", lang.getLocale(), null,
+					lang.getName(), baosa);
+			File acoustF = new File(paramsFilePath);
+			System.err.println(baosa.toString());
+			FileUtil.writeFileContent(acoustF, baosa.toString());
+			baosa = null;
 		} catch (Exception e) {
 			e.printStackTrace();
 			errString = e.getMessage();

@@ -8,5 +8,5 @@ import emofilt.Language;
 
 public interface PhoGenInterface {
 	public void init(KeyValues config, Logger logger);
-	public String genPhoFile(String text, String outFilePath, Language lang,  boolean male);
+	public String genPhoFile(String text, String outFilePath, String paramsFilePath, Language lang,  boolean male);
 }

@@ -1,0 +1,28 @@
+/Constants.java/1.18/Wed Jul 18 11:22:08 2012//
+/ElemNotFoundException.java/1.3/Wed Aug 24 10:55:42 2011//
+/Emofilt.java/1.17/Mon Sep 26 12:00:00 2011//
+/EmofiltPlayer.java/1.8/Mon Sep 26 12:00:00 2011//
+/Emotions.java/1.6/Fri Nov  5 12:35:11 2010//
+/F0Val.java/1.3/Wed Aug 24 10:55:42 2011//
+/Language.java/1.7/Wed Aug 24 10:55:42 2011//
+/LanguageContentHandler.java/1.5/Wed Aug 24 10:55:42 2011//
+/Languages.java/1.4/Wed Aug 24 10:55:42 2011//
+/Modification.java/1.4/Wed Aug 24 10:55:42 2011//
+/ModificationPlugin.java/1.4/Fri Apr 15 08:13:43 2011//
+/ModificationPluginManager.java/1.5/Thu Oct 28 10:29:14 2010//
+/Modificator.java/1.2/Thu Jan 31 13:14:14 2008//
+/Phoneme.java/1.6/Wed Jul 18 11:11:35 2012//
+/PhonemeNotFoundException.java/1.2/Thu Jan 31 13:14:14 2008//
+/PhonemesReader.java/1.10/Wed Jul 18 11:11:57 2012//
+/Syllable.java/1.6/Wed Jul 18 11:17:28 2012//
+/Syllablelizer.java/1.3/Thu Oct 28 10:29:14 2010//
+/Utterance.java/1.5/Thu Oct 28 10:29:14 2010//
+/UtteranceModifier.java/1.6/Thu Oct 28 10:29:14 2010//
+/UtteranceWriter.java/1.4/Thu Oct 28 10:29:14 2010//
+D/generator////
+D/gui////
+D/init////
+D/plugins////
+D/storyreading////
+D/storytagger////
+D/util////

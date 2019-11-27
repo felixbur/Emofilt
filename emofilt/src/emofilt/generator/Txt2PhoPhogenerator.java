@@ -22,7 +22,7 @@ public class Txt2PhoPhogenerator implements PhoGenInterface {
 	}
 
 	@Override
-	public String genPhoFile(String text, String outFilePath, Language lang,
+	public String genPhoFile(String text, String outFilePath, String paramsFilePath, Language lang,
 			boolean male) {
 		int waitTime = _config.getInt("txt2phoWaitTime");
 		int maxTime = _config.getInt("txt2phoMaxTime");
