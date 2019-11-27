@@ -166,6 +166,8 @@ TaggerGui
 
 
 Emofilt:
+1.2.1
+- added output of MARY ACOUSTPARAMS file, this can be used to detect word boundaries
 1.1 
 - fixed bug that allowed pitch to go below zero because pause length was used in descending pitch calcule.
 1.0
