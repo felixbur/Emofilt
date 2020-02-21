@@ -706,6 +706,7 @@
 			<phoneme name="l" manner="approximant" voiced="true"/>
 			<phoneme name="R" manner="approximant" voiced="true"/>
 			<phoneme name="j" manner="approximant" voiced="true"/>
+			<phoneme name="Z" manner="approximant" voiced="true"/>
 			<phoneme name="m" manner="nasal" voiced="true"/>
 			<phoneme name="n" manner="nasal" voiced="true"/>
 			<phoneme name="N" manner="nasal" voiced="true"/>
@@ -773,6 +774,7 @@
 			<phoneme name="l" manner="approximant" voiced="true"/>
 			<phoneme name="R" manner="approximant" voiced="true"/>
 			<phoneme name="j" manner="approximant" voiced="true"/>
+			<phoneme name="Z" manner="approximant" voiced="true"/>
 			<phoneme name="m" manner="nasal" voiced="true"/>
 			<phoneme name="n" manner="nasal" voiced="true"/>
 			<phoneme name="N" manner="nasal" voiced="true"/>
@@ -1024,6 +1026,7 @@
 			<phoneme name="r" manner="approximant" voiced="true"/>
 			<phoneme name="w" manner="approximant" voiced="true"/>
 			<phoneme name="j" manner="approximant" voiced="true"/>
+			<phoneme name="Z" manner="approximant" voiced="true"/>
 			<phoneme name="m" manner="nasal" voiced="true"/>
 			<phoneme name="n" manner="nasal" voiced="true"/>
 			<phoneme name="N" manner="nasal" voiced="true"/>
@@ -1081,6 +1084,7 @@
 			<phoneme name="l_soft" manner="approximant" voiced="true"/>
 			<phoneme name="R_soft" manner="approximant" voiced="true"/>
 			<phoneme name="j_soft" manner="approximant" voiced="true"/>
+			<phoneme name="Z_soft" manner="approximant" voiced="true"/>
 			<phoneme name="r_soft" manner="approximant" voiced="true"/>
 			<phoneme name="w_soft" manner="approximant" voiced="true"/>
 			<phoneme name="m_soft" manner="nasal" voiced="true"/>
@@ -1140,6 +1144,7 @@
 			<phoneme name="r_loud" manner="approximant" voiced="true"/>
 			<phoneme name="w_loud" manner="approximant" voiced="true"/>
 			<phoneme name="j_loud" manner="approximant" voiced="true"/>
+			<phoneme name="Z_loud" manner="approximant" voiced="true"/>
 			<phoneme name="m_loud" manner="nasal" voiced="true"/>
 			<phoneme name="n_loud" manner="nasal" voiced="true"/>
 			<phoneme name="N_loud" manner="nasal" voiced="true"/>
@@ -1212,6 +1217,7 @@
 			<phoneme name="l" manner="approximant" voiced="true"/>
 			<phoneme name="R" manner="approximant" voiced="true"/>
 			<phoneme name="r" manner="approximant" voiced="true"/>
+			<phoneme name="Z" manner="approximant" voiced="true"/>
 			<phoneme name="j" manner="approximant" voiced="true"/>
 			<phoneme name="w" manner="approximant" voiced="true"/>
 			<phoneme name="m" manner="nasal" voiced="true"/>
@@ -1272,6 +1278,7 @@
 			<phoneme name="R_soft" manner="approximant" voiced="true"/>
 			<phoneme name="r_soft" manner="approximant" voiced="true"/>
 			<phoneme name="j_soft" manner="approximant" voiced="true"/>
+			<phoneme name="Z_soft" manner="approximant" voiced="true"/>
 			<phoneme name="w_soft" manner="approximant" voiced="true"/>
 			<phoneme name="m_soft" manner="nasal" voiced="true"/>
 			<phoneme name="n_soft" manner="nasal" voiced="true"/>
@@ -1330,6 +1337,7 @@
 			<phoneme name="r_loud" manner="approximant" voiced="true"/>
 			<phoneme name="w_loud" manner="approximant" voiced="true"/>
 			<phoneme name="j_loud" manner="approximant" voiced="true"/>
+			<phoneme name="Z_loud" manner="approximant" voiced="true"/>
 			<phoneme name="m_loud" manner="nasal" voiced="true"/>
 			<phoneme name="n_loud" manner="nasal" voiced="true"/>
 			<phoneme name="N_loud" manner="nasal" voiced="true"/>
