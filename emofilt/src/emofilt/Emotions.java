@@ -56,6 +56,7 @@ public class Emotions {
 				String emotionName = emotion.getAttribute("name").getValue();
 				//debugLogger.debug(emotionName);
 			}
+			debugLogger.debug("loaded: "+getEmotionNames());
 		} catch (Exception e) {
 			e.printStackTrace();
 			debugLogger.error(e.getMessage());
