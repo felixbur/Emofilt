@@ -17,7 +17,8 @@ import emofilt.Language;
 public class MaryPhoGenerator implements PhoGenInterface {
 	private KeyValues _config;
 	private Logger _logger;
-
+	private String WORDBORDERPARAMS = "ACOUSTPARAMS";
+	
 	@Override
 	public void init(KeyValues config, Logger logger) {
 		_config = config;
@@ -45,7 +46,7 @@ public class MaryPhoGenerator implements PhoGenInterface {
 			baos = null;
 			// write out phonetic description
 			ByteArrayOutputStream baosa = new ByteArrayOutputStream();
-			mary.process(text, "TEXT", "ACOUSTPARAMS", lang.getLocale(), null,
+			mary.process(text, "TEXT", WORDBORDERPARAMS, lang.getLocale(), null,
 					lang.getName(), baosa);
 			File acoustF = new File(paramsFilePath);
 			System.err.println(baosa.toString());
