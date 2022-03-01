@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <emotions>
+		<emotion name="femalize" color="0000cd">
+		<!-- just shift F0 upwards for female simulation, default is male (with MARY)-->
+		<pitch>
+			<f0Mean rate="140" />
+		</pitch>
+	</emotion>
 	<emotion name="happySad" color="9ac0cd">
 		<phonation>
 			<jitter rate="10" />
