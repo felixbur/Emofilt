@@ -54,7 +54,7 @@ public class Emotions {
 			for (Iterator iter = emotions.iterator(); iter.hasNext();) {
 				Element emotion = (Element) iter.next();
 				String emotionName = emotion.getAttribute("name").getValue();
-				debugLogger.debug(emotionName);
+				//debugLogger.debug(emotionName);
 			}
 		} catch (Exception e) {
 			e.printStackTrace();

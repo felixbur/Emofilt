@@ -102,7 +102,7 @@ public class ModificationPluginManager {
 			debugLogger.warn("no plugins given");
 			return;
 		}
-		debugLogger.debug(pluginS);
+		//debugLogger.debug(pluginS);
 		StringTokenizer st = new StringTokenizer(pluginS, ", ");
 		while (st.hasMoreElements()) {
 			pluginNames.add(st.nextToken());
@@ -116,7 +116,7 @@ public class ModificationPluginManager {
 						.newInstance());
 				mpi.init(debugLogger, emofilt.useGui());
 				plugins.add(mpi);
-				debugLogger.debug("loaded plugin: " + mpi.toString());
+				//debugLogger.debug("loaded plugin: " + mpi.toString());
 			}
 			debugLogger.debug("loaded " + plugins.size() + " plugins.");
 		} catch (Exception e) {

@@ -71,7 +71,7 @@ public class LanguageContentHandler extends DefaultHandler {
             l.setDescription(description);
             description = "";
             ls.add(l);
-            debugLogger.debug("loaded: " + l.toString());
+            //debugLogger.debug("loaded: " + l.toString());
             l = null;
         }
     }

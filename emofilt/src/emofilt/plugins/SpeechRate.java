@@ -63,7 +63,7 @@ public class SpeechRate implements ModificationPlugin {
     public void init(Logger logger, boolean useGui) {
         this.useGui = useGui;
         debugLogger = logger;
-        debugLogger.debug(name+ " initialisation, use GUI="+useGui);
+        //debugLogger.debug(name+ " initialisation, use GUI="+useGui);
         try {
             initValues = Util.getValuesFromBufferedReader(new BufferedReader(new InputStreamReader(Emofilt.class.getResourceAsStream(initFileName))));
             name = (String) initValues.get("name");
