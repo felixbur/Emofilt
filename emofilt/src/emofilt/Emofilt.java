@@ -57,7 +57,7 @@ public class Emofilt {
 
 	private Utterance _actUtt;
 
-	private double _globalRate = 0;
+	private double _globalRate = 0.5;
 
 	private Languages _languages = null;
 
@@ -136,7 +136,7 @@ public class Emofilt {
 			StringToken globalRateToken = new StringToken(
 					"gr",
 					"global rate: damp or amplify the modifications for graded emotions between 0 and 1, with .5 as intended",
-					"", TokenOptions.optDefault, Constants.globalRate);
+					"", TokenOptions.optDefault, Constants.globalRate);	
 			aps.addToken(showUsage);
 			aps.addToken(showVersion);
 			aps.addToken(useGUI);
