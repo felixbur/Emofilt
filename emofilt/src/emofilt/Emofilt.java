@@ -135,7 +135,7 @@ public class Emofilt {
 					TokenOptions.optDefault, Constants.loggerDefaultConfigFile);
 			StringToken globalRateToken = new StringToken(
 					"gr",
-					"global rate: damp or amplify the modifications for graded emotions between -1 and 1",
+					"global rate: damp or amplify the modifications for graded emotions between 0 and 1, with .5 as intended",
 					"", TokenOptions.optDefault, Constants.globalRate);
 			aps.addToken(showUsage);
 			aps.addToken(showVersion);
@@ -275,8 +275,10 @@ public class Emofilt {
 					}
 				}
 				Utterance uttCopy = (Utterance) _origUtt.clone();
+				// scaling the rate value from 0-1 to -1 - 1
+	    	    double _rate =  ((_globalRate) * 2) -1;			    	    		
 				_actUtt = _uttModifier.modify(uttCopy, _actEmotion,
-						_globalRate, _actLanguage);
+						_rate, _actLanguage);
 				uttCopy = null;
 				UtteranceWriter uw = new UtteranceWriter();
 				if (outfile.getValue().compareTo("System.out") != 0) {
